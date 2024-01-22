@@ -1,0 +1,321 @@
+.job-tank-h2{background: var(--tank-color);}
+.job-tank-h3{color: var(--tank-color);}
+.job_tank_table .job_thead p {background: #545e99;}
+
+.job_pld {
+   background: url(../img/PLD/haider.jpg) no-repeat center top #192455;
+   background-attachment: fixed;
+}
+
+.job_header {
+   height: 360px;
+   display: block;
+}
+
+.job_header_inner {
+   width: 960px;
+   margin: 0 auto;
+   padding-top: 4px;
+}
+
+.job_header_guide_top {
+   background: url(../img/main/back_off.png) no-repeat;
+   display: flex;
+   align-items: center;
+   width: 200px;
+   height: 28px;
+   margin-bottom: 4px;
+   padding-left: 22px;
+   position: relative;
+   transition: all 0.4s;
+}
+
+.job_header_guide_top:hover{
+   background: url(../img/main/back_on.png) no-repeat;
+}
+
+.job_header_guide_top span {
+   font-size: 14px;
+   font-weight: bold;
+   color: #ffffff;
+   text-shadow: 0px 1px 4px #000;
+   position: relative;
+}
+
+.job_header_nome{margin-bottom: 4px;}
+.job_header_role{
+   margin-left: 16px;
+   display: block;
+   line-height: 32px;
+   font-size: 14px;
+   font-weight: bold;
+   color: #ffffff;
+}
+.job_header_role img{
+   display: inline-block;
+   margin-right: 4px;
+   width: 32px;
+   height: 32px;
+}
+
+img {
+   border: 0;
+   vertical-align: bottom;
+}
+
+.job_header_text {
+   background: url(../img/main/job_text.png) no-repeat left top;
+   width: 472px;
+   height: 178px;
+   padding: 14px 0 16px 16px;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   position: relative;
+}
+
+.job_header_text p {
+   font-size: 14px;
+   color: #f5f5f5;
+   text-shadow: 0px 1px 4px #000;
+   height: 155px;
+   overflow: overlay;
+   margin: 0 !important;
+   padding-right: 16px;
+   position: relative;
+   display: block;
+}
+
+.job_header_quest {margin-left: 6px;}
+.job_db {
+   display: inline-block;
+   margin-right: 16px;
+}
+.job_db span {
+   background: #333333;
+   -moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.25) inset,0px -1px 0px 0px rgba(0,0,0,0.1) inset;
+   -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.25) inset, 0px -1px 0px 0px rgba(0,0,0,0.1) inset;
+   box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.25) inset, 0px -1px 0px 0px rgba(0,0,0,0.1) inset;
+   border-radius: 12px;
+   display: block;
+   position: relative;
+   padding: 1px 16px 0 36px;
+   height: 24px;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   line-height: 24px;
+   font-size: 14px;
+   color: #ffffff;
+   font-weight: bold;
+}
+.job_db span img {
+   position: absolute;
+   top: 50%;
+   left: 0;
+   margin-top: -16px;
+   width: 32px;
+   height: 32px;
+}
+
+.eorzeadb_link {
+   display: inline-block;
+   font-size: 14px;
+   color: #ffffff;
+   line-height: 24px;
+}
+
+.job_skil_list{
+   width: 960px;
+   height: 1%;
+   margin: 0 auto 120px;
+   padding-top: 16px;
+   position: static;
+
+}
+
+.job_skil_db{
+   position: static;
+   background: #e5e3d3;
+   -moz-box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.05) inset,1px 0px 0px 0px rgba(0,0,0,0.05) inset,-1px 0px 0px 0px rgba(0,0,0,0.05) inset;
+   -webkit-box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.05) inset, 1px 0px 0px 0px rgba(0,0,0,0.05) inset, -1px 0px 0px 0px rgba(0,0,0,0.05) inset;
+   box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.05) inset, 1px 0px 0px 0px rgba(0,0,0,0.05) inset, -1px 0px 0px 0px rgba(0,0,0,0.05) inset;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   padding: 16px 10px 10px;
+}
+
+.job_update {
+   margin-bottom: 6px;
+   text-align: right;
+   font-size: 14px;
+   font-weight: bold;
+   color: #585858;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.job_notes_lv80 {
+   background: #fffceb;
+   border-radius: 6px;
+   margin: 10px 0;
+   padding: 6px;
+   font-size: 14px;
+   font-weight: bold;
+   color: #b36b24;
+   text-align: center;
+}
+
+.job_title {
+   font-size: 16px;
+   font-weight: 900;
+   color: #ffffff;
+   border-radius: 6px;
+   height: 32px;
+   line-height: 32px;
+   padding: 0 10px;
+   margin-bottom: 16px;
+}
+
+.job_sub_title {
+   font-size: 16px;
+   font-weight: bold;
+   margin: 0 10px 16px;
+}
+
+.job_table{
+   width: 920px;
+   margin: 0 auto 8px;
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+.job_thead th:nth-child(1) {
+   margin-left: 0;
+}
+
+.job_thead p {
+   display: table;
+   width: 100%;
+   height: 41px;
+   border-radius: 4px;
+   text-align: center;
+   font-weight: normal;
+}
+
+.job_thead p span {
+   display: table-cell;
+   vertical-align: middle;
+   color: #ffffff;
+   font-size: 12px;
+   padding: 0 4px;
+   line-height: 1.2;
+}
+
+.job_thead th {padding: 0 1px;}
+.job_thead div p {
+   display: table;
+   width: 100%;
+   height: 20px;
+   border-radius: 4px;
+   text-align: center;
+   font-weight: normal;
+}
+
+.job_thead hr {
+   height: 1px;
+   margin: 0;
+   padding: 0;
+}
+
+.job_tbody td {
+   padding: 6px 4px;
+   border-bottom: 1px solid #999999;
+   vertical-align: middle;
+   text-align: left;
+   font-size: 12px;
+   color: #585858;
+   line-height: 1.4;
+}
+
+.job_tbody td.skill .skill_wrapper, 
+.job_tbody td.skill .jobclass_wrapper, 
+.job_tbody td.jobclass .skill_wrapper, 
+.job_tbody td.jobclass .jobclass_wrapper {
+   display: table;
+   width: 100%;
+   vertical-align: middle;
+}
+
+.job_tbody td.skill .skill_wrapper_icon, 
+.job_tbody td.skill .jobclass_wrapper_icon, 
+.job_tbody td.jobclass .skill_wrapper_icon, 
+.job_tbody td.jobclass .jobclass_wrapper_icon {
+   display: table-cell;
+   vertical-align: middle;
+   width: 48px;
+}
+
+.job_skill_icon {
+   position: relative;
+   width: 48px;
+   height: 48px;
+   display: inline-block;
+   background: url(../img/main/skil_icon.png) no-repeat 4px 2px;
+   -moz-background-size: 40px 40px;
+   -o-background-size: 40px 40px;
+   -webkit-background-size: 40px 40px;
+   background-size: 40px 40px;
+   vertical-align: middle;
+}
+
+.job_tbody td img {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.job_skill_icon img {
+   position: absolute;
+   top: 2px !important;
+   left: 50% !important;
+   margin-left: -20px;
+   display: block;
+   z-index: 1;
+}
+
+.job_skill_icon:after {
+   content: "";
+   background: url(../img/main/skil_icon_on.png) no-repeat;
+   width: 48px;
+   height: 48px;
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 2;
+}
+
+.job_tbody td.skill .skill_wrapper p,
+.job_tbody td.skill .jobclass_wrapper p,
+.job_tbody td.jobclass .skill_wrapper p,
+.job_tbody td.jobclass .jobclass_wrapper p {
+   display: table-cell;
+   vertical-align: middle;
+   padding-left: 2px;
+}
+
+.job_tbody td.skill .jobclass_wrapper_icon,
+.job_tbody td.jobclass .jobclass_wrapper_icon {
+   width: 32px;
+}
+
+.job_tbody td.classification, 
+.job_tbody td.cast, 
+.job_tbody td.recast, 
+.job_tbody td.cost {
+   text-align: center;
+}
+
+.job_tbody td.distant_range img {
+   vertical-align: top;
+   margin: 0 2px 0 10px;
+}
