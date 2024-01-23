@@ -91,3 +91,14 @@ footer {
 }
 .footer_info {text-align: center;}
 .footer_info p, .footer_info a {font-size: 15px;}
+
+path {
+   fill: white;
+}
+.footer_git {
+   font-size: 20px !important;
+   font-weight: 900;
+}
+.github {
+   vertical-align: bottom;
+}
