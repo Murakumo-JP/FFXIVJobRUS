@@ -2069,7 +2069,7 @@
 }
 .job_combo_paladin_03 .job_combo_root_skill p {
   width: 120px;
-  text-align: left;
+  text-align: center;
 }
 .job_combo_paladin_03 .job_combo_root_skill_last {
   width: 120px;
@@ -2077,7 +2077,7 @@
 }
 .job_combo_paladin_03 .job_combo_root_skill_last p {
   width: 120px;
-  text-align: left;
+  text-align: center;
 }
 .job_combo_darkknight_01,
 .job_combo_gunbreaker_01,

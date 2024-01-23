@@ -139,7 +139,7 @@ img {
    display: inline-block;
    font-size: 14px;
    color: #ffffff;
-   line-height: 24px;
+   /* line-height: 24px; */
 }
 
 .job_skil_list{
@@ -345,7 +345,7 @@ img {
 .job_tbody td .class_quest {
    color: #b36b24;
    font-weight: bold;
-   font-size: 12px;
+   font-size: 10px;
 }
 
 .job_sub_title {
