@@ -2,11 +2,6 @@
 .job-tank-h3{color: var(--tank-color);}
 .job_tank_table .job_thead p {background: #545e99;}
 
-.job_pld {
-   background: url(../img/PLD/haider.jpg) no-repeat center top #192455;
-   background-attachment: fixed;
-}
-
 .job_combo_text {
    margin: 0 10px 32px;
    font-size: 14px;
