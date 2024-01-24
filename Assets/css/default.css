@@ -2025,10 +2025,10 @@
 }
 .job_combo_warrior_01 {
   background: url(../img/main/combo.png) no-repeat 150px 0,
-    url(/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 370px 0;
+    url(../img/main/combo3.png) no-repeat 370px 0;
 }
 .job_combo_warrior_02 {
-  background: url(/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 370px 0;
+  background: url(../img/main/combo4.png) no-repeat 370px 0;
   border-bottom: 1px solid #999999;
 }
 .job_combo_warrior_03,
@@ -2093,11 +2093,11 @@
   margin-bottom: 8px;
 }
 .job_combo_dragoon_01 {
-  background: url(/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0,
+  background: url(../img/main/combo3.png) no-repeat 150px 0,
     url(../img/main/combo.png) no-repeat 370px 0;
 }
 .job_combo_dragoon_02 {
-  background: url(/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0,
+  background: url(../img/main/combo4.png) no-repeat 150px 0,
     url(../img/main/combo.png) no-repeat 370px 0;
   border-bottom: 1px solid #999999;
 }
@@ -2109,14 +2109,14 @@
 }
 .job_combo_ninja_01 {
   background: url(../img/main/combo.png) no-repeat 150px 0,
-    url(/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 370px 0;
+    url(../img/main/combo3.png) no-repeat 370px 0;
 }
 .job_combo_ninja_02 {
-  background: url(/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 370px 0;
+  background: url(../img/main/combo4.png) no-repeat 370px 0;
   border-bottom: 1px solid #999999;
 }
 .job_combo_samurai_01 {
-  background: url(/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0,
+  background: url(../img/main/combo3.png) no-repeat 150px 0,
     url(../img/main/combo.png) no-repeat 370px 0;
 }
 .job_combo_samurai_02 {
@@ -2124,14 +2124,14 @@
     url(../img/main/combo.png) no-repeat 370px 0;
 }
 .job_combo_samurai_03 {
-  background: url(/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0;
+  background: url(../img/main/combo4.png) no-repeat 150px 0;
   border-bottom: 1px solid #999999;
 }
 .job_combo_samurai_04 {
-  background: url(/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0;
+  background: url(../img/main/combo3.png) no-repeat 150px 0;
 }
 .job_combo_samurai_05 {
-  background: url(/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0;
+  background: url(../img/main/combo4.png) no-repeat 150px 0;
   border-bottom: 1px solid #999999;
   margin-bottom: 8px;
 }
