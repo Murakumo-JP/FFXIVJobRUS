@@ -1596,7 +1596,7 @@
 .job_thead p {
 	display: table;
 	width: 100%;
-	height: 41px;
+	height: 53.78px;
 	border-radius: 4px;
 	text-align: center;
 	font-weight: normal;
@@ -1652,7 +1652,7 @@
 	background: #f0e4c5;
 }
 .job_tbody td {
-	padding: 6px 4px;
+	padding: 3px;
 	border-bottom: 1px solid #999999;
 	vertical-align: middle;
 	text-align: left;
@@ -1812,7 +1812,6 @@
 	width: 48px;
 	height: 48px;
 	display: inline-block;
-	background: url(/promo/h/V/strFm2JQDmMpQN9NHfCA2X3vGI.png) no-repeat 4px 2px;
 	-moz-background-size: 40px 40px;
 	-o-background-size: 40px 40px;
 	-webkit-background-size: 40px 40px;
@@ -2177,69 +2176,6 @@
 .job_monkcombo_arrow {
 	display: table-cell;
 	vertical-align: middle;
-}
-.job--tank .job_title {
-	background: #2d3a80;
-}
-.job--tank .job_sub_title {
-	color: #2d3a80;
-}
-.job--tank .job_thead p {
-	background: #545e99;
-}
-.job--tank .job_nav_title a {
-	color: #2556b8;
-}
-.job--tank .job_hud_title {
-	color: #2d3a80;
-}
-.job--tank .job_combo_title h3 {
-	background: #545e99;
-}
-.job--healer .job_title {
-	background: #346624;
-}
-.job--healer .job_sub_title {
-	color: #346624;
-}
-.job--healer .job_thead p {
-	background: #548046;
-}
-.job--healer .job_nav_title a {
-	color: #346624;
-}
-.job--healer .job_hud_title {
-	color: #346624;
-}
-.job--healer .job_combo_title h3 {
-	background: #548046;
-}
-.job--dps .job_title {
-	background: #732828;
-}
-.job--dps .job_sub_title {
-	color: #732828;
-}
-.job--dps .job_thead p {
-	background: #8c4d4d;
-}
-.job--dps .job_nav_title a {
-	color: #732828;
-}
-.job--dps .job_hud_title {
-	color: #732828;
-}
-.job--dps .job_combo_title h3 {
-	background: #8c4d4d;
-}
-.job--bluemage .job_title {
-	background: #3d5499;
-}
-.job--bluemage .job_sub_title {
-	color: #3d5499;
-}
-.job--bluemage .job_thead p {
-	background: #8c4d4d;
 }
 .job--bluemage .job_nav_title {
 	max-width: 240px;

@@ -5,15 +5,6 @@
 	color: var(--tank-color);
 }
 
-.job_thead p {
-	display: table;
-	width: 100%;
-	height: 41px;
-	border-radius: 4px;
-	text-align: center;
-	font-weight: normal;
-}
-
 .job_combo_text {
 	margin: 0 10px 32px;
 	font-size: 14px;
@@ -151,13 +142,6 @@ img {
 	height: 32px;
 }
 
-.eorzeadb_link {
-	display: inline-block;
-	font-size: 14px;
-	color: #ffffff;
-	/* line-height: 24px; */
-}
-
 .job_skil_list {
 	width: 960px;
 	height: 1%;
@@ -177,6 +161,13 @@ img {
 	padding: 16px 10px 10px;
 }
 
+.eorzeadb_link {
+	display: inline-block;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
 .job_notes_lv80 {
 	background: #fffceb;
 	border-radius: 6px;
@@ -188,88 +179,7 @@ img {
 	text-align: center;
 }
 
-.job_title {
-	font-size: 16px;
-	font-weight: 900;
-	color: #ffffff;
-	border-radius: 6px;
-	height: 32px;
-	line-height: 32px;
-	padding: 0 10px;
-	margin-bottom: 16px;
-}
-
-.job_sub_title {
-	font-size: 16px;
-	font-weight: bold;
-	margin: 0 10px 16px;
-}
-
-.job_table {
-	width: 920px;
-	margin: 0 auto 8px;
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-.job_thead th:nth-child(1) {
-	margin-left: 0;
-}
-
-.job_thead p {
-	display: table;
-	width: 100%;
-	height: 50px;
-	border-radius: 4px;
-	text-align: center;
-	font-weight: normal;
-}
-
-.job_thead p span {
-	display: table-cell;
-	vertical-align: middle;
-	color: #ffffff;
-	font-size: 12px;
-	padding: 0 4px;
-	line-height: 1.2;
-}
-
-.job_thead th {
-	padding: 0 1px;
-}
-.job_thead div p {
-	display: table;
-	width: 100%;
-	height: 20px;
-	border-radius: 4px;
-	text-align: center;
-	font-weight: normal;
-}
-
-.job_thead hr {
-	height: 1px;
-	margin: 0;
-	padding: 0;
-}
-
-.job_tbody td {
-	padding: 6px 4px;
-	border-bottom: 1px solid #999999;
-	vertical-align: middle;
-	text-align: left;
-	font-size: 12px;
-	color: #585858;
-	line-height: 1.4;
-}
-
-.job_tbody td.skill .skill_wrapper,
-.job_tbody td.skill .jobclass_wrapper,
-.job_tbody td.jobclass .skill_wrapper,
-.job_tbody td.jobclass .jobclass_wrapper {
-	display: table;
-	width: 100%;
-	vertical-align: middle;
-}
+/* Job Slil List */
 
 .job_tbody td.skill .skill_wrapper_icon,
 .job_tbody td.skill .jobclass_wrapper_icon,
@@ -277,7 +187,12 @@ img {
 .job_tbody td.jobclass .jobclass_wrapper_icon {
 	display: table-cell;
 	vertical-align: middle;
-	width: 48px;
+}
+
+.job_tbody td .class_quest {
+	color: #b36b24;
+	font-weight: bold;
+	font-size: 10px;
 }
 
 .job_skill_icon {
@@ -293,20 +208,6 @@ img {
 	vertical-align: middle;
 }
 
-.job_tbody td img {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.job_skill_icon img {
-	position: absolute;
-	top: 2px !important;
-	left: 50% !important;
-	margin-left: -20px;
-	display: block;
-	z-index: 1;
-}
-
 .job_skill_icon:after {
 	content: '';
 	background: url(../img/main/skil_icon_on.png) no-repeat;
@@ -319,32 +220,9 @@ img {
 	z-index: 2;
 }
 
-.job_tbody td.skill .skill_wrapper p,
-.job_tbody td.skill .jobclass_wrapper p,
-.job_tbody td.jobclass .skill_wrapper p,
-.job_tbody td.jobclass .jobclass_wrapper p {
-	display: table-cell;
-	vertical-align: middle;
-	padding-left: 2px;
-}
-
-.job_tbody td.skill .jobclass_wrapper_icon,
-.job_tbody td.jobclass .jobclass_wrapper_icon {
-	width: 32px;
-}
-
-.job_tbody td.classification,
-.job_tbody td.cast,
-.job_tbody td.recast,
-.job_tbody td.cost {
-	text-align: center;
-}
-
-.job_tbody td.distant_range img {
-	vertical-align: top;
-	margin: 0 2px 0 10px;
-	width: 16px;
-	height: 16px;
+.job_skill_icon img {
+	width: 40px;
+	height: 40px;
 }
 
 .jobclass_wrapper_icon img {
@@ -352,44 +230,11 @@ img {
 	height: 32px;
 }
 
-.job_skill_icon img {
-	width: 40px;
-	height: 40px;
+.job_tbody td.distant_range img {
+	width: 16px;
+	height: 16px;
 }
 
-.job_tbody td .class_quest {
-	color: #b36b24;
-	font-weight: bold;
-	font-size: 10px;
-}
-
-.job_combo_title h3 {
-	border-radius: 3px;
-	text-align: center;
-	font-size: 12px;
-	color: #ffffff;
-	font-weight: normal;
-	line-height: 28px;
-}
-
-.job_combo_title {
-	margin: 0 10px;
-}
-
-.job_combo_title_sequence {
-	width: 640px;
-	margin-right: 4px;
-	float: left;
-}
-
-.job_combo_title_effect {
-	width: 276px;
-	float: left;
-}
-
-.job_combo_detail {
-	margin: 0 10px;
-}
 /* Tank */
 .job_tank .job_title {
 	background: #2d3a80;
