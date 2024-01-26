@@ -2195,19 +2195,19 @@
   width: 600px;
 }
 .job_combo_gunbreaker_03 {
-  background: url(/promo/h/W/74crx72Uxf2AgmbuDCfvakuHzw.png) no-repeat 150px 0,
-    url(/promo/h/W/74crx72Uxf2AgmbuDCfvakuHzw.png) no-repeat 370px 0;
+  background: url(../img/main/combo5.png) no-repeat 150px 0,
+    url(../img/main/combo5.png) no-repeat 370px 0;
 }
 .job_combo_gunbreaker_04 {
-  background: url(/promo/h/g/UQvRh92u9GNkbFPiN-OvjpWgJQ.png) no-repeat 40px 0,
-    url(/promo/h/N/Nde1eXaI8PQpu-07eNisXvU01o.png) repeat-y 150px 0,
-    url(/promo/h/g/UQvRh92u9GNkbFPiN-OvjpWgJQ.png) no-repeat 260px 0,
-    url(/promo/h/N/Nde1eXaI8PQpu-07eNisXvU01o.png) repeat-y 370px 0,
-    url(/promo/h/g/UQvRh92u9GNkbFPiN-OvjpWgJQ.png) no-repeat 480px 0;
+  background: url(../img/main/combo6.png) no-repeat 40px 0,
+    url(../img/main/combo7.png) repeat-y 150px 0,
+    url(../img/main/combo6.png) no-repeat 260px 0,
+    url(../img/main/combo7.png) repeat-y 370px 0,
+    url(../img/main/combo6.png) no-repeat 480px 0;
 }
 .job_combo_gunbreaker_05 {
-  background: url(/promo/h/K/-7qGg5YwcgzYn_GuiGiKZcVSJg.png) no-repeat 150px 0,
-    url(/promo/h/K/-7qGg5YwcgzYn_GuiGiKZcVSJg.png) no-repeat 370px 0;
+  background: url(../img/main/combo8.png) no-repeat 150px 0,
+    url(../img/main/combo8.png) no-repeat 370px 0;
 }
 .job_monkcombo {
   display: table;

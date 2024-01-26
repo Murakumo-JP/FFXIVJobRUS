@@ -1,6 +1,14 @@
 .job-tank-h2{background: var(--tank-color);}
 .job-tank-h3{color: var(--tank-color);}
-.job_tank_table .job_thead p {background: #545e99;}
+
+.job_thead p {
+   display: table;
+   width: 100%;
+   height: 41px;
+   border-radius: 4px;
+   text-align: center;
+   font-weight: normal;
+}
 
 .job_combo_text {
    margin: 0 10px 32px;
@@ -174,7 +182,6 @@ img {
 }
 
 .job_title {
-   background: var(--tank-color);
    font-size: 16px;
    font-weight: 900;
    color: #ffffff;
@@ -203,7 +210,6 @@ img {
 }
 
 .job_thead p {
-   background: #545e99;
    display: table;
    width: 100%;
    height: 50px;
@@ -348,12 +354,7 @@ img {
    font-size: 10px;
 }
 
-.job_sub_title {
-   color: var(--tank-color);
-}
-
 .job_combo_title h3 {
-   background: #545e99;
    border-radius: 3px;
    text-align: center;
    font-size: 12px;
@@ -379,4 +380,27 @@ img {
 
 .job_combo_detail {
    margin: 0 10px;
+}
+/* Tank */
+.job_tank .job_title {background: #2d3a80;}
+.job_tank .job_thead p,
+.job_tank .job_combo_title_sequence,
+.job_tank .job_combo_title_effect {
+   background: #545e99
+}
+.job_tank .job_sub_title,
+.job_tank .job_hud_title {
+   color: #2d3a80;
+}
+
+/* Healer */
+.job_healer .job_title {background: #346624;}
+.job_healer .job_thead p,
+.job_healer .job_combo_title_sequence,
+.job_healer .job_combo_title_effect {
+   background: #548046;
+}
+.job_healer .job_sub_title,
+.job_healer .job_hud_title {
+   color: #346624;
 }
