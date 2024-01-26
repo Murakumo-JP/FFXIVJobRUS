@@ -9,6 +9,10 @@
    --tank-color: #2d3a80;
    --healer-color: #346624;
    --dps-color: #732828;
+   /* Alt Color */
+   --tank-AltColor: #545e99;
+   --healer-AltColor: #548046;
+   --dps-AltColor: #8c4d4d;
 }
 
 body {
@@ -104,3 +108,28 @@ path {
 .github {
    vertical-align: bottom;
 }
+
+/* Back Top */
+.app {
+   width: 100%;
+ }
+ .nome_app_top {
+   display: none;
+   bottom: 20px;
+   right: 10px;
+   position: fixed;
+ }
+ .app_top {
+   cursor: pointer;
+   color: #fff;
+   background-color: #333333;
+   box-shadow: 1px 1px 5px #333333;
+   font-family: fangsong;
+   padding: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.job_tank ~ .nome_app_top .app_top {background: var(--tank-color); box-shadow: 1px 1px 5px var(--tank-color);}
+.job_healer ~ .nome_app_top .app_top {background: var(--healer-color); box-shadow: 1px 1px 5px var(--healer-color);}
+.job_dps ~ .nome_app_top .app_top {background: var(--dps-color); box-shadow: 1px 1px 5px var(--dps-color);}

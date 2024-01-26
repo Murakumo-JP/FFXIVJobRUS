@@ -231,28 +231,28 @@ img {
 
 /* Tank */
 .job_tank .job_title {
-	background: #2d3a80;
+	background: var(--tank-color);
 }
 .job_tank .job_thead p,
 .job_tank .job_combo_title_sequence,
 .job_tank .job_combo_title_effect {
-	background: #545e99;
+	background: var(--tank-AltColor);
 }
 .job_tank .job_sub_title,
 .job_tank .job_hud_title {
-	color: #2d3a80;
+	color: var(--tank-color);
 }
 
 /* Healer */
 .job_healer .job_title {
-	background: #346624;
+	background: var(--healer-color);
 }
 .job_healer .job_thead p,
 .job_healer .job_combo_title_sequence,
 .job_healer .job_combo_title_effect {
-	background: #548046;
+	background: var(--healer-AltColor);
 }
 .job_healer .job_sub_title,
 .job_healer .job_hud_title {
-	color: #346624;
+	color: var(--healer-color);
 }
