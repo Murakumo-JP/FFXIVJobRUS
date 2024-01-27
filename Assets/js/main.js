@@ -1,3 +1,8 @@
+// Role Actions
+$("#jq_tank").load("RoleActions/Tank.html")
+$("#jq_healer").load("RoleActions/Healer.html")
+
+
 // Back to Top
 function backToTop() {
 	let button = $(".nome_app_top")
