@@ -139,8 +139,8 @@ img {
 .job_skil_list {
 	width: 960px;
 	height: 1%;
-	margin: 0 auto 120px;
-	padding-top: 16px;
+	margin: 0 auto;
+	padding: 16px 0 16px;
 	position: static;
 }
 
