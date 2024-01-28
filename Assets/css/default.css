@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,900&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap&subset=japanese);
 .clearfix:after {
 	content: '.';
 	display: block;
@@ -791,7 +790,6 @@
 	line-height: 1.5;
 }
 .jobguide_adjustment--icon {
-	background: url(/promo/h/V/strFm2JQDmMpQN9NHfCA2X3vGI.png) no-repeat 4px 2px;
 	-moz-background-size: 40px 40px;
 	-o-background-size: 40px 40px;
 	-webkit-background-size: 40px 40px;
@@ -815,7 +813,7 @@
 	z-index: 1;
 }
 .jobguide_adjustment--icon:after {
-	background: url(/promo/h/X/hPseSzWlbPmvaEK5JZk3xGWbfQ.png) no-repeat;
+	background: url(../img/main/skil_icon_on.png) no-repeat;
 	-moz-background-size: 48px 48px;
 	-o-background-size: 48px 48px;
 	-webkit-background-size: 48px 48px;
@@ -1899,7 +1897,7 @@
 	width: 76px;
 	height: 76px;
 	display: inline-block;
-	background: url(/promo/h/V/strFm2JQDmMpQN9NHfCA2X3vGI.png) no-repeat 6px 3px;
+	background: url(../img/main/skil_icon.png) no-repeat 6px 3px;
 	-moz-background-size: 64px 64px;
 	-o-background-size: 64px 64px;
 	-webkit-background-size: 64px 64px;
@@ -1919,7 +1917,7 @@
 }
 .job_combo_skill_icon:after {
 	content: '';
-	background: url(/promo/h/C/pzBj8-5mhW4-VqgGMqH2rqsbAU.png) no-repeat;
+	background: url(../img/main/skil_icon_on2x.png) no-repeat;
 	-moz-background-size: 76px 76px;
 	-o-background-size: 76px 76px;
 	-webkit-background-size: 76px 76px;
