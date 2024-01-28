@@ -147,3 +147,56 @@ footer {
 .job_tank ~ .nome_app_top .app_top {background: var(--tank-color); box-shadow: 1px 1px 5px var(--tank-color);}
 .job_healer ~ .nome_app_top .app_top {background: var(--healer-color); box-shadow: 1px 1px 5px var(--healer-color);}
 .job_dps ~ .nome_app_top .app_top {background: var(--dps-color); box-shadow: 1px 1px 5px var(--dps-color);}
+
+/* Preloader */
+.preloader {
+   background-color: #1b1b1b;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   z-index: 9999;
+   opacity: 1;
+   transition: 1s all;
+   opacity: 1;
+   visibility: visible;
+}
+.loader {
+   width: 100px;
+   height: 100px;
+   border: 5px solid #1b1b1b;
+   border-top-color: var(--dps-AltColor);
+   border-radius: 50%;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   animation: 1.5s spin infinite linear;
+}
+.done{
+  opacity: 0;
+  visibility: hidden;
+}
+.loader_none{
+   display: none;
+}
+@keyframes spin {
+  from{
+     transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to{
+     transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.preloader:before {
+   content: "Загрузка...";
+   display: block;
+   color: #fff;
+   position: absolute;
+  font-weight: bold;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   animation: 3s flash infinite linear;
+}
