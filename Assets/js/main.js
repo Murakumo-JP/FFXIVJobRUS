@@ -10,10 +10,8 @@ document.body.onload = function() {
 		if(!preloader.classList.contains("done"))
 		{
 			preloader.classList.add("done");
-			if(!loader.classList.contains("loader_none"))
-			{
-				loader.classList.add("loader_none");
-			}
+			loader.classList.add("loader_none");
+			$('body').css('overflow', 'visible');
 		}
 	}, 1500);
 }
