@@ -131,17 +131,19 @@ footer {
  .nome_app_top {
    display: none;
    bottom: 20px;
-   right: 10px;
+   right: 20px;
    position: fixed;
  }
  .app_top {
+   display: block;
+   width: 30px;
    cursor: pointer;
    color: #fff;
    background-color: #333333;
    box-shadow: 1px 1px 5px #333333;
    font-family: fangsong;
    padding: 10px;
-   border-radius: 10px;
+   border-radius: 50%;
    text-decoration: none;
 }
 
