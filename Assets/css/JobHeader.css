@@ -1,28 +1,36 @@
 .job_pld {
-	background: url(../img/PLD/haider.jpg) no-repeat center top #192455;
+	background: url(../img/JobHaider/HaiderPLD.jpg) no-repeat center top #192455;
 	background-attachment: fixed;
 }
 .job_war {
-	background: url(../img/WAR/haider.jpg) no-repeat center top #192455;
+	background: url(../img/JobHaider/HaiderWAR.jpg) no-repeat center top #192455;
 	background-attachment: fixed;
 }
 .job_drk {
-	background: url(../img/DRK/haider.jpg) no-repeat center top #192455;
+	background: url(../img/JobHaider/HaiderDRK.jpg) no-repeat center top #192455;
 	background-attachment: fixed;
 }
 .job_gnb {
-	background: url(../img/GNB/haider.jpg) no-repeat center top #192455;
+	background: url(../img/JobHaider/HaiderGNB.jpg) no-repeat center top #192455;
 	background-attachment: fixed;
 }
 .job_whm {
-	background: url(../img/WHM/haider.jpg) no-repeat center top #1d4214;
+	background: url(../img/JobHaider/HaiderWHM.jpg) no-repeat center top #1d4214;
 	background-attachment: fixed;
 }
 .job_sch {
-	background: url(../img/SCH/haider.jpg) no-repeat center top #1d4214;
+	background: url(../img/JobHaider/HaiderSCH.jpg) no-repeat center top #1d4214;
 	background-attachment: fixed;
 }
 .job_ast {
-	background: url(../img/AST/haider.jpg) no-repeat center top #1d4214;
+	background: url(../img/JobHaider/HaiderAST.jpg) no-repeat center top #1d4214;
+	background-attachment: fixed;
+}
+.job_sge {
+	background: url(../img/JobHaider/HaiderSGE.jpg) no-repeat center top #1d4214;
+	background-attachment: fixed;
+}
+.job_mnk {
+	background: url(../img/JobHaider/HaiderMNK.jpg) no-repeat center top #4f1717;
 	background-attachment: fixed;
 }

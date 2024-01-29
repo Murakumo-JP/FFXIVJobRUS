@@ -256,3 +256,16 @@ img {
 .job_healer .job_hud_title {
 	color: var(--healer-color);
 }
+/* DPS */
+.job_dps .job_title {
+	background: var(--dps-color);
+}
+.job_dps .job_thead p,
+.job_dps .job_combo_title_sequence,
+.job_dps .job_combo_title_effect {
+	background: var(--dps-AltColor);
+}
+.job_dps .job_sub_title,
+.job_dps .job_hud_title {
+	color: var(--dps-color);
+}

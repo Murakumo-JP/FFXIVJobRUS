@@ -1,6 +1,7 @@
 // Doom
 $("#jq_tank").load("RoleActions/Tank.html")
 $("#jq_healer").load("RoleActions/Healer.html")
+$("#jq_meleeDPS").load("RoleActions/MeleeDPS.html")
 $("#jq_patch").load("Other/Path.html")
 /* Preloader */
 document.body.onload = function() {
