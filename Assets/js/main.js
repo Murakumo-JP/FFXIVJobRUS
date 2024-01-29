@@ -16,6 +16,20 @@ document.body.onload = function() {
 		}
 	}, 1500);
 }
+// Smooth Scrolling
+var $page = $('html, body');
+$('a[href*="#"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1500);
+    return false;
+});
+// Open JobMenu
+$(() => {
+	$(".nav_floating_icon").click(() => {
+		 $(".nav_floating_list").slideToggle();
+	});
+});
 // Back to Top
 function backToTop() {
 	let button = $(".nome_app_top")

@@ -63,7 +63,7 @@
 }
 .nav_floating_icon {
 	display: block;
-	background: url(/promo/h/6/SHm9-qLWAuZIPY9Kw2gKgobW3M.png) no-repeat 0 0;
+	background: url(../img/main/menu.png) no-repeat 0 0;
 	-moz-background-size: 32px 32px;
 	-o-background-size: 32px 32px;
 	-webkit-background-size: 32px 32px;
@@ -74,10 +74,10 @@
 	cursor: pointer;
 	margin-left: 4px;
 	line-height: 1;
-	display: none;
+	/* display: none; */
 }
 .nav_floating_icon:hover {
-	background: url(/promo/h/B/yNNBBt2kfL0fbdkga1T_3n5EYw.png) no-repeat 0 0;
+	background: url(../img/main/menu_hav.png) no-repeat 0 0;
 	-moz-background-size: 32px 32px;
 	-o-background-size: 32px 32px;
 	-webkit-background-size: 32px 32px;
@@ -85,8 +85,8 @@
 }
 .nav_floating_icon.fixed {
 	position: fixed;
-	top: 64px;
-	right: 16px;
+	top: 15px;
+	right: 15px;
 }
 .job--adjustments .nav_floating_icon.fixed {
 	top: 16px;
@@ -162,14 +162,6 @@
 }
 .nav_floating_list li.ic_update::after {
 	background: url(/promo/h/3/1rYfm1nvsGJyV5qRwpVyH58Wzc.png) no-repeat 0 0;
-}
-@media screen and (max-width: 1536px) {
-	.nav_floating_list {
-		display: none;
-	}
-	.nav_floating_list.fixed {
-		right: 52px;
-	}
 }
 .jobguide.jp {
 	font-family: 'Noto Sans JP', sans-serif;
