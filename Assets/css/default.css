@@ -74,7 +74,7 @@
 	cursor: pointer;
 	margin-left: 4px;
 	line-height: 1;
-	/* display: none; */
+	transition: all 0.4s;
 }
 .nav_floating_icon:hover {
 	background: url(../img/main/menu_hav.png) no-repeat 0 0;
@@ -98,7 +98,7 @@
 	z-index: 11;
 }
 .nav_floating_list {
-	background: #f3f3f3;
+	background: #e5e3d3;
 	width: auto;
 	max-width: 560px;
 	border-radius: 4px;

@@ -239,10 +239,10 @@ img {
 	background: var(--tank-AltColor);
 }
 .job_tank .job_sub_title,
-.job_tank .job_hud_title {
+.job_tank .job_hud_title,
+.job_menu_tank .job_nav_title a {
 	color: var(--tank-color);
 }
-
 /* Healer */
 .job_healer .job_title {
 	background: var(--healer-color);
@@ -253,7 +253,8 @@ img {
 	background: var(--healer-AltColor);
 }
 .job_healer .job_sub_title,
-.job_healer .job_hud_title {
+.job_healer .job_hud_title,
+.job_menu_healer .job_nav_title a {
 	color: var(--healer-color);
 }
 /* DPS */
@@ -266,6 +267,7 @@ img {
 	background: var(--dps-AltColor);
 }
 .job_dps .job_sub_title,
-.job_dps .job_hud_title {
+.job_dps .job_hud_title,
+.job_menu_dps .job_nav_title a {
 	color: var(--dps-color);
 }
