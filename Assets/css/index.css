@@ -138,13 +138,11 @@ footer {
    display: block;
    width: 30px;
    cursor: pointer;
-   color: #fff;
    background-color: #333333;
    box-shadow: 1px 1px 5px #333333;
-   font-family: fangsong;
    padding: 10px;
    border-radius: 50%;
-   text-decoration: none;
+   transition: all 0.4s;
 }
 
 .job_tank ~ .nome_app_top .app_top {background: var(--tank-color); box-shadow: 1px 1px 5px var(--tank-color);}

@@ -235,7 +235,8 @@ img {
 }
 .job_tank .job_thead p,
 .job_tank .job_combo_title_sequence,
-.job_tank .job_combo_title_effect {
+.job_tank .job_combo_title_effect,
+.job_tank ~ .nome_app_top .app_top:hover {
 	background: var(--tank-AltColor);
 }
 .job_tank .job_sub_title,
@@ -243,13 +244,21 @@ img {
 .job_menu_tank .job_nav_title a {
 	color: var(--tank-color);
 }
+.job_tank .nav_floating_icon {
+	background-color: var(--tank-color);
+	box-shadow: 1px 1px 5px var(--tank-color);
+}
+.job_tank .nav_floating_icon:hover {
+	background-color: var(--tank-AltColor);
+}
 /* Healer */
 .job_healer .job_title {
 	background: var(--healer-color);
 }
 .job_healer .job_thead p,
 .job_healer .job_combo_title_sequence,
-.job_healer .job_combo_title_effect {
+.job_healer .job_combo_title_effect,
+.job_healer ~ .nome_app_top .app_top:hover {
 	background: var(--healer-AltColor);
 }
 .job_healer .job_sub_title,
@@ -257,17 +266,32 @@ img {
 .job_menu_healer .job_nav_title a {
 	color: var(--healer-color);
 }
+.job_healer .nav_floating_icon {
+	background-color: var(--healer-color);
+	box-shadow: 1px 1px 5px var(--healer-color);
+}
+.job_healer .nav_floating_icon:hover {
+	background-color: var(--healer-AltColor);
+}
 /* DPS */
 .job_dps .job_title {
 	background: var(--dps-color);
 }
 .job_dps .job_thead p,
 .job_dps .job_combo_title_sequence,
-.job_dps .job_combo_title_effect {
+.job_dps .job_combo_title_effect,
+.job_dps ~ .nome_app_top .app_top:hover {
 	background: var(--dps-AltColor);
 }
 .job_dps .job_sub_title,
 .job_dps .job_hud_title,
 .job_menu_dps .job_nav_title a {
 	color: var(--dps-color);
+}
+.job_dps .nav_floating_icon {
+	background-color: var(--dps-color);
+	box-shadow: 1px 1px 5px var(--dps-color);
+}
+.job_dps .nav_floating_icon:hover {
+	background-color: var(--dps-AltColor);
 }
