@@ -51,6 +51,14 @@
 	background-attachment: fixed;
 }
 .job_brd {
-	background: url(../img/JobHaider/Haiderbrd.jpg) no-repeat center top #4f1717;
+	background: url(../img/JobHaider/HaiderBRD.jpg) no-repeat center top #4f1717;
+	background-attachment: fixed;
+}
+.job_mch {
+	background: url(../img/JobHaider/HaiderMCH.jpg) no-repeat center top #4f1717;
+	background-attachment: fixed;
+}
+.job_dnc {
+	background: url(../img/JobHaider/HaiderDNC.jpg) no-repeat center top #4f1717;
 	background-attachment: fixed;
 }
