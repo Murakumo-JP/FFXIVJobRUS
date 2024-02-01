@@ -38,10 +38,22 @@ body {
 	background-color: transparent;
 	border: 4px solid transparent;
 }
-.job_header_text p::-webkit-scrollbar-thumb {
+.job_header_text p::-webkit-scrollbar-thumb{
 	border: 4px solid transparent;
 	background-clip: padding-box;
 	background-color: #ffffff;
+}
+
+.nav_floating_list_wrapper::-webkit-scrollbar {
+	width: 6px;
+	height: 10px;
+	background-color: transparent;
+	border: transparent;
+}
+.nav_floating_list_wrapper::-webkit-scrollbar-thumb {
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	background-color: #1b1b1b;
 }
 
 .clearfix:after {

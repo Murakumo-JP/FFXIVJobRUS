@@ -3,6 +3,7 @@ $('#jq_tank').load('RoleActions/Tank.html');
 $('#jq_healer').load('RoleActions/Healer.html');
 $('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
 $('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
+$('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
 $('#jq_patch').load('Other/Path.html');
 /* Preloader */
 document.body.onload = function () {
@@ -32,6 +33,19 @@ $(() => {
 	$('.nav_floating_icon').click(() => {
 		$('.nav_floating_list').slideToggle();
 	});
+});
+// Tabs
+$('.job_skil_list').each(function () {
+	let ths = $(this);
+	ths.find('.job_skil_db').not(':first').hide();
+	ths
+		.find('.jq_tab')
+		.click(function () {
+			ths.find('.jq_tab').removeClass('active').eq($(this).index()).addClass('active');
+			ths.find('.job_skil_db').hide().eq($(this).index()).fadeIn();
+		})
+		.eq(0)
+		.addClass('active');
 });
 // Back to Top
 function backToTop() {

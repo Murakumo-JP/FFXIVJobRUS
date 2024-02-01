@@ -103,9 +103,10 @@
 	float: right;
 }
 .nav_floating_list_wrapper {
-	overflow: hidden;
+	overflow: overlay;
 	position: relative;
 	height: 100%;
+	max-height: 750px;
 	padding-right: 16px;
 }
 .nav_floating_list_wrapper .iScrollVerticalScrollbar {
