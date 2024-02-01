@@ -35,17 +35,15 @@ $(() => {
 	});
 });
 // Tabs
-$('.job_skil_list').each(function () {
-	let ths = $(this);
-	ths.find('.job_skil_db').not(':first').hide();
-	ths
-		.find('.jq_tab')
-		.click(function () {
-			ths.find('.jq_tab').removeClass('active').eq($(this).index()).addClass('active');
-			ths.find('.job_skil_db').hide().eq($(this).index()).fadeIn();
-		})
-		.eq(0)
-		.addClass('active');
+$('.js-tab-trigger').click(function() {
+   var id = $(this).attr('data-tab'),
+       content = $('.js-tab-content[data-tab="'+ id +'"]');
+   
+   $('.js-tab-trigger.active').removeClass('active');
+   $(this).addClass('active');
+   
+   $('.js-tab-content.active').removeClass('active');
+   content.addClass('active');
 });
 // Back to Top
 function backToTop() {
