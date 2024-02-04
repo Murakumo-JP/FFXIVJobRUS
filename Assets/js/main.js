@@ -1,12 +1,12 @@
 // Doom
-$(document).ready(function() {
+$(document).ready(function () {
 	$('#jq_tank').load('RoleActions/Tank.html');
 	$('#jq_healer').load('RoleActions/Healer.html');
 	$('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
 	$('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
 	$('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
-	$('#jq_CommonActions').load('Other/CommonActions.html');
-	$('#jq_patch').load('Other/Path.html');
+	$('jq_commonActions').load('Other/Path.html #CommonActions');
+	$('#jq_patch').load('Other/Path.html #path');
 });
 /* Preloader */
 document.body.onload = function () {
