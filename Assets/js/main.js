@@ -4,6 +4,7 @@ $('#jq_healer').load('RoleActions/Healer.html');
 $('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
 $('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
 $('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
+$('#jq_CommonActions').load('Other/CommonActions.html');
 $('#jq_patch').load('Other/Path.html');
 /* Preloader */
 document.body.onload = function () {
@@ -35,15 +36,15 @@ $(() => {
 	});
 });
 // Tabs
-$('.js-tab-trigger').click(function() {
-   var id = $(this).attr('data-tab'),
-       content = $('.js-tab-content[data-tab="'+ id +'"]');
-   
-   $('.js-tab-trigger.active').removeClass('active');
-   $(this).addClass('active');
-   
-   $('.js-tab-content.active').removeClass('active');
-   content.addClass('active');
+$('.js-tab-trigger').click(function () {
+	var id = $(this).attr('data-tab'),
+		content = $('.js-tab-content[data-tab="' + id + '"]');
+
+	$('.js-tab-trigger.active').removeClass('active');
+	$(this).addClass('active');
+
+	$('.js-tab-content.active').removeClass('active');
+	content.addClass('active');
 });
 // Back to Top
 function backToTop() {
