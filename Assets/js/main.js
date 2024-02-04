@@ -5,8 +5,8 @@ $(document).ready(function () {
 	$('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
 	$('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
 	$('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
-	$('jq_commonActions').load('Other/Path.html #CommonActions');
-	$('#jq_patch').load('Other/Path.html #path');
+	$('#jq_actions').load('Other/actions.html');
+	$('#jq_patch').load('Other/Path.html');
 });
 /* Preloader */
 document.body.onload = function () {
