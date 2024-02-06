@@ -2255,7 +2255,401 @@
             </div>
             <!-- PVP -->
             <div class="job_skil_db-pvp js-tab-content" data-tab="2">
-
+               <p class="job_update">Последнее обновление: 02/10/2023</p>
+               <p class="job_notes_lv80">В PVP у скилов отсуствует MP Каст по этому его нет в списке</p>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper">
+                  <h2 class="job_title">Actions</h2>
+                  <h3 class="job_sub_title" id="anchor_pvp_onlyaction">Job Actions</h3>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191" />
+                        <col width="84" />
+                        <col width="74" />
+                        <col width="74" />
+                        <!-- <col width="74"/> -->
+                        <col width="74" />
+                        <col width="349" />
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Action Name</span></p></th>
+                           <th><p><span>Type</span></p></th>
+                           <th><p><span>Cast</span></p></th>
+                           <th><p><span>Recast</span></p></th>
+                           <!-- <th><p><span>MP Cost</span></p></th> -->
+                           <th>
+                              <div><p><span>Range</span></p></div>
+                              <hr/>
+                              <div><p><span>Radius</span></p></div>
+                           </th>
+                           <th><p><span>Effect</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <!-- PVP Action 01 -->
+                        <tr id="pvp_action_01">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/f6608e86b2f0526d4f9fd593eac7cb7e8a674668.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Broil IV</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">1.44s</td>
+                           <td class="recast">2.4s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y<br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Deals unaspected damage with a potency of 5,000.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 02 -->
+                        <tr id="pvp_action_02">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/22a3932c3e8625b941a6d65c7bb1985e2244abe7.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Adloquium</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">15s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Restores target's HP.
+                              <br/>Cure Potency: 3,000
+                              <br/>Additional Effect: Grants Galvanize and Catalyze to target
+                              <br/>Galvanize Effect: Absorbs damage equivalent to a heal of 6,000 potency
+                              <br/>Duration: 15s
+                              <br/>Barrier potency is increased by 50% when you are under the effect of Recitation.
+                              <br/>Catalyze Effect: Increases damage dealt by 8%
+                              <br/>Duration: 15s
+                              <br/>Maximum Charges: 2
+                              <br/>This action does not share a recast timer with any other actions.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 03 -->
+                        <tr id="pvp_action_03">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/f1a089378baca67848f466998eaf675ca65b241f.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Biolysis</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">15s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Afflicts target with Biolysis and Biolytic.
+                              <br/>Biolysis Effect: Damage over time
+                              <br/>Potency: 3,000
+                              <br/>Duration: 15s
+                              <br/>Potency is increased by 50% when you are under the effect of Recitation.
+                              <br/>Biolytic Effect: Reduces target's damage dealt by 8%
+                              <br/>Duration: 15s
+                              <br/>This action does not share a recast timer with any other actions.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 04 -->
+                        <tr id="pvp_action_04">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/ba157dccbbb4761461ca40b5e03c2a882498cdf3.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Deployment Tactics</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">15s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>15y
+                           </td>
+                           <td class="content">
+                              Extends Galvanize and Catalyze effects cast on self or target to nearby party members.
+                              <br/>When targeting an enemy, extends Biolysis and Biolytic effects to other nearby enemies.
+                              <br/>Duration: Time remaining on original effect
+                              <br/>No effect on targets not under effects applied by you, players riding machina, or non-player combatants.
+                              <br/>Maximum Charges: 2
+                           </td>
+                        </tr>
+                        <!-- PVP Action 05 -->
+                        <tr id="pvp_action_05">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/00aa2e44a8489b7640717e48cdf0097f6fb2bca0.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Mummification</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">20s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>8y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/r/a5c_l_0ZpkmqQvwvFezHgNBi8c.png"/>8y
+                           </td>
+                           <td class="content">
+                              Deals unaspected damage with a potency of 6,000 to all enemies in a cone before you.
+                              <br/>Additional Effect: Reduces target's HP recovered by healing actions by 25%
+                              <br/>Duration: 10s
+                           </td>
+                        </tr>
+                        <!-- PVP Action 06 -->
+                        <tr id="pvp_action_06">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/5f98fdab5e9b3c01f61588afd6f60ceeb8fc7966.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Expedient</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">30s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>15y
+                           </td>
+                           <td class="content">
+                              Grants Expedience and Desperate Measures to self and all nearby party members.
+                              <br/>Expedience Effect: Increases movement speed by 25%
+                              <br/>Duration: 10s
+                              <br/>Desperate Measures Effect: Reduces damage taken by 10%
+                              <br/>Duration: 10s
+                              <br/>Additional Effect: Grants Recitation
+                              <br/>Recitation Effect: Increases the potency of Galvanize, Biolysis, and Biolytic effects
+                              <br/>Duration: 15s
+                           </td>
+                        </tr>
+                        <!-- PVP Action 07 -->
+                        <tr id="pvp_action_07">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/fcb5a5bb525f6e87cb54b03c28dee34f62bc2cbb.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Consolation</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">20s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Orders Seraph to execute Consolation.
+                              <br/>Consolation Effect: Restores HP of all nearby party members
+                              <br/>Cure Potency: 4,000
+                              <br/>Additional Effect: Erects a magicked barrier which nullifies damage equivalent to a heal of 4,000 potency
+                              <br/>Duration: 10s
+                              <br/>Can only be executed while Seraph is summoned.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 08 -->
+                        <tr id="pvp_action_08">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/fe17c3c2cb39842c9bfe50d5839d2b6a93075ef9.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Seraphic Veil</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2.5s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Restores target's HP.
+                              <br/>Cure Potency: 4,000
+                              <br/>Additional Effect: Erects a magicked barrier which nullifies damage equivalent to a heal of 4,000 potency
+                              <br/>Duration: 10s
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 09 -->
+                        <tr id="pvp_action_09">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/7a5471b9fcc2f37dee57e8705f450297f8ed876a.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Consolation</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">1s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>20y
+                           </td>
+                           <td class="content">
+                              Restores the HP of all nearby party members.
+                              <br/>Cure Potency: 4,000
+                              <br/>Additional Effect: Erects a magicked barrier which nullifies damage equivalent to a heal of 4,000 potency
+                              <br/>Duration: 10s
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper">
+                  <h3 class="job_sub_title" id="anchor_pvp_limitbreak">Limit Break</h3>
+                  <p class="job_text">The limit break gauge can be filled through combating enemies and completing other objectives, dependent on the PvP duty. Your limit break will become available upon filling the gauge.</p>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191" />
+                        <col width="74" />
+                        <col width="74" />
+                        <!-- <col width="74" /> -->
+                        <col width="74" />
+                        <col width="422" />
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Action Name</span></p></th>
+                           <th><p><span>Cast</span></p></th>
+                           <th><p><span>Recast</span></p></th>
+                           <!-- <th><p><span>MP Cost</span></p></th> -->
+                           <th>
+                              <div><p><span>Range</span></p></div>
+                              <hr/>
+                              <div><p><span>Radius</span></p></div>
+                           </th>
+                           <th><p><span>Effect</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <tr id="pvplimitbreakaction_01">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/614407d07c71d678c0f13c555dfb338d69fbf9e7.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Summon Seraph</strong></p>
+                              </div>
+                           </td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">10s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>10y
+                           </td>
+                           <td class="content">
+                              Summons Seraph to fight at a designated location.
+                              <br/>Seraph will execute Seraph Flight immediately after being summoned.
+                              <br/>Automatically casts Seraphic Veil on party members who suffer damage.
+                              <br/>Additional Effect: Grants Recitation
+                              <br/>Recitation Effect: Increases the potency of Galvanize, Biolysis, and Biolytic effects
+                              <br/>Duration: 15s
+                              <br/>Can only be executed when the limit gauge is full.
+                              <br/>Gauge Charge Time: 90s
+                              <br/><br/>※Action changes to Consolation upon execution.
+                           </td>
+                        </tr>
+                        <tr id="pvplimitbreakaction_02">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/4718502b9fd4f9ed2848fb3cbcb42015f7d70440.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Seraph Flight</strong></p>
+                              </div>
+                           </td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">1s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>10y
+                           </td>
+                           <td class="content">
+                              Grants Seraph Flight and Excogitation to all nearby party members.
+                              <br/>Seraph Flight Effect: Nullifies the next status affliction that can be removed by Purify
+                              <br/>Duration: 20s
+                              <br/>Excogitation Effect: Restores HP when HP falls below 50% or upon effect duration expiration
+                              <br/>Cure Potency: 8,000
+                              <br/>Duration: 20s
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper" id="jq_actions"></div>
             </div>
          </div>
       </div>

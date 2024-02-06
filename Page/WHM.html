@@ -1725,7 +1725,298 @@
             </div>
             <!-- PVP -->
             <div class="job_skil_db-pvp js-tab-content" data-tab="2">
-
+               <p class="job_update">Последнее обновление: 02/10/2023</p>
+               <p class="job_notes_lv80">В PVP у скилов отсуствует MP Каст по этому его нет в списке</p>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper">
+                  <h2 class="job_title">Actions</h2>
+                  <h3 class="job_sub_title" id="anchor_pvp_onlyaction">Job Actions</h3>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191" />
+                        <col width="84" />
+                        <col width="74" />
+                        <col width="74" />
+                        <!-- <col width="74"/> -->
+                        <col width="74" />
+                        <col width="349" />
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Action Name</span></p></th>
+                           <th><p><span>Type</span></p></th>
+                           <th><p><span>Cast</span></p></th>
+                           <th><p><span>Recast</span></p></th>
+                           <!-- <th><p><span>MP Cost</span></p></th> -->
+                           <th>
+                              <div><p><span>Range</span></p></div>
+                              <hr/>
+                              <div><p><span>Radius</span></p></div>
+                           </th>
+                           <th><p><span>Effect</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <!-- PVP Action 01 -->
+                        <tr id="pvp_action_01">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/889b00ef7b55083b462b1dc589add79e07e87379.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Glare III</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">1.44s</td>
+                           <td class="recast">2.4s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">Deals unaspected damage with a potency of 5,000.</td>
+                        </tr>
+                        <!-- PVP Action 02 -->
+                        <tr id="pvp_action_02">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/7e7fd985e01134a3f7a76bda607c5cb1a36b3f7c.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Cure II</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">1.44s</td>
+                           <td class="recast">15s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Restores target's HP.
+                              <br/>Cure Potency: 12,000
+                              <br/>Maximum Charges: 2
+                              <br/>This action does not share a recast timer with any other actions.
+                              <br/><br/>※Action changes to Cure III when under the effect of Cure III Ready.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 03 -->
+                        <tr id="pvp_action_03">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/67c045d9c3c41f736c36022272cefd8c0980f19f.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Afflatus Misery</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">15s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
+                           </td>
+                           <td class="content">
+                              Deals unaspected damage with a potency of 12,000 to target and all enemies nearby it.
+                              <br/>This action does not share a recast timer with any other actions.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 04 -->
+                        <tr id="pvp_action_04">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/db63ef3d2573abbcb89237b70189beb66d9f08c1.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Aquaveil</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">20s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Creates a barrier around self or target party member that absorbs damage equivalent to a heal of 8,000 potency.
+                              <br/>Duration: 10s
+                              <br/>Additional Effect: Nullifies one status affliction that can be removed by Purify
+                              <br/>Barrier potency is doubled when successfully nullifying a status affliction.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 05 -->
+                        <tr id="pvp_action_05">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/1245aecd31eaf0821a81907c6664946404770339.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Miracle of Nature</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">45s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>10y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Forcibly transforms target into a diminutive creature, preventing them from using actions.
+                              <br/>Duration: 2s
+                              <br/>Has no effect on players under the effect of Guard, players riding machina, or non-player combatants.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 06 -->
+                        <tr id="pvp_action_06">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/8f0999ae68bff865ab683d7f1059024d126b013e.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Seraph Strike</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">20s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>20y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>10y
+                           </td>
+                           <td class="content">
+                              Delivers a jumping attack that deals unaspected damage to target and all enemies nearby it with a potency of 8,000.
+                              <br/>Additional Effect: Grants Protect to self and nearby party members
+                              <br/>Protect Effect: Reduces damage taken by 10%
+                              <br/>Duration: 10s
+                              <br/>Additional Effect: Grants Cure III Ready
+                              <br/>Duration: 10s
+                              <br/>Cannot be executed while bound.
+                              <br/><br/>※Cure II changes to Cure III while under the effect of Cure III Ready.
+                           </td>
+                        </tr>
+                        <!-- PVP Action 07 -->
+                        <tr id="pvp_action_07">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/3c4b6cbc3b8ae09ebf0dc3c69c16594e211cdfe6.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Cure III</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2.4s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
+                           </td>
+                           <td class="content">
+                              Restores HP of self or target and all party members nearby target.
+                              <br/>Cure Potency: 16,000
+                              <br/>Can only be executed while under the effect of Cure III Ready.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper">
+                  <h3 class="job_sub_title" id="anchor_pvp_limitbreak">Limit Break</h3>
+                  <p class="job_text">The limit break gauge can be filled through combating enemies and completing other objectives, dependent on the PvP duty. Your limit break will become available upon filling the gauge.</p>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191" />
+                        <col width="74" />
+                        <col width="74" />
+                        <!-- <col width="74" /> -->
+                        <col width="74" />
+                        <col width="422" />
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Action Name</span></p></th>
+                           <th><p><span>Cast</span></p></th>
+                           <th><p><span>Recast</span></p></th>
+                           <!-- <th><p><span>MP Cost</span></p></th> -->
+                           <th>
+                              <div><p><span>Range</span></p></div>
+                              <hr/>
+                              <div><p><span>Radius</span></p></div>
+                           </th>
+                           <th><p><span>Effect</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <tr id="pvplimitbreakaction_01">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/885443eeb029d7cbca537be10edca5eb6c920401.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Afflatus Purgation</strong></p>
+                              </div>
+                           </td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">10s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>40y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/X/_08SnQEaLvSIdYVBCfq51qmc68.png"/>40y
+                           </td>
+                           <td class="content">
+                              Deals unaspected damage with a potency of 18,000 to all enemies in a straight line before you.
+                              <br/>Additional Effect: Stun
+                              <br/>Duration: 2s
+                              <br/>Additional Effect: Grants Temperance
+                              <br/>Temperance Effect: Increases damage dealt and healing potency by 10%, and grants Regen to self and nearby party members within 30 yalms
+                              <br/>Cure Potency: 3,000
+                              <br/>Duration: 15s
+                              <br/>Can only be executed when the limit gauge is full.
+                              <br/>Gauge Charge Time: 60s
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper" id="jq_actions"></div>
             </div>
          </div>
       </div>
