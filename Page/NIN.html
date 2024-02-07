@@ -2076,7 +2076,597 @@
             </div>
             <!-- PVP -->
             <div class="job_skil_db-pvp js-tab-content" data-tab="2">
-
+               <p class="job_update">Последнее обновление: 02/10/2023</p>
+               <p class="job_notes_lv80">В PVP у скилов отсуствует MP Каст по этому его нет в списке</p>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper">
+                  <h2 class="job_title">Actions</h2>
+                  <h3 class="job_sub_title" id="anchor_pvp_onlyaction">Job Actions</h3>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191" />
+                        <col width="84" />
+                        <col width="74" />
+                        <col width="74" />
+                        <!-- <col width="74"/> -->
+                        <col width="74" />
+                        <col width="349" />
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Action Name</span></p></th>
+                           <th><p><span>Type</span></p></th>
+                           <th><p><span>Cast</span></p></th>
+                           <th><p><span>Recast</span></p></th>
+                           <!-- <th><p><span>MP Cost</span></p></th> -->
+                           <th>
+                              <div><p><span>Range</span></p></div>
+                              <hr/>
+                              <div><p><span>Radius</span></p></div>
+                           </th>
+                           <th><p><span>Effect</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <!-- PVP Skil Action 01 -->
+                        <tr id="pvp_action_01">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/2c7a551985023f8a7d2e338a014ab29454318b81.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Spinning Edge</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Weaponskill</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>5y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Delivers an attack with a potency of 3,000.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 02 -->
+                        <tr id="pvp_action_02">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/443f61d91e3c8a64e725b7366c33c267f606c8b1.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Gust Slash</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Weaponskill</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>5y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Delivers an attack with a potency of 4,000.
+                              <br/>Combo Action: Spinning Edge
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 03 -->
+                        <tr id="pvp_action_03">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/baa12f591901930702230bc6e3e5119c194de1db.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Aeolian Edge</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Weaponskill</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>5y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Delivers an attack with a potency of 5,000.
+                              <br/>Combo Action: Gust Slash
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 04 -->
+                        <tr id="pvp_action_04">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/a4295da0185e15eaf0481b14d04e59133c8fc699.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Fuma Shuriken</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Weaponskill</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">10s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>20y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Delivers a ranged attack with a potency of 6,000.
+                              <br/>Maximum Charges: 3
+                              <br/>This weaponskill does not share a recast timer with any other actions.
+                              <br/><br/>※Action changes to Hyosho Ranryu while under the effect of Three Mudra.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 05 -->
+                        <tr id="pvp_action_05">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/0b093065502dad176d2b335b15528e1947bf806f.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Mug</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">20s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>5y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Delivers an attack with a potency of 2,000.
+                              <br/>Additional Effect: Increases target's damage taken by 10%
+                              <br/>Duration: 10s
+                              <br/>Additional Effect: Reduces the recast time of Fuma Shuriken by 10 seconds
+                              <br/><br/>※Action changes to Goka Mekkyaku while under the effect of Three Mudra.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 06 -->
+                        <tr id="pvp_action_06">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/df52e05ddb6ca5801114faf60e5ba05442c5cb6f.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Three Mudra</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">15s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Grants Three Mudra, allowing for immediate execution of any ninjutsu action. However, the same ninjutsu action cannot be executed consecutively.
+                              <br/>Duration: 10s
+                              <br/>Maximum Charges: 2
+                              <br/><br/>※Action changes to Meisui while under the effect of Three Mudra.
+                              <br/>※All actions except Seiton Tenchu will change to their respective ninjutsu actions while under the effect of Three Mudra.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 07 -->
+                        <tr id="pvp_action_07">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/dd5359193e18dec8796cb164c2a31cd7de730e31.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Bunshin</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">30s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              For up to five attacks, your shadow becomes animate, attacking enemies each time you execute a weaponskill.
+                              <br/>Shadow attack potency will match that of your weaponskills, but will be halved when executing Fuma Shuriken or Assassinate.
+                              <br/>Duration: 20s
+                              <br/>Additional Effect: Creates a shadow that absorbs damage equivalent to a heal of 8,000 potency
+                              <br/>Duration: 10s
+                              <br/><br/>※Action changes to Huton while under the effect of Three Mudra.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 08 -->
+                        <tr id="pvp_action_08">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/cf1bb42ed0500b95e768ec8fff4aa0f7b3d1c20a.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Shukuchi</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">20s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>20y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Move quickly to the specified location.
+                              <br/>Additional Effect: Grants Hidden
+                              <br/>Hidden Effect: Blend in with your surroundings, making it impossible for enemies to see or target you
+                              <br/>Duration: 4s
+                              <br/>Effect ends upon use of any action or upon taking damage from an enemy.
+                              <br/>Cannot be executed while bound.
+                              <br/><br/>※Action changes to Doton while under the effect of Three Mudra.
+                              <br/>※Aeolian Edge Combo changes to Assassinate while under the effect of Hidden.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 09 -->
+                        <tr id="pvp_action_09">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/4808fd0960ff552e382c3bc3242c43c4634b3a16.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Forked Raiju</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Weaponskill</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>20y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Rushes target and delivers an attack with a potency of 4,000.
+                              <br/>Additional Effect: Stun
+                              <br/>Duration: 2s
+                              <br/>Additional Effect: Grants Fleeting Raiju Ready
+                              <br/>Duration: 10s
+                              <br/>Cannot be executed while bound.
+                              <br/><br/>※Aeolian Edge Combo changes to Fleeting Raiju while under the effect of Fleeting Raiju Ready.
+                              <br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 10 -->
+                        <tr id="pvp_action_10">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/834c61d21d0517e99776d435f3125c0d856bff96.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Fleeting Raiju</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Weaponskill</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>20y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Rushes target and delivers an attack with a potency of 4,000.
+                              <br/>Additional Effect: Stun
+                              <br/>Duration: 2s
+                              <br/>Can only be executed while under the effect of Fleeting Raiju Ready.
+                              <br/>Cannot be executed while bound.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 11 -->
+                        <tr id="pvp_action_11">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/7b5b3ecb51c13a72c65bbb7dd48b6d702d546da9.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Hyosho Ranryu</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>20y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Deals unaspected damage with a potency of 16,000.
+                              <br/>Can only be executed while under the effect of Three Mudra.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 12 -->
+                        <tr id="pvp_action_12">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/8ecdf7edc6dd4e686813cdd58a5edcdf49e0404d.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Goka Mekkyaku</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>20y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>6y
+                           </td>
+                           <td class="content">
+                              Deals unaspected damage with a potency of 4,000 to target and all enemies nearby it.
+                              <br/>Additional Effect: Damage over time
+                              <br/>Potency: 4,000
+                              <br/>Duration: 12s
+                              <br/>Can only be executed while under the effect of Three Mudra.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 13 -->
+                        <tr id="pvp_action_13">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/359bc1829d69bdbe859863cd2a782fbacc61de16.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Meisui</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Restores own or target party member's HP.
+                              <br/>Cure Potency: 8,000
+                              <br/>Additional Effect: Grants healing over time effect to target
+                              <br/>Cure Potency: 4,000
+                              <br/>Duration: 15s
+                              <br/>Can only be executed while under the effect of Three Mudra.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 14 -->
+                        <tr id="pvp_action_14">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/839919eb2756e950cdae46be906b564ce77bd4b6.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Huton</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Grants Huton, creating a barrier that absorbs damage equivalent to a heal of 16,000 potency, and increasing movement speed by 25%.
+                              <br/>Duration: 10s
+                              <br/>Movement speed returns to normal when barrier is completely absorbed.
+                              <br/>Can only be executed while under the effect of Three Mudra.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 15 -->
+                        <tr id="pvp_action_15">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/8c6735eac69b6180ad6b23c92fc467a81701cf4a.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Doton</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
+                           </td>
+                           <td class="content">
+                              Creates a patch of corrupted earth under your feet, dealing damage with a potency of 3,000 to any enemies who enter.
+                              <br/>Duration: 10s
+                              <br/>Can only be executed while under the effect of Three Mudra.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 16 -->
+                        <tr id="pvp_action_16">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/d2a67da760022e80b85ba1ccbeeecdf8bddda757.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Hollow Nozuchi</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Ability</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">-</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>100y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
+                           </td>
+                           <td class="content">
+                              All enemies standing in the corrupted earth of Doton take additional earth damage with a potency of 3,000.
+                              <br/>Requires the execution of a weaponskill, Hyosho Ranryu, or Goka Mekkyaku.
+                              <br/>Additional Effect: Heavy +75%
+                              <br/>Duration: 3s
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                        <!-- PVP Skil Action 17 -->
+                        <tr id="pvp_action_17">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/bd62134b59f61995abdfea2f7fee502c5795f9f9.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Assassinate</strong></p>
+                              </div>
+                           </td>
+                           <td class="classification">Weaponskill</td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">2s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>5y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Delivers an attack with a potency of 12,000.
+                              <br/>Can only be executed while under the effect of Hidden.
+                              <br/><br/>※This action cannot be assigned to a hotbar.
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper">
+                  <h3 class="job_sub_title" id="anchor_pvp_limitbreak">Limit Break</h3>
+                  <p class="job_text">The limit break gauge can be filled through combating enemies and completing other objectives, dependent on the PvP duty. Your limit break will become available upon filling the gauge.</p>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191" />
+                        <col width="74" />
+                        <col width="74" />
+                        <!-- <col width="74" /> -->
+                        <col width="74" />
+                        <col width="422" />
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Action Name</span></p></th>
+                           <th><p><span>Cast</span></p></th>
+                           <th><p><span>Recast</span></p></th>
+                           <!-- <th><p><span>MP Cost</span></p></th> -->
+                           <th>
+                              <div><p><span>Range</span></p></div>
+                              <hr/>
+                              <div><p><span>Radius</span></p></div>
+                           </th>
+                           <th><p><span>Effect</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <tr id="pvplimitbreakaction_01">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="https://lds-img.finalfantasyxiv.com/d/b3cc3f2b23553fa8ce5a4a46fe159c12a2f82aaa.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Seiton Tenchu</strong></p>
+                              </div>
+                           </td>
+                           <td class="cast">Instant</td>
+                           <td class="recast">10s</td>
+                           <!-- <td class="cost">-</td> -->
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>20y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Rushes target and delivers an attack with a potency of 12,000, incapacitating foes whose HP is below 50%.
+                              <br/>Additional Effect: Afflicts target with Death Link
+                              <br/>Duration: 4s
+                              <br/>Defeating an enemy with this action, or one under the effect of Death Link, will grant Unsealed Seiton Tenchu, allowing a second execution of this action.
+                              <br/>Duration: 8s
+                              <br/>Effect duration is reduced by 1s each time it is applied to a target with a minimum duration of 4s.
+                              <br/>Effect cannot be applied to players riding machina or non-player combatants.
+                              <br/>Can only be executed when the limit gauge is full or while under the effect of Unsealed Seiton Tenchu.
+                              <br/>Gauge Charge Time: 105s
+                              <br/>Cannot be executed while bound.
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper" id="jq_actions"></div>
             </div>
          </div>
       </div>
