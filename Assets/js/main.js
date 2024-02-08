@@ -16,6 +16,11 @@ document.body.onload = function () {
 			loader.classList.add('loader_none');
 			$('body').css('overflow', 'visible');
 		}
+		var id = window.location.hash;
+		//console.log(typeof id);
+		if (id != "") {
+			activate_tab(id.substring(1));
+		}
 	}, 1500);
 };
 // Smooth Scrolling
@@ -36,15 +41,17 @@ $(() => {
 	});
 });
 // Tabs
+function activate_tab(id) {
+	$('.js-tab-trigger[data-tab="' + id + '"]').toggleClass('active', true);
+	$('.js-tab-trigger:not([data-tab="' + id + '"])').toggleClass('active', false);
+
+	$('.js-tab-content[data-tab="' + id + '"]').toggleClass('active', true);
+	$('.js-tab-content:not([data-tab="' + id + '"])').toggleClass('active', false);
+}
 $('.js-tab-trigger').click(function () {
-	var id = $(this).attr('data-tab'),
-		content = $('.js-tab-content[data-tab="' + id + '"]');
-
-	$('.js-tab-trigger.active').removeClass('active');
-	$(this).addClass('active');
-
-	$('.js-tab-content.active').removeClass('active');
-	content.addClass('active');
+	var id = $(this).attr('data-tab');
+	activate_tab(id);
+	window.location.hash = '#' + id;
 });
 // Back to Top
 function backToTop() {
