@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Job Guide: BLU | FFXIV RUS</title>
+      <link rel="shortcut icon" type="image/x-icon" href="../Assets/img/favicon.ico"/>
+      <link rel="stylesheet" href="../Assets/css/index.css"/>
+      <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
+   </head>
+
+   <body>
+      <!--Preloader-->
+      <div id="page-preloader" class="preloader">
+         <div id="page-loader" class="loader"></div>
+      </div>
+      <div class="jobguide job_tank">
+         <!-- Header -->
+         <header class="job_header job_blu">
+            <!-- Job Skil Menu -->
+            <div class="job_menu">
+               <div class="nav_floating_icon fixed"></div>
+               <div class="nav_floating_list fixed" style="height: auto">
+                  <div class="nav_floating_list_wrapper">
+                     <div class="job_menu_dps">
+                        <h2 class="job_nav_title"><a href="#anchor_onlyaction">Job Actions</a></h2>
+                        
+                        <h2 class="job_nav_title"><a href="#anchor_pet">Pet Actions</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_pet_instruction">Pet Actions (Commands)</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_rollcommonaction">Role Actions</a></h2>
+                        
+                        <h2 class="job_nav_title"><a href="#anchor_onlytrait">Trait</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_hud">Job Gauge</a></h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="job_header_inner">
+               <a href="../JobGuide.html" class="job_header_guide_top"><span>На Главную</span></a>
+               <h1 class="job_header_nome">
+                  <img src="../Assets/img/JobHaider/JobBLU.png">
+                  <span class="job_header_role">
+                     <img src="../Assets/img/main/MagicalRangedDPS.png"> Маг Рендж DPS
+                  </span>
+               </h1>
+               <div class="job_header_text">
+                  <p>
+                     A so-called mage of rather questionable character claims to have mastered an outlandish form of spellcasting that resembles neither black nor white magic during his voyage to the New World. Allegedly, anyone who purchases one of his soul crystals can learn to mimic the aetherial magicks of wild creatures. But can he be trusted, or is he merely a con artist looking to make a quick gil?
+                  </p>
+               </div>
+               <div class="job_header_quest">
+                  <a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/667c7f49a11/">
+                     <span>
+                        <img src="../Assets/img/main/quest.png"> Стартовый квест специализации
+                     </span>
+                  </a>
+               </div>
+            </div>
+         </header>
+         <!-- DB Skil List -->
+         <div class="job_skil_list">
+            <ul class="job_tab clearfix">
+               <li class="job_tab--pve js-tab-trigger" data-tab="pve"><img src="https://lds-img.finalfantasyxiv.com/promo/h/x/Gc0hBipjawS6RWg-Wo7vanPPss.png"></li>
+               <li class="job_tab--pvp js-tab-trigger" data-tab="pvp"><img src="https://lds-img.finalfantasyxiv.com/promo/h/2/ku6QG_3H2vT6w4EItH7GLrRNxU.png"></li>
+            </ul>
+            <!-- PVE -->
+            <div class="job_skil_db-pve js-tab-content active" data-tab="pve">
+               <p class="job_update">Последнее обновление: 02/10/2023</p>
+               <p class="job_notes_lv80" id="jq_patch"></p>
+                <!-- Content Wrapper -->
+               <div class="bluemage-content">
+                  <h2 class="job_title" id="anchor_start">How to Unlock</h2>
+                  <p class="bluemage-text">Complete the quest below to unlock the blue mage limited job.</p>
+                  <h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/667c7f49a11/" class="eorzeadb_link">Out of the Blue</a></h3>
+               
+                  <div class="bluemage-quest">
+                     <div class="bluemage-quest_map">
+                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/s/TN8NQCY5UoGr1Wd1h7H6jOEiGE.png" width="360" height="" class="" />
+                     </div>
+                     <ul class="bluemage-quest_detail">
+                        <li class="level eu">Disciple of War or Magic level 50</li>
+                        <li class="pos">Limsa Lominsa Lower Decks (X:9.9 Y:11.0)</li>
+                        <li class="npc">Zealous Yellowjacket</li>
+                        <li class="condition">Complete the main scenario quest "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2ba6b3e60da/" class="eorzeadb_link">The Ultimate Weapon</a>."</li>
+                     </ul>
+                  </div>
+               </div>
+                <!-- Content Wrapper -->
+               <div class="bluemage-content">
+                  <h2 class="job_title" id="anchor_limited">Limited Job</h2>
+                  <p class="bluemage-text">Blue mage is known as a limited job. There are several key points that distinguish it from other jobs.</p>
+                  <ul class="bluemage-list">
+                     <li>Blue mage functions independently of other classes and jobs, starting at level 1 with a maximum level of 80.</li>
+                     <li>
+                        When playing as a blue mage, it is possible to participate in duties with other players in preformed or undersized parties. However, the following duties will remain inaccessible:
+                        <ul>
+                           <li>Duty Roulettes</li>
+                           <li>
+                              The Forbidden Land, Eureka / The Bozjan Southern Front / Variant &amp; Criterion Dungeons<br />
+                              <span class="bluemage-notes">* It is not possible to change to blue mage after entering the instance.</span>
+                           </li>
+                           <li>Squadron Missions</li>
+                           <li>Deep Dungeons</li>
+                           <li>
+                              PvP, including duels<br />
+                              <span class="bluemage-notes">* It is possible, however, to enter the Wolves' Den as a blue mage.</span>
+                           </li>
+                           <li>Stone, Sky, Sea</li>
+                           <li>Hall of the Novice</li>
+                        </ul>
+                     </li>
+                     <li>
+                        Blue mages gain greater experience from battling enemies in the open world than other jobs do.<br />
+                        <span class="bluemage-notes">* No bonuses are granted to experience gained from FATE or guildleve enemies.</span>
+                     </li>
+                     <li>Blue mage cannot be used to progress through the main scenario.</li>
+                     <li>Retainers cannot be assigned the blue mage job.</li>
+                  </ul>
+               </div>  
+               <!-- Content Wrapper -->
+               <div class="bluemage-content">
+                  <h2 class="job_title" id="anchor_learning">Learning Spells</h2>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/7OqKNZaJspayiZ8cFS50lMrqEE.jpg" width="640" height="360" class="bluemage-image" />
+                  <p class="bluemage-text">
+                     Rather than gaining new actions by increasing in level, blue mages learn them from enemies. In order to do so, you must first witness an enemy perform a special attack in battle. Once it is defeated, you have a chance of acquiring the ability.<br />
+                     <span class="bluemage-notes"><br />* Job level has no influence on when an action can be learned.</span>
+                  </p>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="bluemage-content">
+                  <h2 class="job_title" id="anchor_book">Blue Magic Spellbook</h2>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/Y/rTbD8HgdbmG3ihUjV2W4W1Hucs.jpg" width="640" height="442" class="bluemage-image" />
+                  <p class="bluemage-text">All spells you have learned are recorded in the Blue Magic Spellbook. The book also contains hints on how to acquire other spells.</p>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="bluemage-content">
+                  <h2 class="job_title" id="anchor_action">Active Actions</h2>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/I/PU7Wq6Qa-HANfc0-4IhfFYmUvg.jpg" width="578" height="184" class="bluemage-image" />
+                  <p class="bluemage-text">
+                     Before spells can be set to your hotbar, they must first be selected as active actions. You can have up to 24 active actions at any given time.<br />
+                     <span class="bluemage-notes">* Active actions cannot be changed during combat or during certain duties.</span>
+                  </p>
+                  <h3 class="job_sub_title">Active Sets</h3>
+                  <p class="bluemage-text">
+                     Your blue magic active actions and hotbar slots can be saved to what is known as an active set. Up to five different active sets can be created, allowing you to switch quickly between your preferred combinations of active actions and hotbar
+                     slots.
+                  </p>
+                  <div class="bluemage-indent">
+                     <h4 class="bluemage-sub_title">Affected Hotbar Slots</h4>
+                     <p class="bluemage-text">
+                        Only the slots on blue mage-exclusive hotbars will be saved to an active set. This means that creating an active set while playing as a different job/class will not save those hotbars, leaving your blue mage hotbar layout unchanged. Slots on
+                        shared hotbars are also excluded.
+                     </p>
+                     <h4 class="bluemage-sub_title">Affected Actions</h4>
+                     <p class="bluemage-text">
+                        The hotbar layout of all blue magic spells, whether active or inactive, will be saved to a set, along with any macros.<br />
+                        <span class="bluemage-notes">※ All macros will be saved, regardless of blue magic content.</span>
+                     </p>
+                     <h4 class="bluemage-sub_title">Loading Sets</h4>
+                     <p class="bluemage-text">Loading an active set will only affect blue mage-exclusive hotbars.</p>
+                  </div>
+                  <h3 class="job_sub_title">Whalaqee Totems</h3>
+                  <p class="bluemage-text">
+                     Certain blue magic spells can be acquired via Whalaqee Totems.<br />
+                     <br />To obtain these items, complete the blue mage quest "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/76f63bf2828/" class="eorzeadb_link">Blue Leading the Blue</a>" and certain achievements, then speak to Wayward Gaheel Ja in Ul'dah - Steps of Thal (X:12.5 Y:12.9).
+                  </p>
+               </div>
+               <!-- Content Wrapper -->
+               <div class="bluemage-content">
+                  <h2 class="job_title" id="anchor_carnival">Masked Carnivale</h2>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/n/j9Kj_mFxEjnJzYAerqxOFDR3dI.jpg" width="640" height="360" class="bluemage-image" />
+                  <p class="bluemage-text">The Masked Carnivale gives blue mages a chance to test their skills against a range of opponents.</p>
+               
+                  <h3 class="job_sub_title">Entry Requirements</h3>
+                  <h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1878e683dfd/" class="eorzeadb_link">The Real Folk Blues</a></h3>
+                  <div class="bluemage-quest">
+                     <div class="bluemage-quest_map">
+                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/W/df5j5VpIunxyANYmMdM4-AH2IY.png" width="360" height="" class="" />
+                     </div>
+                     <ul class="bluemage-quest_detail">
+                        <li class="level eu">Blue Mage level 50</li>
+                        <li class="pos">Ul'dah - Steps of Thal (X:12.5 Y:13.0)</li>
+                        <li class="npc">Maudlin Latool Ja</li>
+                        <li class="condition">Complete the blue mage quest "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/ab5c126e9a1/" class="eorzeadb_link">Blue Gold</a>" and learn the blue magic spell "Glower."</li>
+                     </ul>
+                  </div>
+                  <h3 class="job_sub_title">How to Participate</h3>
+                  <p class="bluemage-text">Speak with the Celestium attendant in Ul'dah - Steps of Thal (X:11.5 Y:13.2).</p>
+                  <div class="bluemage-quest">
+                     <div class="bluemage-quest_map">
+                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/P/6W9Jn9BrH8xTnKMp1kLDGn8tbI.png" width="360" height="" class="" />
+                     </div>
+                     <ul class="bluemage-quest_detail">
+                        <li class="level eu">Blue Mage level 50</li>
+                        <li class="pos">Ul'dah - Steps of Thal (X:11.5 Y:13.2)</li>
+                        <li class="npc">Celestium attendant</li>
+                        <li class="condition">Complete the blue mage quest "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1878e683dfd/" class="eorzeadb_link">The Real Folk Blues</a>."</li>
+                     </ul>
+                  </div>
+                  <h3 class="job_sub_title">Stages</h3>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/Q/NTg0KbYGqr4eUkow8kxw0-sBKY.jpg" width="640" height="520" class="bluemage-image" />
+                  <p class="bluemage-text">
+                     The Masked Carnivale is comprised of 31 stages in total. You can view a list of all available stages by speaking with the Celestium attendant. Be advised that once you begin a stage, you cannot register or remove active actions.
+                  </p>
+                  <h3 class="job_sub_title">Enemy Weaknesses</h3>
+                  <p class="bluemage-text">
+                     Many enemies that appear in the Masked Carnivale are weak to a particular element, which can be confirmed when viewing the list of stages. Use this to your advantage and set your actions accordingly.<br /><br />The elemental weakness of enemies
+                     is also indicated by an icon above their display names.
+                  </p>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/T/2lfSyt94WTV9b6V96KSa9v6JOo.jpg" width="640" height="360" class="bluemage-image_mb" />
+                  <h3 class="job_sub_title">Results</h3>
+                  <p class="bluemage-text">After completing a performance, your clear time, bonuses, and score are displayed.<br /><br />Bonuses are awarded for fulfilling certain conditions and affect the score.</p>
+                  <h3 class="job_sub_title">Weekly Targets</h3>
+                  <p class="bluemage-text">
+                     Weekly targets are available for certain performances, indicated with an icon.<br /><br />There are three levels of difficulty for weekly targets: novice, moderate, and advanced.<br /><br />To view the conditions, select a performance with a
+                     weekly target, marked with an icon. This information can also be viewed in the Timers menu.<br />
+                     <span class="bluemage-notes">* The additional rewards for a weekly target can only be earned once per week.<br />* Weekly targets are reset every Tuesday at 8:00 (GMT) / 18:00 (AEST) / 19:00 (AEDT).</span>
+                  </p>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/b/ZFnxNvXOSqU7GlkEHgexKQLVxs.jpg" width="400" height="668" class="bluemage-image" />
+               </div>
+               <!-- Content Wrapper -->
+               <div class="bluemage-content">
+                  <h2 class="job_title" id="anchor_report">Blue Mage Log</h2>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/z/f5bnLexJrDM1Zrwx4GdhsX6GDI.jpg" width="640" height="360" class="bluemage-image" />
+                  <p class="bluemage-text">The blue mage log allows you to form parties with other blue mages and participate in specific duties.</p>
+               
+                  <h3 class="job_sub_title">Entry Requirements</h3>
+                  <h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51d8fd972e0/" class="eorzeadb_link">Blue Scream of Death</a></h3>
+                  <div class="bluemage-quest">
+                     <div class="bluemage-quest_map">
+                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/W/hi1ikak4hq07eKrquemPGgHcZY.png" width="360" height="" class="" />
+                     </div>
+                     <ul class="bluemage-quest_detail">
+                        <li class="level eu">Blue Mage level 60</li>
+                        <li class="pos">Ul'dah - Steps of Thal (X:12.5 Y:13.0)</li>
+                        <li class="npc">Martyn</li>
+                        <li class="condition">Complete the blue mage quest "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1edc59a0cc9/" class="eorzeadb_link">Blue in the Face</a>" and learn the blue magic spell "Frog Legs."</li>
+                     </ul>
+                  </div>
+                  <p class="bluemage-text">Completing this quest unlocks the blue mage log.</p>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/x11WWC-o4NylthSyDvwjiYysZ0.jpg" width="640" height="402" class="bluemage-image_mb" />
+               
+                  <h3 class="job_sub_title">How to Participate</h3>
+                  <p class="bluemage-text">
+                     From the log, you may view a list of available duties, recruit party members, and commence duties. Please note that the completion of duties will only count towards blue mage log progress if the party meets the size requirements. For this reason,
+                     it is recommended that you avoid using the "Undersized Party" option.
+                  </p>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/A/WKs6qF2zBTW-sKicxJDTau0uEo.jpg" width="640" height="80" class="bluemage-image_mb" />
+               
+                  <h3 class="job_sub_title">Available Duties</h3>
+                  <p class="bluemage-text">
+                     Successfully completing duties listed in the blue mage log will mark them as complete, provided that you fulfill the requirements.<br /><br />Various rewards will be granted upon completion of these duties. Greater rewards are earned the first
+                     time a duty is completed via the blue mage log.
+                  </p>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/p/mKl7VsfaBSb75aVo-GulQtHOww.jpg" width="380" height="372" class="bluemage-image_mb" />
+               
+                  <h3 class="job_sub_title">Weekly Targets</h3>
+                  <p class="bluemage-text">
+                     Greater rewards are given for completing duties marked as weekly targets, which are marked with a silver star.<br />
+                     <span class="bluemage-notes"
+                        >* The additional rewards for a weekly target can only be earned once per week.<br />
+                        * Weekly targets are reset every Tuesday at 8:00 (GMT) / 18:00 (AEST) / 19:00 (AEDT).</span
+                     >
+                  </p>
+                  <p class="bluemage-text"></p>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/9/NwmoEC8aXUXgmtcY-yyr_Y5HL4.jpg" width="640" height="400" class="bluemage-image_mb" />
+               
+                  <h3 class="job_sub_title">Prime Targets</h3>
+                  <p class="bluemage-text">
+                     In addition to the standard weekly target, marked with a silver star in the list of duties, there is also a prime target, marked with a gold star. While the prime target offers increased rewards, the difficulty is significantly higher. The duties
+                     selected as prime targets are not otherwise accessible via the blue mage log.
+                  </p>
+                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/e/wUG9Ma6OIxws2PVGJ01zOdJxwU.jpg" width="640" height="400" class="bluemage-image_mb" />
+               </div>                                          
+               <!-- END -->
+            </div>
+            <!-- PVP -->
+            <div class="job_skil_db-pvp js-tab-content" data-tab="pvp">
+               <p class="job_update">Последнее обновление: 02/10/2023</p>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper">
+                  <h2 class="job_title">Actions</h2>
+                  <h3 class="job_sub_title" id="anchor_pvp_onlyaction">Job Actions</h3>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191" />
+                        <col width="84" />
+                        <col width="74" />
+                        <col width="74" />
+                        <col width="74" />
+                        <col width="74" />
+                        <col width="74" />
+                        <col width="274" />
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Action Name</span></p></th>
+                           <th><p><span>Acquired</span></p></th>
+                           <th><p><span>Type</span></p></th>
+                           <th><p><span>Cast</span></p></th>
+                           <th><p><span>Recast</span></p></th>
+                           <th><p><span>MP Cost</span></p></th>
+                           <th>
+                              <div><p><span>Range</span></p></div>
+                              <hr/>
+                              <div><p><span>Radius</span></p></div>
+                           </th>
+                           <th><p><span>Effect</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <!-- PVE Skil Action 01 -->
+                        <tr id="pve_action_01">
+                           <td class="skill">
+                              <div class="skill_wrapper">
+                                 <div class="skill_wrapper_icon">
+                                    <div class="job_skill_icon">
+                                       <img src="../Assets/img/BLU/water_cannon.png"/>
+                                    </div>
+                                 </div>
+                                 <p><strong>Water Cannon</strong></p>
+                              </div>
+                           </td>
+                           <td class="jobclass">
+                              <div class="jobclass_wrapper">
+                                 <div class="jobclass_wrapper_icon">
+                                    <img src="../Assets/img/IconClass/BLU.png"/>
+                                 </div>
+                                 <p>Lv. 1</p>
+                              </div>
+                           </td>
+                           <td class="classification">Spell</td>
+                           <td class="cast">2s</td>
+                           <td class="recast">2.5s</td>
+                           <td class="cost">100</td>
+                           <td class="distant_range">
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>28y
+                              <br/>
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
+                           </td>
+                           <td class="content">
+                              Deals water damage with a potency of 200.
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="footer_inner">
+            <div class="footer_info">
+               <a href="https://github.com/Murakumo-JP/FFXIVJobRUS" class="footer_git">
+                  <img src="../Assets/img/github.svg">
+                  Source Code
+               </a>
+            </div>
+            <div class="SE">
+               <p>FINAL FANTASY XIV © 2010-2024 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+            </div>
+         </div>
+      </footer>
+      <div class="nome_app_top">
+         <a href="#" class="app_top"><img src="../Assets/img/arrow-up.svg"></a>
+      </div>
+      <!--- Script --->
+      <script type="text/javascript" src="../Assets/js/main.js"></script>
+      <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+   </body>
+</html>

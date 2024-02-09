@@ -2266,7 +2266,7 @@
 }
 .bluemage-quest_title::before {
 	content: '';
-	background: url(/promo/h/O/qEm8rNIDYILatggQOmDTSkoAnE.png);
+	background: url(../img/main/quest.png);
 	background-size: 40px 40px;
 	display: block;
 	width: 40px;
@@ -2296,27 +2296,19 @@
 	padding: 0 0 8px 24px;
 }
 .bluemage-quest_detail li.level {
-	background: url(/promo/h/p/3nuYnqXTGD04i_X66nIx_4nlBA.png) no-repeat 0 0;
-	background-size: 20px 20px;
-}
-.bluemage-quest_detail li.level.fr {
-	background: url(/promo/h/a/JbXTL_EYwRsrrhR2-5XKHpblIg.png) no-repeat 0 0;
-	background-size: 20px 20px;
-}
-.bluemage-quest_detail li.level.de {
-	background: url(/promo/h/S/FrEjRJE1rLClCwFWhbAXWDx6oY.png) no-repeat 0 0;
+	background: url(../img/main/lvl.png) no-repeat 0 0;
 	background-size: 20px 20px;
 }
 .bluemage-quest_detail li.pos {
-	background: url(/promo/h/v/nCHpbcxl1YSK9WVw3hGbFjmkPY.png) no-repeat 0 0;
+	background: url(../img/main/loc.png) no-repeat 0 0;
 	background-size: 20px 20px;
 }
 .bluemage-quest_detail li.npc {
-	background: url(/promo/h/V/g7xslIeDhGYcBNio5BjhIeoGek.png) no-repeat 0 0;
+	background: url(../img/main/npc.png) no-repeat 0 0;
 	background-size: 20px 20px;
 }
 .bluemage-quest_detail li.condition {
-	background: url(/promo/h/3/PkbjMh6ulc6q7YvTjTiWRgMsmE.png) no-repeat 0 0;
+	background: url(../img/main/complite.png) no-repeat 0 0;
 	background-size: 20px 20px;
 }
 .bluemage-quest_detail li a {
@@ -2327,14 +2319,14 @@
 	margin: 0 10px;
 }
 .bluemage-list li {
-	background: url(/promo/h/j/rdg2T3uedRLqqcWyzxHFxLSab4.png) no-repeat 0 2px;
+	background: url(../img/main/bluli.png) no-repeat 0 2px;
 	background-size: 16px 16px;
 	padding-bottom: 32px;
 	padding-left: 20px;
 	font-size: 14px;
 }
 .bluemage-list li li {
-	background: url(/promo/h/B/VXc5zJlJLpRtPY2C9517nQd0Pw.png) no-repeat 0 2px;
+	background: url(../img/main/bluli2.png) no-repeat 0 2px;
 	background-size: 16px 16px;
 	padding-bottom: 0;
 	padding-left: 20px;
