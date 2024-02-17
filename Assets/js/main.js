@@ -21,7 +21,7 @@ document.body.onload = function () {
 		if (id != "") {
 			activate_tab(id.substring(1));
 		}
-	}, 1500);
+	}, 500);
 };
 // Smooth Scrolling
 var $page = $('html, body');
