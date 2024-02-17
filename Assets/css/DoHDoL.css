@@ -67,7 +67,7 @@
 	color: #ffffff;
 }
 .content_title.crafter {
-	background: linear-gradient(to right, #4e328f 0%, rgba(78, 50, 143, 0) 100%);
+	background: linear-gradient(to right, var(--craft-color) 0%, rgba(78, 50, 143, 0) 100%);
 }
 .content_title i {
 	width: 40px;
@@ -119,7 +119,7 @@
 	font-weight: 900;
 }
 .job_list.crafter li a p {
-	color: #4e328f;
+	color: var(--craft-color);
 }
 .job_list.gatherer li p {
 	color: #8f7832;
@@ -148,4 +148,41 @@
 }
 .content_title.gatherer {
 	background: linear-gradient(to right, #8f7832 0%, rgba(143, 120, 50, 0) 100%);
+}
+
+.tab_craft {
+	display: flex;
+	justify-content: space-between;
+	width: 920px;
+	margin: 20px auto 32px;
+}
+
+.tab_craft li {
+	position: relative;
+	width: 450px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 900;
+	background: #f0eddd;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25), 0px -1px 0px 0px rgba(0,0,0,0.1) inset, 0px 1px 0px 0px rgba(255,255,255,0.25) inset;
+	-moz-transition: background-color .3s cubic-bezier(0.55, 0.055, 0.675, 0.19),box-shadow .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	-o-transition: background-color .3s cubic-bezier(0.55, 0.055, 0.675, 0.19),box-shadow .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	-webkit-transition: background-color .3s cubic-bezier(0.55, 0.055, 0.675, 0.19),box-shadow .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	transition: background-color .3s cubic-bezier(0.55, 0.055, 0.675, 0.19),box-shadow .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.tab_craft li {
+	color: var(--craft-color);
+}
+.tab_craft .js-tab-trigger.active {
+	background: #f5a300;
+	box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.1);
+	color: #ffffff;
+	cursor: default;
 }

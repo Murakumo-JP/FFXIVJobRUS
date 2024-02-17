@@ -10,10 +10,12 @@
 	--tank-color: #2d3a80;
 	--healer-color: #346624;
 	--dps-color: #732828;
+	--craft-color: #4e328f;
 	/* Alt Color */
 	--tank-AltColor: #545e99;
 	--healer-AltColor: #548046;
 	--dps-AltColor: #8c4d4d;
+	--craft-AltColor: #695499;
 }
 
 body {
@@ -26,7 +28,7 @@ body {
 	border-radius: 6px;
 	margin: 10px 0;
 	padding: 6px;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: bold;
 	color: #b36b24;
 	text-align: center;
