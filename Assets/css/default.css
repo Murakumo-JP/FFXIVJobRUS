@@ -63,7 +63,7 @@
 }
 .nav_floating_icon {
 	display: block;
-	background: url(../img/dots-vertical.svg) no-repeat 0 0;
+	background: url(../img/svg/dots-vertical.svg) no-repeat 0 0;
 	border-radius: 50%;
 	width: 32px;
 	height: 32px;
@@ -1557,7 +1557,7 @@
 	margin: 0 auto;
 }
 .job_table {
-	width: 920px;
+	width: 930px;
 	margin: 0 auto 8px;
 }
 .job_thead th {
