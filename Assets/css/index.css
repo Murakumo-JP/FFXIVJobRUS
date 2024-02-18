@@ -297,7 +297,7 @@ footer {
 }
 .main_content {
 	width: auto;
-	padding: 16px 0 120px;
+	padding: 16px 0 16px;
 	margin: 0 auto;
 }
 .app_page {
@@ -313,4 +313,8 @@ footer {
 }
 .app_page a img {
 	border-radius: 10px;
+}
+.main_content h1 {
+	text-align: center;
+	color: #585858;
 }
