@@ -264,88 +264,53 @@ footer {
 }
 
 /* Main Imdex */
-
-.app_body {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
+.index_main, 
+.index_main .jobguide_header_inner {
+	height: 500px;
 }
-.app_body:before {
-	content: "";
-	display: block;
+.index_main {
+	background: url(../img/JobIndex/header.jpg) no-repeat top center #222;
+}
+.index_main .jobguide_header_inner h1 {
+	width: 472px;
+	height: auto;
+	top: 15px;
+}
+.index_main .jobguide_header_inner h1 img {
 	width: 100%;
-	height: 100%;
+}
+.index_main .job_header_text {
+	top: 260px;
+}
+.index_main .job_header_quest {
 	position: absolute;
-	background: #18181a;
-	opacity: .5;
+	bottom: 25px;
 }
-.app_body img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+.index_main .job_db span img {
+	background-color: #333333;
+	border-radius: 50%;
+	padding: 3px;
+	margin: -20px 0 0 -5px;
 }
-.app_header {
-	width: 450px;
-	height: 100%;
-	position: absolute;
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	backdrop-filter: blur(5px);
-	background-color: rgb(88 88 88 / 30%);
-	border-left: 2px solid #ffffff99;
-	border-right: 2px solid #ffffff99;
-	box-shadow: 0px 0px 10px 2px #ffffff99;
-	z-index: 2;
+.index_main .jobguide_update {
+	top: 410px;
 }
-.app_image {
-	width: 250px;
-	margin: 20px auto;
-}
-.app_image img {
-	width: 100%;
-}
-.app_text {
-	text-align: center;
-	color: white;
-	font-weight: bold;
-	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-	font-size: 18px;
-	margin: 20px;
-}
-.app_btn {
-	width: 400px;
+.main_content {
+	width: auto;
+	padding: 16px 0 120px;
 	margin: 0 auto;
 }
-.app_guide {
-	cursor: pointer;
-	width: 100%;
-	height: 100%;
-	display: block;
+.app_page {
+	display: flex;
+	justify-content: center;
 }
-.app_guide img {
-	width: 100%;
+.app_page a {
+	padding: 10px;
+	transition: all 0.4s;
+}
+.app_page a:hover {
+	filter: drop-shadow(0px 0px 6px black);
+}
+.app_page a img {
 	border-radius: 10px;
-	margin-top: 10px;
-	transition: all 0.4s;
-	box-shadow: 0px 0px 4px 0px #000000;
-}
-.app_guide img:hover {
-	filter: grayscale(1);
-}
-.Copyright {
-	text-align: center;
-	width: 100%;
-	bottom: 20px;
-	position: absolute;
-	margin: 0 auto;
-}
-.Copyright .SE p {
-	color: white;
-	padding: 0;
-}
-.Copyright .footer_git {
-	margin: 10px;
-	transition: all 0.4s;
 }
