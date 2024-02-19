@@ -1,8 +1,15 @@
 # Информация
 
 * Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка, понять описания скиллов классов.
-* В данный момент всё находится в разработке и переводе.
 * Перевод Seiffear, Morriganna
+
+> Большая благодарность всем, кто помогал с данным проектом.
+> * Отдельное спасибо:
+>   - Rei Eltrei
+>   - Budanochka Poly
+>   - Gella Zenhat
+>   - Kaka Demon
+>   - Schmelvin Dotan
 
 Original Website Design [FFXIV JobGuide](https://eu.finalfantasyxiv.com/jobguide/battle)
 
