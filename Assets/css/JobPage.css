@@ -299,27 +299,6 @@ img {
 .job_dps .nav_floating_icon:hover {
 	background-color: var(--dps-AltColor);
 }
-/* Craft */
-.job_craft .job_title {
-	background: var(--craft-color);
-}
-.job_craft .job_thead p,
-.job_craft .job_combo_title_sequence,
-.job_craft .job_combo_title_effect,
-.job_craft ~ .nome_app_top .app_top:hover {
-	background: var(--craft-AltColor);
-}
-.job_craft .job_sub_title,
-.job_craft .job_hud_title {
-	color: var(--craft-color);
-}
-.job_craft .nav_floating_icon {
-	background-color: var(--craft-color);
-	box-shadow: 1px 1px 5px var(--craft-color);
-}
-.job_craft .nav_floating_icon:hover {
-	background-color: var(--craft-AltColor);
-}
 /* Tabs */
 .js-tab-content {
 	visibility: hidden;

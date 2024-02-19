@@ -148,6 +148,7 @@ footer {
 	bottom: 20px;
 	right: 20px;
 	position: fixed;
+	z-index: 99;
 }
 .app_top {
 	display: block;
