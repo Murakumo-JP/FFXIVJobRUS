@@ -294,7 +294,15 @@ footer {
 	margin: -20px 0 0 -5px;
 }
 .index_main .jobguide_update {
-	top: 410px;
+	position: absolute;
+	background: url(../img/main/update.png) no-repeat center top;
+	width: 400px;
+	height: 128px;
+	padding: 28px 80px;
+	box-sizing: border-box;
+	bottom: 0;
+	right: 0;
+	top: unset;
 }
 .main_content {
 	width: auto;
@@ -318,4 +326,7 @@ footer {
 .main_content h1 {
 	text-align: center;
 	color: #585858;
+}
+.index_main ~ .jobguide_catch {
+	background: #333333;
 }
