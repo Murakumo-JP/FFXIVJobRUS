@@ -1,3 +1,52 @@
+/* Craft */
+.job_craft .guide-title,
+.job_craft .guide-about_title:after {
+	background: var(--craft-color);
+}
+.job_craft .guide-thead p {
+	background: var(--craft-AltColor);
+}
+.job_craft .guide-sub_title,
+.job_craft .guide-about_title,
+.job_craft .guide-about_lead {
+	color: var(--craft-color);
+}
+.job_craft .nav_floating_icon:hover {
+	background-color: var(--craft-AltColor);
+}
+.job_craft ~ .nome_app_top .app_top {
+	background: var(--craft-color);
+	box-shadow: 1px 1px 5px var(--craft-color);
+}
+.job_craft .guide-about_subtitle {
+	background: linear-gradient(to right, var(--craft-color) 0%, rgba(78, 50, 143, 0) 100%);
+}
+
+/* Gathering */
+.job_gathering .guide-title,
+.job_gathering .guide-about_title:after {
+	background: var(--gathering-color);
+}
+.job_gathering .guide-thead p {
+	background: var(--gathering-AltColor);
+}
+.job_gathering .guide-sub_title,
+.job_gathering .guide-about_title,
+.job_gathering .guide-about_lead {
+	color: var(--gathering-color);
+}
+.job_gathering .nav_floating_icon:hover {
+	background-color: var(--gathering-AltColor);
+}
+.job_gathering ~ .nome_app_top .app_top {
+	background: var(--gathering-color);
+	box-shadow: 1px 1px 5px var(--gathering-color);
+}
+.job_gathering .guide-about_subtitle {
+	background: linear-gradient(to right, #8f7832 0%, rgba(143, 120, 50, 0) 100%);
+}
+
+/*-----------------------------------------------*/
 .crafting_gathering_guide .jobguide_catch {
 	background: #23401a;
 	height: 36px;
@@ -150,14 +199,14 @@
 	background: linear-gradient(to right, #8f7832 0%, rgba(143, 120, 50, 0) 100%);
 }
 
-.tab_craft {
+.tab_craft, .tab_gatherer {
 	display: flex;
 	justify-content: space-between;
 	width: 920px;
 	margin: 20px auto 32px;
 }
 
-.tab_craft li {
+.tab_craft li, .tab_gatherer li {
 	position: relative;
 	width: 450px;
 	height: 48px;
@@ -170,42 +219,25 @@
 	font-size: 20px;
 	font-weight: 900;
 	background: #f0eddd;
-	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25), 0px -1px 0px 0px rgba(0,0,0,0.1) inset, 0px 1px 0px 0px rgba(255,255,255,0.25) inset;
-	-moz-transition: background-color .3s cubic-bezier(0.55, 0.055, 0.675, 0.19),box-shadow .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	-o-transition: background-color .3s cubic-bezier(0.55, 0.055, 0.675, 0.19),box-shadow .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	-webkit-transition: background-color .3s cubic-bezier(0.55, 0.055, 0.675, 0.19),box-shadow .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	transition: background-color .3s cubic-bezier(0.55, 0.055, 0.675, 0.19),box-shadow .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25), 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset;
+	-moz-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	-o-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	-webkit-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .tab_craft li {
 	color: var(--craft-color);
 }
-.tab_craft .js-tab-trigger.active {
+.tab_gatherer li {
+	color: var(--gathering-color);
+}
+.tab_craft .js-tab-trigger.active,
+.tab_gatherer .js-tab-trigger.active {
 	background: #f5a300;
-	box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.1);
+	box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
 	color: #ffffff;
 	cursor: default;
-}
-
-/* Craft */
-.job_craft .guide-title,
-.job_craft .guide-about_title:after {
-	background: var(--craft-color);
-}
-.job_craft .guide-thead p {
-	background: var(--craft-AltColor);
-}
-.job_craft .guide-sub_title,
-.job_craft .guide-about_title,
-.job_craft .guide-about_lead {
-	color: var(--craft-color);
-}
-.job_craft .nav_floating_icon:hover {
-	background-color: var(--craft-AltColor);
-}
-.job_craft ~ .nome_app_top .app_top {
-	background: var(--craft-color);
-	box-shadow: 1px 1px 5px var(--craft-color);
 }
 /* Table */
 .guide-thead th:nth-child(1) {
@@ -254,17 +286,17 @@
 	color: #585858;
 	line-height: 1.4;
 }
-.guide-tbody td.skill .skill_wrapper, 
-.guide-tbody td.skill .jobclass_wrapper, 
-.guide-tbody td.jobclass .skill_wrapper, 
+.guide-tbody td.skill .skill_wrapper,
+.guide-tbody td.skill .jobclass_wrapper,
+.guide-tbody td.jobclass .skill_wrapper,
 .guide-tbody td.jobclass .jobclass_wrapper {
 	display: table;
 	width: 100%;
 	vertical-align: middle;
 }
-.guide-tbody td.skill .skill_wrapper_icon, 
-.guide-tbody td.skill .jobclass_wrapper_icon, 
-.guide-tbody td.jobclass .skill_wrapper_icon, 
+.guide-tbody td.skill .skill_wrapper_icon,
+.guide-tbody td.skill .jobclass_wrapper_icon,
+.guide-tbody td.jobclass .skill_wrapper_icon,
 .guide-tbody td.jobclass .jobclass_wrapper_icon {
 	display: table-cell;
 	vertical-align: middle;
@@ -297,7 +329,7 @@
 	height: 40px;
 }
 .guide-skill_icon:after {
-	content: "";
+	content: '';
 	background: url(../img/main/skil_icon_on.png) no-repeat;
 	width: 48px;
 	height: 48px;
@@ -307,15 +339,15 @@
 	left: 0;
 	z-index: 2;
 }
-.guide-tbody td.skill .skill_wrapper p, 
-.guide-tbody td.skill .jobclass_wrapper p, 
-.guide-tbody td.jobclass .skill_wrapper p, 
+.guide-tbody td.skill .skill_wrapper p,
+.guide-tbody td.skill .jobclass_wrapper p,
+.guide-tbody td.jobclass .skill_wrapper p,
 .guide-tbody td.jobclass .jobclass_wrapper p {
 	display: table-cell;
 	vertical-align: middle;
 	padding-left: 2px;
 }
-.guide-tbody td.skill .jobclass_wrapper_icon, 
+.guide-tbody td.skill .jobclass_wrapper_icon,
 .guide-tbody td.jobclass .jobclass_wrapper_icon {
 	width: 32px;
 }
@@ -323,9 +355,9 @@
 	width: 32px;
 	height: 32px;
 }
-.guide-tbody td.classification, 
-.guide-tbody td.cast, 
-.guide-tbody td.recast, 
+.guide-tbody td.classification,
+.guide-tbody td.cast,
+.guide-tbody td.recast,
 .guide-tbody td.cost {
 	text-align: center;
 }
@@ -360,7 +392,7 @@
 	position: relative;
 }
 .guide-about_title::after {
-	content: "";
+	content: '';
 	display: block;
 	width: 100%;
 	height: 2px;
@@ -437,10 +469,10 @@
 .guide-about_box p a {
 	font-weight: bold;
 	color: #2556b8;
-	-moz-transition: text-decoration .3s cubic-bezier(0.645, 0.045, 0.355, 1);
-	-o-transition: text-decoration .3s cubic-bezier(0.645, 0.045, 0.355, 1);
-	-webkit-transition: text-decoration .3s cubic-bezier(0.645, 0.045, 0.355, 1);
-	transition: text-decoration .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-moz-transition: text-decoration 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-o-transition: text-decoration 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-webkit-transition: text-decoration 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: text-decoration 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 	text-decoration: none;
 }
 .guide-about_subtitle {
@@ -465,9 +497,6 @@
 	margin: 0 auto 32px;
 	border-radius: 8px;
 }
-.guide-about_box_image img+img {
+.guide-about_box_image img + img {
 	margin-top: 16px;
-}
-.job_craft .guide-about_subtitle {
-	background: linear-gradient(to right, var(--craft-color) 0%,rgba(78,50,143,0) 100%);
 }
