@@ -11,11 +11,13 @@
 	--healer-color: #346624;
 	--dps-color: #732828;
 	--craft-color: #4e328f;
+	--gathering-color: #8f7832;
 	/* Alt Color */
 	--tank-AltColor: #545e99;
 	--healer-AltColor: #548046;
 	--dps-AltColor: #8c4d4d;
 	--craft-AltColor: #695499;
+	--gathering-AltColor: #998854;
 }
 
 body {
@@ -329,4 +331,7 @@ footer {
 }
 .index_main ~ .jobguide_catch {
 	background: #333333;
+}
+.index_main .job_header_text a {
+	color: #fffed1;
 }

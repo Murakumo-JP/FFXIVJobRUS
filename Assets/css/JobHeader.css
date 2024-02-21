@@ -81,4 +81,55 @@
 .job_crp {
 	background: url(../img/JobHaider/HaiderCRP.jpg) no-repeat center top #27174c;
 	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_bsm {
+	background: url(../img/JobHaider/HaiderBSM.jpg) no-repeat center top #27174c;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_arm {
+	background: url(../img/JobHaider/HaiderARM.jpg) no-repeat center top #27174c;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_gsm {
+	background: url(../img/JobHaider/HaiderGSM.jpg) no-repeat center top #27174c;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_ltw {
+	background: url(../img/JobHaider/HaiderLTW.jpg) no-repeat center top #27174c;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_wvr {
+	background: url(../img/JobHaider/HaiderWVR.jpg) no-repeat center top #27174c;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_alc {
+	background: url(../img/JobHaider/HaiderALC.jpg) no-repeat center top #27174c;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_cul {
+	background: url(../img/JobHaider/HaiderCUL.jpg) no-repeat center top #27174c;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_min {
+	background: url(../img/JobHaider/HaiderMIN.jpg) no-repeat center top #554317;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_btn {
+	background: url(../img/JobHaider/HaiderBTN.jpg) no-repeat center top #554317;
+	background-attachment: fixed;
+	background-position-y: -85px;
+}
+.job_fsh {
+	background: url(../img/JobHaider/HaiderFSH.jpg) no-repeat center top #554317;
+	background-attachment: fixed;
+	background-position-y: -85px;
 }
