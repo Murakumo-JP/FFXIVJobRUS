@@ -37,7 +37,7 @@ $('a[href*="#"]').click(function () {
 // Open JobMenu
 $(() => {
 	$('.nav_floating_icon').click(() => {
-		$('.nav_floating_list').slideToggle();
+		$('.nav_floating_list').fadeToggle();
 	});
 });
 // Tabs
