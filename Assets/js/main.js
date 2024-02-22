@@ -4,6 +4,7 @@ $('#jq_healer').load('RoleActions/Healer.html');
 $('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
 $('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
 $('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
+$('#jq_menu').load('Other/Menu.html');
 $('#jq_actions').load('Other/Actions.html');
 $('#jq_patch').load('Other/Path.html');
 /* Preloader */
@@ -18,7 +19,7 @@ document.body.onload = function () {
 		}
 		var id = window.location.hash;
 		//console.log(typeof id);
-		if (id != "") {
+		if (id != '') {
 			activate_tab(id.substring(1));
 		}
 	}, 500);
@@ -35,7 +36,7 @@ $('a[href*="#"]').click(function () {
 	return false;
 });
 // Open JobMenu
-$(() => {
+$(document).ready(function () {
 	$('.nav_floating_icon').click(() => {
 		$('.nav_floating_list').fadeToggle();
 	});

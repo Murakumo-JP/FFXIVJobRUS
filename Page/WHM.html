@@ -16,60 +16,88 @@
          <div id="page-loader" class="loader"></div>
       </div>
       <div class="jobguide job_healer">
+         <!-- Top Menu -->
+         <div class="jobguide_menu_wrapper" id="jq_menu"></div>
          <!-- Header -->
          <header class="job_header job_whm">
             <!-- Job Skil Menu -->
             <div class="job_menu">
                <div class="nav_floating_icon fixed"></div>
-               <div class="nav_floating_list fixed" style="height: auto">
+               <div class="nav_floating_list fixed">
                   <div class="nav_floating_list_wrapper">
-                     <div class="job_menu_healer">
+                     <!-- PVE -->
+                     <div class="job_menu_healer js-tab-content active" data-tab="pve">
                         <h2 class="job_nav_title"><a href="#anchor_onlyaction">Активные умения</a></h2>
                         <ul class="clearfix">
-                           <li><a href="#pve_action_01" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png"></a></li>
-                           <li><a href="#pve_action_02" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/a2d0e0ed56915f523e8a7326bbdd09eff0534eda.png"></a></li>
-                           <li><a href="#pve_action_03" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/78107cd063a81b78b99eb7cb5da15f2bec403c70.png"></a></li>
-                           <li><a href="#pve_action_04" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/6c5fd075bab7c063aef743a1de5e36958354b42b.png"></a></li>
-                           <li><a href="#pve_action_05" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/34bdc3ad370b701a106f32daa68e73055ab72331.png"></a></li>
-                           <li><a href="#pve_action_06" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/ce8e52e199a7d9e548537bc77197f4d7965dea58.png"></a></li>
-                           <li><a href="#pve_action_07" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/a70a8e3dcb347c11047f00945f9435687f21f06d.png"></a></li>
-                           <li><a href="#pve_action_08" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/7be14bf07b21fa5c78cd7f7891279704da6cadb9.png"></a></li>
-                           <li><a href="#pve_action_09" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/53bb0b4fc881c4c06d64c915864968cced6c6201.png"></a></li>
-                           <li><a href="#pve_action_10" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/33c3597ee1004e364a6331f732f077666e798acd.png"></a></li>
-                           <li><a href="#pve_action_11" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/bb161bfc68766590d81cb1f7d6049711c949039b.png"></a></li>
-                           <li><a href="#pve_action_12" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/7e4202353c63451702e9944dc93551a18951efcf.png"></a></li>
-                           <li><a href="#pve_action_13" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/530234ed64e2b5b5aaacf978a90d87932734272f.png"></a></li>
-                           <li><a href="#pve_action_14" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/44e09756739b6b8924b82471572e7103ac5ca1fb.png"></a></li>
-                           <li><a href="#pve_action_15" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/a9c7b172b8c82aaa311a578fe3b42f5f30266e93.png"></a></li>
-                           <li><a href="#pve_action_16" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/cf3242dc922e88211cb5b2c4aa67f9ae79fb88fb.png"></a></li>
-                           <li><a href="#pve_action_17" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/f38006e73efc8e122777b9c23097a4c40bc9c9c4.png"></a></li>
-                           <li><a href="#pve_action_18" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/4c9f83b599b37adfa6597ea7e884331cac170a12.png"></a></li>
-                           <li><a href="#pve_action_19" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/539a73220a23fd185c17bed962b140bf7b4673d2.png"></a></li>
-                           <li><a href="#pve_action_20" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/6e00b907b75a6906045955d68cf68af66ba6aa9e.png"></a></li>
-                           <li><a href="#pve_action_21" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/33eacc1401b5fe03a2dd54e317cd60ccbb912c44.png"></a></li>
-                           <li><a href="#pve_action_22" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/065d9df35159a3bc53d59984a18b35581b442a73.png"></a></li>
-                           <li><a href="#pve_action_23" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/2144617daa9bac9ea7bc1f063a9e0cd033fcd363.png"></a></li>
-                           <li><a href="#pve_action_24" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/de737874f0025d808d0bddac1d4156fec9464d00.png"></a></li>
-                           <li><a href="#pve_action_25" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/c1f9bdbca11c2c7944e3e95cf7599a6a3849e5a2.png"></a></li>
-                           <li><a href="#pve_action_26" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/e01507664cb997891de06ec522b71619279969bc.png"></a></li>
-                           <li><a href="#pve_action_27" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/9582c5aa6ffa9abf82db6140916020235a003a20.png"></a></li>
-                           <li><a href="#pve_action_28" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/78e099cba536b64fe978d05487c51b28a66f29df.png"></a></li>
-                           <li><a href="#pve_action_29" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/dfafd20ceefae82548deba9511d3d765c4535b3a.png"></a></li>
-                           <li><a href="#pve_action_30" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/eceb9103dbf8066a8b6c8bce2e84df7552f1a074.png"></a></li>
-                           <li><a href="#pve_action_31" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/f87f8e18282665458cc9c358ff1a2b8a78833491.png"></a></li>
-                           <li><a href="#pve_action_32" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/4d31a93f520e700ac70ab1604bdb6811f124ebb4.png"></a></li>
-                        </ul>                                               
+                           <li><a href="#pve_action_01" class="job_skill_icon" title="Stone"><img src="https://lds-img.finalfantasyxiv.com/d/002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png"></a></li>
+                           <li><a href="#pve_action_02" class="job_skill_icon" title="Cure"><img src="https://lds-img.finalfantasyxiv.com/d/a2d0e0ed56915f523e8a7326bbdd09eff0534eda.png"></a></li>
+                           <li><a href="#pve_action_03" class="job_skill_icon" title="Aero"><img src="https://lds-img.finalfantasyxiv.com/d/78107cd063a81b78b99eb7cb5da15f2bec403c70.png"></a></li>
+                           <li><a href="#pve_action_04" class="job_skill_icon" title="Medica"><img src="https://lds-img.finalfantasyxiv.com/d/6c5fd075bab7c063aef743a1de5e36958354b42b.png"></a></li>
+                           <li><a href="#pve_action_05" class="job_skill_icon" title="Raise"><img src="https://lds-img.finalfantasyxiv.com/d/34bdc3ad370b701a106f32daa68e73055ab72331.png"></a></li>
+                           <li><a href="#pve_action_06" class="job_skill_icon" title="Stone II"><img src="https://lds-img.finalfantasyxiv.com/d/ce8e52e199a7d9e548537bc77197f4d7965dea58.png"></a></li>
+                           <li><a href="#pve_action_07" class="job_skill_icon" title="Cure II"><img src="https://lds-img.finalfantasyxiv.com/d/a70a8e3dcb347c11047f00945f9435687f21f06d.png"></a></li>
+                           <li><a href="#pve_action_08" class="job_skill_icon" title="Presence of Mind"><img src="https://lds-img.finalfantasyxiv.com/d/7be14bf07b21fa5c78cd7f7891279704da6cadb9.png"></a></li>
+                           <li><a href="#pve_action_09" class="job_skill_icon" title="Regen"><img src="https://lds-img.finalfantasyxiv.com/d/53bb0b4fc881c4c06d64c915864968cced6c6201.png"></a></li>
+                           <li><a href="#pve_action_10" class="job_skill_icon" title="Cure III"><img src="https://lds-img.finalfantasyxiv.com/d/33c3597ee1004e364a6331f732f077666e798acd.png"></a></li>
+                           <li><a href="#pve_action_11" class="job_skill_icon" title="Holy"><img src="https://lds-img.finalfantasyxiv.com/d/bb161bfc68766590d81cb1f7d6049711c949039b.png"></a></li>
+                           <li><a href="#pve_action_12" class="job_skill_icon" title="Aero II"><img src="https://lds-img.finalfantasyxiv.com/d/7e4202353c63451702e9944dc93551a18951efcf.png"></a></li>
+                           <li><a href="#pve_action_13" class="job_skill_icon" title="Medica II"><img src="https://lds-img.finalfantasyxiv.com/d/530234ed64e2b5b5aaacf978a90d87932734272f.png"></a></li>
+                           <li><a href="#pve_action_14" class="job_skill_icon" title="Benediction"><img src="https://lds-img.finalfantasyxiv.com/d/44e09756739b6b8924b82471572e7103ac5ca1fb.png"></a></li>
+                           <li><a href="#pve_action_15" class="job_skill_icon" title="Afflatus Solace"><img src="https://lds-img.finalfantasyxiv.com/d/a9c7b172b8c82aaa311a578fe3b42f5f30266e93.png"></a></li>
+                           <li><a href="#pve_action_16" class="job_skill_icon" title="Asylum"><img src="https://lds-img.finalfantasyxiv.com/d/cf3242dc922e88211cb5b2c4aa67f9ae79fb88fb.png"></a></li>
+                           <li><a href="#pve_action_17" class="job_skill_icon" title="Stone III"><img src="https://lds-img.finalfantasyxiv.com/d/f38006e73efc8e122777b9c23097a4c40bc9c9c4.png"></a></li>
+                           <li><a href="#pve_action_18" class="job_skill_icon" title="Assize"><img src="https://lds-img.finalfantasyxiv.com/d/4c9f83b599b37adfa6597ea7e884331cac170a12.png"></a></li>
+                           <li><a href="#pve_action_19" class="job_skill_icon" title="Thin Air"><img src="https://lds-img.finalfantasyxiv.com/d/539a73220a23fd185c17bed962b140bf7b4673d2.png"></a></li>
+                           <li><a href="#pve_action_20" class="job_skill_icon" title="Tetragrammaton"><img src="https://lds-img.finalfantasyxiv.com/d/6e00b907b75a6906045955d68cf68af66ba6aa9e.png"></a></li>
+                           <li><a href="#pve_action_21" class="job_skill_icon" title="Stone IV"><img src="https://lds-img.finalfantasyxiv.com/d/33eacc1401b5fe03a2dd54e317cd60ccbb912c44.png"></a></li>
+                           <li><a href="#pve_action_22" class="job_skill_icon" title="Divine Benison"><img src="https://lds-img.finalfantasyxiv.com/d/065d9df35159a3bc53d59984a18b35581b442a73.png"></a></li>
+                           <li><a href="#pve_action_23" class="job_skill_icon" title="Plenary Indulgence"><img src="https://lds-img.finalfantasyxiv.com/d/2144617daa9bac9ea7bc1f063a9e0cd033fcd363.png"></a></li>
+                           <li><a href="#pve_action_24" class="job_skill_icon" title="Dia"><img src="https://lds-img.finalfantasyxiv.com/d/de737874f0025d808d0bddac1d4156fec9464d00.png"></a></li>
+                           <li><a href="#pve_action_25" class="job_skill_icon" title="Glare"><img src="https://lds-img.finalfantasyxiv.com/d/c1f9bdbca11c2c7944e3e95cf7599a6a3849e5a2.png"></a></li>
+                           <li><a href="#pve_action_26" class="job_skill_icon" title="Afflatus Misery"><img src="https://lds-img.finalfantasyxiv.com/d/e01507664cb997891de06ec522b71619279969bc.png"></a></li>
+                           <li><a href="#pve_action_27" class="job_skill_icon" title="Afflatus Rapture"><img src="https://lds-img.finalfantasyxiv.com/d/9582c5aa6ffa9abf82db6140916020235a003a20.png"></a></li>
+                           <li><a href="#pve_action_28" class="job_skill_icon" title="Temperance"><img src="https://lds-img.finalfantasyxiv.com/d/78e099cba536b64fe978d05487c51b28a66f29df.png"></a></li>
+                           <li><a href="#pve_action_29" class="job_skill_icon" title="Glare III"><img src="https://lds-img.finalfantasyxiv.com/d/dfafd20ceefae82548deba9511d3d765c4535b3a.png"></a></li>
+                           <li><a href="#pve_action_30" class="job_skill_icon" title="Holy III"><img src="https://lds-img.finalfantasyxiv.com/d/eceb9103dbf8066a8b6c8bce2e84df7552f1a074.png"></a></li>
+                           <li><a href="#pve_action_31" class="job_skill_icon" title="Aquaveil"><img src="https://lds-img.finalfantasyxiv.com/d/f87f8e18282665458cc9c358ff1a2b8a78833491.png"></a></li>
+                           <li><a href="#pve_action_32" class="job_skill_icon" title="Liturgy of the Bell"><img src="https://lds-img.finalfantasyxiv.com/d/4d31a93f520e700ac70ab1604bdb6811f124ebb4.png"></a></li>
+                        </ul>
                         <h2 class="job_nav_title"><a href="#anchor_rollcommonaction">Ролевые умения</a></h2>
                         <ul class="clearfix">
-                           <li><a href="#healer_action_01" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/9bd731d47094c2c11b5cd9fb0d1d277bf9c6c89d.png"></a></li>
-                           <li><a href="#healer_action_02" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/2a6603bc786d73eb3829141482b3d5be5d484199.png"></a></li>
-                           <li><a href="#healer_action_03" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/27d401b3cfbf90c846ffeaa9f661afb4bd77ce98.png"></a></li>
-                           <li><a href="#healer_action_04" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/3629c6854aa559656623925e2489b60c2fa91e18.png"></a></li>
-                           <li><a href="#healer_action_05" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/477d1e7f7115db19c344c0f5cadfcfa2ac0cdcc0.png"></a></li>
-                           <li><a href="#healer_action_06" class="job_skill_icon"><img src="https://lds-img.finalfantasyxiv.com/d/23f8a26b9a0107b6076f5f2e715e14d9be0edc25.png"></a></li>
+                           <li><a href="#healer_action_01" class="job_skill_icon" title="Repose"><img src="https://lds-img.finalfantasyxiv.com/d/9bd731d47094c2c11b5cd9fb0d1d277bf9c6c89d.png"></a></li>
+                           <li><a href="#healer_action_02" class="job_skill_icon" title="Esuna"><img src="https://lds-img.finalfantasyxiv.com/d/2a6603bc786d73eb3829141482b3d5be5d484199.png"></a></li>
+                           <li><a href="#healer_action_03" class="job_skill_icon" title="Swiftcast"><img src="https://lds-img.finalfantasyxiv.com/d/27d401b3cfbf90c846ffeaa9f661afb4bd77ce98.png"></a></li>
+                           <li><a href="#healer_action_04" class="job_skill_icon" title="Lucid Dreaming"><img src="https://lds-img.finalfantasyxiv.com/d/3629c6854aa559656623925e2489b60c2fa91e18.png"></a></li>
+                           <li><a href="#healer_action_05" class="job_skill_icon" title="Surecast"><img src="https://lds-img.finalfantasyxiv.com/d/477d1e7f7115db19c344c0f5cadfcfa2ac0cdcc0.png"></a></li>
+                           <li><a href="#healer_action_06" class="job_skill_icon" title="Rescue"><img src="https://lds-img.finalfantasyxiv.com/d/23f8a26b9a0107b6076f5f2e715e14d9be0edc25.png"></a></li>
                         </ul>
                         <h2 class="job_nav_title"><a href="#anchor_onlytrait">Пассивные умения</a></h2>
                         <h2 class="job_nav_title"><a href="#anchor_hud">Шкала профессии</a></h2>
+                     </div>
+                     <!-- PVP -->
+                     <div class="job_menu_healer js-tab-content" data-tab="pvp">
+                        <h2 class="job_nav_title"><a href="#anchor_pvp_onlyaction">Активные умения</a></h2>
+                        <ul class="clearfix">
+                           <li><a href="#pvp_action_01" class="job_skill_icon" title="Glare III"><img src="https://lds-img.finalfantasyxiv.com/d/889b00ef7b55083b462b1dc589add79e07e87379.png"></a></li>
+                           <li><a href="#pvp_action_02" class="job_skill_icon" title="Cure II"><img src="https://lds-img.finalfantasyxiv.com/d/7e7fd985e01134a3f7a76bda607c5cb1a36b3f7c.png"></a></li>
+                           <li><a href="#pvp_action_03" class="job_skill_icon" title="Afflatus Misery"><img src="https://lds-img.finalfantasyxiv.com/d/67c045d9c3c41f736c36022272cefd8c0980f19f.png"></a></li>
+                           <li><a href="#pvp_action_04" class="job_skill_icon" title="Aquaveil"><img src="https://lds-img.finalfantasyxiv.com/d/db63ef3d2573abbcb89237b70189beb66d9f08c1.png"></a></li>
+                           <li><a href="#pvp_action_05" class="job_skill_icon" title="Miracle of Nature"><img src="https://lds-img.finalfantasyxiv.com/d/1245aecd31eaf0821a81907c6664946404770339.png"></a></li>
+                           <li><a href="#pvp_action_06" class="job_skill_icon" title="Seraph Strike"><img src="https://lds-img.finalfantasyxiv.com/d/8f0999ae68bff865ab683d7f1059024d126b013e.png"></a></li>
+                           <li><a href="#pvp_action_07" class="job_skill_icon" title="Cure III"><img src="https://lds-img.finalfantasyxiv.com/d/3c4b6cbc3b8ae09ebf0dc3c69c16594e211cdfe6.png"></a></li>
+                        </ul>
+                        <h2 class="job_nav_title"><a href="#anchor_pvp_limitbreak">Limit Break</a></h2>
+                        <ul class="clearfix">
+                           <li><a href="#pvplimitbreakaction_01" class="job_skill_icon" title="Afflatus Purgation"><img src="https://lds-img.finalfantasyxiv.com/d/885443eeb029d7cbca537be10edca5eb6c920401.png"></a></li>
+                        </ul>
+                        <h2 class="job_nav_title"><a href="#anchor_pvp_commononlyaction">Common Actions</a></h2>
+                        <ul class="clearfix">
+                           <li><a href="#pvpcommmononlyaction_01" class="job_skill_icon" title="Standard-issue Elixir"><img src="https://lds-img.finalfantasyxiv.com/d/a57f3dd330cf3f55962ccddc7df6858f45718607.png"></a></li>
+                           <li><a href="#pvpcommmononlyaction_02" class="job_skill_icon" title="Recuperate"><img src="https://lds-img.finalfantasyxiv.com/d/2085fa5a3247d8f7648b9eea2874ffb62eaf21c6.png"></a></li>
+                           <li><a href="#pvpcommmononlyaction_03" class="job_skill_icon" title="Purify"><img src="https://lds-img.finalfantasyxiv.com/d/2fdba29de282257b52e21e33abe5f4fef43519cd.png"></a></li>
+                           <li><a href="#pvpcommmononlyaction_04" class="job_skill_icon" title="Guard"><img src="https://lds-img.finalfantasyxiv.com/d/21e24c5bf00677220efb8c1a1e6001537ee26d23.png"></a></li>
+                           <li><a href="#pvpcommmononlyaction_05" class="job_skill_icon" title="Sprint"><img src="https://lds-img.finalfantasyxiv.com/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png"></a></li>
+                        </ul>
                      </div>
                   </div>
                </div>
@@ -107,7 +135,7 @@
          <!-- DB Skil List -->
          <div class="job_skil_list">
             <ul class="job_tab clearfix">
-               <li class="job_tab--pve js-tab-trigger" data-tab="pve"><img src="../Assets/img/main/PVEAction.png"></li>
+               <li class="job_tab--pve js-tab-trigger active" data-tab="pve"><img src="../Assets/img/main/PVEAction.png"></li>
                <li class="job_tab--pvp js-tab-trigger" data-tab="pvp"><img src="../Assets/img/main/PVPAction.png"></li>
             </ul>
             <!-- PVE -->
