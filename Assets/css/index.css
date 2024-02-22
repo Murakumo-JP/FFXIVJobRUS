@@ -43,7 +43,7 @@ body {
 	background-color: transparent;
 	border: 4px solid transparent;
 }
-.job_header_text p::-webkit-scrollbar-thumb{
+.job_header_text p::-webkit-scrollbar-thumb {
 	border: 4px solid transparent;
 	background-clip: padding-box;
 	background-color: #ffffff;
@@ -267,7 +267,7 @@ footer {
 }
 
 /* Main Imdex */
-.index_main, 
+.index_main,
 .index_main .jobguide_header_inner {
 	height: 500px;
 }
@@ -334,4 +334,107 @@ footer {
 }
 .index_main .job_header_text a {
 	color: #fffed1;
+}
+
+/* Menu */
+
+.jobguide_menu {
+	width: 100%;
+	height: 48px;
+	text-align: center;
+	background: #eaebe6;
+	position: relative;
+	
+}
+.jobguide_menu_wrapper {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 50;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.jobguide_menu_wrapper ~ .job_header {
+	padding-top: 48px;
+}
+.jobguide_menu_wrapper.fixed ~ .job_header {
+	top: 0;
+}
+.jobguide_menu_list {
+	width: 960px;
+	height: 48px;
+	margin: 0 auto;
+}
+.jobguide_menu_list > li {
+	float: left;
+	width: auto;
+	height: 48px;
+	position: relative;
+	z-index: 5;
+}
+.jobguide_menu_list > li > span {
+	display: block;
+	width: 160px;
+	line-height: 48px;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	z-index: 10;
+	font-size: 13px;
+	font-weight: 700;
+	background: #eaebe6;
+}
+.jobguide_sub_menu {
+	width: 156px;
+	margin: 0 auto;
+	position: absolute;
+	background: #f4f5f2;
+	-moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+	left: 2px;
+	z-index: 1;
+	padding: 8px 0 5px;
+	transition: all 0.4s;
+}
+.jobguide_sub_menu li {
+	width: 156px;
+}
+.jobguide_sub_menu li a p {
+	display: block;
+	padding: 5px 9px;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: left;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	position: relative;
+}
+li.jobguide_menu_list > ul.jobguide_sub_menu {
+	opacity: 0;
+	visibility: hidden;
+	top: -150px;
+}
+li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
+	opacity: 1;
+	visibility: visible;
+	top: 48px;
+}
+.job_tank .jobguide_menu_list > li > span,
+.job_tank .jobguide_sub_menu li a p:hover {
+	color: var(--tank-color);
+}
+.job_tank .jobguide_sub_menu li a p {
+	color: var(--tank-AltColor);
+}
+.job_healer .jobguide_menu_list > li > span,
+.job_healer .jobguide_sub_menu li a p:hover {
+	color: var(--healer-color);
+}
+.job_healer .jobguide_sub_menu li a p {
+	color: var(--healer-AltColor);
+}
+.job_name_menu:hover {
+	background: #e5e3d3;
 }
