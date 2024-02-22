@@ -22,14 +22,14 @@
 }
 
 .job_header {
-	height: 360px;
+	height: 380px;
 	display: block;
 }
 
 .job_header_inner {
 	width: 960px;
 	margin: 0 auto;
-	padding-top: 4px;
+	padding-top: 10px;
 }
 
 .job_header_guide_top {
@@ -103,6 +103,7 @@ img {
 }
 
 .job_header_quest {
+	margin-top: 10px;
 	margin-left: 6px;
 }
 .job_db {
