@@ -123,8 +123,8 @@
 }
 .nav_floating_list.fixed {
 	position: fixed;
-	top: 64px;
-	right: 16px;
+	top: 70px;
+	right: 65px
 }
 .job--adjustments .nav_floating_list.fixed {
 	top: 16px;

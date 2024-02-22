@@ -5,6 +5,7 @@
 	position: absolute;
 	top: 10px;
 	left: 18px;
+	z-index: 50;
 }
 .jobguide_tank {
 	margin-right: 20px;
