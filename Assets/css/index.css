@@ -344,7 +344,6 @@ footer {
 	text-align: center;
 	background: #eaebe6;
 	position: relative;
-	
 }
 .jobguide_menu_wrapper {
 	top: 0;
@@ -461,9 +460,21 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 .job_name_menu:hover {
 	background: #e5e3d3;
 }
-
+/* Media */
 @media (max-height: 700px) {
-    .nav_floating_list_wrapper{
-        max-height: 510px;
-    }
+	.nav_floating_list_wrapper {
+		max-height: 510px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	html {
+		width: max-content;
+	}
+	.app_page {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
 }
