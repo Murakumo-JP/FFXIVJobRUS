@@ -356,11 +356,8 @@ footer {
 .jobguide_menu_wrapper ~ .job_header {
 	padding-top: 48px;
 }
-.jobguide_menu_wrapper.fixed ~ .job_header {
-	top: 0;
-}
 .jobguide_menu_list {
-	width: 960px;
+	width: max-content;
 	height: 48px;
 	margin: 0 auto;
 }
@@ -421,6 +418,7 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	visibility: visible;
 	top: 48px;
 }
+/* Tank */
 .job_tank .jobguide_menu_list > li > span,
 .job_tank .jobguide_sub_menu li a p:hover {
 	color: var(--tank-color);
@@ -428,6 +426,7 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 .job_tank .jobguide_sub_menu li a p {
 	color: var(--tank-AltColor);
 }
+/* Healer */
 .job_healer .jobguide_menu_list > li > span,
 .job_healer .jobguide_sub_menu li a p:hover {
 	color: var(--healer-color);
@@ -435,6 +434,7 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 .job_healer .jobguide_sub_menu li a p {
 	color: var(--healer-AltColor);
 }
+/* DPS */
 .job_dps .jobguide_menu_list > li > span,
 .job_dps .jobguide_sub_menu li a p:hover {
 	color: var(--dps-color);
@@ -442,6 +442,28 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 .job_dps .jobguide_sub_menu li a p {
 	color: var(--dps-AltColor);
 }
+/* Crafting */
+.job_craft .jobguide_menu_list > li > span,
+.job_craft .jobguide_sub_menu li a p:hover {
+	color: var(--craft-color);
+}
+.job_craft .jobguide_sub_menu li a p {
+	color: var(--craft-AltColor);
+}
+/* Gathering */
+.job_gathering .jobguide_menu_list > li > span,
+.job_gathering .jobguide_sub_menu li a p:hover {
+	color: var(--gathering-color);
+}
+.job_gathering .jobguide_sub_menu li a p {
+	color: var(--gathering-AltColor);
+}
 .job_name_menu:hover {
 	background: #e5e3d3;
+}
+
+@media (max-height: 700px) {
+    .nav_floating_list_wrapper{
+        max-height: 510px;
+    }
 }

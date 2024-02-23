@@ -23,17 +23,21 @@
             <!-- Job Skil Menu -->
             <div class="job_menu">
                <div class="nav_floating_icon fixed"></div>
-               <div class="nav_floating_list fixed" style="height: auto">
+               <div class="nav_floating_list fixed">
                   <div class="nav_floating_list_wrapper">
-                     <div class="job_menu_dps">
-                        <h2 class="job_nav_title"><a href="#anchor_onlyaction">Job Actions</a></h2>
-                        
-                        <h2 class="job_nav_title"><a href="#anchor_pet">Pet Actions</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_pet_instruction">Pet Actions (Commands)</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_rollcommonaction">Role Actions</a></h2>
-                        
-                        <h2 class="job_nav_title"><a href="#anchor_onlytrait">Trait</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_hud">Job Gauge</a></h2>
+                     <!-- Guide -->
+                     <div class="job_menu_tank js-tab-content active" data-tab="guide">
+                        <h2 class="job_nav_title"><a href="#anchor_start">How to Unlock</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_limited">Limited Job</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_learning">Learning Spells</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_book">Blue Magic Spellbook</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_action">Active Actions</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_carnival">Masked Carnivale</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_report">Blue Mage Log</a></h2>
+                     </div>
+                     <!-- Skil -->
+                     <div class="job_menu_tank js-tab-content" data-tab="skil">
+                        <h2 class="job_nav_title"><a href="#anchor_pvp_onlyaction">Активные умения</a></h2>
                      </div>
                   </div>
                </div>
@@ -63,11 +67,11 @@
          <!-- DB Skil List -->
          <div class="job_skil_list">
             <ul class="job_tab clearfix">
-               <li class="job_tab--pve js-tab-trigger" data-tab="pve"><img src="../Assets/img/main/PVEAction.png"></li>
-               <li class="job_tab--pvp js-tab-trigger" data-tab="pvp"><img src="../Assets/img/main/PVPAction.png"></li>
+               <li class="job_tab--pve js-tab-trigger active" data-tab="guide"><img src="../Assets/img/main/PVEAction.png"></li>
+               <li class="job_tab--pvp js-tab-trigger" data-tab="skil"><img src="../Assets/img/main/PVPAction.png"></li>
             </ul>
-            <!-- PVE -->
-            <div class="job_skil_db-pve js-tab-content active" data-tab="pve">
+            <!-- Guide -->
+            <div class="job_skil_db-pve js-tab-content active" data-tab="guide">
                <p class="job_update">Последнее обновление: 02/10/2023</p>
                <p class="job_notes_lv80" id="jq_patch"></p>
                 <!-- Content Wrapper -->
@@ -277,8 +281,8 @@
                </div>                                          
                <!-- END -->
             </div>
-            <!-- PVP -->
-            <div class="job_skil_db-pvp js-tab-content" data-tab="pvp">
+            <!-- Skil -->
+            <div class="job_skil_db-pvp js-tab-content" data-tab="skil">
                <p class="job_update">Последнее обновление: 02/10/2023</p>
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">

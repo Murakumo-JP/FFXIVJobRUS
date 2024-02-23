@@ -4,7 +4,8 @@ $('#jq_healer').load('RoleActions/Healer.html');
 $('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
 $('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
 $('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
-$('#jq_menu').load('Other/Menu.html');
+$('#jq_menu').load('Other/MenuJob.html');
+$('#jq_menu_cg').load('Other/MenuCG.html');
 $('#jq_actions').load('Other/Actions.html');
 $('#jq_patch').load('Other/Path.html');
 /* Preloader */
@@ -29,7 +30,7 @@ var $page = $('html, body');
 $('a[href*="#"]').click(function () {
 	$page.animate(
 		{
-			scrollTop: $($.attr(this, 'href')).offset().top,
+			scrollTop: $($.attr(this, 'href')).offset().top - 48,
 		},
 		1500
 	);
