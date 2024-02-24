@@ -30,6 +30,8 @@ p {
 }
 
 .jobguide {
+	width: 100%;
+	display: table;
 	background: #ecede7;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 12px;
