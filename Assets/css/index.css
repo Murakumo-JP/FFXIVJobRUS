@@ -463,7 +463,7 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 /* Media */
 @media (max-height: 700px) {
 	.nav_floating_list_wrapper {
-		max-height: 510px;
+		max-height: 490px;
 	}
 }
 
