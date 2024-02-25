@@ -460,7 +460,7 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 .job_name_menu:hover {
 	background: #e5e3d3;
 }
-/* blu */
+/* BLU */
 .blumage_content { padding: 16px 5px 5px; }
 .blumage_content .job_content_wrapper .job_table {
     width: 950px;
@@ -471,6 +471,17 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
     margin-left: 5px;
     margin-right: 5px;
 }
+.content .eorzeadb_link {
+	color: var(--tank-color);
+	font-size: 12px;
+}
+
+/* Error */
+
+.text_error{
+	color: red;
+}
+
 /* Media */
 @media (max-height: 700px) {
 	.nav_floating_list_wrapper {
