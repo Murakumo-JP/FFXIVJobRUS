@@ -289,11 +289,21 @@ footer {
 	position: absolute;
 	bottom: 25px;
 }
-.index_main .job_db span img {
+.index_main .job_db span img,
+.jobguide .job_db span img {
 	background-color: #333333;
 	border-radius: 50%;
 	padding: 3px;
 	margin: -20px 0 0 -5px;
+}
+.jobguide .job_db {
+	bottom: 15px;
+	position: absolute;
+}
+.crafting_gathering_guide .job_db {
+	top: 135px;
+	left: 75px;
+	bottom: auto;
 }
 .index_main .jobguide_update {
 	position: absolute;
