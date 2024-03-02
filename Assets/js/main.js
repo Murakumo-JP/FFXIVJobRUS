@@ -1,13 +1,15 @@
-// Doom
-$('#jq_tank').load('RoleActions/Tank.html');
-$('#jq_healer').load('RoleActions/Healer.html');
-$('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
-$('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
-$('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
-$('#jq_menu').load('Other/MenuJob.html');
-$('#jq_menu_cg').load('Other/MenuCG.html');
-$('#jq_actions').load('Other/Actions.html');
-$('#jq_patch').load('Other/Path.html');
+// Doom Load
+$(document).ready(function () {
+	$('#jq_tank').load('RoleActions/Tank.html');
+	$('#jq_healer').load('RoleActions/Healer.html');
+	$('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
+	$('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
+	$('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
+	$('#jq_menu').load('Other/MenuJob.html');
+	$('#jq_menu_cg').load('Other/MenuCG.html');
+	$('#jq_actions').load('Other/Actions.html');
+	$('#jq_patch').load('Other/Path.html');
+});
 /* Preloader */
 document.body.onload = function () {
 	setTimeout(function () {
