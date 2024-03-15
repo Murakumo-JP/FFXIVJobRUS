@@ -301,6 +301,7 @@ footer {
 .job_main .job_db {
 	position: absolute;
 	bottom: 25px;
+	left: 18px;
 }
 .crafting_gathering_guide .job_db {
 	position: absolute;
@@ -487,6 +488,9 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 .content .eorzeadb_link {
 	color: var(--tank-color);
 	font-size: 12px;
+}
+.text_pop {
+	margin-bottom: 0;
 }
 
 /* Error */
