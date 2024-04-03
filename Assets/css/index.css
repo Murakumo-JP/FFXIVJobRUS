@@ -305,8 +305,10 @@ footer {
 }
 .crafting_gathering_guide .job_db {
 	position: absolute;
-	top: 140px;
-	left: 70px;
+	top: 130px;
+	left: 0;
+	padding: 10px 80px;
+	margin: 0;
 }
 /*--------------------*/
 .index_main .jobguide_update {
