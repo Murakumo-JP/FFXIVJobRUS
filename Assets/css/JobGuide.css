@@ -9,11 +9,11 @@
 }
 .jobguide_tank {
 	margin-right: 20px;
-	background: url(../img/JobGuide/Tank.jpg) bottom right no-repeat #f3f3f3;
+	background: url(../img/DoWDoM//Tank.jpg) bottom right no-repeat #f3f3f3;
 }
 
 .jobguide_healer {
-	background: url(../img/JobGuide/Healer.jpg) bottom right no-repeat #f3f3f3;
+	background: url(../img/DoWDoM//Healer.jpg) bottom right no-repeat #f3f3f3;
 }
 
 .jobguide_dps {
@@ -21,7 +21,7 @@
 }
 
 .jobguide__dps {
-	background: url(../img/JobGuide/DPS.jpg) 72px bottom no-repeat #f3f3f3;
+	background: url(../img/DoWDoM//DPS.jpg) 72px bottom no-repeat #f3f3f3;
 	margin-bottom: 32px;
 }
 
@@ -43,7 +43,7 @@ p {
 }
 
 .job_index {
-	background: url(../img/JobGuide/header.jpg) no-repeat top center #222;
+	background: url(../img/DoWDoM//header.jpg) no-repeat top center #222;
 	background-attachment: fixed;
 }
 
