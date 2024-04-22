@@ -6,7 +6,8 @@
 		<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobRUS/main/Assets/img/favicon.ico" />
 		<style>
 			body {
-				background-color: #333333;
+				background-color: #ecede7;
+				font-weight: bold;
 			}
 			.ErrorMog {
 				width: 100%;
@@ -24,18 +25,46 @@
 				justify-content: center;
 				align-items: center;
 			}
+			.ErrorInfo span {
+				font-size: 150px;
+				color: #333333;
+			}
 			.ErrorInfo p {
 				text-align: center;
 				margin-top: 15px;
-				color: white;
+				color: #333333;
 				font-size: 31px;
+			}
+			.ErrorInfo a {
+				background: #333333;
+				-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+				-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+				box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+				border-radius: 12px;
+				display: block;
+				position: relative;
+				padding: 1px 16px 0 36px;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				font-size: 14px;
+				color: #ffffff;
+				font-weight: bold;
+				padding: 10px;
+				text-decoration: none;
+				transition: all 0.4s;
+			}
+			.ErrorInfo a:hover {
+				background: #525252;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="ErrorMog">
 			<div class="ErrorInfo">
-				<p>Похоже страница не найдена, но мы уже работает над этим.</p>
+				<span>404</span>
+				<p>Похоже страница не найдена.</p>
+				<a href="/">Вернуться на главную страницу</a>
 			</div>
 		</div>
 	</body>
