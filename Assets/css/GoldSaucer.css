@@ -257,10 +257,11 @@ p + p {margin: 10px;}
    transition: all 0.5s;
 }
 .btn_gs_menu:hover {color: #5990ff;}
-.btn_gs_menu img {
-   width: 35px;
+.btn_svg {
    height: 48px;
+   float: left;
 }
-.img-svg {
-   fill: #5990ff;
+.btn_gs_menu svg {
+   width: 35px;
+   height: 100%;
 }
