@@ -167,3 +167,100 @@ p + p {margin: 10px;}
 .gs_description {
    margin-left: 60px;
 }
+/* Shop item */
+.gs_shop_item {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.gs_shop_list {
+   width: 390px;
+   height: 160px;
+   border-radius: 8px;
+   margin-bottom: 16px;
+   
+}
+.gs_shop_list h3 {
+   
+   padding: 4px;
+   text-align: center;
+   font-size: 16px;
+   color: #ffffff;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+}
+.gs_shop_list ul {
+   width: 100%;
+   min-height: 128px;
+   padding: 12px 16px;
+   box-sizing: border-box;
+}
+.gs_shop_list ul li {
+   font-size: 14px;
+   font-weight: bold;
+}
+.gs_shop_list ul li a {color: #4c7ee8;}
+.gs_EntranceS {background: url("../img/GoldSaucer/entrance_square.png") no-repeat right bottom #e1edfa;}
+.gs_CardS {background: url("../img/GoldSaucer/card_square.png") no-repeat right bottom #e1edfa;}
+.gs_ChocoboS {background: url("../img/GoldSaucer/chocobo_square.png") no-repeat right bottom #faefe1;}
+.gs_MinionS {background: url("../img/GoldSaucer/minion_square.png") no-repeat right bottom #e5e1fa;}
+.gs_WonderS {background: url("../img/GoldSaucer/wonder_square.png") no-repeat right bottom #faf5e1;}
+.gs_shop_01 h3 {background-color: #91c2f2;}
+.gs_shop_01 {box-shadow: 0px 0px 0px 2px #91c2f2 inset;}
+.gs_shop_02 h3 {background-color: #e6b673;}
+.gs_shop_02 {box-shadow: 0px 0px 0px 2px #e6b673 inset;}
+.gs_shop_03 h3 {background-color: #b6aaf2;}
+.gs_shop_03 {box-shadow: 0px 0px 0px 2px #b6aaf2 inset;}
+.gs_shop_04 h3 {background-color: #e0c55a;}
+.gs_shop_04 {box-shadow: 0px 0px 0px 2px #e0c55a inset;}
+/* Page */
+.gs_page {
+   background: url("../img/GoldSaucer/bg.jpg") no-repeat center top #eceee7;
+   background-attachment: fixed;
+}
+.gs_menu_page {
+   top: 0;
+   width: 100%;
+   position: fixed;
+   z-index: 50;
+   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.gs_menu_page_pos {
+   width: 100%;
+   height: 48px;
+   text-align: center;
+   background: #eaebe6;
+   position: relative;
+}
+.gs_menu_page_inner {
+   width: max-content;
+   height: 48px;
+   margin: 0 auto;
+}
+.btn_gs_menu {
+   display: inline-block;
+   padding: 0 10px 0 10px;
+   line-height: 48px;
+   cursor: pointer;
+   position: relative;
+   z-index: 10;
+   font-size: 13px;
+   font-weight: 700;
+   background: #eaebe6;
+   font-family: 'Noto Sans', sans-serif;
+   color: #4769b3;
+   transition: all 0.5s;
+}
+.btn_gs_menu:hover {color: #5990ff;}
+.btn_gs_menu img {
+   width: 35px;
+   height: 48px;
+}
+.img-svg {
+   fill: #5990ff;
+}
