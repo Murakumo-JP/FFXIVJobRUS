@@ -111,7 +111,7 @@ footer {
 
 .SE p {
 	font-size: 13px;
-	color: #999;
+	color: #fff;
 	padding-left: 16px;
 	line-height: 1.6;
 	text-align: center;
@@ -301,10 +301,10 @@ footer {
 	padding: 3px;
 	margin: -20px 0 0 -5px;
 }
-.job_main .job_db {
+.link_list {
 	position: absolute;
-	bottom: 25px;
-	left: 18px;
+	width: max-content;
+	bottom: 20px;
 }
 .crafting_gathering_guide .job_db {
 	position: absolute;
@@ -536,15 +536,14 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 @media (min-width: 992px) {
  .warning_info { display: none;}
 }
-@media (max-width: 767px) {
- .warning_info { display: block;}
-	html {
-		width: max-content;
-	}
+@media (max-width: 768px) {
+	.warning_info { display: block;}
 	.app_page {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
 	}
+	.index_main .jobguide_header_inner{width: max-content;}
+	.index_main .jobguide_update{display: none;}
 }
