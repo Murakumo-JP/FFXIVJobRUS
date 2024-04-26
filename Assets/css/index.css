@@ -93,12 +93,13 @@ body {
 
 footer {
 	background: #484c4e;
-	min-width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	height: 1%;
 	position: relative;
 	z-index: 10;
+	bottom: 0;
 }
 
 .footer_inner {
@@ -342,6 +343,7 @@ footer {
 	filter: drop-shadow(0px 0px 6px black);
 }
 .app_page a img {
+	width: 100%;
 	border-radius: 10px;
 }
 .main_content h1 {
@@ -523,9 +525,6 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 }
 
 @media (max-width: 425px) {
-	html {
-		width: max-content;
-	}
 	.app_page {
 		display: flex;
 		justify-content: center;
@@ -546,4 +545,14 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	}
 	.index_main .jobguide_header_inner{width: max-content;}
 	.index_main .jobguide_update{display: none;}
+	.link_list a span {
+		font-size: 0;
+		background: transparent;
+		padding: 12px;
+  }
+	.link_list {
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
 }
