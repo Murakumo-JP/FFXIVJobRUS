@@ -56,26 +56,10 @@ p {
 
 .jobguide_header_inner h1 {
 	position: absolute;
-	top: 76px;
+	top: 50px;
 	left: 0;
 	width: 960px;
 	height: 244px;
-}
-
-.jobguide_update {
-	position: absolute;
-	top: 270px;
-	right: 0;
-}
-
-.jobguide_update p {
-	background-color: #00000080;
-	text-align: center;
-	padding: 5px;
-	border-radius: 10px;
-	font-size: 14px;
-	font-weight: bold;
-	color: #ffffff;
 }
 
 .jobguide_catch {
@@ -122,8 +106,16 @@ p {
 }
 
 .jobguide_dps {
-	width: 400px;
-	overflow: hidden;
+	width: 390px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 20px;
+}
+
+.jobguide_dps:nth-last-child(1) {
+	margin-right: 0;
 }
 
 .jobguide__dps {

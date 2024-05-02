@@ -46,6 +46,7 @@
 
 .job_header_guide_top:hover {
 	background: url(../img/main/back_on.png) no-repeat;
+	transition: all 0.4s;
 }
 
 .job_header_guide_top span {
@@ -81,6 +82,8 @@ img {
 
 .job_header_text {
 	background: url(../img/main/job_text.png) no-repeat left top;
+	backdrop-filter: blur(5px);
+   border-radius: 10px;
 	width: 472px;
 	height: 178px;
 	padding: 14px 0 16px 16px;
@@ -123,7 +126,7 @@ img {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	line-height: 24px;
+	line-height: 22px;
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: bold;

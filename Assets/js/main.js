@@ -10,7 +10,12 @@ $(document).ready(function () {
 	$('#jq_actions').load('Other/Actions.html');
 	$('#jq_patch').load('Other/Path.html');
 });
-/* Preloader */
+// Info Update
+$(document).ready(function () {
+	$('#inner_update').prepend('<p class="latest_update">Последнее обновление: 02.10.2023 | Патч: 6.5</p>');
+	$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновление сайта и перевод будет производиться по мере актуализации информации на официальном сайте игры и может занять какое-то время.</p></div>');
+});
+// Preloader
 document.body.onload = function () {
 	setTimeout(function () {
 		var preloader = document.getElementById('page-preloader');
@@ -18,7 +23,7 @@ document.body.onload = function () {
 		if (!preloader.classList.contains('done')) {
 			preloader.classList.add('done');
 			loader.classList.add('loader_none');
-			$('body').css('overflow', 'visible');
+			$('body').css('overflow-y', 'visible');
 		}
 		var id = window.location.hash;
 		//console.log(typeof id);
