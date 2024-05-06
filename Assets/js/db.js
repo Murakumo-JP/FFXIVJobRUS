@@ -23,7 +23,7 @@ function FILL_DB_SKILLS(DB){
 	$('*[db-skill]').each(function () {
 		let key = this.getAttribute('db-skill');
 		let skill = DB[key];
-		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Задание профессии</a>' : '';
+		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Задание на получение</a>' : '';
 		let cost = skill['cost'] ? '<td class="cost">'+skill['cost']+'</td>' : '';
 		this.innerHTML = `
 		<td class="skill">
@@ -69,7 +69,7 @@ function FILL_DB_SKILLS_PASSIVE(DB){
 	$('*[db-skill-passive]').each(function () {
 		let key = this.getAttribute('db-skill-passive');
 		let skill = DB[key];
-		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Задание профессии</a>' : '';
+		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Задание на получение</a>' : '';
 		this.innerHTML = `
 		<td class="skill">
 			<div class="skill_wrapper">
