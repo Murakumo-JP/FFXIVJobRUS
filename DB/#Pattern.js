@@ -18,6 +18,21 @@
          "radius": '0y',
          "content": '',
       },
+      " ": {
+         "name": '',
+         "eorzeadb": '',
+         "job_skill_icon": '',
+         "jobclass_icon": '',
+         "level": '',
+         "classification": '',
+         "cast": '',
+         "recast": '',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'Radius1',
+         "radius": '0y',
+         "content": '',
+      },
       // Trait 01
       " ": {
          "name": '',
