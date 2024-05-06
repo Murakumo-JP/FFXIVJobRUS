@@ -7,7 +7,7 @@
          "name": '',
          "eorzeadb": '',
          "job_skill_icon": '',
-         "jobclass_icon": ' ',
+         "jobclass_icon": '',
          "level": '',
          "classification": '',
          "cast": '',
@@ -20,12 +20,12 @@
       },
       // Trait 01
       " ": {
-         "name": ' ',
+         "name": '',
          "eorzeadb": '',
-         "job_skill_icon": ' ',
-         "jobclass_icon": ' ',
-         "level": ' ',
-         "content": ' ',
+         "job_skill_icon": '',
+         "jobclass_icon": '',
+         "level": '',
+         "content": '',
       },
       // PVP Skill 01
       " ": {
