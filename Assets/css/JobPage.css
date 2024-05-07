@@ -183,14 +183,6 @@ img {
 
 /* Job Slil List */
 
-.job_tbody td.skill .skill_wrapper_icon,
-.job_tbody td.skill .jobclass_wrapper_icon,
-.job_tbody td.jobclass .skill_wrapper_icon,
-.job_tbody td.jobclass .jobclass_wrapper_icon {
-	display: table-cell;
-	vertical-align: middle;
-}
-
 .job_tbody td .class_quest {
 	color: #b36b24;
 	font-weight: bold;
