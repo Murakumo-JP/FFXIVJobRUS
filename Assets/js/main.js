@@ -8,11 +8,11 @@ $(document).ready(function () {
 	$('#jq_menu').load('Other/MenuJob.html');
 	$('#jq_menu_cg').load('Other/MenuCG.html');
 	$('#jq_actions').load('Other/Actions.html');
-	$('#jq_patch').load('Other/Path.html');
 });
 // Info Update
 $(document).ready(function () {
 	$('#inner_update').prepend('<p class="latest_update">Последнее обновление: 02.10.2023 | Патч: 6.5</p>');
+	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 90 уровне.<br />Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/1dcbf39c97285ba9a42012eecf2c031f0ffbceb1/">патч ноутам</a>.');
 	$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновление сайта и перевод будет производиться по мере актуализации информации на официальном сайте игры и может занять какое-то время.</p></div>');
 });
 // Preloader
