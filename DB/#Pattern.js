@@ -7,7 +7,7 @@
          "name": '',
          "eorzeadb": '',
          "job_skill_icon": '',
-         "jobclass_icon": 'GNB',
+         "jobclass_icon": '',
          "level": '',
          "classification": '',
          "cast": '',

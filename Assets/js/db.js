@@ -30,12 +30,12 @@ function FILL_DB_SKILLS(DB){
 			<div class="skill_wrapper">
 				<div class="skill_wrapper_icon">
 					<div class="job_skill_icon">
-						<img src="`+ skill['job_skill_icon'] +`">
+						<img src="`+skill['job_skill_icon']+`">
 					</div>
 				</div>
 				<p>
 					<strong>`+ skill['name'] +`</strong>
-					`+ eorzeadb +`
+					`+eorzeadb+`
 				</p>
 			</div>
 		</td>
@@ -50,7 +50,7 @@ function FILL_DB_SKILLS(DB){
 		<td class="classification">`+skill['classification']+`</td>
 		<td class="cast">`+skill['cast']+`</td>
 		<td class="recast">`+skill['recast']+`</td>
-		`+ cost +`
+		`+cost+`
 		<td class="distant_range">
 			<div class="range">
 				<img src="../Assets/img/main/Range.png">
@@ -75,12 +75,12 @@ function FILL_DB_SKILLS_PASSIVE(DB){
 			<div class="skill_wrapper">
 				<div class="skill_wrapper_icon">
 					<div class="job_skill_icon">
-						<img src="`+ skill['job_skill_icon'] +`">
+						<img src="`+skill['job_skill_icon']+`">
 					</div>
 				</div>
 				<p>
 					<strong>`+ skill['name'] +`</strong>
-					`+ eorzeadb +`
+					`+eorzeadb+`
 				</p>
 			</div>
 		</td>
@@ -106,13 +106,13 @@ function FILL_DB_SKILLS_PVP(DB){
 			<div class="skill_wrapper">
 				<div class="skill_wrapper_icon">
 					<div class="job_skill_icon">
-						<img src="`+ skill['job_skill_icon'] +`"/>
+						<img src="`+skill['job_skill_icon']+`"/>
 					</div>
 				</div>
-				<p><strong>`+ skill['name'] +`</strong></p>
+				<p><strong>`+skill['name']+`</strong></p>
 			</div>
 		</td>
-		`+ classification +`
+		`+classification+`
 		<td class="cast">`+skill['cast']+`</td>
 		<td class="recast">`+skill['recast']+`</td>
 		<td class="distant_range">
