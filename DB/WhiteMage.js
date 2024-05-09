@@ -495,53 +495,230 @@
          "content": 'Помещает исцеляющий цветок в указанное место и дает персонажу 5 стаков Liturgy of the Bell.<br/>Продолжительность: 20 сек.<br/>Когда персонаж получает урон, 1 стак Liturgy of the Bell расходуется, чтобы исцелить себя и всех сопартийцев в радиусе 20 ялмов.<br/>Сила лечения: 400<br/>Эффект этого умения срабатывает не чаще одного раза в секунду.<br/>По окончанию времени действия умения или при использовании его второй раз все оставшиеся стаки Liturgy of the Bell будет использованы для дополнительного восстановления HP.<br/>Сила лечения: 200 за каждый оставшийся стак Liturgy of the Bell<br/>Этот умение не имеет общего время восстановления с другими умениями.',
       },
       // Trait 01
-      "Stone Mastery": `Улучшает умение Stone до Stone II.`,
+      "Stone Mastery": {
+         "name": 'Stone Mastery',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec59af21d4783ec07af93ded5382036016d67ade.png',
+         "jobclass_icon": 'CNJ',
+         "level": '18',
+         "content": 'Улучшает умение Stone до Stone II.',
+      },
       // Trait 02
-      "Maim and Mend": `Увеличивает базовый урон умений и восстановления HP на 10%.`,
+      "Maim and Mend": {
+         "name": 'Maim and Mend',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
+         "jobclass_icon": 'CNJ',
+         "level": '20',
+         "content": 'Увеличивает базовый урон умений и восстановления HP на 10%.',
+      },
       // Trait 03
-      "Freecure": `Дает 15% шанс, что после использования Cure, стоимость следующего Cure II будет равна 0 MP.<br/>Продолжительность: 15 сек.`,
+      "Freecure": {
+         "name": 'Freecure',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a3a57f7b7aa0de5e6da5e5696661ad29a4888e7f.png',
+         "jobclass_icon": 'CNJ',
+         "level": '32',
+         "content": 'Дает 15% шанс, что после использования Cure, стоимость следующего Cure II будет равна 0 MP.<br/>Продолжительность: 15 сек.',
+      },
       // Trait 04
-      "Maim and Mend II": `Увеличивает базовый урон умений и восстановления HP на 30%.`,
+      "Maim and Mend II": {
+         "name": 'Maim and Mend II',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
+         "jobclass_icon": 'CNJ',
+         "level": '40',
+         "content": 'Увеличивает базовый урон умений и восстановления HP на 30%.',
+      },
       // Trait 05
-      "Aero Mastery": `Улучшает умение Aero до Aero II.`,
+      "Aero Mastery": {
+         "name": 'Aero Mastery',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bfb73b26584ff1beea3c051df995efb2057f9746.png',
+         "jobclass_icon": 'CNJ',
+         "level": '46',
+         "content": 'Улучшает умение Aero до Aero II.',
+      },
       // Trait 06
-      "Secret of the Lily": `Добавляет Lily на Healing Gauge персонажа каждые 20 секунд при нахождении в бою. Максимум 3 Lily.`,
+      "Secret of the Lily": {
+         "name": 'Secret of the Lily',
+         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a8b01c03e71/',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9d84d98cec3b373c4d288036197345815b0079a5.png',
+         "jobclass_icon": 'WHM',
+         "level": '52',
+         "content": 'Добавляет Lily на Healing Gauge персонажа каждые 20 секунд при нахождении в бою. Максимум 3 Lily.',
+      },
       // Trait 07
-      "Stone Mastery II": `Улучшает умение Stone II до Stone III.`,
+      "Stone Mastery II": {
+         "name": 'Stone Mastery II',
+         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c34c7f08e8/',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7700f3365453c8581b17b771446e0ceb253d2482.png',
+         "jobclass_icon": 'WHM',
+         "level": '54',
+         "content": 'Улучшает умение Stone II до Stone III.',
+      },
       // Trait 08
-      "Stone Mastery III": `Улучшает умение Stone III до Stone IV.`,
+      "Stone Mastery III": {
+         "name": 'Stone Mastery III',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0dece0a812fe1229b768f235340926de1be3a4d9.png',
+         "jobclass_icon": 'WHM',
+         "level": '64',
+         "content": 'Улучшает умение Stone III до Stone IV.',
+      },
       // Trait 09
-      "Aero Mastery II": `Улучшает умение Aero II до Dia.`,
+      "Aero Mastery II": {
+         "name": 'Aero Mastery II',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f5083e44cab6be3c440d2db89c35be3242d340d.png',
+         "jobclass_icon": 'WHM',
+         "level": '72',
+         "content": 'Улучшает умение Aero II до Dia.',
+      },
       // Trait 10
-      "Stone Mastery IV": `Улучшает умение Stone IV до Glare.`,
+      "Stone Mastery IV": {
+         "name": 'Stone Mastery IV',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/092e5ba991784873f9b5f9a92db364956029657a.png',
+         "jobclass_icon": 'WHM',
+         "level": '72',
+         "content": 'Улучшает умение Stone IV до Glare.',
+      },
       // Trait 11
-      "Transcendent Afflatus": `Добавляет Blood Lily к Healing Gauge, которая расцветает после трех применений Afflatus Solace или Afflatus Rapture.`,
+      "Transcendent Afflatus": {
+         "name": 'Transcendent Afflatus',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/df2fd48f77f5355c6ddc3580504abf58b9aa69ea.png',
+         "jobclass_icon": 'WHM',
+         "level": '74',
+         "content": 'Добавляет Blood Lily к Healing Gauge, которая расцветает после трех применений Afflatus Solace или Afflatus Rapture.',
+      },
       // Trait 12
-      "Enhanced Asylum": `Добавляет дополнительный эффект умению Asylum, увеличивающий силу умений восстанавливающих HP на 10%.`,
+      "Enhanced Asylum": {
+         "name": 'Enhanced Asylum',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b340f8eedf09a0058e1a6d74bf129a6c0cfff5d1.png',
+         "jobclass_icon": 'WHM',
+         "level": '78',
+         "content": 'Добавляет дополнительный эффект умению Asylum, увеличивающий силу умений восстанавливающих HP на 10%.',
+      },
       // Trait 13
-      "Glare Mastery": `Улучшает умение Glare to Glare III.`,
+      "Glare Mastery": {
+         "name": 'Glare Mastery',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a78ef89a46bfc230651382c1326ea848696bf4f.png',
+         "jobclass_icon": 'WHM',
+         "level": '82',
+         "content": 'Улучшает умение Glare to Glare III.',
+      },
       // Trait 14
-      "Holy Mastery": `Улучшает умение Holy да Holy III.`,
+      "Holy Mastery": {
+         "name": 'Holy Mastery',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8754d08e1d361478839e1a220369134a71a28d0a.png',
+         "jobclass_icon": 'WHM',
+         "level": '82',
+         "content": 'Улучшает умение Holy да Holy III.',
+      },
       // Trait 15
-      "Enhanced Healing Magic": `Увеличивает силу исцеляющих умений Cure до 500, Medica до 400, Cure II до 800, Regen до 250, Cure III до 600, Medica II до 250, эффект периодического лечения Medica II (regen) до 150, Afflatus Solace до 800 и Afflatus Rapture до 400.`,
+      "Enhanced Healing Magic": {
+         "name": 'Enhanced Healing Magic',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
+         "jobclass_icon": 'WHM',
+         "level": '85',
+         "content": 'Увеличивает силу исцеляющих умений Cure до 500, Medica до 400, Cure II до 800, Regen до 250, Cure III до 600, Medica II до 250, эффект периодического лечения Medica II (regen) до 150, Afflatus Solace до 800 и Afflatus Rapture до 400.',
+      },
       // Trait 16
-      "Enhanced Divine Benison": `Позволяет накапливать заряды для последовательного использования Divine Benison.<br/>Максимум зарядов: 2`,
+      "Enhanced Divine Benison": {
+         "name": 'Enhanced Divine Benison',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70956bb631d282deba1787b5497f70b9540eeaa5.png',
+         "jobclass_icon": 'WHM',
+         "level": '88',
+         "content": 'Позволяет накапливать заряды для последовательного использования Divine Benison.<br/>Максимум зарядов: 2',
+      },
       // PVP Skill 01
-      "PVP Glare III": `Удар, наносящий нестихийный урон с силой атаки 5,000.`,
+      "PVP Glare III": {
+         "name": 'Glare III',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/889b00ef7b55083b462b1dc589add79e07e87379.png',
+         "classification": 'Заклинание',
+         "cast": '1.44 сек.',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'Radius1',
+         "radius": '0y',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 5,000.',
+      },
       // PVP Skill 02
-      "PVP Cure II": `Восстанавливает HP цели.<br/>Сила лечения: 12,000<br/>Максимум стаков: 2<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Cure III под действием эффекта Cure III Ready.`,
+      "PVP Cure II": {
+         "name": 'Cure II',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e7fd985e01134a3f7a76bda607c5cb1a36b3f7c.png',
+         "classification": 'Заклинание',
+         "cast": '1.44 сек.',
+         "recast": '15 сек.',
+         "range": '30y',
+         "radius_img": 'Radius1',
+         "radius": '0y',
+         "content": 'Восстанавливает HP цели.<br/>Сила лечения: 12,000<br/>Максимум стаков: 2<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Cure III под действием эффекта Cure III Ready.',
+      },
       // PVP Skill 03
-      "PVP Afflatus Misery": `Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 12,000.<br/>Этот умение не имеет общего времени восстановления с другими умениями.`,
+      "PVP Afflatus Misery": {
+         "name": 'Afflatus Misery',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/67c045d9c3c41f736c36022272cefd8c0980f19f.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '15 сек.',
+         "range": '25y',
+         "radius_img": 'Radius2',
+         "radius": '5y',
+         "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 12,000.<br/>Этот умение не имеет общего времени восстановления с другими умениями.',
+      },
       // PVP Skill 04
-      "PVP Aquaveil": `Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный лечению с силой 8,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: снимает один статусный эффект, который может быть снят Purify<br/>Сила барьера удваивается, если данное умение успешно снимает статусный эффект.`,
+      "PVP Aquaveil": {
+         "name": 'Aquaveil',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/db63ef3d2573abbcb89237b70189beb66d9f08c1.png',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '20 сек.',
+         "range": '30y',
+         "radius_img": 'Radius1',
+         "radius": '0y',
+         "content": 'Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный лечению с силой 8,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: снимает один статусный эффект, который может быть снят Purify<br/>Сила барьера удваивается, если данное умение успешно снимает статусный эффект.',
+      },
       // PVP Skill 05
-      "PVP Miracle of Nature": `Насильно превращает цель в крошечное существо, лишая ее возможности использовать умения.<br/>Продолжительность: 2 сек.<br/>Не действует на неигровых персонажей, игроков под действием Guard или находящихся в роботах.`,
+      "PVP Miracle of Nature": {
+         "name": 'Miracle of Nature',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1245aecd31eaf0821a81907c6664946404770339.png',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '45 сек.',
+         "range": '10y',
+         "radius_img": 'Radius1',
+         "radius": '0y',
+         "content": 'Насильно превращает цель в крошечное существо, лишая ее возможности использовать умения.<br/>Продолжительность: 2 сек.<br/>Не действует на неигровых персонажей, игроков под действием Guard или находящихся в роботах.',
+      },
       // PVP Skill 06
-      "PVP Seraph Strike": `Прыжок на цель, наносящий нестихийный урон с силой атаки 8,000 по цели и по всем окружающим противникам.<br/>Дополнительный эффект: накладывает эффект Protect на персонажа и всех окружающих сопартийцев<br/>Эффект Protect: снижает получаемый урон на 10%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Cure III Ready<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Умение Cure II меняется на Cure III под действием эффекта Cure III Ready.`,
+      "PVP Seraph Strike": {
+         "name": 'Seraph Strike',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f0999ae68bff865ab683d7f1059024d126b013e.png',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '20 сек.',
+         "range": '20y',
+         "radius_img": 'Radius2',
+         "radius": '10y',
+         "content": 'Прыжок на цель, наносящий нестихийный урон с силой атаки 8,000 по цели и по всем окружающим противникам.<br/>Дополнительный эффект: накладывает эффект Protect на персонажа и всех окружающих сопартийцев<br/>Эффект Protect: снижает получаемый урон на 10%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Cure III Ready<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Умение Cure II меняется на Cure III под действием эффекта Cure III Ready.',
+      },
       // PVP Skill 07
-      "PVP Cure III": `Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 16000<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар.`,
+      "PVP Cure III": {
+         "name": 'Cure III',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c4b6cbc3b8ae09ebf0dc3c69c16594e211cdfe6.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2.4 сек.',
+         "range": '30y',
+         "radius_img": 'Radius2',
+         "radius": '5y',
+         "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 16000<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
       // PVP Skill 08
-      "PVP Afflatus Purgation": `Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 18,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает эффект Temperance<br/>Эффект Temperance: увеличивает наносимый урон и силу лечения на 10%, а также накладывает эффект периодического лечения (regen) на персонажа и всех ближайших сопартийцев в радиусе 30 ялмов<br/>Сила лечения: 3,000<br/>Продолжительность: 15 сек.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек.`,
+      "PVP Afflatus Purgation": {
+         "name": 'Afflatus Purgation',
+         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/885443eeb029d7cbca537be10edca5eb6c920401.png',
+         "cast": 'Мгновенная',
+         "recast": '10 сек.',
+         "range": '40y',
+         "radius_img": 'Radius6',
+         "radius": '40y',
+         "content": 'Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 18,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает эффект Temperance<br/>Эффект Temperance: увеличивает наносимый урон и силу лечения на 10%, а также накладывает эффект периодического лечения (regen) на персонажа и всех ближайших сопартийцев в радиусе 30 ялмов<br/>Сила лечения: 3,000<br/>Продолжительность: 15 сек.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек.',
+      },
    };
    FILL_DB_VALUES(db);
    FILL_DB_SKILLS(db);
