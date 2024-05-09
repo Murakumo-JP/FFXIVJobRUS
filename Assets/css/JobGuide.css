@@ -257,3 +257,6 @@ li {
 	text-align: center;
 	cursor: pointer;
 }
+.range, .radius {
+    text-align: center;
+}
