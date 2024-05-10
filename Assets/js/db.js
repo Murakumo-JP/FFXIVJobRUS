@@ -58,7 +58,7 @@ function FILL_DB_SKILLS(DB){
 				<p>`+skill['range']+`</p>
 			</div>
 			<div class="radius">
-				<img src="../Assets/img/main/`+skill['radius_img']+`.png">
+				<img src="../Assets/img/DoWDoM/Radius/`+skill['radius_img']+`.png">
 				<p>`+skill['radius']+`</p>
 			</div>
 		</td>
@@ -122,7 +122,7 @@ function FILL_DB_SKILLS_PVP(DB){
 				<p>`+skill['range']+`</p>
 			</div>
 			<div class="radius">
-				<img src="../Assets/img/main/`+skill['radius_img']+`.png">
+				<img src="../Assets/img/DoWDoM/Radius/`+skill['radius_img']+`.png">
 				<p>`+skill['radius']+`</p>
 			</div>
 		</td>
