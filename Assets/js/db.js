@@ -19,6 +19,7 @@ function FILL_DB_VALUES(DB) {
 		this.innerHTML = value;
 	});
 }
+
 function FILL_DB_SKILLS(DB){
 	$('*[db-skill]').each(function () {
 		let key = this.getAttribute('db-skill');
