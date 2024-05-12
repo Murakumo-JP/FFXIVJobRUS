@@ -5,8 +5,8 @@
       // PVE Skill 01
       "Fast Blade": {
          "name": 'Fast Blade',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8325a7bb54f039c5bd3cd2af4430dccfd525e0b9.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8325a7bb54f039c5bd3cd2af4430dccfd525e0b9.png',
+         "job_icon": 'GLA',
          "level": '1',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -20,8 +20,8 @@
       // PVE Skill 02
       "Fight or Flight": {
          "name": 'Fight or Flight',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/87405b9b9f00d9957df252ea0116e4137bc4dbd1.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/87405b9b9f00d9957df252ea0116e4137bc4dbd1.png',
+         "job_icon": 'GLA',
          "level": '2',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -35,8 +35,8 @@
       // PVE Skill 03
       "Riot Blade": {
          "name": 'Riot Blade',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bdda04f3b284e3cbf7d07e50d9bffb21b74ce869.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bdda04f3b284e3cbf7d07e50d9bffb21b74ce869.png',
+         "job_icon": 'GLA',
          "level": '4',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -50,8 +50,8 @@
       // PVE Skill 04
       "Total Eclipse": {
          "name": 'Total Eclipse',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07c42572697cdcf5381955b09ed7c3028be8a0bb.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07c42572697cdcf5381955b09ed7c3028be8a0bb.png',
+         "job_icon": 'GLA',
          "level": '6',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -65,8 +65,8 @@
       // PVE Skill 05
       "Shield Bash": {
          "name": 'Shield Bash',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/49cbc217420d69d69bb1bfcf6fba10358dcd2521.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/49cbc217420d69d69bb1bfcf6fba10358dcd2521.png',
+         "job_icon": 'GLA',
          "level": '10',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -80,8 +80,8 @@
       // PVE Skill 06
       "Iron Will": {
          "name": 'Iron Will',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1e60c8b0c72bbc52497a163755dc855f5cdf7091.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1e60c8b0c72bbc52497a163755dc855f5cdf7091.png',
+         "job_icon": 'GLA',
          "level": '10',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -95,8 +95,8 @@
       // PVE Skill 07
       "Release Iron Will": {
          "name": 'Release Iron Will',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0b880866e9d45ac7b9b664dcf536acc46ecb4679.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0b880866e9d45ac7b9b664dcf536acc46ecb4679.png',
+         "job_icon": 'GLA',
          "level": '10',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -111,8 +111,8 @@
       "Shield Lob": {
          "name": 'Shield Lob',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/eaf9428dd8f/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d95d796eae4df45f2419a8c6df1cdf4afc7b0523.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d95d796eae4df45f2419a8c6df1cdf4afc7b0523.png',
+         "job_icon": 'GLA',
          "level": '15',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -126,8 +126,8 @@
       // PVE Skill 09
       "Rage of Halone": {
          "name": 'Rage of Halone',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b35b9fa5ce7169d660177032734661f18a79ee5b.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b35b9fa5ce7169d660177032734661f18a79ee5b.png',
+         "job_icon": 'GLA',
          "level": '26',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -142,8 +142,8 @@
       "Spirits Within": {
          "name": 'Spirits Within',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/90a79bf83dc/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d7e7cf097286ae99e6637242596a14832a9edf8f.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d7e7cf097286ae99e6637242596a14832a9edf8f.png',
+         "job_icon": 'PLD',
          "level": '30',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -158,8 +158,8 @@
       "Sheltron": {
          "name": 'Sheltron',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8e6b7dd4c72/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e622516a93fd2298b9fd40e0d2d60c3fc8485c5a.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e622516a93fd2298b9fd40e0d2d60c3fc8485c5a.png',
+         "job_icon": 'PLD',
          "level": '35',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -173,8 +173,8 @@
       // PVE Skill 12
       "Sentinel": {
          "name": 'Sentinel',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/913eb4344bb6c8710f250115fa22484b026f08bd.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/913eb4344bb6c8710f250115fa22484b026f08bd.png',
+         "job_icon": 'GLA',
          "level": '38',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -189,8 +189,8 @@
       "Prominence": {
          "name": 'Prominence',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/16d122e30f6/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c0f8a1aa0ba0a20c0d8580e63932678c5c4a8b9b.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c0f8a1aa0ba0a20c0d8580e63932678c5c4a8b9b.png',
+         "job_icon": 'PLD',
          "level": '40',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -205,8 +205,8 @@
       "Cover": {
          "name": 'Cover',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/de79d3a7ff9/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/81b581992c0df5ad867ed18ad229f6d6f7fd3eea.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/81b581992c0df5ad867ed18ad229f6d6f7fd3eea.png',
+         "job_icon": 'PLD',
          "level": '45',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -220,8 +220,8 @@
       // PVE Skill 15
       "Circle of Scorn": {
          "name": 'Circle of Scorn',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/af5ddb89ddd5ade6706afe571f45aa6028e1925b.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/af5ddb89ddd5ade6706afe571f45aa6028e1925b.png',
+         "job_icon": 'GLA',
          "level": '50',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -236,8 +236,8 @@
       "Hallowed Ground": {
          "name": 'Hallowed Ground',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/406b25707e6/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/249bf48c39ec44b9b32f0681ea256850ed6aa8f8.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/249bf48c39ec44b9b32f0681ea256850ed6aa8f8.png',
+         "job_icon": 'PLD',
          "level": '50',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -251,8 +251,8 @@
       // PVE Skill 17
       "Bulwark": {
          "name": 'Bulwark',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b0a3dcb47763055bc61ee9f90ba0ee3b46050197.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b0a3dcb47763055bc61ee9f90ba0ee3b46050197.png',
+         "job_icon": 'PLD',
          "level": '52',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -267,8 +267,8 @@
       "Goring Blade": {
          "name": 'Goring Blade',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/afaf0c9a7c5/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb067afbfb5a4198760b2e28e9c3cf669d9866b8.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb067afbfb5a4198760b2e28e9c3cf669d9866b8.png',
+         "job_icon": 'PLD',
          "level": '54',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -283,8 +283,8 @@
       "Divine Veil": {
          "name": 'Divine Veil',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6948068d18e/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/495faab61344751872ca0867e2d5e59b04c6940c.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/495faab61344751872ca0867e2d5e59b04c6940c.png',
+         "job_icon": 'PLD',
          "level": '56',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -299,8 +299,8 @@
       "Clemency": {
          "name": 'Clemency',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/7f095beca39/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c20e8bf8f5f130db398ac4ba5df14e403b7666a.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c20e8bf8f5f130db398ac4ba5df14e403b7666a.png',
+         "job_icon": 'PLD',
          "level": '58',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -315,8 +315,8 @@
       "Royal Authority": {
          "name": 'Royal Authority',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d29b8150228/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3fe523f08ebd0b93125ae42d5bcf8e18dce08a02.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3fe523f08ebd0b93125ae42d5bcf8e18dce08a02.png',
+         "job_icon": 'PLD',
          "level": '60',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -330,8 +330,8 @@
       // PVE Skill 22
       "Intervention": {
          "name": 'Intervention',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fdb9b8347b33dae63e25debeab15aa75c270f39a.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fdb9b8347b33dae63e25debeab15aa75c270f39a.png',
+         "job_icon": 'PLD',
          "level": '62',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -345,8 +345,8 @@
       // PVE Skill 23
       "Holy Spirit": {
          "name": 'Holy Spirit',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b8ad098c5afaad79a847f3fb79298456c1e9d689.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b8ad098c5afaad79a847f3fb79298456c1e9d689.png',
+         "job_icon": 'PLD',
          "level": '64',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -360,8 +360,8 @@
       // PVE Skill 24
       "Requiescat": {
          "name": 'Requiescat',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/acbcd4de5a1839e4fd8c96ae05eb4109caed9ca1.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/acbcd4de5a1839e4fd8c96ae05eb4109caed9ca1.png',
+         "job_icon": 'PLD',
          "level": '68',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -376,8 +376,8 @@
       "Passage of Arms": {
          "name": 'Passage of Arms',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9193a6f1c9c/",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b570dfda793945b3bb8fddef02b1a865b8a04b32.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b570dfda793945b3bb8fddef02b1a865b8a04b32.png',
+         "job_icon": 'PLD',
          "level": '70',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -391,8 +391,8 @@
       // PVE Skill 26
       "Holy Circle": {
          "name": 'Holy Circle',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/afd455f208e2720a10a1b26e9a231fefac4d5be7.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/afd455f208e2720a10a1b26e9a231fefac4d5be7.png',
+         "job_icon": 'PLD',
          "level": '72',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -406,8 +406,8 @@
       // PVE Skill 27
       "Intervene": {
          "name": 'Intervene',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c841f5c954aa4e31bd1d82ffd00f863eb944a386.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c841f5c954aa4e31bd1d82ffd00f863eb944a386.png',
+         "job_icon": 'PLD',
          "level": '74',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -421,8 +421,8 @@
       // PVE Skill 28
       "Atonement": {
          "name": 'Atonement',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f59cb1517f2f26c490a87d58366b5bccff372f19.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f59cb1517f2f26c490a87d58366b5bccff372f19.png',
+         "job_icon": 'PLD',
          "level": '76',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -436,8 +436,8 @@
       // PVE Skill 29
       "Confiteor": {
          "name": 'Confiteor',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/362579dcb6dc2b7c9ea6eac6917c7b9c61f7ce1b.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/362579dcb6dc2b7c9ea6eac6917c7b9c61f7ce1b.png',
+         "job_icon": 'PLD',
          "level": '80',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -451,8 +451,8 @@
       // PVE Skill 30
       "Holy Sheltron": {
          "name": 'Holy Sheltron',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c856abb6dac68e4bfd6cbb98b309360cb6162ced.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c856abb6dac68e4bfd6cbb98b309360cb6162ced.png',
+         "job_icon": 'PLD',
          "level": '82',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -466,8 +466,8 @@
       // PVE Skill 31
       "Expiacion": {
          "name": 'Expiacion',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5e4beef5d32f45954a62524cdebb8d535de32921.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5e4beef5d32f45954a62524cdebb8d535de32921.png',
+         "job_icon": 'PLD',
          "level": '86',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -481,8 +481,8 @@
       // PVE Skill 32
       "Blade of Faith": {
          "name": 'Blade of Faith',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/004ab8b8fc5c3fe5b362bf7f0e35f9ab9a91918a.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/004ab8b8fc5c3fe5b362bf7f0e35f9ab9a91918a.png',
+         "job_icon": 'PLD',
          "level": '90',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -496,8 +496,8 @@
       // PVE Skill 33
       "Blade of Truth": {
          "name": 'Blade of Truth',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/31fd8e8a1827a2f830335a67cf52abb191d62485.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/31fd8e8a1827a2f830335a67cf52abb191d62485.png',
+         "job_icon": 'PLD',
          "level": '90',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -511,8 +511,8 @@
       // PVE Skill 34
       "Blade of Valor": {
          "name": 'Blade of Valor',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/289629a47afee95a9d05e38bcc68a2b7fdd1cacd.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/289629a47afee95a9d05e38bcc68a2b7fdd1cacd.png',
+         "job_icon": 'PLD',
          "level": '90',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -526,8 +526,8 @@
       // Trait 01
       "Tank Mastery": {
          "name": 'Tank Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png',
-         "jobclass_icon": 'GLA',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png',
+         "job_icon": 'GLA',
          "level": '1',
          "content": 'Снижает получаемый урон на 20%. Также персонаж получает бонус к максимальному количеству HP в зависимости от значения выносливости (vitality) и бонус к урону в зависимости от значения силы (strength).',
       },
@@ -535,16 +535,16 @@
       "Oath Mastery": {
          "name": 'Oath Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8e6b7dd4c72/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3ea4bdf5de4ff4d7d14041fd6caa625d68c131cd.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3ea4bdf5de4ff4d7d14041fd6caa625d68c131cd.png',
+         "job_icon": 'PLD',
          "level": '35',
          "content": 'Восполняет ресурс шкалы Oath Gauge на 5 при каждой авто атаке.',
       },
       // Trait 03
       "Chivalry": {
          "name": 'Chivalry',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/303132af0562c1741746d382e2e7060032436afa.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/303132af0562c1741746d382e2e7060032436afa.png',
+         "job_icon": 'PLD',
          "level": '58',
          "content": 'Восстанавливает MP при использовании умения Riot Blade или Spirits Within.',
       },
@@ -552,103 +552,103 @@
       "Rage of Halone Mastery": {
          "name": 'Rage of Halone Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d29b8150228/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f37467dd4cd7e208aa4d5d2dba1481e5b330438.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f37467dd4cd7e208aa4d5d2dba1481e5b330438.png',
+         "job_icon": 'PLD',
          "level": '60',
          "content": 'Улучшает умение Rage of Halone до Royal Authority.',
       },
       // Trait 05
       "Divine Magic Mastery": {
          "name": 'Divine Magic Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/12b652e6942ca7d5fcf19e7b2473c1ce8654b0d9.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/12b652e6942ca7d5fcf19e7b2473c1ce8654b0d9.png',
+         "job_icon": 'PLD',
          "level": '64',
          "content": 'Сокращает затраты MP для всех заклинаний, а также предотвращает прерывание чтения заклинания после получения урона. Накладывает следующие эффекты после успешного завершения комбо с Royal Authority:<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет мгновенно применить умение Holy Spirit or Holy Circle с повышенной силой атаки<br>Продолжительность: 30 сек.',
       },
       // Trait 06
       "Enhanced Prominence": {
          "name": 'Enhanced Prominence',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/413518284f7ac59252bf26c3da7493fcae6c5b35.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/413518284f7ac59252bf26c3da7493fcae6c5b35.png',
+         "job_icon": 'PLD',
          "level": '72',
          "content": 'Накладывает следующие эффекты после успешного завершения комбо с Prominence:<br>Комбо бонус: восстанавливает MP<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет мгновенно применить умение Holy Spirit or Holy Circle с повышенной силой атаки<br>Продолжительность: 30 сек.',
       },
       // Trait 07
       "Enhanced Sheltron": {
          "name": 'Enhanced Sheltron',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cb7b214f5d3a50a251bd2fc4d154e26470d7d574.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cb7b214f5d3a50a251bd2fc4d154e26470d7d574.png',
+         "job_icon": 'PLD',
          "level": '74',
          "content": 'Увеличивает продолжительность умения Sheltron до 6 сек.',
       },
       // Trait 08
       "Sword Oath": {
          "name": 'Sword Oath',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7abcc7ab50300a442c5f0aa68261b9730a2070c0.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7abcc7ab50300a442c5f0aa68261b9730a2070c0.png',
+         "job_icon": 'PLD',
          "level": '76',
          "content": 'Накладывает три стака эффекта Sword Oath после успешного завершения комбо с Royal Authority.<br>Продолжительность: 30 сек.',
       },
       // Trait 09
       "Enhanced Requiescat": {
          "name": 'Enhanced Requiescat',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/124b4606e99d8cd89a1a52099ea8b8d69d3dabe6.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/124b4606e99d8cd89a1a52099ea8b8d69d3dabe6.png',
+         "job_icon": 'PLD',
          "level": '80',
          "content": 'Накладывает эффект Confiteor Ready после использования Requiescat.<br>Продолжительность: 30 сек.',
       },
       // Trait 10
       "Sheltron Mastery": {
          "name": 'Sheltron Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5727377cab202a9ba787318ec8694067e837a8a2.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5727377cab202a9ba787318ec8694067e837a8a2.png',
+         "job_icon": 'PLD',
          "level": '82',
          "content": 'Улучшает умение Sheltron до Holy Sheltron.',
       },
       // Trait 11
       "Enhanced Intervention": {
          "name": 'Enhanced Intervention',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7d8cd4ab4588bc9d68b8436b378563d590dae1e8.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7d8cd4ab4588bc9d68b8436b378563d590dae1e8.png',
+         "job_icon": 'PLD',
          "level": '82',
          "content": `Увеличивает продолжительность умения Intervention до 8 секунд.<br>Накладывает эффект Knight's Resolve на выбранного сопартийца, снижая получаемый урон на 10%<br>Продолжительность: 4 сек.<br>Накладывает эффект Knight's Benediction на выбранного сопартийца, постепенно восстанавливающий HP<br>Сила лечения: 250<br>Продолжительность: 12 сек.`,
       },
       // Trait 12
       "Divine Magic Mastery II": {
          "name": 'Divine Magic Mastery II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3d7131e2d50c6b43898deadb212e3c58fedc2a87.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3d7131e2d50c6b43898deadb212e3c58fedc2a87.png',
+         "job_icon": 'PLD',
          "level": '84',
          "content": 'Добавляет исцеляющий эффект умениям Holy Spirit, Holy Circle и Confiteor.<br>Сила лечения: 400',
       },
       // Trait 13
       "Melee Mastery": {
          "name": 'Melee Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "job_icon": 'PLD',
          "level": '84',
          "content": 'Увеличивает силу атаки умениям Fast Blade до 200, Riot Blade до 140, Royal Authority до 140, Holy Spirit до 350 и Atonement до 400.',
       },
       // Trait 14
       "Spirits Within Mastery": {
          "name": 'Spirits Within Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f8d91cf706370a9295a3a9495713a18e9a84e37.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f8d91cf706370a9295a3a9495713a18e9a84e37.png',
+         "job_icon": 'PLD',
          "level": '86',
          "content": 'Улучшает умение Spirits Within до Expiacion.',
       },
       // Trait 15
       "Enhanced Divine Veil": {
          "name": 'Enhanced Divine Veil',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7cdd930171cd46b5dae53f059704d0db413a7e82.png',
-         "jobclass_icon": 'PLD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7cdd930171cd46b5dae53f059704d0db413a7e82.png',
+         "job_icon": 'PLD',
          "level": '88',
          "content": 'Добавляет исцеляющий эффект для умения Divine Veil.<br>Сила лечения: 400',
       },
       // PVP Skill 01
       "PVP Fast Blade": {
          "name": 'Fast Blade',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6e3e8407297c7ddfdb89ded7805c1bf3f686763.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6e3e8407297c7ddfdb89ded7805c1bf3f686763.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -660,7 +660,7 @@
       // PVP Skill 02
       "PVP Riot Blade": {
          "name": 'Riot Blade',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/16fb67b5a63cab9b4b6ac910d446c8ef975add39.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/16fb67b5a63cab9b4b6ac910d446c8ef975add39.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -672,7 +672,7 @@
       // PVP Skill 03
       "PVP Royal Authority": {
          "name": 'Royal Authority',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fa5810b4d52f18313e35508984d1c36008b6a214.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fa5810b4d52f18313e35508984d1c36008b6a214.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -684,7 +684,7 @@
       // PVP Skill 04
       "PVP Confiteor": {
          "name": 'Confiteor',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/89abaf2266f70e33e486e6cf5ff338ade9719786.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/89abaf2266f70e33e486e6cf5ff338ade9719786.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -696,7 +696,7 @@
       // PVP Skill 05
       "PVP Shield Bash": {
          "name": 'Shield Bash',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba245ce78b36cd3064eb986634a224aff58cf31b.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba245ce78b36cd3064eb986634a224aff58cf31b.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -708,7 +708,7 @@
       // PVP Skill 06
       "PVP Intervene": {
          "name": 'Intervene',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dc0a7f454aeb6fa8cf680d223f5b97ba6c768955.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dc0a7f454aeb6fa8cf680d223f5b97ba6c768955.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '10 сек.',
@@ -720,7 +720,7 @@
       // PVP Skill 07
       "PVP Guardian": {
          "name": 'Guardian',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/058522fdb7c58e87b3ba52f85c1cb70f5c0501e8.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/058522fdb7c58e87b3ba52f85c1cb70f5c0501e8.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '25 сек.',
@@ -732,7 +732,7 @@
       // PVP Skill 08
       "PVP Holy Sheltron": {
          "name": 'Holy Sheltron',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/473ed65d458df3b6e6eaf3404009bac010a592d0.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/473ed65d458df3b6e6eaf3404009bac010a592d0.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -744,7 +744,7 @@
       // PVP Skill 09
       "PVP Atonement": {
          "name": 'Atonement',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/35a45eefc453b71019fda6740cfc01c51f3d3a03.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/35a45eefc453b71019fda6740cfc01c51f3d3a03.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -756,7 +756,7 @@
       // PVP Skill 10
       "PVP Blade of Faith": {
          "name": 'Blade of Faith',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f944d27fc3705822d461cd9e46ae2c288c80ee8.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f944d27fc3705822d461cd9e46ae2c288c80ee8.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -768,7 +768,7 @@
       // PVP Skill 11
       "PVP Blade of Truth": {
          "name": 'Blade of Truth',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0f4597a0f6f40a77de83b1ce656d81345a5613ef.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0f4597a0f6f40a77de83b1ce656d81345a5613ef.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -780,7 +780,7 @@
       // PVP Skill 12
       "PVP Blade of Valor": {
          "name": 'Blade of Valor',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/115a30be11fa866d366d36b07d8542a0efd667bb.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/115a30be11fa866d366d36b07d8542a0efd667bb.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -792,7 +792,7 @@
       // PVP Skill 13
       "PVP Phalanx": {
          "name": 'Phalanx',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a94e3555b79c68a9eb7f5ca496bcac7ef7fdcbcf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a94e3555b79c68a9eb7f5ca496bcac7ef7fdcbcf.png',
          "cast": 'Мгновенная',
          "recast": '10 сек.',
          "range": '0y',

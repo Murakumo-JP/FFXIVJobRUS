@@ -5,8 +5,8 @@
       // PVE Skill 01
       "Heavy Swing": {
          "name": 'Heavy Swing',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7a622f61949998a4bca402f5be90c0417bb02ac1.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7a622f61949998a4bca402f5be90c0417bb02ac1.png',
+         "job_icon": 'MRD',
          "level": '1',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -19,8 +19,8 @@
       // PVE Skill 02
       "Maim": {
          "name": 'Maim',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/39dae45d3a3309357462861dac9bb9b159030ea8.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/39dae45d3a3309357462861dac9bb9b159030ea8.png',
+         "job_icon": 'MRD',
          "level": '4',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -33,8 +33,8 @@
       // PVE Skill 03
       "Berserk": {
          "name": 'Berserk',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c5a2c3896b62318a88ea9e48159ff7efd0962be1.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c5a2c3896b62318a88ea9e48159ff7efd0962be1.png',
+         "job_icon": 'MRD',
          "level": '6',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -47,8 +47,8 @@
       // PVE Skill 04
       "Overpower": {
          "name": 'Overpower',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/335c367406c5d952f11b8fd2dadaabb89e1cecbc.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/335c367406c5d952f11b8fd2dadaabb89e1cecbc.png',
+         "job_icon": 'MRD',
          "level": '10',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -61,8 +61,8 @@
       // PVE Skill 05
       "Defiance": {
          "name": 'Defiance',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e6cc16e225417ce3c68cde5eb28df034f349d25d.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e6cc16e225417ce3c68cde5eb28df034f349d25d.png',
+         "job_icon": 'MRD',
          "level": '10',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -75,8 +75,8 @@
       // PVE Skill 06
       "Release Defiance": {
          "name": 'Release Defiance',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1965311bb3fb720ba65258cb8f427bb986fa36c4.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1965311bb3fb720ba65258cb8f427bb986fa36c4.png',
+         "job_icon": 'MRD',
          "level": '10',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -90,8 +90,8 @@
       "Tomahawk": {
          "name": 'Tomahawk',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1b82df7a839/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de42e4febcf54cf4af3189f9d2adfa4ca5975c25.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de42e4febcf54cf4af3189f9d2adfa4ca5975c25.png',
+         "job_icon": 'MRD',
          "level": '15',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -104,8 +104,8 @@
       // PVE Skill 08
       "Storm's Path": {
          "name": "Storm's Path",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/14d9c5aa40a8f86aa13890aa9bedc9f6579ed289.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/14d9c5aa40a8f86aa13890aa9bedc9f6579ed289.png',
+         "job_icon": 'MRD',
          "level": '26',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -119,8 +119,8 @@
       "Thrill of Battle": {
          "name": 'Thrill of Battle',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c082bce15bb/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9412945d8b5a61fbb118907bd33046110ff83434.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9412945d8b5a61fbb118907bd33046110ff83434.png',
+         "job_icon": 'MRD',
          "level": '30',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -134,8 +134,8 @@
       "Inner Beast": {
          "name": 'Inner Beast',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0a4aa18f8ce/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c72ea7de2c06ad8a03bc55598297aba5bf00b0b6.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c72ea7de2c06ad8a03bc55598297aba5bf00b0b6.png',
+         "job_icon": 'WAR',
          "level": '35',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -148,8 +148,8 @@
       // PVE Skill 11
       "Vengeance": {
          "name": 'Vengeance',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/72a939d0010304553c5b88fae576f5a25f453e10.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/72a939d0010304553c5b88fae576f5a25f453e10.png',
+         "job_icon": 'MRD',
          "level": '38',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -163,8 +163,8 @@
       "Mythril Tempest": {
          "name": 'Mythril Tempest',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9d79c446b7f/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b9efeaf988763dc594fc2497b603cfda4253064f.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b9efeaf988763dc594fc2497b603cfda4253064f.png',
+         "job_icon": 'WAR',
          "level": '40',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -177,8 +177,8 @@
       // PVE Skill 13
       "Holmgang": {
          "name": 'Holmgang',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/91b5673b1dfb08c80d7b8fc2bdc936f46906317f.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/91b5673b1dfb08c80d7b8fc2bdc936f46906317f.png',
+         "job_icon": 'MRD',
          "level": '42',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -192,8 +192,8 @@
       "Steel Cyclone": {
          "name": 'Steel Cyclone',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f9ca807f2c9/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/caee561eee94d7ecc27ac396982ebe39df5c6893.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/caee561eee94d7ecc27ac396982ebe39df5c6893.png',
+         "job_icon": 'WAR',
          "level": '45',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -206,8 +206,8 @@
       // PVE Skill 15
       "Storm's Eye": {
          "name": "Storm's Eye",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/05faebea82787675c2331bb4ddb7778b70ab53f0.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/05faebea82787675c2331bb4ddb7778b70ab53f0.png',
+         "job_icon": 'MRD',
          "level": '50',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -221,8 +221,8 @@
       "Infuriate": {
          "name": 'Infuriate',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3bf7d4d27ba/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ecd32b95358ef9b2756b005daef73afdde9fab80.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ecd32b95358ef9b2756b005daef73afdde9fab80.png',
+         "job_icon": 'WAR',
          "level": '50',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -236,8 +236,8 @@
       "Fell Cleave": {
          "name": 'Fell Cleave',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3a541cff74e/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d146522a8fc94788d96043b93034176eab59a10.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d146522a8fc94788d96043b93034176eab59a10.png',
+         "job_icon": 'WAR',
          "level": '54',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -251,8 +251,8 @@
       "Raw Intuition": {
          "name": 'Raw Intuition',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4e064a2888d/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d9a63cc19bbec0e2f99d192040c26e306e2e675.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d9a63cc19bbec0e2f99d192040c26e306e2e675.png',
+         "job_icon": 'WAR',
          "level": '56',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -266,8 +266,8 @@
       "Equilibrium": {
          "name": 'Equilibrium',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/447e54738f5/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b549a16dfa8cbde55ec19b81bad325c5480d98e2.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b549a16dfa8cbde55ec19b81bad325c5480d98e2.png',
+         "job_icon": 'WAR',
          "level": '58',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -281,8 +281,8 @@
       "Decimate": {
          "name": 'Decimate',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6079bd110a1/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f4fdd09a56a0b83a0cbe11a83f706dc0fb6781f5.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f4fdd09a56a0b83a0cbe11a83f706dc0fb6781f5.png',
+         "job_icon": 'WAR',
          "level": '60',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -295,8 +295,8 @@
       // PVE Skill 21
       "Onslaught": {
          "name": 'Onslaught',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d0a1dad0fa6c8294ceb31b6879c765a02498e3fb.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d0a1dad0fa6c8294ceb31b6879c765a02498e3fb.png',
+         "job_icon": 'WAR',
          "level": '62',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -309,8 +309,8 @@
       // PVE Skill 22
       "Upheaval": {
          "name": 'Upheaval',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba0b3b08d9b2ef02636e06148bc739680390fdd3.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba0b3b08d9b2ef02636e06148bc739680390fdd3.png',
+         "job_icon": 'WAR',
          "level": '64',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -323,8 +323,8 @@
       // PVE Skill 23
       "Shake It Off": {
          "name": 'Shake It Off',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f71e2c46512c1e937c0ff316be668d853869c637.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f71e2c46512c1e937c0ff316be668d853869c637.png',
+         "job_icon": 'WAR',
          "level": '68',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -338,8 +338,8 @@
       "Inner Release": {
          "name": 'Inner Release',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/02aed005346/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/809168ffb23f67e3d4b720b3caa4a0a1773fea4c.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/809168ffb23f67e3d4b720b3caa4a0a1773fea4c.png',
+         "job_icon": 'WAR',
          "level": '70',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -352,8 +352,8 @@
       // PVE Skill 25
       "Chaotic Cyclone": {
          "name": 'Chaotic Cyclone',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a5ea711252d08de0f9fd2e65313690c19b9f8773.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a5ea711252d08de0f9fd2e65313690c19b9f8773.png',
+         "job_icon": 'WAR',
          "level": '72',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -366,8 +366,8 @@
       // PVE Skill 26
       "Nascent Flash": {
          "name": 'Nascent Flash',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0a4356e3696cea8f2c8cea9be200e773da6c7caa.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0a4356e3696cea8f2c8cea9be200e773da6c7caa.png',
+         "job_icon": 'WAR',
          "level": '76',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -380,8 +380,8 @@
       // PVE Skill 27
       "Inner Chaos": {
          "name": 'Inner Chaos',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70a629706b7fa0dc566d988dbf32da064d0c3458.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70a629706b7fa0dc566d988dbf32da064d0c3458.png',
+         "job_icon": 'WAR',
          "level": '80',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -394,8 +394,8 @@
       // PVE Skill 28
       "Bloodwhetting": {
          "name": 'Bloodwhetting',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/439c677f7cd4da8e9be9b92245865d2eb1ebceca.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/439c677f7cd4da8e9be9b92245865d2eb1ebceca.png',
+         "job_icon": 'WAR',
          "level": '82',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -408,8 +408,8 @@
       // PVE Skill 29
       "Orogeny": {
          "name": 'Orogeny',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a746763655d8eb64a4f2577f4a19d445866aa8e5.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a746763655d8eb64a4f2577f4a19d445866aa8e5.png',
+         "job_icon": 'WAR',
          "level": '86',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -422,8 +422,8 @@
       // PVE Skill 30
       "Primal Rend": {
          "name": 'Primal Rend',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e6ccdb7bd1a86153af07f02f06583113ac86c8eb.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e6ccdb7bd1a86153af07f02f06583113ac86c8eb.png',
+         "job_icon": 'WAR',
          "level": '90',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
@@ -436,8 +436,8 @@
       // Trait 01
       "Tank Mastery": {
          "name": 'Tank Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png',
-         "jobclass_icon": 'MRD',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png',
+         "job_icon": 'MRD',
          "level": '1',
          "content": 'Снижает получаемый урон на 20%. Также персонаж получает бонус к максимальному количеству HP в зависимости от значения выносливости (vitality) и бонус к урону в зависимости от значения силы (strength).',
       },
@@ -445,8 +445,8 @@
       "The Beast Within": {
          "name": 'The Beast Within',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0a4aa18f8ce/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d10b3734c0ac46bf83e4b6dadeb2776fcbab0be.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d10b3734c0ac46bf83e4b6dadeb2776fcbab0be.png',
+         "job_icon": 'WAR',
          "level": '35',
          "content": `Восполняет ресурс шкалы Beast Gauge при использовании умения Maim или Storm's Path в комбо.`,
       },
@@ -454,8 +454,8 @@
       "Inner Beast Mastery": {
          "name": 'Inner Beast Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3a541cff74e/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0348d86d64f3ad4c3903ee9eff727f49929d05c8.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0348d86d64f3ad4c3903ee9eff727f49929d05c8.png',
+         "job_icon": 'WAR',
          "level": '54',
          "content": 'Улучшает умение Inner Beast до Fell Cleave.',
       },
@@ -463,16 +463,16 @@
       "Steel Cyclone Mastery": {
          "name": 'Steel Cyclone Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6079bd110a1/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2ac33bbd12953a4d539f46bf5118f8e4529ca698.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2ac33bbd12953a4d539f46bf5118f8e4529ca698.png',
+         "job_icon": 'WAR',
          "level": '60',
          "content": 'Улучшает умение Steel Cyclone до Decimate.',
       },
       // Trait 05
       "Enhanced Infuriate": {
          "name": 'Enhanced Infuriate',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1a5dae6cb0b5d7b7158bfa730936a4bac168de52.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1a5dae6cb0b5d7b7158bfa730936a4bac168de52.png',
+         "job_icon": 'WAR',
          "level": '66',
          "content": 'Уменьшает время восстановления умения Infuriate на 5 сек. после использования Inner Beast, Steel Cyclone, Fell Cleave или Decimate на множестве целей.',
       },
@@ -480,87 +480,87 @@
       "Berserk Mastery": {
          "name": 'Berserk Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/02aed005346/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c31fbc72ed1bf1ab02e77a17a42cd6f2327df8e2.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c31fbc72ed1bf1ab02e77a17a42cd6f2327df8e2.png',
+         "job_icon": 'WAR',
          "level": '70',
          "content": 'Улучшает умение Berserk до Inner Release.',
       },
       // Trait 07
       "Nascent Chaos": {
          "name": 'Nascent Chaos',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/825adb90166b2a7a0b9ccc5f399392d895337565.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/825adb90166b2a7a0b9ccc5f399392d895337565.png',
+         "job_icon": 'WAR',
          "level": '72',
          "content": 'Infuriate накладывает эффект Nascent Chaos, улучшая Decimate до Chaotic Cyclone. При достижении 80 уровня, эффект Nascent Chaos улучшает Fell Cleave до Inner Chaos.<br/>Продолжительность: 30 сек.',
       },
       // Trait 08
       "Mastering the Beast": {
          "name": 'Mastering the Beast',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/840b30e9758509963bad58c3f9bee151efab466d.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/840b30e9758509963bad58c3f9bee151efab466d.png',
+         "job_icon": 'WAR',
          "level": '74',
          "content": 'Накапливает Beast Gauge при использовании Mythril Tempest в комбо.',
       },
       // Trait 09
       "Enhanced Shake It Off": {
          "name": 'Enhanced Shake It Off',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/57bdf03782fbb632a57f9eeae29c7b7a995f2392.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/57bdf03782fbb632a57f9eeae29c7b7a995f2392.png',
+         "job_icon": 'WAR',
          "level": '76',
          "content": 'Добавляет эффект лечения к умению Shake It Off.<br/>Сила лечения: 300',
       },
       // Trait 10
       "Enhanced Thrill of Battle": {
          "name": 'Enhanced Thrill of Battle',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/52be11902b062536721be4257c7d5bcb35f8bc57.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/52be11902b062536721be4257c7d5bcb35f8bc57.png',
+         "job_icon": 'WAR',
          "level": '78',
          "content": 'Добавляет к умению Thrill of Battle эффект, увеличивающий количество восстанавливаемого HP на 20%.',
       },
       // Trait 11
       "Raw Intuition Mastery": {
          "name": 'Raw Intuition Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1244d605cbfb73e04b30ff6d51e918a069a4da83.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1244d605cbfb73e04b30ff6d51e918a069a4da83.png',
+         "job_icon": 'WAR',
          "level": '82',
          "content": 'Улучшает умение Raw Intuition до Bloodwhetting.',
       },
       // Trait 12
       "Enhanced Nascent Flash": {
          "name": 'Enhanced Nascent Flash',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dad6571de24248dac73a723d1a9359f95dca8a99.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dad6571de24248dac73a723d1a9359f95dca8a99.png',
+         "job_icon": 'WAR',
          "level": '82',
          "content": 'Увеличивает продолжительность действий эффекта Nascent Flash и эффекта Nascent Glint до 8 секунд.<br/>Накладывает на цель эффект Stem the Flow, снижающий получаемый урон на 10%.<br/>Продолжительность: 4 сек.<br/>Накладывает на цель Stem the Tide, предотвращая получение урона, равное силе лечения 400.<br/>Продолжительность: 20 сек.',
       },
       // Trait 13
       "Enhanced Equilibrium": {
          "name": 'Enhanced Equilibrium',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/492bd21d22da975f17ad7a993a71f36bc201a32f.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/492bd21d22da975f17ad7a993a71f36bc201a32f.png',
+         "job_icon": 'WAR',
          "level": '84',
          "content": 'Накладывает на персонажа эффект периодического восстановления HP.<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.',
       },
       // Trait 14
       "Melee Mastery": {
          "name": 'Melee Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "job_icon": 'WAR',
          "level": '84',
          "content": `Увеличивает силу атаки Heavy Swing до 200, Maim до 150, Storm's Path до 160 и Storm's Eye до 160.`,
       },
       // Trait 15
       "Enhanced Onslaught": {
          "name": 'Enhanced Onslaught',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9e25aa37d3494d7045013593b3af7793616dc6d7.png',
-         "jobclass_icon": 'WAR',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9e25aa37d3494d7045013593b3af7793616dc6d7.png',
+         "job_icon": 'WAR',
          "level": '88',
          "content": 'Добавляет третий заряд для умения Onslaught.',
       },
       // PVP Skill 01
       "PVP Heavy Swing": {
          "name": 'Heavy Swing',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/620b56980ee1b82942bf0b05b356663531ab13b0.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/620b56980ee1b82942bf0b05b356663531ab13b0.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -572,7 +572,7 @@
       // PVP Skill 02
       "PVP Maim": {
          "name": 'Maim',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/da21ae7d5c8b75f6b24205cd2f263d53c0fc3c17.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/da21ae7d5c8b75f6b24205cd2f263d53c0fc3c17.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -584,7 +584,7 @@
       // PVP Skill 03
       "PVP Storm's Path": {
          "name": "Storm's Path",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9ade61d55ebe1ced213ac5f2e18217d1a8cf3efc.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9ade61d55ebe1ced213ac5f2e18217d1a8cf3efc.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -596,7 +596,7 @@
       // PVP Skill 04
       "PVP Primal Rend": {
          "name": 'Primal Rend',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7dcf0639ab9919a5e4a6e94597813727101b5711.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7dcf0639ab9919a5e4a6e94597813727101b5711.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -608,7 +608,7 @@
       // PVP Skill 05
       "PVP Onslaught": {
          "name": 'Onslaught',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/90e5bf247f1527c6f9b417b79014131b75657aa8.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/90e5bf247f1527c6f9b417b79014131b75657aa8.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '10 сек.',
@@ -620,7 +620,7 @@
       // PVP Skill 06
       "PVP Orogeny": {
          "name": 'Orogeny',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0c1021aeac66c93d12f000d6c469ebde0fad356d.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0c1021aeac66c93d12f000d6c469ebde0fad356d.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -632,7 +632,7 @@
       // PVP Skill 07
       "PVP Blota": {
          "name": 'Blota',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c0a4d063fb602de6211f217192680b05d2d64698.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c0a4d063fb602de6211f217192680b05d2d64698.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -644,7 +644,7 @@
       // PVP Skill 08
       "PVP Bloodwhetting": {
          "name": 'Bloodwhetting',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/791304fb065ed36949c9ae74ae1a6a8b8e649948.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/791304fb065ed36949c9ae74ae1a6a8b8e649948.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -656,7 +656,7 @@
       // PVP Skill 09
       "PVP Fell Cleave": {
          "name": 'Fell Cleave',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2d0f3dd8777837d2ca5c617eac4cac2950ebec44.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2d0f3dd8777837d2ca5c617eac4cac2950ebec44.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -668,7 +668,7 @@
       // PVP Skill 10
       "PVP Chaotic Cyclone": {
          "name": 'Chaotic Cyclone',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9eece9bd72707dba5fc6c4deae34d27f47b3312a.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9eece9bd72707dba5fc6c4deae34d27f47b3312a.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -680,7 +680,7 @@
       // PVP Skill 11
       "PVP Primal Scream": {
          "name": 'Primal Scream',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6bcfcb1fa456db189719af5c6e06d82f24c40191.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6bcfcb1fa456db189719af5c6e06d82f24c40191.png',
          "cast": 'Мгновенная',
          "recast": '10 сек.',
          "range": '12y',

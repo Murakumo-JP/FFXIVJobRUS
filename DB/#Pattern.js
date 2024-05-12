@@ -6,8 +6,8 @@
       " ": {
          "name": '',
          "eorzeadb": '',
-         "job_skill_icon": '',
-         "jobclass_icon": '',
+         "skill_icon": '',
+         "job_icon": '',
          "level": '',
          "classification": '',
          "cast": '',
@@ -22,15 +22,15 @@
       " ": {
          "name": '',
          "eorzeadb": '',
-         "job_skill_icon": '',
-         "jobclass_icon": '',
+         "skill_icon": '',
+         "job_icon": '',
          "level": '',
          "content": '',
       },
       // PVP Skill 01
       " ": {
          "name": '',
-         "job_skill_icon": '',
+         "skill_icon": '',
          "classification": '',
          "cast": '',
          "recast": '',

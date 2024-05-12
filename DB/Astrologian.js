@@ -5,8 +5,8 @@
       // PVE Skill 01
       "Malefic": {
          "name": 'Malefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c53f900e5226e09621196190c506da91d3703bb.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c53f900e5226e09621196190c506da91d3703bb.png',
+         "job_icon": 'AST',
          "level": '1',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -20,8 +20,8 @@
       // PVE Skill 02
       "Benefic": {
          "name": 'Benefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec1096796458eca5c96eea7720465aa642bd73e1.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec1096796458eca5c96eea7720465aa642bd73e1.png',
+         "job_icon": 'AST',
          "level": '2',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -35,8 +35,8 @@
       // PVE Skill 03
       "Combust": {
          "name": 'Combust',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e161244d4e8b8909f2b0804f096fdec8228ef4d.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e161244d4e8b8909f2b0804f096fdec8228ef4d.png',
+         "job_icon": 'AST',
          "level": '4',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -50,8 +50,8 @@
       // PVE Skill 04
       "Lightspeed": {
          "name": 'Lightspeed',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8e5b0f4ba2437c7ed0dba22471388c128372c767.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8e5b0f4ba2437c7ed0dba22471388c128372c767.png',
+         "job_icon": 'AST',
          "level": '6',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -65,8 +65,8 @@
       // PVE Skill 05
       "Helios": {
          "name": 'Helios',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78affa4069a26e38833b6dc5826c2e3abf05917d.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78affa4069a26e38833b6dc5826c2e3abf05917d.png',
+         "job_icon": 'AST',
          "level": '10',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -80,8 +80,8 @@
       // PVE Skill 06
       "Ascend": {
          "name": 'Ascend',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/89ac1eda0deb042fbdb3618d88511262a4d0f5c5.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/89ac1eda0deb042fbdb3618d88511262a4d0f5c5.png',
+         "job_icon": 'AST',
          "level": '12',
          "classification": 'Заклинание',
          "cast": '8 сек.',
@@ -95,8 +95,8 @@
       // PVE Skill 07
       "Essential Dignity": {
          "name": 'Essential Dignity',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6e6f7c02d300a61d010d596d0e2fe80a12f8e03b.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6e6f7c02d300a61d010d596d0e2fe80a12f8e03b.png',
+         "job_icon": 'AST',
          "level": '15',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -110,8 +110,8 @@
       // PVE Skill 08
       "Benefic II": {
          "name": 'Benefic II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eeb9a90c14711ee0450ce0c96d4b6b00f73f733e.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eeb9a90c14711ee0450ce0c96d4b6b00f73f733e.png',
+         "job_icon": 'AST',
          "level": '26',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -125,8 +125,8 @@
       // PVE Skill 09
       "Draw": {
          "name": 'Draw',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2ed60d4c6e0f8e9ef8c57b590450b63fbbc169a.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2ed60d4c6e0f8e9ef8c57b590450b63fbbc169a.png',
+         "job_icon": 'AST',
          "level": '30',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -140,8 +140,8 @@
       // PVE Skill 10
       "Undraw": {
          "name": 'Undraw',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/620351e666c5758b3875ee2c8d0bfe46fda357a1.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/620351e666c5758b3875ee2c8d0bfe46fda357a1.png',
+         "job_icon": 'AST',
          "level": '30',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -155,8 +155,8 @@
       // PVE Skill 11
       "Play": {
          "name": 'Play',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9544d7e3db69c71c3e50b8a8a38e801a4d48443b.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9544d7e3db69c71c3e50b8a8a38e801a4d48443b.png',
+         "job_icon": 'AST',
          "level": '30',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -170,8 +170,8 @@
       // PVE Skill 12
       "Aspected Benefic": {
          "name": 'Aspected Benefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9abd9dc20f6f0864806e050841e5ae74172d3d93.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9abd9dc20f6f0864806e050841e5ae74172d3d93.png',
+         "job_icon": 'AST',
          "level": '34',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -186,8 +186,8 @@
       "Redraw": {
          "name": 'Redraw',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/749b8483b61/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/562ee5721d04aff075f3a21c02643ae5cd6496a2.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/562ee5721d04aff075f3a21c02643ae5cd6496a2.png',
+         "job_icon": 'AST',
          "level": '40',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -201,8 +201,8 @@
       // PVE Skill 14
       "Aspected Helios": {
          "name": 'Aspected Helios',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ee92429fd70cd18d445735da357c023336da994d.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ee92429fd70cd18d445735da357c023336da994d.png',
+         "job_icon": 'AST',
          "level": '42',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -217,8 +217,8 @@
       "Gravity": {
          "name": 'Gravity',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f625f3a645c/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/42e3c5d1cccb388c35ee3d6907a6e6109ba4b852.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/42e3c5d1cccb388c35ee3d6907a6e6109ba4b852.png',
+         "job_icon": 'AST',
          "level": '45',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -232,8 +232,8 @@
       // PVE Skill 16
       "Combust II": {
          "name": 'Combust II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/447dd0b8ed8d759beeaa8b8aa7f8f1ec2cbec7b4.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/447dd0b8ed8d759beeaa8b8aa7f8f1ec2cbec7b4.png',
+         "job_icon": 'AST',
          "level": '46',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -248,8 +248,8 @@
       "Synastry": {
          "name": 'Synastry',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/67a7f1c0d57/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/883284b0f5ce828b73992bdaf990124383c77efd.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/883284b0f5ce828b73992bdaf990124383c77efd.png',
+         "job_icon": 'AST',
          "level": '50',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -263,8 +263,8 @@
       // PVE Skill 18
       "Divination": {
          "name": 'Divination',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/24e1ea2b4dce9d16ae60f33ab860190a67a3a506.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/24e1ea2b4dce9d16ae60f33ab860190a67a3a506.png',
+         "job_icon": 'AST',
          "level": '50',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -278,8 +278,8 @@
       // PVE Skill 19
       "Astrodyne": {
          "name": 'Astrodyne',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/97986c90b046e3198e2121d251e2872066a9f505.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/97986c90b046e3198e2121d251e2872066a9f505.png',
+         "job_icon": 'AST',
          "level": '50',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -294,8 +294,8 @@
       "Malefic II": {
          "name": 'Malefic II',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/220108abf60/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e9cbc9998cc2491689d203da71716e9cee15c615.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e9cbc9998cc2491689d203da71716e9cee15c615.png',
+         "job_icon": 'AST',
          "level": '54',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -310,8 +310,8 @@
       "Collective Unconscious": {
          "name": 'Collective Unconscious',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/293a143ad09/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6ffe2bab0c77721314aee02e2f3f14f61351e2a4.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6ffe2bab0c77721314aee02e2f3f14f61351e2a4.png',
+         "job_icon": 'AST',
          "level": '58',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -326,8 +326,8 @@
       "Celestial Opposition": {
          "name": 'Celestial Opposition',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/88888ade6e4/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f2ca2bba463ed6f55295fb64f6a497e130b05cf4.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f2ca2bba463ed6f55295fb64f6a497e130b05cf4.png',
+         "job_icon": 'AST',
          "level": '60',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -341,8 +341,8 @@
       // PVE Skill 23
       "Earthly Star": {
          "name": 'Earthly Star',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/522e3417c4930cf5834e64c75e763e999dc284c8.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/522e3417c4930cf5834e64c75e763e999dc284c8.png',
+         "job_icon": 'AST',
          "level": '62',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -356,8 +356,8 @@
       // PVE Skill 24
       "Stellar Detonation": {
          "name": 'Stellar Detonation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f69c65b6871458427cf794c2467d50e1ae6b7949.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f69c65b6871458427cf794c2467d50e1ae6b7949.png',
+         "job_icon": 'AST',
          "level": '62',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -371,8 +371,8 @@
       // PVE Skill 25
       "Malefic III": {
          "name": 'Malefic III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4383eddfb0a234ec105f3bdfcc162aa2ff8b37d8.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4383eddfb0a234ec105f3bdfcc162aa2ff8b37d8.png',
+         "job_icon": 'AST',
          "level": '64',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -387,8 +387,8 @@
       "Minor Arcana": {
          "name": 'Minor Arcana',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4dd4d472031/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5f9cec813674a23520286ff23759e752db5499bd.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5f9cec813674a23520286ff23759e752db5499bd.png',
+         "job_icon": 'AST',
          "level": '70',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -402,8 +402,8 @@
       // PVE Skill 27
       "Combust III": {
          "name": 'Combust III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0f73da17cc2ccea0a36787347d34738d6a97673a.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0f73da17cc2ccea0a36787347d34738d6a97673a.png',
+         "job_icon": 'AST',
          "level": '72',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -417,8 +417,8 @@
       // PVE Skill 28
       "Malefic IV": {
          "name": 'Malefic IV',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0a063c1dba4b21b9f27440a05d707da109b00d15.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0a063c1dba4b21b9f27440a05d707da109b00d15.png',
+         "job_icon": 'AST',
          "level": '72',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -432,8 +432,8 @@
       // PVE Skill 29
       "Celestial Intersection": {
          "name": 'Celestial Intersection',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2a71645e6880d0bb4b46332fd64cd0756dd3b08f.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2a71645e6880d0bb4b46332fd64cd0756dd3b08f.png',
+         "job_icon": 'AST',
          "level": '74',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -447,8 +447,8 @@
       // PVE Skill 30
       "Horoscope Main": {
          "name": 'Horoscope',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c806bf7d70b7343de2de42f47a2bbaa59e8b324e.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c806bf7d70b7343de2de42f47a2bbaa59e8b324e.png',
+         "job_icon": 'AST',
          "level": '76',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -462,8 +462,8 @@
       // PVE Skill 31
       "Horoscope Alt": {
          "name": 'Horoscope',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/224ca9088106c40e33179fa3fdfcd742104d1891.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/224ca9088106c40e33179fa3fdfcd742104d1891.png',
+         "job_icon": 'AST',
          "level": '76',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -477,8 +477,8 @@
       // PVE Skill 32
       "Neutral Sect": {
          "name": 'Neutral Sect',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8ccf71b513276dce09f58889b5bb8878371b8519.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8ccf71b513276dce09f58889b5bb8878371b8519.png',
+         "job_icon": 'AST',
          "level": '80',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -492,8 +492,8 @@
       // PVE Skill 33
       "Fall Malefic": {
          "name": 'Fall Malefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6f0ba481b923ff8cea8bc37b5c25f9192e494beb.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6f0ba481b923ff8cea8bc37b5c25f9192e494beb.png',
+         "job_icon": 'AST',
          "level": '82',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -507,8 +507,8 @@
       // PVE Skill 34
       "Gravity II": {
          "name": 'Gravity II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/56748917749affb1f286aba23c3a54cc0e5d0156.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/56748917749affb1f286aba23c3a54cc0e5d0156.png',
+         "job_icon": 'AST',
          "level": '82',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -522,8 +522,8 @@
       // PVE Skill 35
       "Exaltation": {
          "name": 'Exaltation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c4bf5c769353b2ee48cba7af8c64a86f1bb11e7d.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c4bf5c769353b2ee48cba7af8c64a86f1bb11e7d.png',
+         "job_icon": 'AST',
          "level": '86',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -537,8 +537,8 @@
       // PVE Skill 36
       "Macrocosmos": {
          "name": 'Macrocosmos',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d39637c8a2ed0b39fc54cac5eb718eabc29bc53.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d39637c8a2ed0b39fc54cac5eb718eabc29bc53.png',
+         "job_icon": 'AST',
          "level": '90',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -552,8 +552,8 @@
       // PVE Skill 37
       "Microcosmos": {
          "name": 'Microcosmos',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/03b8b3a806a33ef16f67e6c5c09e8deb6c59d526.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/03b8b3a806a33ef16f67e6c5c09e8deb6c59d526.png',
+         "job_icon": 'AST',
          "level": '90',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -567,7 +567,7 @@
       // Arcana 01
       "The Balance": {
          "name": 'The Balance',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e0c271c023e40dbe891c059a0649384bd8bd9813.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e0c271c023e40dbe891c059a0649384bd8bd9813.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -579,7 +579,7 @@
       // Arcana 02
       "The Arrow": {
          "name": 'The Arrow',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5ed37e114bdbc3bb017899ccf292c119dff9fc8c.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5ed37e114bdbc3bb017899ccf292c119dff9fc8c.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -591,7 +591,7 @@
       // Arcana 03
       "The Spear": {
          "name": 'The Spear',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2058f6ea0446529384c53e230d990cec8cb91877.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2058f6ea0446529384c53e230d990cec8cb91877.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -603,7 +603,7 @@
       // Arcana 04
       "The Bole": {
          "name": 'The Bole',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/61c774c41795b2f62b9da4f3c3caf7668abef559.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/61c774c41795b2f62b9da4f3c3caf7668abef559.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -615,7 +615,7 @@
       // Arcana 05
       "The Ewer": {
          "name": 'The Ewer',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/92c50500729867248fd6e8fc00f7767cffdc2f90.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/92c50500729867248fd6e8fc00f7767cffdc2f90.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -627,7 +627,7 @@
       // Arcana 06
       "The Spire": {
          "name": 'The Spire',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/423ae76b858935990514ef42b8588d8a782212aa.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/423ae76b858935990514ef42b8588d8a782212aa.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -639,7 +639,7 @@
       // Arcana 07
       "Lord of Crowns": {
          "name": 'Lord of Crowns',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/723259daf1a4692eba3d085bbd5af39be69b1a93.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/723259daf1a4692eba3d085bbd5af39be69b1a93.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -651,7 +651,7 @@
       // Arcana 08
       "Lady of Crowns": {
          "name": 'Lady of Crowns',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d2e17a98f5db304851aa2f5f8c28a2d589af692a.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d2e17a98f5db304851aa2f5f8c28a2d589af692a.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -663,24 +663,24 @@
       // Trait 01
       "Maim and Mend": {
          "name": 'Maim and Mend',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/099b8ce7dff9d154a1ae5ac6ba70e7b77530491b.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/099b8ce7dff9d154a1ae5ac6ba70e7b77530491b.png',
+         "job_icon": 'AST',
          "level": '20',
          "content": 'Увеличивает базовый урон умений и восстановления HP на 10%.',
       },
       // Trait 02
       "Enhanced Benefic": {
          "name": 'Enhanced Benefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7753c5b2adf795e504d26c97452f03dbd9ad4ae6.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7753c5b2adf795e504d26c97452f03dbd9ad4ae6.png',
+         "job_icon": 'AST',
          "level": '36',
          "content": 'Дает 15% шанс, что следующий Benefic II будет иметь критический эффект при исцелении.<br/>Продолжительность: 15 сек.',
       },
       // Trait 03
       "Maim and Mend II": {
          "name": 'Maim and Mend II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ea011d893abd8a39efff14c7da1e9cac613b33da.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ea011d893abd8a39efff14c7da1e9cac613b33da.png',
+         "job_icon": 'AST',
          "level": '40',
          "content": 'Увеличивает базовый урон умений и восстановления HP на 30%.',
       },
@@ -688,24 +688,24 @@
       "Enhanced Draw": {
          "name": 'Enhanced Draw',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/749b8483b61/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6c5465c4c581e1e62511ab687e0b861aac698aeb.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6c5465c4c581e1e62511ab687e0b861aac698aeb.png',
+         "job_icon": 'AST',
          "level": '40',
          "content": 'Накладывает эффект Clarifying после использования Draw.',
       },
       // Trait 05
       "Combust Mastery": {
          "name": 'Combust Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f89557c8a060b5202436b06ce55c414930a87824.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f89557c8a060b5202436b06ce55c414930a87824.png',
+         "job_icon": 'AST',
          "level": '46',
          "content": 'Улучшает умения Combust до Combust II.',
       },
       // Trait 06
       "Enhanced Draw II": {
          "name": 'Enhanced Draw II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9cf76aaad5284548c49a878dfa522a7f5536664b.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9cf76aaad5284548c49a878dfa522a7f5536664b.png',
+         "job_icon": 'AST',
          "level": '50',
          "content": 'Накладывает Solar Sign, Lunar Sign или Celestial Sign в соответствии с арканом, разыгранном в бою.',
       },
@@ -713,87 +713,87 @@
       "Malefic Mastery": {
          "name": 'Malefic Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/220108abf60/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/096c90be485edbee28599286d9aa506904bfedc1.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/096c90be485edbee28599286d9aa506904bfedc1.png',
+         "job_icon": 'AST',
          "level": '54',
          "content": 'Улучшает умение Malefic до Malefic II.',
       },
       // Trait 08
       "Malefic Mastery II": {
          "name": 'Malefic Mastery II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f519d617a33b436f8bfae128cafb433fa5b4de01.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f519d617a33b436f8bfae128cafb433fa5b4de01.png',
+         "job_icon": 'AST',
          "level": '64',
          "content": 'Улучшает умение Malefic II до Malefic III.',
       },
       // Trait 09
       "Hyper Lightspeed": {
          "name": 'Hyper Lightspeed',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/97aa38c611b5b28a96f41040e8369f9d662c0398.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/97aa38c611b5b28a96f41040e8369f9d662c0398.png',
+         "job_icon": 'AST',
          "level": '68',
          "content": 'Уменьшает время восстановления умения Lightspeed до 90 сек.',
       },
       // Trait 10
       "Combust Mastery II": {
          "name": 'Combust Mastery II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fa5c279e7998444bf41ef52dd540e514040310ba.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fa5c279e7998444bf41ef52dd540e514040310ba.png',
+         "job_icon": 'AST',
          "level": '72',
          "content": 'Улучшает умение Combust II до Combust III.',
       },
       // Trait 11
       "Malefic Mastery III": {
          "name": 'Malefic Mastery III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79a6019f3f36d87224dcb1621917ede36f53a0eb.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79a6019f3f36d87224dcb1621917ede36f53a0eb.png',
+         "job_icon": 'AST',
          "level": '72',
          "content": 'Улучшает умение Malefic III до Malefic IV.',
       },
       // Trait 12
       "Enhanced Essential Dignity": {
          "name": 'Enhanced Essential Dignity',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5e5dc4bdd1316f0b6e37f3e7aef349e7504a0713.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5e5dc4bdd1316f0b6e37f3e7aef349e7504a0713.png',
+         "job_icon": 'AST',
          "level": '78',
          "content": 'Позволяет накапливать заряды для последовательного использования Essential Dignity.<br/>Максимум зарядов: 2',
       },
       // Trait 13
       "Malefic Mastery IV": {
          "name": 'Malefic Mastery IV',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/263e46f4c7940ee1681d0f15582ac7a32af7fc6a.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/263e46f4c7940ee1681d0f15582ac7a32af7fc6a.png',
+         "job_icon": 'AST',
          "level": '82',
          "content": 'Улучшает умение Malefic IV до Fall Malefic.',
       },
       // Trait 14
       "Gravity Mastery": {
          "name": 'Gravity Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e458835a8f922a7e95c1ca5e325e3498007798b6.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e458835a8f922a7e95c1ca5e325e3498007798b6.png',
+         "job_icon": 'AST',
          "level": '82',
          "content": 'Улучшает умение Gravity до Gravity II.',
       },
       // Trait 15
       "Enhanced Healing Magic": {
          "name": 'Enhanced Healing Magic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
+         "job_icon": 'AST',
          "level": '85',
          "content": 'Увеличивает силу исцеляющих умений Benefic до 500, Helios до 400, Benefic II до 800, Aspected Benefic до 250, эффект периодического лечения Aspected Benefic (regen) до 250, Aspected Helios до 250 и эффект периодического лечения Aspected Helios (regen) до 150.',
       },
       // Trait 16
       "Enhanced Celestial Intersection": {
          "name": 'Enhanced Celestial Intersection',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f43bd4d97118a07e9521573ace0ca9f5cebfb4a5.png',
-         "jobclass_icon": 'AST',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f43bd4d97118a07e9521573ace0ca9f5cebfb4a5.png',
+         "job_icon": 'AST',
          "level": '88',
          "content": 'Позволяет накапливать заряды для последовательного использования Celestial Intersection.<br/>Максимум зарядов: 2',
       },
       // PVP Skill 01
       "PVP Fall Malefic": {
          "name": 'Fall Malefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e78194d327e6a89ecb90f3eae608c085346e1f4.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e78194d327e6a89ecb90f3eae608c085346e1f4.png',
          "classification": 'Заклинание',
          "cast": '1.44 сек.',
          "recast": '2.4 сек.',
@@ -805,7 +805,7 @@
       // PVP Skill 02
       "PVP Aspected Benefic": {
          "name": 'Aspected Benefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d933fcf783650927195ec4b1814e9609eeddc58.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d933fcf783650927195ec4b1814e9609eeddc58.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -817,7 +817,7 @@
       // PVP Skill 03
       "PVP Gravity II": {
          "name": 'Gravity II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/65bf868f9e1117ac27da24bca3b88022fca4eb89.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/65bf868f9e1117ac27da24bca3b88022fca4eb89.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -829,7 +829,7 @@
       // PVP Skill 04
       "PVP Double Cast": {
          "name": 'Double Cast',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9ba6e1a43826a71c5520b5f322440ca88b85b809.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9ba6e1a43826a71c5520b5f322440ca88b85b809.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -841,7 +841,7 @@
       // PVP Skill 05
       "PVP Draw": {
          "name": 'Draw',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/02611d732461020324f552966a57ec5444dfc387.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/02611d732461020324f552966a57ec5444dfc387.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -853,7 +853,7 @@
       // PVP Skill 06
       "PVP Macrocosmos": {
          "name": 'Macrocosmos',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bbddf9b46af564ac6f2c1ca17e11f44782b8ce21.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bbddf9b46af564ac6f2c1ca17e11f44782b8ce21.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '30 сек.',
@@ -865,7 +865,7 @@
       // PVP Skill 07
       "PVP Fall Malefic": {
          "name": 'Fall Malefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e78194d327e6a89ecb90f3eae608c085346e1f4.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e78194d327e6a89ecb90f3eae608c085346e1f4.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -877,7 +877,7 @@
       // PVP Skill 08
       "PVP Aspected Benefic": {
          "name": 'Aspected Benefic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d933fcf783650927195ec4b1814e9609eeddc58.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d933fcf783650927195ec4b1814e9609eeddc58.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -889,7 +889,7 @@
       // PVP Skill 09
       "PVP Gravity II": {
          "name": 'Gravity II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/65bf868f9e1117ac27da24bca3b88022fca4eb89.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/65bf868f9e1117ac27da24bca3b88022fca4eb89.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -901,7 +901,7 @@
       // PVP Skill 10
       "PVP The Balance": {
          "name": 'The Balance',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/643c4801f72755b50d18395bbb46772b714611ac.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/643c4801f72755b50d18395bbb46772b714611ac.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -913,7 +913,7 @@
       // PVP Skill 11
       "PVP The Bole": {
          "name": 'The Bole',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9b6044f7563aeb1f0a1563df58e91f2fcab7c7b9.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9b6044f7563aeb1f0a1563df58e91f2fcab7c7b9.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -925,7 +925,7 @@
       // PVP Skill 12
       "PVP The Arrow": {
          "name": 'The Arrow',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/85a1d6205ebc89fc139d8fde7966e578fcdc4c2f.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/85a1d6205ebc89fc139d8fde7966e578fcdc4c2f.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -937,7 +937,7 @@
       // PVP Skill 13
       "PVP Microcosmos": {
          "name": 'Microcosmos',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/727601c35b12c8cf610a619bffea557c4eae6140.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/727601c35b12c8cf610a619bffea557c4eae6140.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -949,7 +949,7 @@
       // PVP Skill 14
       "PVP Celestial River": {
          "name": 'Celestial River',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/184ffb6c90cb6ab81b25f68ba19510ee469ce306.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/184ffb6c90cb6ab81b25f68ba19510ee469ce306.png',
          "cast": 'Мгновенная',
          "recast": '10 сек.',
          "range": '0y',

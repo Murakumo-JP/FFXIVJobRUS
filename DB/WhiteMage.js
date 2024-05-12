@@ -5,8 +5,8 @@
       // PVE Skill 01
       "Stone": {
          "name": 'Stone',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png',
+         "job_icon": 'CNJ',
          "level": '1',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -20,8 +20,8 @@
       // PVE Skill 02
       "Cure": {
          "name": 'Cure',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a2d0e0ed56915f523e8a7326bbdd09eff0534eda.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a2d0e0ed56915f523e8a7326bbdd09eff0534eda.png',
+         "job_icon": 'CNJ',
          "level": '2',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -35,8 +35,8 @@
       // PVE Skill 03
       "Aero": {
          "name": 'Aero',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78107cd063a81b78b99eb7cb5da15f2bec403c70.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78107cd063a81b78b99eb7cb5da15f2bec403c70.png',
+         "job_icon": 'CNJ',
          "level": '4',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -50,8 +50,8 @@
       // PVE Skill 04
       "Medica": {
          "name": 'Medica',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6c5fd075bab7c063aef743a1de5e36958354b42b.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6c5fd075bab7c063aef743a1de5e36958354b42b.png',
+         "job_icon": 'CNJ',
          "level": '10',
          "classification": 'Заклинание',
          "cast": '2 сек.',
@@ -65,8 +65,8 @@
       // PVE Skill 05
       "Raise": {
          "name": 'Raise',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/34bdc3ad370b701a106f32daa68e73055ab72331.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/34bdc3ad370b701a106f32daa68e73055ab72331.png',
+         "job_icon": 'CNJ',
          "level": '12',
          "classification": 'Заклинание',
          "cast": '8 сек.',
@@ -80,8 +80,8 @@
       // PVE Skill 06
       "Stone II": {
          "name": 'Stone II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ce8e52e199a7d9e548537bc77197f4d7965dea58.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ce8e52e199a7d9e548537bc77197f4d7965dea58.png',
+         "job_icon": 'CNJ',
          "level": '18',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -96,8 +96,8 @@
       "Cure II": {
          "name": 'Cure II',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a02c1c29571/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a70a8e3dcb347c11047f00945f9435687f21f06d.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a70a8e3dcb347c11047f00945f9435687f21f06d.png',
+         "job_icon": 'CNJ',
          "level": '30',
          "classification": 'Заклинание',
          "cast": '2 сек.',
@@ -112,8 +112,8 @@
       "Presence of Mind": {
          "name": 'Presence of Mind',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e3eba90aefc/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7be14bf07b21fa5c78cd7f7891279704da6cadb9.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7be14bf07b21fa5c78cd7f7891279704da6cadb9.png',
+         "job_icon": 'WHM',
          "level": '30',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -128,8 +128,8 @@
       "Regen": {
          "name": 'Regen',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/309e3e7e609/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/53bb0b4fc881c4c06d64c915864968cced6c6201.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/53bb0b4fc881c4c06d64c915864968cced6c6201.png',
+         "job_icon": 'WHM',
          "level": '35',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -144,8 +144,8 @@
       "Cure III": {
          "name": 'Cure III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8891efb6fde/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/33c3597ee1004e364a6331f732f077666e798acd.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/33c3597ee1004e364a6331f732f077666e798acd.png',
+         "job_icon": 'WHM',
          "level": '40',
          "classification": 'Заклинание',
          "cast": '2 сек.',
@@ -160,8 +160,8 @@
       "Holy": {
          "name": 'Holy',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/20e64bc5c59/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb161bfc68766590d81cb1f7d6049711c949039b.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb161bfc68766590d81cb1f7d6049711c949039b.png',
+         "job_icon": 'WHM',
          "level": '45',
          "classification": 'Заклинание',
          "cast": '2.5 сек.',
@@ -175,8 +175,8 @@
       // PVE Skill 12
       "Aero II": {
          "name": 'Aero II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e4202353c63451702e9944dc93551a18951efcf.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e4202353c63451702e9944dc93551a18951efcf.png',
+         "job_icon": 'CNJ',
          "level": '46',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -190,8 +190,8 @@
       // PVE Skill 13
       "Medica II": {
          "name": 'Medica II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/530234ed64e2b5b5aaacf978a90d87932734272f.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/530234ed64e2b5b5aaacf978a90d87932734272f.png',
+         "job_icon": 'CNJ',
          "level": '50',
          "classification": 'Заклинание',
          "cast": '2 сек.',
@@ -206,8 +206,8 @@
       "Benediction": {
          "name": 'Benediction',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6ea2ad6309a/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/44e09756739b6b8924b82471572e7103ac5ca1fb.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/44e09756739b6b8924b82471572e7103ac5ca1fb.png',
+         "job_icon": 'WHM',
          "level": '50',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -221,8 +221,8 @@
       // PVE Skill 15
       "Afflatus Solace": {
          "name": 'Afflatus Solace',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a9c7b172b8c82aaa311a578fe3b42f5f30266e93.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a9c7b172b8c82aaa311a578fe3b42f5f30266e93.png',
+         "job_icon": 'WHM',
          "level": '52',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -237,8 +237,8 @@
       "Asylum": {
          "name": 'Asylum',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a8b01c03e71/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cf3242dc922e88211cb5b2c4aa67f9ae79fb88fb.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cf3242dc922e88211cb5b2c4aa67f9ae79fb88fb.png',
+         "job_icon": 'WHM',
          "level": '52',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -253,8 +253,8 @@
       "Stone III": {
          "name": 'Stone III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c34c7f08e8/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f38006e73efc8e122777b9c23097a4c40bc9c9c4.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f38006e73efc8e122777b9c23097a4c40bc9c9c4.png',
+         "job_icon": 'WHM',
          "level": '54',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -269,8 +269,8 @@
       "Assize": {
          "name": 'Assize',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cbcd1cda8ca/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c9f83b599b37adfa6597ea7e884331cac170a12.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c9f83b599b37adfa6597ea7e884331cac170a12.png',
+         "job_icon": 'WHM',
          "level": '56',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -285,8 +285,8 @@
       "Thin Air": {
          "name": 'Thin Air',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/96be5e383ec/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/539a73220a23fd185c17bed962b140bf7b4673d2.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/539a73220a23fd185c17bed962b140bf7b4673d2.png',
+         "job_icon": 'WHM',
          "level": '58',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -301,8 +301,8 @@
       "Tetragrammaton": {
          "name": 'Tetragrammaton',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3aeddb8e685/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6e00b907b75a6906045955d68cf68af66ba6aa9e.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6e00b907b75a6906045955d68cf68af66ba6aa9e.png',
+         "job_icon": 'WHM',
          "level": '60',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -316,8 +316,8 @@
       // PVE Skill 21
       "Stone IV": {
          "name": 'Stone IV',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/33eacc1401b5fe03a2dd54e317cd60ccbb912c44.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/33eacc1401b5fe03a2dd54e317cd60ccbb912c44.png',
+         "job_icon": 'WHM',
          "level": '64',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -331,8 +331,8 @@
       // PVE Skill 22
       "Divine Benison": {
          "name": 'Divine Benison',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/065d9df35159a3bc53d59984a18b35581b442a73.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/065d9df35159a3bc53d59984a18b35581b442a73.png',
+         "job_icon": 'WHM',
          "level": '66',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -347,8 +347,8 @@
       "Plenary Indulgence": {
          "name": 'Plenary Indulgence',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/83f6c053e16/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2144617daa9bac9ea7bc1f063a9e0cd033fcd363.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2144617daa9bac9ea7bc1f063a9e0cd033fcd363.png',
+         "job_icon": 'WHM',
          "level": '70',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -362,8 +362,8 @@
       // PVE Skill 24
       "Dia": {
          "name": 'Dia',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de737874f0025d808d0bddac1d4156fec9464d00.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de737874f0025d808d0bddac1d4156fec9464d00.png',
+         "job_icon": 'WHM',
          "level": '72',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -377,8 +377,8 @@
       // PVE Skill 25
       "Glare": {
          "name": 'Glare',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c1f9bdbca11c2c7944e3e95cf7599a6a3849e5a2.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c1f9bdbca11c2c7944e3e95cf7599a6a3849e5a2.png',
+         "job_icon": 'WHM',
          "level": '72',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -392,8 +392,8 @@
       // PVE Skill 26
       "Afflatus Misery": {
          "name": 'Afflatus Misery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e01507664cb997891de06ec522b71619279969bc.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e01507664cb997891de06ec522b71619279969bc.png',
+         "job_icon": 'WHM',
          "level": '74',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -407,8 +407,8 @@
       // PVE Skill 27
       "Afflatus Rapture": {
          "name": 'Afflatus Rapture',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9582c5aa6ffa9abf82db6140916020235a003a20.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9582c5aa6ffa9abf82db6140916020235a003a20.png',
+         "job_icon": 'WHM',
          "level": '76',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -422,8 +422,8 @@
       // PVE Skill 28
       "Temperance": {
          "name": 'Temperance',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78e099cba536b64fe978d05487c51b28a66f29df.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78e099cba536b64fe978d05487c51b28a66f29df.png',
+         "job_icon": 'WHM',
          "level": '80',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -437,8 +437,8 @@
       // PVE Skill 29
       "Glare III": {
          "name": 'Glare III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dfafd20ceefae82548deba9511d3d765c4535b3a.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dfafd20ceefae82548deba9511d3d765c4535b3a.png',
+         "job_icon": 'WHM',
          "level": '82',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -452,8 +452,8 @@
       // PVE Skill 30
       "Holy III": {
          "name": 'Holy III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eceb9103dbf8066a8b6c8bce2e84df7552f1a074.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eceb9103dbf8066a8b6c8bce2e84df7552f1a074.png',
+         "job_icon": 'WHM',
          "level": '82',
          "classification": 'Заклинание',
          "cast": '2.5 сек.',
@@ -467,8 +467,8 @@
       // PVE Skill 31
       "Aquaveil": {
          "name": 'Aquaveil',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f87f8e18282665458cc9c358ff1a2b8a78833491.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f87f8e18282665458cc9c358ff1a2b8a78833491.png',
+         "job_icon": 'WHM',
          "level": '86',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -482,8 +482,8 @@
       // PVE Skill 32
       "Liturgy of the Bell": {
          "name": 'Liturgy of the Bell',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d31a93f520e700ac70ab1604bdb6811f124ebb4.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d31a93f520e700ac70ab1604bdb6811f124ebb4.png',
+         "job_icon": 'WHM',
          "level": '90',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -497,40 +497,40 @@
       // Trait 01
       "Stone Mastery": {
          "name": 'Stone Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec59af21d4783ec07af93ded5382036016d67ade.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec59af21d4783ec07af93ded5382036016d67ade.png',
+         "job_icon": 'CNJ',
          "level": '18',
          "content": 'Улучшает умение Stone до Stone II.',
       },
       // Trait 02
       "Maim and Mend": {
          "name": 'Maim and Mend',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
+         "job_icon": 'CNJ',
          "level": '20',
          "content": 'Увеличивает базовый урон умений и восстановления HP на 10%.',
       },
       // Trait 03
       "Freecure": {
          "name": 'Freecure',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a3a57f7b7aa0de5e6da5e5696661ad29a4888e7f.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a3a57f7b7aa0de5e6da5e5696661ad29a4888e7f.png',
+         "job_icon": 'CNJ',
          "level": '32',
          "content": 'Дает 15% шанс, что после использования Cure, стоимость следующего Cure II будет равна 0 MP.<br/>Продолжительность: 15 сек.',
       },
       // Trait 04
       "Maim and Mend II": {
          "name": 'Maim and Mend II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
+         "job_icon": 'CNJ',
          "level": '40',
          "content": 'Увеличивает базовый урон умений и восстановления HP на 30%.',
       },
       // Trait 05
       "Aero Mastery": {
          "name": 'Aero Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bfb73b26584ff1beea3c051df995efb2057f9746.png',
-         "jobclass_icon": 'CNJ',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bfb73b26584ff1beea3c051df995efb2057f9746.png',
+         "job_icon": 'CNJ',
          "level": '46',
          "content": 'Улучшает умение Aero до Aero II.',
       },
@@ -538,8 +538,8 @@
       "Secret of the Lily": {
          "name": 'Secret of the Lily',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a8b01c03e71/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9d84d98cec3b373c4d288036197345815b0079a5.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9d84d98cec3b373c4d288036197345815b0079a5.png',
+         "job_icon": 'WHM',
          "level": '52',
          "content": 'Добавляет Lily на Healing Gauge персонажа каждые 20 секунд при нахождении в бою. Максимум 3 Lily.',
       },
@@ -547,87 +547,87 @@
       "Stone Mastery II": {
          "name": 'Stone Mastery II',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c34c7f08e8/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7700f3365453c8581b17b771446e0ceb253d2482.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7700f3365453c8581b17b771446e0ceb253d2482.png',
+         "job_icon": 'WHM',
          "level": '54',
          "content": 'Улучшает умение Stone II до Stone III.',
       },
       // Trait 08
       "Stone Mastery III": {
          "name": 'Stone Mastery III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0dece0a812fe1229b768f235340926de1be3a4d9.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0dece0a812fe1229b768f235340926de1be3a4d9.png',
+         "job_icon": 'WHM',
          "level": '64',
          "content": 'Улучшает умение Stone III до Stone IV.',
       },
       // Trait 09
       "Aero Mastery II": {
          "name": 'Aero Mastery II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f5083e44cab6be3c440d2db89c35be3242d340d.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f5083e44cab6be3c440d2db89c35be3242d340d.png',
+         "job_icon": 'WHM',
          "level": '72',
          "content": 'Улучшает умение Aero II до Dia.',
       },
       // Trait 10
       "Stone Mastery IV": {
          "name": 'Stone Mastery IV',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/092e5ba991784873f9b5f9a92db364956029657a.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/092e5ba991784873f9b5f9a92db364956029657a.png',
+         "job_icon": 'WHM',
          "level": '72',
          "content": 'Улучшает умение Stone IV до Glare.',
       },
       // Trait 11
       "Transcendent Afflatus": {
          "name": 'Transcendent Afflatus',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/df2fd48f77f5355c6ddc3580504abf58b9aa69ea.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/df2fd48f77f5355c6ddc3580504abf58b9aa69ea.png',
+         "job_icon": 'WHM',
          "level": '74',
          "content": 'Добавляет Blood Lily к Healing Gauge, которая расцветает после трех применений Afflatus Solace или Afflatus Rapture.',
       },
       // Trait 12
       "Enhanced Asylum": {
          "name": 'Enhanced Asylum',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b340f8eedf09a0058e1a6d74bf129a6c0cfff5d1.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b340f8eedf09a0058e1a6d74bf129a6c0cfff5d1.png',
+         "job_icon": 'WHM',
          "level": '78',
          "content": 'Добавляет дополнительный эффект умению Asylum, увеличивающий силу умений восстанавливающих HP на 10%.',
       },
       // Trait 13
       "Glare Mastery": {
          "name": 'Glare Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a78ef89a46bfc230651382c1326ea848696bf4f.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a78ef89a46bfc230651382c1326ea848696bf4f.png',
+         "job_icon": 'WHM',
          "level": '82',
          "content": 'Улучшает умение Glare to Glare III.',
       },
       // Trait 14
       "Holy Mastery": {
          "name": 'Holy Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8754d08e1d361478839e1a220369134a71a28d0a.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8754d08e1d361478839e1a220369134a71a28d0a.png',
+         "job_icon": 'WHM',
          "level": '82',
          "content": 'Улучшает умение Holy да Holy III.',
       },
       // Trait 15
       "Enhanced Healing Magic": {
          "name": 'Enhanced Healing Magic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
+         "job_icon": 'WHM',
          "level": '85',
          "content": 'Увеличивает силу исцеляющих умений Cure до 500, Medica до 400, Cure II до 800, Regen до 250, Cure III до 600, Medica II до 250, эффект периодического лечения Medica II (regen) до 150, Afflatus Solace до 800 и Afflatus Rapture до 400.',
       },
       // Trait 16
       "Enhanced Divine Benison": {
          "name": 'Enhanced Divine Benison',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70956bb631d282deba1787b5497f70b9540eeaa5.png',
-         "jobclass_icon": 'WHM',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70956bb631d282deba1787b5497f70b9540eeaa5.png',
+         "job_icon": 'WHM',
          "level": '88',
          "content": 'Позволяет накапливать заряды для последовательного использования Divine Benison.<br/>Максимум зарядов: 2',
       },
       // PVP Skill 01
       "PVP Glare III": {
          "name": 'Glare III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/889b00ef7b55083b462b1dc589add79e07e87379.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/889b00ef7b55083b462b1dc589add79e07e87379.png',
          "classification": 'Заклинание',
          "cast": '1.44 сек.',
          "recast": '2.4 сек.',
@@ -639,7 +639,7 @@
       // PVP Skill 02
       "PVP Cure II": {
          "name": 'Cure II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e7fd985e01134a3f7a76bda607c5cb1a36b3f7c.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e7fd985e01134a3f7a76bda607c5cb1a36b3f7c.png',
          "classification": 'Заклинание',
          "cast": '1.44 сек.',
          "recast": '15 сек.',
@@ -651,7 +651,7 @@
       // PVP Skill 03
       "PVP Afflatus Misery": {
          "name": 'Afflatus Misery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/67c045d9c3c41f736c36022272cefd8c0980f19f.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/67c045d9c3c41f736c36022272cefd8c0980f19f.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -663,7 +663,7 @@
       // PVP Skill 04
       "PVP Aquaveil": {
          "name": 'Aquaveil',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/db63ef3d2573abbcb89237b70189beb66d9f08c1.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/db63ef3d2573abbcb89237b70189beb66d9f08c1.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -675,7 +675,7 @@
       // PVP Skill 05
       "PVP Miracle of Nature": {
          "name": 'Miracle of Nature',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1245aecd31eaf0821a81907c6664946404770339.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1245aecd31eaf0821a81907c6664946404770339.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '45 сек.',
@@ -687,7 +687,7 @@
       // PVP Skill 06
       "PVP Seraph Strike": {
          "name": 'Seraph Strike',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f0999ae68bff865ab683d7f1059024d126b013e.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f0999ae68bff865ab683d7f1059024d126b013e.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -699,7 +699,7 @@
       // PVP Skill 07
       "PVP Cure III": {
          "name": 'Cure III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c4b6cbc3b8ae09ebf0dc3c69c16594e211cdfe6.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c4b6cbc3b8ae09ebf0dc3c69c16594e211cdfe6.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
@@ -711,7 +711,7 @@
       // PVP Skill 08
       "PVP Afflatus Purgation": {
          "name": 'Afflatus Purgation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/885443eeb029d7cbca537be10edca5eb6c920401.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/885443eeb029d7cbca537be10edca5eb6c920401.png',
          "cast": 'Мгновенная',
          "recast": '10 сек.',
          "range": '40y',

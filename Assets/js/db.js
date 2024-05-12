@@ -31,7 +31,7 @@ function FILL_DB_SKILLS(DB){
 			<div class="skill_wrapper">
 				<div class="skill_wrapper_icon">
 					<div class="job_skill_icon">
-						<img src="`+skill['job_skill_icon']+`">
+						<img src="`+skill['skill_icon']+`">
 					</div>
 				</div>
 				<p>
@@ -43,7 +43,7 @@ function FILL_DB_SKILLS(DB){
 		<td class="jobclass">
 			<div class="jobclass_wrapper">
 				<div class="jobclass_wrapper_icon">
-					<img src="../Assets/img/DoWDoM/Job/`+skill['jobclass_icon']+`.png">
+					<img src="../Assets/img/DoWDoM/Job/`+skill['job_icon']+`.png">
 				</div>
 				<p>Ур. `+skill['level']+`</p>
 			</div>
@@ -76,7 +76,7 @@ function FILL_DB_SKILLS_PASSIVE(DB){
 			<div class="skill_wrapper">
 				<div class="skill_wrapper_icon">
 					<div class="job_skill_icon">
-						<img src="`+skill['job_skill_icon']+`">
+						<img src="`+skill['skill_icon']+`">
 					</div>
 				</div>
 				<p>
@@ -88,7 +88,7 @@ function FILL_DB_SKILLS_PASSIVE(DB){
 		<td class="jobclass">
 			<div class="jobclass_wrapper">
 				<div class="jobclass_wrapper_icon">
-					<img src="../Assets/img/DoWDoM/Job/`+skill['jobclass_icon']+`.png">
+					<img src="../Assets/img/DoWDoM/Job/`+skill['job_icon']+`.png">
 				</div>
 				<p>Ур. `+skill['level']+`</p>
 			</div>
@@ -107,7 +107,7 @@ function FILL_DB_SKILLS_PVP(DB){
 			<div class="skill_wrapper">
 				<div class="skill_wrapper_icon">
 					<div class="job_skill_icon">
-						<img src="`+skill['job_skill_icon']+`"/>
+						<img src="`+skill['skill_icon']+`"/>
 					</div>
 				</div>
 				<p><strong>`+skill['name']+`</strong></p>

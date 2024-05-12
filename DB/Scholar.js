@@ -5,8 +5,8 @@
       // PVE Skill 01
       "Ruin": {
          "name": 'Ruin',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c74fa1688f3d89d6f5b972ce384df15f62e35d1.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c74fa1688f3d89d6f5b972ce384df15f62e35d1.png',
+         "job_icon": 'SCH',
          "level": '1',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -20,8 +20,8 @@
       // PVE Skill 02
       "Bio": {
          "name": 'Bio',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/93f61adcffc6644730a017347d91805359b52bdb.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/93f61adcffc6644730a017347d91805359b52bdb.png',
+         "job_icon": 'SCH',
          "level": '2',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -35,8 +35,8 @@
       // PVE Skill 03 
       "Physick": {
          "name": 'Physick',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e51f309947cde0c36f3a0cd815ca01e268928eb6.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e51f309947cde0c36f3a0cd815ca01e268928eb6.png',
+         "job_icon": 'SCH',
          "level": '4',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -50,8 +50,8 @@
       // PVE Skill 04
       "Summon Eos": {
          "name": 'Summon Eos',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e5c03b72c4e181034da8121d6f2bdf2f1aa2a60.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e5c03b72c4e181034da8121d6f2bdf2f1aa2a60.png',
+         "job_icon": 'SCH',
          "level": '4',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -65,8 +65,8 @@
       // PVE Skill 05
       "Resurrection": {
          "name": 'Resurrection',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9e61ea15caf1f7c0e4b44943dcbee0178e61a9fd.png',
-         "jobclass_icon": 'ACN',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9e61ea15caf1f7c0e4b44943dcbee0178e61a9fd.png',
+         "job_icon": 'ACN',
          "level": '12',
          "classification": 'Заклинание',
          "cast": '8 сек.',
@@ -80,8 +80,8 @@
       // PVE Skill 06
       "Whispering Dawn": {
          "name": 'Whispering Dawn',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/161dc95f27e69fb5bd4caecfdeab022e3560193d.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/161dc95f27e69fb5bd4caecfdeab022e3560193d.png',
+         "job_icon": 'SCH',
          "level": '20',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -95,8 +95,8 @@
       // PVE Skill 07
       "Bio II": {
          "name": 'Bio II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ea0a5e685172203ac73332f7e1690a5a89b25590.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ea0a5e685172203ac73332f7e1690a5a89b25590.png',
+         "job_icon": 'SCH',
          "level": '26',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -111,8 +111,8 @@
       "Adloquium": {
          "name": 'Adloquium',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2f077612950/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07beea4eb1cc3f24533d045db5b694c939f3a3ac.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07beea4eb1cc3f24533d045db5b694c939f3a3ac.png',
+         "job_icon": 'SCH',
          "level": '30',
          "classification": 'Заклинание',
          "cast": '2 сек.',
@@ -127,8 +127,8 @@
       "Succor": {
          "name": 'Succor',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3982b226cea/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/59ca7d9f2002ba3176f070a023bcfd8fa2129fb9.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/59ca7d9f2002ba3176f070a023bcfd8fa2129fb9.png',
+         "job_icon": 'SCH',
          "level": '35',
          "classification": 'Заклинание',
          "cast": '2 сек.',
@@ -142,8 +142,8 @@
       // PVE Skill 10
       "Ruin II": {
          "name": 'Ruin II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d6875ae1008a9e4b2d04562cff42646752e919c5.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d6875ae1008a9e4b2d04562cff42646752e919c5.png',
+         "job_icon": 'SCH',
          "level": '38',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -157,8 +157,8 @@
       // PVE Skill 11
       "Fey Illumination": {
          "name": 'Fey Illumination',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6ed1ace8e31760fa3b042e6d27dac669668196b0.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6ed1ace8e31760fa3b042e6d27dac669668196b0.png',
+         "job_icon": 'SCH',
          "level": '40',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -172,8 +172,8 @@
       // PVE Skill 12
       "Aetherflow": {
          "name": 'Aetherflow',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/175631d8db5550a7b74a9bc811c3781e083e393e.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/175631d8db5550a7b74a9bc811c3781e083e393e.png',
+         "job_icon": 'SCH',
          "level": '45',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -187,8 +187,8 @@
       // PVE Skill 13
       "Energy Drain": {
          "name": 'Energy Drain',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/92ea9227a8a09c62eb53852e2c26c0d6763a35c2.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/92ea9227a8a09c62eb53852e2c26c0d6763a35c2.png',
+         "job_icon": 'SCH',
          "level": '45',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -203,8 +203,8 @@
       "Lustrate": {
          "name": 'Lustrate',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c27e36893ce/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a9adc8943d1d8402366c869416b7a9d5ef7fcf07.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a9adc8943d1d8402366c869416b7a9d5ef7fcf07.png',
+         "job_icon": 'SCH',
          "level": '45',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -218,8 +218,8 @@
       // PVE Skill 15
       "Art of War": {
          "name": 'Art of War',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a414b67652d67ff6707276156d1ce275f188ef07.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a414b67652d67ff6707276156d1ce275f188ef07.png',
+         "job_icon": 'SCH',
          "level": '46',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -234,8 +234,8 @@
       "Sacred Soil": {
          "name": 'Sacred Soil',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0479212014e/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c47bdf94dc6c3dcd9b303cfa42a08a5cfd13629.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c47bdf94dc6c3dcd9b303cfa42a08a5cfd13629.png',
+         "job_icon": 'SCH',
          "level": '50',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -250,8 +250,8 @@
       "Indomitability": {
          "name": 'Indomitability',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/983121f3ab5/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f80a5bd016eab7200c55dd8d1d6afb07361a0ca.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f80a5bd016eab7200c55dd8d1d6afb07361a0ca.png',
+         "job_icon": 'SCH',
          "level": '52',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -266,8 +266,8 @@
       "Broil": {
          "name": 'Broil',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e7491bf50a9/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7203f797d2c3dd4148a8cb5fe510c1cfd1ac46a8.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7203f797d2c3dd4148a8cb5fe510c1cfd1ac46a8.png',
+         "job_icon": 'SCH',
          "level": '54',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -282,8 +282,8 @@
       "Deployment Tactics": {
          "name": 'Deployment Tactics',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d97b37c19da/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/307e3a65fff1e38b28235509dd392323642d6965.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/307e3a65fff1e38b28235509dd392323642d6965.png',
+         "job_icon": 'SCH',
          "level": '56',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -298,8 +298,8 @@
       "Emergency Tactics": {
          "name": 'Emergency Tactics',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8d033a705ce/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fbfaa6c46fac537aec9d2903ec64d4f64fc54557.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fbfaa6c46fac537aec9d2903ec64d4f64fc54557.png',
+         "job_icon": 'SCH',
          "level": '58',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -314,8 +314,8 @@
       "Dissipation": {
          "name": 'Dissipation',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51612260b5d/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fffbdbce557a09ee3a50f541fac07d432bfc7c89.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fffbdbce557a09ee3a50f541fac07d432bfc7c89.png',
+         "job_icon": 'SCH',
          "level": '60',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -329,8 +329,8 @@
       // PVE Skill 22
       "Excogitation": {
          "name": 'Excogitation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b46ada85c48a81940953f46eaaba05f1c2f5cfdd.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b46ada85c48a81940953f46eaaba05f1c2f5cfdd.png',
+         "job_icon": 'SCH',
          "level": '64',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -344,8 +344,8 @@
       // PVE Skill 23
       "Broil II": {
          "name": 'Broil II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d8d8172feffed42f80d335bb7bedb14cc90fbd56.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d8d8172feffed42f80d335bb7bedb14cc90fbd56.png',
+         "job_icon": 'SCH',
          "level": '64',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -359,8 +359,8 @@
       // PVE Skill 24
       "Chain Stratagem": {
          "name": 'Chain Stratagem',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f5f538d79932e3bfb3bd5c72af6f13987aa3e6d.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f5f538d79932e3bfb3bd5c72af6f13987aa3e6d.png',
+         "job_icon": 'SCH',
          "level": '66',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -375,8 +375,8 @@
       "Aetherpact": {
          "name": 'Aetherpact',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/7dfe6b513d8/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb866b142bd93d46ffa7809e1092aefc48f48f3c.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb866b142bd93d46ffa7809e1092aefc48f48f3c.png',
+         "job_icon": 'SCH',
          "level": '70',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -390,8 +390,8 @@
       // PVE Skill 26
       "Dissolve Union": {
          "name": 'Dissolve Union',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/10602136009d5a92a005f0bd127a1a9ec8c1691a.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/10602136009d5a92a005f0bd127a1a9ec8c1691a.png',
+         "job_icon": 'SCH',
          "level": '70',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -405,8 +405,8 @@
       // PVE Skill 27
       "Biolysis": {
          "name": 'Biolysis',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e77ebe8644e35de5bc2d67a4c8365d6d726c9ca4.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e77ebe8644e35de5bc2d67a4c8365d6d726c9ca4.png',
+         "job_icon": 'SCH',
          "level": '72',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -420,8 +420,8 @@
       // PVE Skill 28
       "Broil III": {
          "name": 'Broil III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1f85b58d71471a33c2d35db849b20a681bfd5b56.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1f85b58d71471a33c2d35db849b20a681bfd5b56.png',
+         "job_icon": 'SCH',
          "level": '72',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -435,8 +435,8 @@
       // PVE Skill 29
       "Recitation": {
          "name": 'Recitation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b1be794db381c20399faf7dec80b7f64eaba2e61.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b1be794db381c20399faf7dec80b7f64eaba2e61.png',
+         "job_icon": 'SCH',
          "level": '74',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -450,8 +450,8 @@
       // PVE Skill 30
       "Fey Blessing": {
          "name": 'Fey Blessing',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e37b65935298898f61fd4b12a293998ba1258be5.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e37b65935298898f61fd4b12a293998ba1258be5.png',
+         "job_icon": 'SCH',
          "level": '76',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -465,8 +465,8 @@
       // PVE Skill 31
       "Summon Seraph": {
          "name": 'Summon Seraph',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ff070d67e4c75ed8bb06de1f577979e8c69c8ad1.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ff070d67e4c75ed8bb06de1f577979e8c69c8ad1.png',
+         "job_icon": 'SCH',
          "level": '80',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -480,8 +480,8 @@
       // PVE Skill 32
       "Consolation": {
          "name": 'Consolation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/86ce58393104f45f36ef15d9d358a684c4013df4.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/86ce58393104f45f36ef15d9d358a684c4013df4.png',
+         "job_icon": 'SCH',
          "level": '80',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -495,8 +495,8 @@
       // PVE Skill 33
       "Broil IV": {
          "name": 'Broil IV',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec2463dfb6a287aaf59d57acf7620690fb92606e.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec2463dfb6a287aaf59d57acf7620690fb92606e.png',
+         "job_icon": 'SCH',
          "level": '82',
          "classification": 'Заклинание',
          "cast": '1.5 сек.',
@@ -510,8 +510,8 @@
       // PVE Skill 34
       "Art of War II": {
          "name": 'Art of War II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec9b2021f0cbe6165173334f9081ce3be52c92d2.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec9b2021f0cbe6165173334f9081ce3be52c92d2.png',
+         "job_icon": 'SCH',
          "level": '82',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -525,8 +525,8 @@
       // PVE Skill 35
       "Protraction": {
          "name": 'Protraction',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4960cc6d3b31acfe657bfbdca97021bc546aada0.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4960cc6d3b31acfe657bfbdca97021bc546aada0.png',
+         "job_icon": 'SCH',
          "level": '86',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -540,8 +540,8 @@
       // PVE Skill 36
       "Expedient": {
          "name": 'Expedient',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b9eb7f8aed74850abe24b753549fc676af9db2c8.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b9eb7f8aed74850abe24b753549fc676af9db2c8.png',
+         "job_icon": 'SCH',
          "level": '90',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -555,8 +555,8 @@
       // Pet Actions 01
       "Pet Embrace": {
          "name": 'Embrace',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d674990026a72270d2b697fb082a11876075d580.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d674990026a72270d2b697fb082a11876075d580.png',
+         "job_icon": 'SCH',
          "level": '1',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -569,8 +569,8 @@
       // Pet Actions 02
       "Pet Whispering Dawn": {
          "name": 'Whispering Dawn',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2b4f6def5e70800aa4fee24c630e0e1c1fb238a7.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2b4f6def5e70800aa4fee24c630e0e1c1fb238a7.png',
+         "job_icon": 'SCH',
          "level": '20',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -583,8 +583,8 @@
       // Pet Actions 03
       "Pet Fey Illumination": {
          "name": 'Fey Illumination',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/23bfb94bb82e70982c73fafd94771c0d522bc326.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/23bfb94bb82e70982c73fafd94771c0d522bc326.png',
+         "job_icon": 'SCH',
          "level": '40',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -597,8 +597,8 @@
       // Pet Actions 04
       "Pet Fey Union": {
          "name": 'Fey Union',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2289de5779836f1b6905349f5031b2421bc9fd01.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2289de5779836f1b6905349f5031b2421bc9fd01.png',
+         "job_icon": 'SCH',
          "level": '70',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -611,8 +611,8 @@
       // Pet Actions 05
       "Pet Fey Blessing": {
          "name": 'Fey Blessing',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e8ec62242991c3169dad8acbd2663bbc806ba70.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e8ec62242991c3169dad8acbd2663bbc806ba70.png',
+         "job_icon": 'SCH',
          "level": '76',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -625,8 +625,8 @@
       // Pet Actions 06
       "Pet Seraphic Veil": {
          "name": 'Seraphic Veil',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07f1ba0fbda8b1b69078795da3932089e055e10d.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07f1ba0fbda8b1b69078795da3932089e055e10d.png',
+         "job_icon": 'SCH',
          "level": '80',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
@@ -639,8 +639,8 @@
       // Pet Actions 07
       "Pet Angel's Whisper": {
          "name": "Angel's Whisper",
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c6732641fcefad97152fbf3fbefa0a4a1d3a5114.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c6732641fcefad97152fbf3fbefa0a4a1d3a5114.png',
+         "job_icon": 'SCH',
          "level": '80',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -653,8 +653,8 @@
       // Pet Actions 08
       "Pet Seraphic Illumination": {
          "name": 'Seraphic Illumination',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f52540afc77b83926b4b31d0c3caacd9147e7af6.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f52540afc77b83926b4b31d0c3caacd9147e7af6.png',
+         "job_icon": 'SCH',
          "level": '80',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -667,8 +667,8 @@
       // Pet Actions 09
       "Pet Consolation": {
          "name": 'Consolation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/49e61f876fbd6dccbebcf0e5d2f979f2472df3f5.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/49e61f876fbd6dccbebcf0e5d2f979f2472df3f5.png',
+         "job_icon": 'SCH',
          "level": '80',
          "classification": 'Способность',
          "cast": 'Мгновенная',
@@ -688,24 +688,24 @@
       // Trait 01
       "Maim and Mend": {
          "name": 'Maim and Mend',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
-         "jobclass_icon": 'ACN',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
+         "job_icon": 'ACN',
          "level": '20',
          "content": 'Увеличивает базовый урон умений и восстановления HP на 10%.<br/>Также увеличивает базовый урон и восстановление HP питомца на 10%.',
       },
       // Trait 02
       "Corruption Mastery": {
          "name": 'Corruption Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fd4ddaac3d4898d0689365d5038649a6e0beb2f5.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fd4ddaac3d4898d0689365d5038649a6e0beb2f5.png',
+         "job_icon": 'SCH',
          "level": '26',
          "content": 'Улучшает умение Bio до Bio II.',
       },
       // Trait 03
       "Maim and Mend II": {
          "name": 'Maim and Mend II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
-         "jobclass_icon": 'ACN',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
+         "job_icon": 'ACN',
          "level": '40',
          "content": 'Увеличивает базовый урон умений и восстановления HP на 30%.<br/>Также увеличивает базовый урон и восстановление HP питомца на 30%.',
       },
@@ -713,79 +713,79 @@
       "Broil Mastery": {
          "name": 'Broil Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e7491bf50a9/',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1ef0bbff5fb269b52268453973e2b7fa93f67781.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1ef0bbff5fb269b52268453973e2b7fa93f67781.png',
+         "job_icon": 'SCH',
          "level": '54',
          "content": 'Улучшает умение Ruin до Broil и увеличивает силу атаки Ruin II до 160 и Art of War до 165.',
       },
       // Trait 05
       "Broil Mastery II": {
          "name": 'Broil Mastery II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/36b142f4c46cc7055a73a4a440e4dc84f36d2292.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/36b142f4c46cc7055a73a4a440e4dc84f36d2292.png',
+         "job_icon": 'SCH',
          "level": '64',
          "content": 'Улучшает умение Broil до Broil II и увеличивает силу атаки Ruin II до 180.',
       },
       // Trait 06
       "Corruption Mastery II": {
          "name": 'Corruption Mastery II',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ff3a29ed186d5e46a9a2abbb5a84d771b75de7d0.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ff3a29ed186d5e46a9a2abbb5a84d771b75de7d0.png',
+         "job_icon": 'SCH',
          "level": '72',
          "content": 'Улучшает умение Bio II до Biolysis.',
       },
       // Trait 07
       "Broil Mastery III": {
          "name": 'Broil Mastery III',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9a4609b0f6fee0a67c7a77da9c65dc0131c0e71.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9a4609b0f6fee0a67c7a77da9c65dc0131c0e71.png',
+         "job_icon": 'SCH',
          "level": '72',
          "content": 'Улучшает умение Broil II до Broil III и увеличивает силу атаки Ruin II до 200.',
       },
       // Trait 08
       "Enhanced Sacred Soil": {
          "name": 'Enhanced Sacred Soil',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d4ca0ba1f12bb4295af4b02e6cf5c14b1662478c.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d4ca0ba1f12bb4295af4b02e6cf5c14b1662478c.png',
+         "job_icon": 'SCH',
          "level": '78',
          "content": 'Наделяет дополнительным эффектом Sacred Soil, который периодически восстанавливает HP.',
       },
       // Trait 09
       "Broil Mastery IV": {
          "name": 'Broil Mastery IV',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb3e1565b48bbfe93ed55ba61fec2a20634eb6c4.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb3e1565b48bbfe93ed55ba61fec2a20634eb6c4.png',
+         "job_icon": 'SCH',
          "level": '82',
          "content": 'Улучшает Broil III до Broil IV и увеличивает силу атаки Ruin II до 220.',
       },
       // Trait 10
       "Art of War Mastery": {
          "name": 'Art of War Mastery',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f128fa215622f4f48891b6f590a043b84916c85.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f128fa215622f4f48891b6f590a043b84916c85.png',
+         "job_icon": 'SCH',
          "level": '82',
          "content": 'Улучшает умение Art of War до Art of War II.',
       },
       // Trait 11
       "Enhanced Healing Magic": {
          "name": 'Enhanced Healing Magic',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
+         "job_icon": 'SCH',
          "level": '85',
          "content": 'Увеличивает силу исцеляющих умений Physick до 450, Embrace до 180 и Seraphic Veil до 180.<br />Увеличивает прочность барьеров умений Adloquium до 180% от восстановленного HP и Succor до 160% от восстановленного HP.',
       },
       // Trait 12
       "Enhanced Deployment Tactics": {
          "name": 'Enhanced Deployment Tactics',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/588edc8bc960ee211bf98b7c7a7d4c475b8aa12e.png',
-         "jobclass_icon": 'SCH',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/588edc8bc960ee211bf98b7c7a7d4c475b8aa12e.png',
+         "job_icon": 'SCH',
          "level": '88',
          "content": 'Уменьшает время восстановления умения Deployment Tactics до 90 сек.',
       },
       // PVP Skill 01
       "PVP Broil IV": {
          "name": 'Broil IV',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f6608e86b2f0526d4f9fd593eac7cb7e8a674668.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f6608e86b2f0526d4f9fd593eac7cb7e8a674668.png',
          "classification": 'Заклинание',
          "cast": '1.44 сек.',
          "recast": '2.4 сек.',
@@ -797,7 +797,7 @@
       // PVP Skill 02
       "PVP Adloquium": {
          "name": 'Adloquium',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/22a3932c3e8625b941a6d65c7bb1985e2244abe7.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/22a3932c3e8625b941a6d65c7bb1985e2244abe7.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -809,7 +809,7 @@
       // PVP Skill 03
       "PVP Biolysis": {
          "name": 'Biolysis',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f1a089378baca67848f466998eaf675ca65b241f.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f1a089378baca67848f466998eaf675ca65b241f.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -821,7 +821,7 @@
       // PVP Skill 04
       "PVP Deployment Tactics": {
          "name": 'Deployment Tactics',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba157dccbbb4761461ca40b5e03c2a882498cdf3.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba157dccbbb4761461ca40b5e03c2a882498cdf3.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
@@ -833,7 +833,7 @@
       // PVP Skill 05
       "PVP Mummification": {
          "name": 'Mummification',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/00aa2e44a8489b7640717e48cdf0097f6fb2bca0.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/00aa2e44a8489b7640717e48cdf0097f6fb2bca0.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -845,7 +845,7 @@
       // PVP Skill 06
       "PVP Expedient": {
          "name": 'Expedient',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5f98fdab5e9b3c01f61588afd6f60ceeb8fc7966.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5f98fdab5e9b3c01f61588afd6f60ceeb8fc7966.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '30 сек.',
@@ -857,7 +857,7 @@
       // PVP Skill 07
       "PVP Consolation": {
          "name": 'Consolation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fcb5a5bb525f6e87cb54b03c28dee34f62bc2cbb.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fcb5a5bb525f6e87cb54b03c28dee34f62bc2cbb.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
@@ -869,7 +869,7 @@
       // PVP Skill 08
       "PVP Seraphic Veil": {
          "name": 'Seraphic Veil',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fe17c3c2cb39842c9bfe50d5839d2b6a93075ef9.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fe17c3c2cb39842c9bfe50d5839d2b6a93075ef9.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '2.5 сек.',
@@ -881,7 +881,7 @@
       // PVP Skill 09
       "PVP Consolation": {
          "name": 'Consolation',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7a5471b9fcc2f37dee57e8705f450297f8ed876a.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7a5471b9fcc2f37dee57e8705f450297f8ed876a.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
@@ -893,7 +893,7 @@
       // PVP Skill 10
       "PVP Summon Seraph": {
          "name": 'Summon Seraph',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/614407d07c71d678c0f13c555dfb338d69fbf9e7.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/614407d07c71d678c0f13c555dfb338d69fbf9e7.png',
          "cast": 'Мгновенная',
          "recast": '10 сек.',
          "range": '30y',
@@ -904,7 +904,7 @@
       // PVP Skill 11
       "PVP Seraph Flight": {
          "name": 'Seraph Flight',
-         "job_skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4718502b9fd4f9ed2848fb3cbcb42015f7d70440.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4718502b9fd4f9ed2848fb3cbcb42015f7d70440.png',
          "cast": 'Мгновенная',
          "recast": '1 сек.',
          "range": '0y',
