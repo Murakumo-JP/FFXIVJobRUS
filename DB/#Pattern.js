@@ -3,6 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 19/03/2024`,
       // PVE Skill 01
+      // db-skill=
       " ": {
          "name": '',
          "eorzeadb": '',
@@ -19,6 +20,7 @@
          "content": '',
       },
       // Trait 01
+      // db-skill-passive=
       " ": {
          "name": '',
          "eorzeadb": '',
@@ -28,6 +30,7 @@
          "content": '',
       },
       // PVP Skill 01
+      // db-skill-pvp=
       " ": {
          "name": '',
          "skill_icon": '',
