@@ -22,7 +22,7 @@ $(document).ready(function () {
             html += '<div><span>'+ date + '</span><a target="_blank" href="'+news[i].html_url+'">'+body+'</a></div>';
          }
          document.getElementById('main_news').innerHTML = html;
-         console.log(json);
+         //console.log(json);
       });
    })
    .catch(function(reason){
