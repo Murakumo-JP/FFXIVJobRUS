@@ -321,17 +321,22 @@ footer {
 	position: relative;
 }
 .main_header_alignment {
+	display: flex;
 	width: 500px;
 	height: 500px;
+	flex-direction: column;
+}
+.main_header_img {
+	position: relative;
+	height: 190px;
 }
 .main_header_img img {
-	bottom: 20px;
+	bottom: 35px;
 	position: relative;
 	width: 100%;
 	filter: drop-shadow(0 0 0 black);
 }
 .main_header_text {
-	bottom: 65px;
 	background: #191919b3;
 	backdrop-filter: blur(5px);
 	box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.4);
@@ -342,10 +347,6 @@ footer {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	position: relative;
-}
-.main_header_img {
-	position: relative;
-	bottom: 15px;
 }
 /* Support button */
 .main_header .job_db span img,
@@ -602,22 +603,12 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	font-weight: bold;
 	font-size: 13px;
 }
-.main_header .warn_info {
-	width: 45%;
-	position: absolute;
-	bottom: 56px;
-	right: 0;
-}
-.main_header .error_info {
-	background: #ffffff80;
-	backdrop-filter: blur(5px);
-}
 .main_header .error_info p {
 	text-shadow: 0px 1px 4px #0000004d;
 }
 /* News */
 .news {
-	padding: 0 0 6px 16px;
+	padding: 0 16px 6px 16px;
 	background: var(--color-set-1);
 }
 .news span {
@@ -642,6 +633,9 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 #main_news div a {
 	color: #fffed1;
 	font-size: 12px;
+}
+.news .error_info {
+	background-color: #ecede7;
 }
 /* Media */
 @media (max-height: 700px) {
