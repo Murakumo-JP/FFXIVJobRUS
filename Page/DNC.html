@@ -155,7 +155,7 @@
             </ul>
             <!-- PVE -->
             <div class="job_skil_db-pve js-tab-content active" data-tab="pve">
-               <p class="job_update">Последнее обновление: 02/10/2023</p>
+               <p class="job_update" data-dbvalue="PVE Update"></p>
                <p class="job_notes_lv80" id="jq_patch"></p>
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">
@@ -163,14 +163,13 @@
                   <h3 class="job_sub_title">Активные умения</h3>
                   <table class="job_table">
                      <colgroup>
-                        <col width="191" />
-                        <col width="84" />
-                        <col width="74" />
-                        <col width="74" />
-                        <col width="74" />
-                        <!-- <col width="74" /> -->
-                        <col width="74" />
-                        <col width="274" />
+                        <col width="180">
+                        <col width="90">
+                        <col width="81">
+                        <col width="104">
+                        <col width="113">
+                        <col width="81">
+                        <col width="265">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -179,7 +178,6 @@
                            <th><p><span>Тип</span></p></th>
                            <th><p><span>Длительность применения</span></p></th>
                            <th><p><span>Время восстановления</span></p></th>
-                           <!-- <th><p><span>MP Cost</span></p></th> -->
                            <th>
                               <div><p><span>Дальность действия</span></p></div>
                               <hr/>
@@ -189,1041 +187,62 @@
                         </tr>
                      </thead>
                      <tbody class="job_tbody">
-                        <!-- PVE Skil Action 01 -->
-                        <tr id="pve_action_01">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/6843786e4a944ff2e315004f38416b9098b62988.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Cascade</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 1</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 220.
-                              <br/>Дополнительный эффект: 50% шанс при использовании получить эффект Silken Symmetry
-                              <br/>Продолжительность: 30 сек.
-                              <br/><br/>※Умение сменится на Emboite во время танца.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 02 -->
-                        <tr id="pve_action_02">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/25291ed46a237d93b8ada8db02fdeb34f5706c6e.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fountain</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 2</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 100.
-                              <br/>Комбо умение: Cascade
-                              <br/>Сила в комбо: 280
-                              <br/>Комбо бонус: 50% шанс при использовании получить эффект Silken Flow
-                              <br/>Продолжительность: 30 сек.
-                              <br/><br/>※Умение сменится на Entrechat во время танца.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 03 -->
-                        <tr id="pve_action_03">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/2b56bd032544ac3119cf459288984ea195837486.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Windmill</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 15</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 100 по всем ближайшим противникам.
-                              <br/>Дополнительный эффект: 50% шанс при использовании получить эффект Silken Symmetry
-                              <br/>Продолжительность: 30 сек.
-                              <br/><br/>※Умение сменится на Emboite во время танца.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 04 -->
-                        <tr id="pve_action_04">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/601122ac0085d666731203ba91b41a5099457eca.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Standard Step</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 15</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">30 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Начинает танец, накладывая на персонажа эффект Standard Step.
-                              <br/>Продолжительность: 15 сек.
-                              <br/>Умение сменяется на Standard Finish во время танца.
-                              <br/>Только умения Standard Finish, En Avant, Curing Waltz, Shield Samba, step умения, ролевые умения, ускорение (sprint) и лимит брейк (limit Break) могут использоваться во время танца.
-                              <br/>После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 05 -->
-                        <tr id="pve_action_05">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/3be799f98318288057e0c0957fce44d32d8f2974.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Standard Finish</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 15</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>15y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон по всем ближайшим противникам. Сила атаки умения варьируется в зависимости от количества успешно сделанных steps, нанося полный урон первому противнику и на 75% меньше остальным. 
-                              <br/>0 Steps: 360
-                              <br/>1 Step: 540
-                              <br/>2 Steps: 720
-                              <br/>Бонус Step: накладывает эффект Standard Finish и Esprit на персонажа и выбранного сопартийца, который выбран как Dance Partner
-                              <br/>Бонус урона от Standard Finish зависит от количества успешно исполненных steps.
-                              <br/>1 Step: 2%
-                              <br/>2 Steps: 5%
-                              <br/>Продолжительность: 60 сек.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 06 -->
-                        <tr id="pve_action_06">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/a03ec89f3860e636fa459b5ac4212031aea5c8f7.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Reverse Cascade</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 20</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 280.
-                              <br/>Дополнительный эффект: 50% шанс при использовании получить эффект Fourfold Feather
-                              <br/>Может использоваться только под эффектами Silken Symmetry или Flourishing Symmetry.
-                              <br/><br/>※Умение сменится на Jete во время танца.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 07 -->
-                        <tr id="pve_action_07">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/65c0208ef7c6b132558c6aab0a15832fec601e5b.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Bladeshower</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 25</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 100 по всем ближайшим противникам.
-                              <br/>Комбо умение: Windmill
-                              <br/>Сила в комбо: 140
-                              <br/>Комбо бонус: 50% шанс при использовании получить эффект Silken Flow
-                              <br/>Продолжительность: 30 сек.
-                              <br/><br/>※Умение сменится на Entrechat во время танца.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 08 -->
-                        <tr id="pve_action_08">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/62a211c886bd5b46f47b11419f3b55fb628f6535.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fan Dance</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 30</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 150.
-                              <br/>Дополнительный эффект: 50% шанс при использовании получить эффект Threefold Fan Dance
-                              <br/>Продолжительность: 30 сек.
-                              <br/>Может быть использовано только при наличии Fourfold Feathers.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 09 -->
-                        <tr id="pve_action_09">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/e233509e4d32c5f7aef385766026a3e161d2d142.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Rising Windmill</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 35</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 140 по всем ближайшим противникам.
-                              <br/>Дополнительный эффект: 50% шанс при использовании получить эффект Fourfold Feather
-                              <br/>Может использоваться только под эффектами Silken Symmetry или Flourishing Symmetry.
-                              <br/><br/>※Умение сменится на Jete во время танца.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 10 -->
-                        <tr id="pve_action_10">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/e4e0f0c2d152720e33f1759219de09ab52051a21.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fountainfall</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 40</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 340.
-                              <br/>Дополнительный эффект: 50% шанс при использовании получить эффект Fourfold Feather
-                              <br/>Может использоваться только под эффектами Silken Symmetry или Flourishing Flow.
-                              <br/><br/>※Умение сменится на Pirouette во время танца.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 11 -->
-                        <tr id="pve_action_11">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/75fa1885b19b76db73429a0661588d544e5bc974.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Bloodshower</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 45</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 180 по всем ближайшим противникам.
-                              <br/>Дополнительный эффект: 50% шанс при использовании получить эффект Fourfold Feather
-                              <br/>Может использоваться только под эффектами Silken Symmetry или Flourishing Flow.
-                              <br/><br/>※Умение сменится на Pirouette во время танца.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 12 -->
-                        <tr id="pve_action_12">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/835016d35e3f62a1ce42a3519e70714b25d91969.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fan Dance II</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 50</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 100 по всем ближайшим противникам.
-                              <br/>Дополнительный эффект: 50% шанс при использовании получить эффект Threefold Fan Dance
-                              <br/>Продолжительность: 30 сек.
-                              <br/>Может быть использовано только при наличии Fourfold Feathers.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 13 -->
-                        <tr id="pve_action_13">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/b855b43c6fa93b143a93b339527a31950f6cdc47.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>En Avant</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 50</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">30 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Рывок на 10 ялмов вперед.
-                              <br/>Максимум зарядов: 3
-                              <br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 14 -->
-                        <tr id="pve_action_14">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/30a793f0a1bae7d643449bd69b63722b8bbf1b3a.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Curing Waltz</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 52</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">60 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>3y
-                           </td>
-                           <td class="content">
-                              Восстанавливает HP персонажа и ближайших сопартийцев. 
-                              <br/>Сила лечения: 300
-                              <br/>Дополнительный эффект: сопартиец, отмеченный как Dance Partner, также будет лечить себя и ближайших сопартийцев
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 15 -->
-                        <tr id="pve_action_15">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/f9692ff39ee50c5901429aaca48c066b8952732a.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Shield Samba</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 56</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">90 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>30y
-                           </td>
-                           <td class="content">
-                              Снижает урон получаемый персонажем и сопартийцами на 10%.
-                              <br/>Продолжительность: 15 сек.
-                              <br/>Эффект не суммируется с умение Troubadour барда или Tactician машиниста.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 16 -->
-                        <tr id="pve_action_16">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/6bdcca52407a9435fe5a8578742995382e38f097.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Closed Position</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 60</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">30 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Накладывает на персонажа Closed Position и назначает выбранного сопартийца Dance Partner, позволяя разделять с ним эффекты Standard Finish, Curing Waltz, Devilment и Tillana.
-                              <br/>Эффект спадает при повторном использовании.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 17 -->
-                        <tr id="pve_action_17">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/e32ebe0fb7a3a32ca14bdae331a0a05253f77f8e.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Ending</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 60</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">Заканчивает танец с выбранным партнером.</td>
-                        </tr>
-                        <!-- PVE Skil Action 18 -->
-                        <tr id="pve_action_18">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/5dbf1b6a363454e48f1a32f92fe5c5cb6d8d229b.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Devilment</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 62</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">120 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Увеличивает шансы критического (critical) и прямого (direct) урона на 20%.
-                              <br/>Продолжительность: 20 сек.
-                              <br/>Дополнительный эффект: сопартиец, отмеченный как Dance Partner, также получит эффект Devilment
-                              <br/>Дополнительный эффект: накладывает Flourishing Starfall
-                              <br/>Продолжительность: 20 сек.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 19 -->
-                        <tr id="pve_action_19">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/d786bf59396fce45e0e1bdf96cb1196b48b4a98a.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fan Dance III</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 66</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон по цели и всем ближайшим противникам с силой атаки 200 для первого и на 50% меньше для всех остальных.
-                              <br/>Может использоваться только под эффектом Threefold Fan Dance.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 20 -->
-                        <tr id="pve_action_20">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/2b0f0944de8d90ce1e9413cc3294bde99b7e1d7a.png"/>
-                                    </div>
-                                 </div>
-                                 <p>
-                                    <strong>Technical Step</strong>
-                                    <br/>
-                                    <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cab5f473230/" class="eorzeadb_link class_quest">Задание профессии</a>
-                                 </p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 70</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">120 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Начинает танец, накладывая на персонажа эффект Technical Step.
-                              <br/>Продолжительность: 15 сек.
-                              <br/>Умение сменяется на Technical Finish во время танца.
-                              <br/>Только умения Technical Step, En Avant, Curing Waltz, Shield Samba, step умения, ролевые умения, ускорение (sprint), and лимит брейк (Limit Break) могут использоваться во время танца.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 21 -->
-                        <tr id="pve_action_21">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/4fa04453ce7de1db88f05bd6f931d489961cc6b1.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Technical Finish</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 70</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>15y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон по всем ближайшим противникам в радиусе 15 ялмов. Сила атаки умения варьируется в зависимости от количества успешно сделанных steps, нанося полный урон первому противнику и на 75% меньше остальным.
-                              <br/>0 Steps: 350
-                              <br/>1 Step: 540
-                              <br/>2 Steps: 720
-                              <br/>3 Steps: 900
-                              <br/>4 Steps: 1,200
-                              <br/>Бонус Step: накладывает эффект Technical Finish и Esprit на персонажа и выбранного сопартийца, который выбран как Dance Partner в радиусе 30 ялмов
-                              <br/>Бонус урона от Technical Finish зависит от количества успешно использованных steps.
-                              <br/>1 Step: 1%
-                              <br/>2 Steps: 2%
-                              <br/>3 Steps: 3%
-                              <br/>4 Steps: 5%
-                              <br/>Продолжительность: 20 сек.
-                              <br/>Дополнительный эффект: накладывает эффект Flourishing Finish
-                              <br/>Продолжительность: 30 сек.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                              <br/><br/>※Умение сменится на Tillana после использования.
-                              <br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 22 -->
-                        <tr id="pve_action_22">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/ae6211655f643d512199cf8596bed5c379a53063.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Flourish</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 72</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">60 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y<br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                     
-                           <td class="content">
-                              Накладывает эффекты Flourishing Symmetry, Flourishing Flow, Threefold Fan Dance и Fourfold Fan Dance.
-                              <br/>Продолжительность: 30 сек.
-                              <br/>Может быть использовано только в бою.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 23 -->
-                        <tr id="pve_action_23">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/88cfba4c4fe50b5ad841ac5d34679ab96fd5ff13.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Saber Dance</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 76</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон по цели и всем противникам с силой атаки 480 для первого противника и на 50% меньше для всех остальных.
-                              <br/>Стоимость: 50 Esprit Gauge
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 24 -->
-                        <tr id="pve_action_24">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/837e2a8d2f6c135ea8aaa20630487d15967465c8.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Improvisation</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 80</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">120 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>8y
-                           </td>
-                           <td class="content">
-                              Танец под собственный ритм, накладывающий эффект Rising Rhythm на персонажа.
-                              <br/>Стаки накладываются каждые 3 секунды, вплоть до 4.
-                              <br/>Дополнительный эффект: накладывает периодическое лечение на персонажа и ближайших сопартийцев
-                              <br/>Сила лечения: 100
-                              <br/>Продолжительность: 15 сек.
-                              <br/>Эффект спадет при использовании умений или перемещении персонажа (включая разворот в другие стороны).
-                              <br/>Прерывает авто атаки при использовании умения.
-                              <br/><br/>※При использовании умение меняется на Improvised Finish.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 25 -->
-                        <tr id="pve_action_25">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/c32da2126ef617153a8aa7401324d80bdb564ae2.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Improvised Finish</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 80</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>8y
-                           </td>
-                           <td class="content">
-                              Создает барьер вокруг персонажа и ближайших сопартийцев. Поглощаемый урон увеличивается в зависимости от стаков Rising Rhythm.
-                              <br/>0 стаков: 5% от максимального HP
-                              <br/>1 стак: 6% от максимального HP
-                              <br/>2 стака: 7% от максимального HP
-                              <br/>3 стека: 8% от максимального HP
-                              <br/>4 стака: 10% от максимального HP
-                              <br/>Продолжительность: 30 сек.
-                              <br/>Может быть выполнено только при использовании Improvisation.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 26 -->
-                        <tr id="pve_action_26">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/013e279b45dd499fdedb71be99ba844a65150da8.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Tillana</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 82</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>15y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон по всем ближайшим противникам с силой атаки 360 для первого и на 50% меньше для всех остальных.
-                              <br/>Дополнительный эффект: накладывает Standard Finish и Esprit на персонажа и выбранного сопартийца, который выбран как Dance Partner
-                              <br/>Эффект Standard Finish: увеличивает наносимый урон на 5%
-                              <br/>Продолжительность: 60 сек.
-                              <br/>Может быть использовано только под действием эффекта Flourishing Finish.
-                              <br/>Это умение не имеет общего времени восстановления с другими умениями.
-                              <br>После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 27 -->
-                        <tr id="pve_action_27">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/0ff359ea16721e9cf04e2af49dbcad4bc2f23bf7.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fan Dance IV</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 86</p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>15y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/r/a5c_l_0ZpkmqQvwvFezHgNBi8c.png"/>15y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 300 для первого и на 50% меньше для всех остальных.
-                              <br/>Может использоваться только под действием эффекта Fourfold Fan Dance.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Action 28 -->
-                        <tr id="pve_action_28">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/027a3d59d160a17f7568069fe25324c61bc4ee13.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Starfall Dance</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 90</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.5 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/X/_08SnQEaLvSIdYVBCfq51qmc68.png"/>25y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий критический (critical) прямой (direct) урон по всем противникам по прямой линии перед персонажем с силой атаки 600 для первого противника и на 75% меньше для всех остальных.
-                              <br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) и прямого (direct) урона.
-                              <br/>Может использоваться только под действием эффекта Flourishing Starfall.
-                           </td>
-                        </tr>
+                        <!-- PVE Skill 01 -->
+                        <tr id="pve_action_01" db-skill="Cascade"></tr>
+                        <!-- PVE Skill 02 -->
+                        <tr id="pve_action_02" db-skill="Fountain"></tr>
+                        <!-- PVE Skill 03 -->
+                        <tr id="pve_action_03" db-skill="Windmill"></tr>
+                        <!-- PVE Skill 04 -->
+                        <tr id="pve_action_04" db-skill="Standard Step"></tr>
+                        <!-- PVE Skill 05 -->
+                        <tr id="pve_action_05" db-skill="Standard Finish"></tr>
+                        <!-- PVE Skill 06 -->
+                        <tr id="pve_action_06" db-skill="Reverse Cascade"></tr>
+                        <!-- PVE Skill 07 -->
+                        <tr id="pve_action_07" db-skill="Bladeshower"></tr>
+                        <!-- PVE Skill 08 -->
+                        <tr id="pve_action_08" db-skill="Fan Dance"></tr>
+                        <!-- PVE Skill 09 -->
+                        <tr id="pve_action_09" db-skill="Rising Windmill"></tr>
+                        <!-- PVE Skill 10 -->
+                        <tr id="pve_action_10" db-skill="Fountainfall"></tr>
+                        <!-- PVE Skill 11 -->
+                        <tr id="pve_action_11" db-skill="Bloodshower"></tr>
+                        <!-- PVE Skill 12 -->
+                        <tr id="pve_action_12" db-skill="Fan Dance II"></tr>
+                        <!-- PVE Skill 13 -->
+                        <tr id="pve_action_13" db-skill="En Avant"></tr>
+                        <!-- PVE Skill 14 -->
+                        <tr id="pve_action_14" db-skill="Curing Waltz"></tr>
+                        <!-- PVE Skill 15 -->
+                        <tr id="pve_action_15" db-skill="Shield Samba"></tr>
+                        <!-- PVE Skill 16 -->
+                        <tr id="pve_action_16" db-skill="Closed Position"></tr>
+                        <!-- PVE Skill 17 -->
+                        <tr id="pve_action_17" db-skill="Ending"></tr>
+                        <!-- PVE Skill 18 -->
+                        <tr id="pve_action_18" db-skill="Devilment"></tr>
+                        <!-- PVE Skill 19 -->
+                        <tr id="pve_action_19" db-skill="Fan Dance III"></tr>
+                        <!-- PVE Skill 20 -->
+                        <tr id="pve_action_20" db-skill="Technical Step"></tr>
+                        <!-- PVE Skill 21 -->
+                        <tr id="pve_action_21" db-skill="Technical Finish"></tr>
+                        <!-- PVE Skill 22 -->
+                        <tr id="pve_action_22" db-skill="Flourish"></tr>
+                        <!-- PVE Skill 23 -->
+                        <tr id="pve_action_23" db-skill="Saber Dance"></tr>
+                        <!-- PVE Skill 24 -->
+                        <tr id="pve_action_24" db-skill="Improvisation"></tr>
+                        <!-- PVE Skill 25 -->
+                        <tr id="pve_action_25" db-skill="Improvised Finish"></tr>
+                        <!-- PVE Skill 26 -->
+                        <tr id="pve_action_26" db-skill="Tillana"></tr>
+                        <!-- PVE Skill 27 -->
+                        <tr id="pve_action_27" db-skill="Fan Dance IV"></tr>
+                        <!-- PVE Skill 28 -->
+                        <tr id="pve_action_28" db-skill="Starfall Dance"></tr>
                      </tbody>
                   </table>
                </div>
@@ -1232,14 +251,13 @@
                   <h3 class="job_sub_title" id="anchor_dancer_onlyaction">Step умения</h3>
                   <table class="job_table">
                      <colgroup>
-                        <col width="191" />
-                        <col width="84" />
-                        <col width="74" />
-                        <col width="74" />
-                        <col width="74" />
-                        <!-- <col width="74" /> -->
-                        <col width="74" />
-                        <col width="274" />
+                        <col width="180">
+                        <col width="90">
+                        <col width="81">
+                        <col width="104">
+                        <col width="113">
+                        <col width="81">
+                        <col width="265">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -1248,7 +266,6 @@
                            <th><p><span>Тип</span></p></th>
                            <th><p><span>Длительность применения</span></p></th>
                            <th><p><span>Время восстановления</span></p></th>
-                           <!-- <th><p><span>MP Cost</span></p></th> -->
                            <th>
                               <div><p><span>Дальность действия</span></p></div>
                               <hr/>
@@ -1258,152 +275,14 @@
                         </tr>
                      </thead>
                      <tbody class="job_tbody">
-                        <!-- PVE Skil Jyutsu Action 01 -->
-                        <tr id="pve_jyutsu_action_01">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/d953ffb6694914914ec78257c3f0b1f7039d57e6.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Emboite</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 15</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Исполняет Emboite.
-                              <br/>При последовательном использовании с другими step умениями, сила атаки Standard Finish и Technical Finish увеличится.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.
-                              <br>После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Jyutsu Action 02 -->
-                        <tr id="pve_jyutsu_action_02">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/e3b6714319b3125e5fbab101fe2944821c2e23c6.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Entrechat</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 15</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y<br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Исполняет Entrechat.
-                              <br/>При последовательном использовании с другими step умениями, сила атаки Standard Finish и Technical Finish увеличится.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.
-                              <br/>После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Jyutsu Action 03 -->
-                        <tr id="pve_jyutsu_action_03">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/e80edc2d0bbfa228d89dabef2e14dc81d234a343.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Jete</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 15</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y<br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Исполняет Jete.
-                              <br/>При последовательном использовании с другими step умениями, сила атаки Standard Finish и Technical Finish увеличится.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.
-                              <br/>После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Jyutsu Action 04 -->
-                        <tr id="pve_jyutsu_action_04">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/8ca01b65d44ad053609372bdb5f7c3dc621ce218.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Pirouette</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 15</p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Исполняет Pirouette.
-                              <br/>При последовательном использовании с другими step умениями, сила атаки Standard Finish и Technical Finish увеличится.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.
-                              <br/>После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
+                        <!-- Step Actions 01 -->
+                        <tr id="pve_jyutsu_action_01" db-skill="Emboite"></tr>
+                        <!-- Step Actions 02 -->
+                        <tr id="pve_jyutsu_action_02" db-skill="Entrechat"></tr>
+                        <!-- Step Actions 03 -->
+                        <tr id="pve_jyutsu_action_03" db-skill="Jete"></tr>
+                        <!-- Step Actions 04 -->
+                        <tr id="pve_jyutsu_action_04" db-skill="Pirouette"></tr>
                      </tbody>
                   </table>
                </div>
@@ -1426,269 +305,28 @@
                         </tr>
                      </thead>
                      <tbody class="job_tbody">
-                        <!-- PVE Skil Trait Action 01 -->
-                        <tr id="trait_action_01">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/2dc0608544b9e3c17af5a660aa0f444117b70830.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fourfold Fantasy</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 30</p>
-                              </div>
-                           </td>
-                           <td class="content">
-                              Накладывает Fourfold Feather после использования определенных умений.
-                              <br/>Максимум стаков: 4
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 02 -->
-                        <tr id="trait_action_02">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/ba2c0a977d0288d7367454315e83b824134f5a17.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Increased Action Damage</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 50</p>
-                              </div>
-                           </td>
-                           <td class="content">Увеличивает базовый урон умений на 10%.</td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 03 -->
-                        <tr id="trait_action_03">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/c0784d72b68ee37b055564c375803d05068bc548.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Increased Action Damage II</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 60</p>
-                              </div>
-                           </td>
-                           <td class="content">Увеличивает базовый урон умений на 20%.</td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 04 -->
-                        <tr id="trait_action_04">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/7ebcb675b09761d30eaf97b73bb1d99a87a5a55e.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Enhanced En Avant</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 68</p>
-                              </div>
-                           </td>
-                           <td class="content">
-                              Позволяет накапливать заряды для последовательного использования En Avant.
-                              <br />Максимум зарядов: 2
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 05 -->
-                        <tr id="trait_action_05">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/e33f0e11c737999656fad322e77fcfe4585d077e.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Esprit</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 76</p>
-                              </div>
-                           </td>
-                           <td class="content">
-                              Накладывает Esprit на персонажа и ближайших сопартийцев после успешного использования Standard Finish или Technical Finish. 
-                              <br/>Эффект Esprit: при успешном использовании Cascade, Reverse Cascade, Fountain, Fountainfall, Windmill, Rising Windmill, Bladeshower ил Bloodshower шкала Esprit Gauge восполняется на 5.
-                              <br/>Шкала Esprit Gauge будет восполняться на 10, когда ваши сопартийцы под эффектом Esprit будут успешно использовать боевые навыки или заклинания.
-                              <br/>Шанс срабатывания эффекта для сопартийцев зависит от их профессии.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 06 -->
-                        <tr id="trait_action_06">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/68df331c6193bcc50048021dc3cf811d4959893d.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Enhanced En Avant II</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 78</p>
-                              </div>
-                           </td>
-                           <td class="content">Позволяет накапливать третий заряд En Avant.</td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 07 -->
-                        <tr id="trait_action_07">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/7ba1f0f663c32b481f06ebb833e26be063d6ebf0.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Enhanced Technical Finish</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 82</p>
-                              </div>
-                           </td>
-                           <td class="content">
-                              Накладывает эффект Flourishing Finish после использования Technical Finish.
-                              <br/>Продолжительность: 30 сек.
-                              <br/>Technical Finish заменяется на Tillana под действием эффекта.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 08 -->
-                        <tr id="trait_action_08">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/24c75407f6abb4b9038f781ff9638ad0c0f966ef.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Enhanced Esprit</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 84</p>
-                              </div>
-                           </td>
-                           <td class="content">Восполняет шкалу Esprit Gauge на 10 при успешном использовании Reverse Cascade, Fountainfall, Rising Windmill или Bloodshower.</td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 09 -->
-                        <tr id="trait_action_09">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/bcb3f5f1bc3c616a6c14ca1c0276c358d73f14d5.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Enhanced Flourish</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 86</p>
-                              </div>
-                           </td>
-                           <td class="content">
-                              Накладывает Fourfold Fan Dance после использования Flourish.
-                              <br/>Продолжительность: 30 сек.
-                           </td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 10 -->
-                        <tr id="trait_action_10">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/e20ca0fddbcde430a07709e4b7ba314d9fac4519.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Enhanced Shield Samba</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 88</p>
-                              </div>
-                           </td>
-                           <td class="content">Сокращает время восстановления Shield Samba до 90 сек.</td>
-                        </tr>
-                        <!-- PVE Skil Trait Action 11 -->
-                        <tr id="trait_action_11">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/10e6b71bfc8ca885dcc031770d2dbfce750fa115.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Enhanced Devilment</strong></p>
-                              </div>
-                           </td>
-                           <td class="jobclass">
-                              <div class="jobclass_wrapper">
-                                 <div class="jobclass_wrapper_icon">
-                                    <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"/>
-                                 </div>
-                                 <p>Ур. 90</p>
-                              </div>
-                           </td>
-                           <td class="content">
-                              Накладывает Flourishing Starfall после использования Devilment.
-                              <br/>Продолжительность: 20 сек.
-                           </td>
-                        </tr>
+                        <!-- Trait 01 -->
+                        <tr id="trait_action_01" db-skill-passive="Fourfold Fantasy"></tr>
+                        <!-- Trait 02 -->
+                        <tr id="trait_action_02" db-skill-passive="Increased Action Damage"></tr>
+                        <!-- Trait 03 -->
+                        <tr id="trait_action_03" db-skill-passive="Increased Action Damage II"></tr>
+                        <!-- Trait 04 -->
+                        <tr id="trait_action_04" db-skill-passive="Enhanced En Avant"></tr>
+                        <!-- Trait 05 -->
+                        <tr id="trait_action_05" db-skill-passive="Esprit"></tr>
+                        <!-- Trait 06 -->
+                        <tr id="trait_action_06" db-skill-passive="Enhanced En Avant II"></tr>
+                        <!-- Trait 07 -->
+                        <tr id="trait_action_07" db-skill-passive="Enhanced Technical Finish"></tr>
+                        <!-- Trait 08 -->
+                        <tr id="trait_action_08" db-skill-passive="Enhanced Esprit"></tr>
+                        <!-- Trait 09 -->
+                        <tr id="trait_action_09" db-skill-passive="Enhanced Flourish"></tr>
+                        <!-- Trait 10 -->
+                        <tr id="trait_action_10" db-skill-passive="Enhanced Shield Samba"></tr>
+                        <!-- Trait 11 -->
+                        <tr id="trait_action_11" db-skill-passive="Enhanced Devilment"></tr>
                      </tbody>
                   </table>
                </div>               
@@ -1855,7 +493,7 @@
             </div>
             <!-- PVP -->
             <div class="job_skil_db-pvp js-tab-content" data-tab="pvp">
-               <p class="job_update">Последнее обновление: 19/03/2024</p>
+               <p class="job_update" data-dbvalue="PVP Update"></p>
                <p class="job_notes_lv80">У PVP умений отсутствует параметр "стоимость MP". Данная колонка удалена.</p>
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">
@@ -1863,13 +501,12 @@
                   <h3 class="job_sub_title" id="anchor_pvp_onlyaction">Активные умения</h3>
                   <table class="job_table">
                      <colgroup>
-                        <col width="191" />
-                        <col width="84" />
-                        <col width="74" />
-                        <col width="74" />
-                        <!-- <col width="74"/> -->
-                        <col width="74" />
-                        <col width="349" />
+                        <col width="180">
+                        <col width="90">
+                        <col width="117">
+                        <col width="120">
+                        <col width="91">
+                        <col width="318">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -1877,7 +514,6 @@
                            <th><p><span>Тип</span></p></th>
                            <th><p><span>Длительность применения</span></p></th>
                            <th><p><span>Время восстановления</span></p></th>
-                           <!-- <th><p><span>MP Cost</span></p></th> -->
                            <th>
                               <div><p><span>Дальность действия</span></p></div>
                               <hr/>
@@ -1887,359 +523,30 @@
                         </tr>
                      </thead>
                      <tbody class="job_tbody">
-                        <!-- PVP Skil Action 01 -->
-                        <tr id="pvp_action_01">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/0438e84e65435d300b345c5de777c34e20847983.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Cascade</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.2 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>15y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Дальний удар, наносящий урон с силой атаки 3,000.
-                              <br/><br/>※Умение меняется на Reverse Cascade под действием эффекта En Avant.
-                              <br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 02 -->
-                        <tr id="pvp_action_02">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/b89b3e26b00ad1f3f2e34bfe58bf3f6ef6ae6cd9.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fountain</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.2 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>15y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Дальний удар, наносящий урон с силой атаки 5,000.
-                              <br/>Комбо умение: Cascade или Reverse Cascade
-                              <br/><br/>※Умение меняется на Fountainfall под действием эффекта En Avant.
-                              <br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 03 -->
-                        <tr id="pvp_action_03">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/8619c1a93719a934576b062297009ae6af83ec46.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Starfall Dance</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">20 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>25y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/X/_08SnQEaLvSIdYVBCfq51qmc68.png"/>25y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 10,000.
-                              <br/>Дополнительный эффект: уменьшает время применения и восстановления боевых навыков, заклинаний для персонажа и сопартийца, выбранного Dance Partner на 10%
-                              <br/>Продолжительность: 10 сек.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 04 -->
-                        <tr id="pvp_action_04">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/cecaa07a349b4c21c5645a3b3527e6bddfcdd76e.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Honing Dance</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">20 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Проводит серию ударов чакрамами по ближайшим противникам, нанося периодический урон с силой атаки 4,000 и снижая получаемый урон на 25% до окончания действия эффекта.
-                              <br/>Продолжительность: 3 сек.
-                              <br/>Использует Honing Ovation по истечении срока действия эффекта.
-                              <br/>Дополнительный эффект: накладывает стак Acclaim, вплоть до 4
-                              <br/>Эффект Acclaim: увеличивает урон и силу эффекта Honing Ovation
-                              <br/>Продолжительность: 5 сек.
-                              <br/>Может быть использовано во время движения.
-                              <br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.
-                              <br/><br/>※При использовании умение меняется на Honing Ovation.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 05 -->
-                        <tr id="pvp_action_05">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/e703a26adff2f9c1061ca1b8a05ba0da5a1ccc69.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fan Dance</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">20 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>15y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/r/a5c_l_0ZpkmqQvwvFezHgNBi8c.png"/>15y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 5,000.
-                              <br/>Дополнительный эффект: снижает урон, получаемый персонажем и сопартийцем, выбранным Dance Partner на 10%
-                              <br/>Продолжительность: 10 сек.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 06 -->
-                        <tr id="pvp_action_06">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/29bc9e646f24cf83364965086b2278361f6d1515.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Curing Waltz</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">20 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>3y
-                           </td>
-                           <td class="content">
-                              Восстанавливает HP персонажа и ближайших сопартийцев.
-                              <br/>Сила лечения: 10,000
-                              <br/>Дополнительный эффект: сопартиец, отмеченный как Dance Partner, также будет лечить себя и ближайших сопартийцев
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 07 -->
-                        <tr id="pvp_action_07">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/ba6a5ba3fa6a69c17a7971e18387a3485322b087.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>En Avant</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">10 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Рывок на 10 ялмов вперед.
-                              <br/>Дополнительный эффект: накладывает эффект En Avant
-                              <br/>Продолжительность: 10 сек
-                              <br/>Максимум зарядов: 4
-                              <br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 08 -->
-                        <tr id="pvp_action_08">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/3f8ab05d4c5ad09461eac1d129eb4df7c03278ee.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Closed Position</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Способность</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">1 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>30y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Накладывает на персонажа Closed Position и назначает выбранного сопартийца Dance Partner, позволяя разделять с ним эффекты Saber Dance, Starfall Dance, Fan Dance и Curing Waltz.
-                              <br/>Эффект спадает при повторном использовании.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 09 -->
-                        <tr id="pvp_action_09">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/aa56ad7f967a949f7c941f76bfca65d77831c5fc.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Reverse Cascade</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.2 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>15y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Дальний удар, наносящий урон с силой атаки 6,000.
-                              <br/>Дополнительный эффект: накладывает эффект Bladecatcher
-                              <br/>Если на персонажа уже действует эффект Bladecatcher, он меняется на Flourishing Saber Dance.
-                              <br/>Продолжительность: 15 сек.
-                              <br/>Может быть использовано только под действием эффекта En Avant.
-                              <br/><br/>※Fountain Combo меняется на Saber Dance под действием эффекта Flourishing Saber Dance.
-                              <br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 10 -->
-                        <tr id="pvp_action_10">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/b8b5608b6f10d1e782447e3b9a9e87b2022f6886.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Fountainfall</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.2 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>15y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/bp6MGINkQrmc56o57kb0tsoeJk.png"/>0y
-                           </td>
-                           <td class="content">
-                              Дальний удар, наносящий урон с силой атаки 8,000.
-                              <br/>Комбо умение: Cascade или Reverse Cascade
-                              <br/>Дополнительный эффект: накладывает эффект Bladecatcher
-                              <br/>Если на персонажа уже действует эффект Bladecatcher, он меняется на Flourishing Saber Dance.
-                              <br/>Продолжительность: 15 сек.
-                              <br/>Может быть использовано только под действием эффекта En Avant.
-                              <br/><br/>※Fountain Combo меняется на Saber Dance под действием эффекта Flourishing Saber Dance.
-                              <br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 12 -->
-                        <tr id="pvp_action_11">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/0a5e6ed048ddc25735cbe4ece188628329790146.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Saber Dance</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.2 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>15y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>5y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон с силой атаки 10,000 по цели и всем ближайшим противникам.
-                              <br/>Сила атаки увеличивается на 50%, если персонаж атакуете только одну цель.
-                              <br/>Дополнительный эффект: увеличивает урон, наносимый персонажем и сопартийцем, выбранный Dance Partner на 10%
-                              <br/>Продолжительность: 10 сек.
-                              <br/>Может быть использовано только под действием эффекта Flourishing Saber Dance.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
-                        <!-- PVP Skil Action 12 -->
-                        <tr id="pvp_action_12">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/6f694039fa153206117e9a789a78cd6443f93fc4.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Honing Ovation</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Боевой навык</td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">2.2 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>15y
-                           </td>
-                           <td class="content">
-                              Наносит урон ближайшим противникам и создает магический барьер вокруг ближайших сопартийцев.
-                              <br/>Сила атаки и барьера зависит от количества стаков Acclaim, накопленных на момент использования.
-                              <br/>Сила атаки и барьера удваивается, если цель находится в пределах 5 ялмов.
-                              <br/>0 стаков: 2,000 силы атаки и барьер, равный силе лечения 1,000
-                              <br/>1 стак: 3,000 силы атаки и барьер, равный силе лечения 2,000
-                              <br/>2 стака: 4,000 силы атаки и барьер, равный силе лечения 3,000
-                              <br/>3 стака: 5,000 силы атаки и барьер, равный силе лечения 4,000 
-                              <br/>4 стака: 6,000 силы атаки и барьер, равный силе лечения 5,000
-                              <br/>Продолжительность: 10 сек.
-                              <br/>Эффект Honing Dance истекает после использования.
-                              <br/><br/>※Это умение нельзя поместить на хотбар.
-                           </td>
-                        </tr>
+                        <!-- PVP Skill 01 -->
+                        <tr id="pvp_action_01" db-skill-pvp="PVP Cascade"></tr>
+                        <!-- PVP Skill 02 -->
+                        <tr id="pvp_action_02" db-skill-pvp="PVP Fountain"></tr>
+                        <!-- PVP Skill 03 -->
+                        <tr id="pvp_action_03" db-skill-pvp="PVP Starfall Dance"></tr>
+                        <!-- PVP Skill 04 -->
+                        <tr id="pvp_action_04" db-skill-pvp="PVP Honing Dance"></tr>
+                        <!-- PVP Skill 05 -->
+                        <tr id="pvp_action_05" db-skill-pvp="PVP Fan Dance"></tr>
+                        <!-- PVP Skill 06 -->
+                        <tr id="pvp_action_06" db-skill-pvp="PVP Curing Waltz"></tr>
+                        <!-- PVP Skill 07 -->
+                        <tr id="pvp_action_07" db-skill-pvp="PVP En Avant"></tr>
+                        <!-- PVP Skill 08 -->
+                        <tr id="pvp_action_08" db-skill-pvp="PVP Closed Position"></tr>
+                        <!-- PVP Skill 09 -->
+                        <tr id="pvp_action_09" db-skill-pvp="PVP Reverse Cascade"></tr>
+                        <!-- PVP Skill 10 -->
+                        <tr id="pvp_action_10" db-skill-pvp="PVP Fountainfall"></tr>
+                        <!-- PVP Skill 11 -->
+                        <tr id="pvp_action_11" db-skill-pvp="PVP Saber Dance"></tr>
+                        <!-- PVP Skill 12 -->
+                        <tr id="pvp_action_12" db-skill-pvp="PVP Honing Ovation"></tr>
                      </tbody>
                   </table>
                </div>
@@ -2249,19 +556,17 @@
                   <p class="job_text">Заполнить шкалу лимит брейка (limit break gauge) можно сражаясь с противниками и выполняя разные задания, в зависимости от PvP арены. Лимит брейк станет доступен после заполнения шкалы.</p>
                   <table class="job_table">
                      <colgroup>
-                        <col width="191" />
-                        <col width="74" />
-                        <col width="74" />
-                        <!-- <col width="74" /> -->
-                        <col width="74" />
-                        <col width="422" />
+                        <col width="180">
+                        <col width="90">
+                        <col width="110">
+                        <col width="100">
+                        <col width="432">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
                            <th><p><span>Название умения</span></p></th>
                            <th><p><span>Длительность применения</span></p></th>
                            <th><p><span>Время восстановления</span></p></th>
-                           <!-- <th><p><span>MP Cost</span></p></th> -->
                            <th>
                               <div><p><span>Дальность действия</span></p></div>
                               <hr/>
@@ -2271,33 +576,8 @@
                         </tr>
                      </thead>
                      <tbody class="job_tbody">
-                        <tr id="pvplimitbreakaction_01">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="https://lds-img.finalfantasyxiv.com/d/8389226ba5e7eab65952af115123a4db1357a03c.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Contradance</strong></p>
-                              </div>
-                           </td>
-                           <td class="cast">Мгновенная</td>
-                           <td class="recast">10 сек.</td>
-                           <!-- <td class="cost">-</td> -->
-                           <td class="distant_range">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/V/mC5EtjE993EXT5Eo_63j2lmWiM.png"/>0y
-                              <br/>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/fxM1grTWkjBM28iusm62Gpsp0A.png"/>15y
-                           </td>
-                           <td class="content">
-                              Очаровывает ближайших врагов.
-                              <br/>Продолжительность: 2 сек.
-                              <br/>Урон, нанесенный очарованным врагам, продлевает длительность эффекта на 2 сек. Этот эффект можно продлить только один раз.
-                              <br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.
-                              <br/>Время зарядки шкалы: 90 сек.
-                           </td>
-                        </tr>
+                        <!-- PVP Skill 13 -->
+                        <tr id="pvplimitbreakaction_01" db-skill-pvp="PVP Contradance"></tr>
                      </tbody>
                   </table>
                </div>
@@ -2323,6 +603,8 @@
          <a href="#" class="app_top"><img src="../Assets/img/svg/arrow-up.svg"></a>
       </div>
       <!--- Script --->
+      <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
+      <script type="text/javascript" src="../DB/Dancer.js?22052024"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>
