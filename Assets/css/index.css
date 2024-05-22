@@ -22,6 +22,7 @@
 	--font: sans-serif;
 	--color-set-1: #191919;
 	--color-set-2: #000;
+	--color-error: #a62137;
 }
 
 body {
@@ -587,19 +588,21 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 }
 
 .error_info {
+	background-color: #ecede7;
 	padding: 16px;
 	margin: 10px 0 10px 0;
 	border-radius: 10px;
-	box-shadow: 0px 0px 0px 2px #a62137 inset;
+	border: 1px solid var(--color-error);
+	box-shadow: 0px 0px 5px 0px var(--color-error);
 }
 .error_info h5 {
 	margin-bottom: 16px;
-	color: #a62137;
+	color: var(--color-error);
 	font-size: 14px;
 	font-weight: bold;
 }
 .error_info p {
-	color: #a62137;
+	color: var(--color-error);
 	font-weight: bold;
 	font-size: 13px;
 }
@@ -633,9 +636,6 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 #main_news div a {
 	color: #fffed1;
 	font-size: 12px;
-}
-.news .error_info {
-	background-color: #ecede7;
 }
 /* Media */
 @media (max-height: 700px) {

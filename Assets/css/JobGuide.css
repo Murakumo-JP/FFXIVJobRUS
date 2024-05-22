@@ -257,6 +257,20 @@ li {
 	text-align: center;
 	cursor: pointer;
 }
-.range, .radius {
-    text-align: center;
+.range,
+.radius {
+	text-align: center;
+}
+/* Color Set */
+.jobguide_tank {
+	box-shadow: 0px 0px 5px 0px var(--tank-color);
+	border-radius: 10px;
+}
+.jobguide_healer {
+	box-shadow: 0px 0px 5px 0px var(--healer-color);
+	border-radius: 10px;
+}
+.jobguide__dps{
+	box-shadow: 0px 0px 5px 0px var(--dps-color);
+	border-radius: 10px;
 }
