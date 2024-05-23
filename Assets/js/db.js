@@ -129,3 +129,36 @@ function FILL_DB_SKILLS_PVP(DB){
 		<td class="content">`+skill['content']+`</td>`
 	});
 }
+
+function FILL_DB_SKILLS_LIMITED(DB){
+	$('*[db-skill-limited]').each(function () {
+		let key = this.getAttribute('db-skill-limited');
+		let skill = DB[key];
+		this.innerHTML = `
+		<td class="skill">
+			<div class="skill_wrapper">
+				<div class="skill_wrapper_icon">
+					<div class="job_skill_icon">
+						<img src="`+skill['skill_icon']+`"/>
+					</div>
+				</div>
+				<p><strong>`+ skill['name'] +`</strong></p>
+			</div>
+		</td>
+		<td class="classification">`+skill['classification']+`</td>
+		<td class="cast">`+skill['cast']+`</td>
+		<td class="recast">`+skill['recast']+`</td>
+		<td class="cost">`+skill['cost']+`</td>
+		<td class="distant_range">
+			<div class="range">
+				<img src="../Assets/img/main/Range.png">
+				<p>`+skill['range']+`</p>
+			</div>
+			<div class="radius">
+				<img src="../Assets/img/DoWDoM/Radius/`+skill['radius_img']+`.png">
+				<p>`+skill['radius']+`</p>
+			</div>
+		</td>
+		<td class="content">`+skill['content']+`</td>`
+	});
+}
