@@ -47,8 +47,8 @@
                         <h2 class="job_nav_title"><a href="#anchor_carnival">Masked Carnivale</a></h2>
                         <h2 class="job_nav_title"><a href="#anchor_report">Blue Mage Log</a></h2>
                      </div>
-                     <!-- Skil -->
-                     <div class="job_menu_tank js-tab-content" data-tab="skil">
+                     <!-- Skill -->
+                     <div class="job_menu_tank js-tab-content" data-tab="skill">
                         <h2 class="job_nav_title"><a href="#anchor_pvp_onlyaction">Активные умения</a></h2>
                         <ul class="clearfix">
                            <li><a href="#action_001" class="job_skill_icon" title="Water Cannon"><img src="../Assets/img/DoWDoM/BLU/water_cannon.png"></a></li>
@@ -217,7 +217,7 @@
          <div class="job_skil_list">
             <ul class="job_tab clearfix">
                <li class="job_tab--pve js-tab-trigger active" data-tab="guide"><img src="../Assets/img/main/BLUInfo.png"></li>
-               <li class="job_tab--pvp js-tab-trigger" data-tab="skil"><img src="../Assets/img/main/BLUAction.png"></li>
+               <li class="job_tab--pvp js-tab-trigger" data-tab="skill"><img src="../Assets/img/main/BLUAction.png"></li>
             </ul>
             <!-- Guide -->
             <div class="job_skil_db-pve js-tab-content active" data-tab="guide">
@@ -423,8 +423,8 @@
                </div>                                          
                <!-- END -->
             </div>
-            <!-- Skil -->
-            <div class="job_skil_db-pvp blumage_content js-tab-content" data-tab="skil">
+            <!-- Skill -->
+            <div class="job_skil_db-pvp blumage_content js-tab-content" data-tab="skill">
                <p class="job_update">Последнее обновление: 18/07/2023</p>
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">
@@ -457,450 +457,35 @@
                      </thead>
                      <tbody class="job_tbody">
                         <!-- Action 01 -->
-                        <tr id="action_001" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/water_cannon.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Water Cannon</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">100</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>28y
-                              <br/>
-                              <img src="../Assets/img/main/R1.png"/>0y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон водой с силой атаки 200.
-                           </td>
-                        </tr>
+                        <tr id="action_001" db-skill-limited="Water Cannon"></tr>
                         <!-- Action 02 -->
-                        <tr id="action_002" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Flame_Thrower.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Flame Thrower</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>0y
-                              <br/>
-                              <img src="../Assets/img/main/R4.png"/>8y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон огнем по всем противникам в конусе перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.
-                              <br><br>※Где изучается: 
-                              <br>Gobmachine G-VI - Dungeon Brayflox's Longstop (Hard)
-                           </td>
-                        </tr>
+                        <tr id="action_002" db-skill-limited="Flame Thrower"></tr>
                         <!-- Action 03 -->
-                        <tr id="action_003" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Aqua_Breath.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Aqua Breath</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>0y
-                              <br/>
-                              <img src="../Assets/img/main/R4.png"/>8y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон огнем по всем противникам в конусе перед персонажем с силой атаки 140 для первого и на 50% меньше для остальных. 
-                              <br>Дополнительный эффект: накладывает на цель эффект Dropsy, наносящий периодический урон водой
-                              <br>Сила атаки: 20
-                              <br>Продолжительность: 12 сек.
-                              <br><br>※Где изучается: 
-                              <br>Ultros - Dungeon The Dragon's Neck
-                              <br>Leviathan from -  Trial The Whorleater (Hard) или The Whorleater (Extreme)
-                              <br>Ultros - Stage 20 Masked Carnivale (Miss Typhon)
-                           </td>
-                        </tr>
+                        <tr id="action_003" db-skill-limited="Aqua Breath"></tr>
                         <!-- Action 04 -->
-                        <tr id="action_004" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Flying_Frenzy.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Flying Frenzy</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">1 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>20y
-                              <br/>
-                              <img src="../Assets/img/main/R5.png"/>6y
-                           </td>
-                           <td class="content">
-                              Удар с прыжком, наносящий физический урон по всем ближайшим противникам с силой атаки 150 для первого и на 50% меньше для остальных.
-                              <br>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение
-                              <br><br>※Где изучается: 
-                              <br>Zu - Dungeon Pharos Sirius
-                           </td>
-                        </tr>
+                        <tr id="action_004" db-skill-limited="Flying Frenzy"></tr>
                         <!-- Action 05 -->
-                        <tr id="action_005" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Drill_Cannons.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Drill Cannons</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>20y
-                              <br/>
-                              <img src="../Assets/img/main/R6.png"/>20y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 200 для первого и на 50% меньше для остальных. 
-                              <br>Дополнительный эффект: сила атаки увеличивается до 600, если на цель наложен эффект Petrification. Эффект Petrification также снимается
-                              <br><br>※Где изучается: 
-                              <br>Magitek Vanguard H-1 - Dungeon Castrum Meridianum 
-                              <br>4th Cohort Vanguard - Western Thanalan (8.7, 5.9) 
-                              <br>Abandoned Vanguard - Northern Thanalan (19.16)
-                              <br>Magitek Vanguard H-2 - Northern Thanalan (16.15)
-                              <br>Magitek Vanguard - Northern Thanalan (15.8, 14.7)
-                           </td>
-                        </tr>
+                        <tr id="action_005" db-skill-limited="Drill Cannons"></tr>
                         <!-- Action 06 -->
-                        <tr id="action_006" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/High_Voltage.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>High Voltage</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>0y
-                              <br/>
-                              <img src="../Assets/img/main/Radius2.png"/>12y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон молнией по всем ближайшим противникам с силой атаки 180 для первого и на 50% меньше для остальных. 
-                              <br>Дополнительный эффект: паралич (paralysis)
-                              <br>Продолжительность: 15 сек.
-                              <br>Дополнительный эффект: сила атаки увеличивается до 220, если на цель наложен эффект Dropsy
-                              <br>Дополнительный эффект: продолжительность паралича (paralysis) увеличивается до 30 сек., если на цель наложен эффект Dropsy
-                              <br><br>※Где изучается: 
-                              <br>ADS - Raid The Binding Coil of Bahamut - Turn 1
-                              <br>ADS - Raid The Binding Coil of Bahamut - Turn 2
-                              <br>Bestial Node - Stage 15 Masked Carnivale (The Me Nobody Nodes)
-                           </td>
-                        </tr>
+                        <tr id="action_006" db-skill-limited="High Voltage"></tr>
                         <!-- Action 07 -->
-                        <tr id="action_007" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Loom.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Loom</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">1 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>15y
-                              <br/>
-                              <img src="../Assets/img/main/R1.png"/>0y
-                           </td>
-                           <td class="content">
-                              Быстрое перемещение в указанное место.
-                              <br>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.
-                              <br><br>※Где изучается: 
-                              <br>Dantalion и Phantom Knightin - Dungeon The Tam-Tara Deepcroft (Hard)
-                              <br>Baalzephon - Dungeon The Lost City of Amdapor
-                           </td>
-                        </tr>
+                        <tr id="action_007" db-skill-limited="Loom"></tr>
                         <!-- Action 08 -->
-                        <tr id="action_008" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Final_Sting.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Final Sting</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">-</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>3y
-                              <br/>
-                              <img src="../Assets/img/main/R1.png"/>0y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий физический урон с силой атаки 2,000, при этом отправляя персонажа в нокаут.
-                              <br>Дополнительный эффект: накладывает на персонажа эффект Brush with Death
-                              <br>Продолжительность: 600 сек.
-                              <br>Эффект не снимается при воскрешении или повторном нокауте персонажа.
-                              <br>Невозможно использовать, находясь под действием эффекта Brush with Death.
-                              <br><br>※Где изучается: 
-                              <br>Temple Bee - Dungeon The Sunken Temple of Qarn
-                              <br>Huge Hornet - Central Thanalan (18.3, 26.5)
-                              <br>Killer Wespe - Middle La Noscea (15.2, 15.4)
-                           </td>
-                        </tr>
+                        <tr id="action_008" db-skill-limited="Final Sting"></tr>
                         <!-- Action 09 -->
-                        <tr id="action_009" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Song_of_Torment.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Song of Torment</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">400</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>25y
-                              <br/>
-                              <img src="../Assets/img/main/R1.png"/>0y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий нестихийный урон с силой атаки 50.
-                              <br>Дополнительный эффект: нестихийный периодический урон
-                              <br>Сила атаки: 50
-                              <br>Продолжительность: 30 сек.
-                              <br><br>※Где изучается: 
-                              <br>Siren - Dungeon Pharos Sirius
-                           </td>
-                        </tr>
+                        <tr id="action_009" db-skill-limited="Song of Torment"></tr>
                         <!-- Action 10 -->
-                        <tr id="action_010" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Glower.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Glower</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>15y
-                              <br/>
-                              <img src="../Assets/img/main/R6.png"/>15y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий урон молнией по всем противникам по прямой линии перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных. 
-                              <br>Дополнительный эффект: паралич (paralysis)
-                              <br>Продолжительность: 6 сек.
-                              <br><br>※Где изучается: 
-                              <br>Coincounter - Dungeon The Aurum Vale
-                           </td>
-                        </tr>
+                        <tr id="action_010" db-skill-limited="Glower"></tr>
                         <!-- Action 11 -->
-                        <tr id="action_011" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Plaincracker.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Plaincracker</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>0y
-                              <br/>
-                              <img src="../Assets/img/main/Radius2.png"/>6y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий нестихийный урон по всем противникам с силой атаки 220 для первого и на 50% меньше для остальных 
-                              <br><br>※Где изучается: 
-                              <br>Gogmagolem - Dungeon Copperbell Mines (Hard)
-                              <br>Azulmagia - Stage 25 Masked Carnivale (Dirty Rotten Azulmagia)
-                              <br>Basalt Golem - Outer La Noscea (15.7, 15.7)
-                              <br>Clay Golem - North Shroud (16.5, 29.4)
-                              <br>Sandstone Golem - Southern Thanalan (22.1, 11.7)  
-                           </td>
-                        </tr>
+                        <tr id="action_011" db-skill-limited="Plaincracker"></tr>
                         <!-- Action 12 -->
-                        <tr id="action_012" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Bristle.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Bristle</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">1 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>0y
-                              <br/>
-                              <img src="../Assets/img/main/R1.png"/>0y
-                           </td>
-                           <td class="content">
-                              Увеличивает силу атаки следующего заклинания на 50%.
-                              <br>Продолжительность: 30 сек.
-                              <br>Эффект не суммируется с Harmonized.
-                              <br><br>※Где изучается: 
-                              <br>Angry Sow - Central Shroud
-                              <br>Wild Boar - East Shroud (17, 23.4)
-                           </td>
-                        </tr>
+                        <tr id="action_012" db-skill-limited="Bristle"></tr>
                         <!-- Action 13 -->
-                        <tr id="action_013" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/White_Wind.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>White Wind</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">1500</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>0y
-                              <br/>
-                              <img src="../Assets/img/main/Radius2.png"/>15y
-                           </td>
-                           <td class="content">
-                              Восстанавливает HP персонажа и всех ближайших сопартийцев на величину, равную текущему HP персонажа.
-                              <br><br>※Где изучается:
-                              <br>Требуется выучить 10 Blue Magic Spells.
-                              <br>Для изучения заклинания требуется забрать Whalaqee White Wind Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).
-                           </td>
-                        </tr>
+                        <tr id="action_013" db-skill-limited="White Wind"></tr>
                         <!-- Action 14 -->
-                        <tr id="action_014" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Level_5_Petrify.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Level 5 Petrify</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">2 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">400</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>0y
-                              <br/>
-                              <img src="../Assets/img/main/R4.png"/>6y
-                           </td>
-                           <td class="content">
-                              Накладывает окаменение (petrification) на всех противников в конусе перед персонажем.
-                              <br>Продолжительность: 20 сек.
-                              <br>Шанс успешной атаки низок.
-                              <br>Уровень противника должен быть кратен 5. Не действует на противников, чей уровень выше персонажа.
-                              <br><br>※Где изучается: 
-                              <br>Manor Sentry - Dungeon Haukke Manor
-                           </td>
-                        </tr>
+                        <tr id="action_014" db-skill-limited="Level 5 Petrify"></tr>
                         <!-- Action 15 -->
-                        <tr id="action_015" db-skill-limited="">
-                           <td class="skill">
-                              <div class="skill_wrapper">
-                                 <div class="skill_wrapper_icon">
-                                    <div class="job_skill_icon">
-                                       <img src="../Assets/img/DoWDoM/BLU/Sharpened_Knife.png"/>
-                                    </div>
-                                 </div>
-                                 <p><strong>Sharpened Knife</strong></p>
-                              </div>
-                           </td>
-                           <td class="classification">Заклинание</td>
-                           <td class="cast">1 сек.</td>
-                           <td class="recast">2.5 сек.</td>
-                           <td class="cost">200</td>
-                           <td class="distant_range">
-                              <img src="../Assets/img/main/Range.png"/>3y
-                              <br/>
-                              <img src="../Assets/img/main/R1.png"/>6y
-                           </td>
-                           <td class="content">
-                              Удар, наносящий физический урон с силой атаки 220.
-                              <br>Дополнительный эффект: сила атаки увеличивается до 450, когда цель оглушена (stun)
-                              <br><br>※Где изучается: 
-                              <br>Tonberry King - Dungeon The Wanderer's Palace
-                           </td>
-                        </tr>
+                        <tr id="action_015" db-skill-limited="Sharpened Knife"></tr>
                         <!-- Action 16 -->
                         <tr id="action_016" db-skill-limited="">
                            <td class="skill">
