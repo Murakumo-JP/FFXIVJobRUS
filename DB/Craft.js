@@ -1,6 +1,7 @@
-FILL_DB_VALUES(
-   {
-      "CRP Update": `Последнее обновление: 02/10/2023`,
+(() =>{
+   let db = {
+      "Craft Update": "Последнее обновление: 02.10.2023",
+      // Skill
       "Basic Synthesis": `Пополняет шкалу progress.<br/>Эффективность: 120%<br/>Шанс успеха: 100%`,
       "Basic Touch": `Пополняет шкалу quality.<br/>Эффективность: 100%<br/>Шанс успеха: 100%`,
       "Master's Mend": `Восстанавливает durability предмета на 30.`,
@@ -41,5 +42,6 @@ FILL_DB_VALUES(
       "Rapid Synthesis Mastery": `Эффективность повышается до 500%.`,
       "Careful Synthesis Mastery": `Эффективность повышается до 180%.`,
       "Groundwork Mastery": `Эффективность повышается до 360%.`,
-   }
-);
+   };
+   FILL_DB_VALUES(db);
+})();

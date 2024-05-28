@@ -9,8 +9,8 @@ function FILL_DB_VALUES(DB) {
 		key = key.substring(index + 1);
 		return get_value_recursive(key, tempDB);
 	}
-	$('*[data-dbvalue]').each(function () {
-		let key = this.getAttribute('data-dbvalue');
+	$('*[db-value]').each(function () {
+		let key = this.getAttribute('db-value');
 		let value = get_value_recursive(key, DB);
 		if (typeof value == 'undefined') {
 			this.innerHTML = '<span class="text_error">Value not founded [' + key + ']</span>';
