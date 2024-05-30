@@ -32,7 +32,7 @@ p {
 .jobguide {
 	width: 100%;
 	display: table;
-	background: #ecede7;
+	background: var(--color-set-3);
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 12px;
 }

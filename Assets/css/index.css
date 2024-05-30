@@ -22,13 +22,15 @@
 	--font: sans-serif;
 	--color-set-1: #191919;
 	--color-set-2: #000;
+	--color-set-3: #ecede7;
 	--color-error: #a62137;
+	--main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, rgba(132, 185, 186, 1) 0%, rgba(219, 214, 165, 1) 100%);
 }
 
 body {
 	overflow-y: hidden;
 	overflow-x: hidden;
-	background-color: #ecede7;
+	background-color: var(--color-set-3);
 }
 * {
 	margin: 0;
@@ -235,7 +237,7 @@ footer {
 	width: 100px;
 	height: 100px;
 	border: 5px solid #1b1b1b;
-	border-top-color: #ecede7;
+	border-top-color: var(--color-set-3);
 	border-radius: 50%;
 	position: absolute;
 	left: 50%;
@@ -285,12 +287,12 @@ footer {
 
 /* Main Imdex */
 .main_app {
-	background: #ecede7;
+	background: var(--color-set-3);
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 12px;
 }
 .main_header {
-	background: url(../img/JobIndex/header_DT.png) no-repeat top center, linear-gradient(90deg, rgba(132, 185, 186, 1) 0%, rgba(219, 214, 165, 1) 100%);
+	background: var(--main-header-img);
 	height: 500px;
 }
 .main_header_text p {
@@ -300,6 +302,7 @@ footer {
 	margin: 0 !important;
 	position: relative;
 	display: block;
+	text-align: center;
 }
 .main_header_text a {
 	color: #fffed1;
