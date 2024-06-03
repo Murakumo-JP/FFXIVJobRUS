@@ -15,8 +15,10 @@ body#gs{
    margin: 0 auto;
 }
 .gs_header_img img {
-   bottom: 0;
    position: absolute;
+}
+.gs_logo {
+   bottom: 60px;
 }
 .gs_header_text {
    padding: 10px;
@@ -28,6 +30,9 @@ body#gs{
    text-align: center;
    font-size: 13px;
    color: #ccaa66;
+}
+.gs_header_img .link_list {
+   font-size: 12px;
 }
 /* Content */
 .gs_content {
