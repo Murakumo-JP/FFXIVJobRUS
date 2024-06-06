@@ -1,4 +1,6 @@
 # Информация
+[![GitHub repo size](https://img.shields.io/github/repo-size/Murakumo-JP/FFXIVJobGuideRU?style=flat-square&label=Repo%20Size)]()
+[![GitHub License](https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=flat-square&label=License)](https://github.com/Murakumo-JP/FFXIVJobGuideRU/blob/main/LICENSE)
 
 * Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка понять описания скиллов классов.
 * Перевод Seiffear, Morriganna
