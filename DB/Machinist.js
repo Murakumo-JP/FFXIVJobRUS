@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 19/03/2024`,
       // PVE Skill 01
-      "Split Shot": {
+      "PVE Skill 01": {
          "name": 'Split Shot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8060c2f198141fb9c4d4202e298c212c15a82e88.png',
          "job_icon": 'MCH',
@@ -17,7 +17,7 @@
          "content": 'Удар, наносящий урон с силой атаки 140.<br/>Дополнительный эффект: восполняет Heat Gauge на 5',
       },
       // PVE Skill 02
-      "Slug Shot": {
+      "PVE Skill 02": {
          "name": 'Slug Shot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/63bb059658f193d08de8cd45e4a95e7bed0418b8.png',
          "job_icon": 'MCH',
@@ -31,7 +31,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Split Shot или Heated Split Shot<br/>Сила в комбо: 210<br/>Комбо бонус: восполняет Heat Gauge на 5',
       },
       // PVE Skill 03
-      "Hot Shot": {
+      "PVE Skill 03": {
          "name": 'Hot Shot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b297b6034baa7347d3a53a12910b102914ce3c3e.png',
          "job_icon": 'MCH',
@@ -45,7 +45,7 @@
          "content": 'Удар, наносящий урон с силой атаки 240.<br/>Дополнительный эффект: восполняет Battery Gauge на 20<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
       },
       // PVE Skill 04
-      "Reassemble": {
+      "PVE Skill 04": {
          "name": 'Reassemble',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/55906cd43fffdf7bcc09790b1b02b19edc6b2e8e.png',
          "job_icon": 'MCH',
@@ -59,7 +59,7 @@
          "content": 'Следующий боевой навык гарантированно получит эффект критического (critical) прямого (direct) удара.<br/>Продолжительность: 5 сек.<br/>Наносимый урон увеличивается под действием эффектов, повышающего вероятность критического (critical) или прямого (direct) урона.<br/>Это умение не влияет на периодический урон.<br/>Максимум зарядов: 2',
       },
       // PVE Skill 05
-      "Gauss Round": {
+      "PVE Skill 05": {
          "name": 'Gauss Round',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e6959a3306b601fc9e5987712f6d9ea247a7a566.png',
          "job_icon": 'MCH',
@@ -73,7 +73,7 @@
          "content": 'Удар, наносящий урон с силой атаки 130.<br/>Максимум зарядов: 3',
       },
       // PVE Skill 06
-      "Spread Shot": {
+      "PVE Skill 06": {
          "name": 'Spread Shot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c4e991ed4e6b585ceb2dda1c03dec0278ff28f0.png',
          "job_icon": 'MCH',
@@ -87,7 +87,7 @@
          "content": 'Удар, наносящий урон с силой атаки 140 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: восполняет Heat Gauge на 5',
       },
       // PVE Skill 07
-      "Clean Shot": {
+      "PVE Skill 07": {
          "name": 'Clean Shot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d6d762f987ab51e9840cbf5229251838b16078b5.png',
          "job_icon": 'MCH',
@@ -101,7 +101,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Slug Shot или Heated Slug Shot<br/>Сила в комбо: 270<br/>Комбо бонус: восполняет Heat Gauge на 5<br/>Комбо бонус: восполняет Battery Gauge на 10',
       },
       // PVE Skill 08
-      "Hypercharge": {
+      "PVE Skill 08": {
          "name": 'Hypercharge',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e67ae514847/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/273150b6ebb3357688de07d86ec37a02da8e9348.png',
@@ -116,7 +116,7 @@
          "content": 'Накладывает 5 стаков Overheated, каждый из которых позволяет использовать Heat Blast или Auto Crossbow.<br/>Продолжительность: 10 сек.<br/>Эффект Overheated: увеличивает силу атаки боевых навыков по одной цели на 20<br/>Стоимость Heat Gauge: 50<br/>Эффект Overheated распространяется только на умения машиниста.',
       },
       // PVE Skill 09
-      "Heat Blast": {
+      "PVE Skill 09": {
          "name": 'Heat Blast',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/618ec7eb4bb/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/009d06297b1776f1404cdf4de9c5bd8b17a447e6.png',
@@ -131,7 +131,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: снижает время восстановления Gauss Round и Richochet на 15 сек.<br/>Может использоваться только под эффектом Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.',
       },
       // PVE Skill 10
-      "Rook Autoturret": {
+      "PVE Skill 10": {
          "name": 'Rook Autoturret',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6ef1ac08680/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5b7c9667f3dca5facbc020d4ab7743c7f9d4e6d9.png',
@@ -146,7 +146,7 @@
          "content": 'Развертывает боевую турель, которая будет наносить атаки по одиночной цели, используя Volley Fire с силой атаки 35.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 75 при максимальном значении.<br/>Стоимость Battery Gauge: 50<br/>Продолжительность: 9 сек.<br/>Расходует Battery Gauge в процессе использования.<br/>Отключается, если истечет время умения или после запуска Rook Overdrive.<br/>Имеет общее время восстановления с умением Rook Overdrive.',
       },
       // PVE Skill 11
-      "Rook Overdrive": {
+      "PVE Skill 11": {
          "name": 'Rook Overdrive',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d02c5a123e15d77891887c24dce2f6f21d92852d.png',
          "job_icon": 'MCH',
@@ -160,7 +160,7 @@
          "content": 'Отправляет команду вашей боевой турели (Rook Autoturret) использовать Rook Overload.<br/>Сила атаки Rook Overload: 160<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 320 при максимальном значении.<br/>Отключается после использования умения.<br/>Если умение не было использовано, пока турель активна, оно сработает автоматически непосредственно перед отключением.<br/>Имеет общее время восстановления с умением Rook Autoturret.',
       },
       // PVE Skill 12
-      "Rook Overload": {
+      "PVE Skill 12": {
          "name": 'Rook Overload',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0458a11999934b3eb6d4088c941329698c898722.png',
          "job_icon": 'MCH',
@@ -174,7 +174,7 @@
          "content": 'Удар, наносящий урон с силой атаки 160.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 320 при максимальном значении.<br/>Отключается после использования умения. Если умение не было использовано, пока турель активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 13
-      "Wildfire": {
+      "PVE Skill 13": {
          "name": 'Wildfire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6d73e45fbbfb35ad0a4f8b4a73753e6a06a37651.png',
          "job_icon": 'MCH',
@@ -188,7 +188,7 @@
          "content": 'Окутывает цель медленно горящим огнем, накладывая эффект Wildfire. Умение заменяется на Detonator на время действия эффекта.<br/>Наносит урон по истечении времени или после использования умения Detonator.<br/>Сила атаки умения увеличивается на 240 за каждый боевой навык персонажа, который будет успешно применен на цель до окончания эффекта.<br/>Может накапливаться до 6 раз.<br/>Продолжительность: 10 сек.',
       },
       // PVE Skill 14
-      "Detonator": {
+      "PVE Skill 14": {
          "name": 'Detonator',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d342968f8a04290200386a016f586a0b175e3d3b.png',
          "job_icon": 'MCH',
@@ -202,7 +202,7 @@
          "content": 'Заканчивает действие эффекта Wildfire, нанося урон цели.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 15
-      "Ricochet": {
+      "PVE Skill 15": {
          "name": 'Ricochet',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8009173f2c1/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5556960a2e8ce389c2117d13c6d182f41943c3c9.png',
@@ -217,7 +217,7 @@
          "content": 'Удар, наносящий урон по всем ближайшим противникам с силой атаки 130 для первого и на 50% меньше для всех остальных.<br/>Максимум зарядов: 3',
       },
       // PVE Skill 16
-      "Auto Crossbow": {
+      "PVE Skill 16": {
          "name": 'Auto Crossbow',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/dec97d20aae/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c8ae8bf5d1dbcae1bf932cfed578e4fda8d80f3.png',
@@ -232,7 +232,7 @@
          "content": 'Удар, наносящий урон с силой атаки 140 по всем противникам в конусе перед персонажем.<br/>Может использоваться только под эффектом Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.',
       },
       // PVE Skill 17
-      "Heated Split Shot": {
+      "PVE Skill 17": {
          "name": 'Heated Split Shot',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/708447cc2e7/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c7fb786ed29dd5618309e36b58105dd329f255fa.png',
@@ -247,7 +247,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: восполняет Heat Gauge на 5',
       },
       // PVE Skill 18
-      "Tactician": {
+      "PVE Skill 18": {
          "name": 'Tactician',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fac8668168e/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb334bf6f4cfd728e234e09c1cc1521c37d9d73e.png',
@@ -262,7 +262,7 @@
          "content": 'Снижает урон получаемый персонажем и сопартийцами на 10%.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется с умение Troubadour барда или Shield Samba дансера.',
       },
       // PVE Skill 19
-      "Drill": {
+      "PVE Skill 19": {
          "name": 'Drill',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1f28f88b934/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c8bd9fe712521ac377c3359846437a640c0516b7.png',
@@ -277,7 +277,7 @@
          "content": 'Удар, наносящий урон с силой атаки 600.<br/>Имеет общее время восстановления с умением Bioblaster.',
       },
       // PVE Skill 20
-      "Heated Slug Shot": {
+      "PVE Skill 20": {
          "name": 'Heated Slug Shot',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/74fe228d7b6/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f91784177366a8b4dd069a15915b41601231f83.png',
@@ -292,7 +292,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Heated Split Shot<br/>Сила в комбо: 300<br/>Комбо бонус: восполняет Heat Gauge на 5',
       },
       // PVE Skill 21
-      "Dismantle": {
+      "PVE Skill 21": {
          "name": 'Dismantle',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/94eaa7aadfa4d857c00551af690f42bb5d7a4a94.png',
          "job_icon": 'MCH',
@@ -306,7 +306,7 @@
          "content": 'Снижает наносимый целью урон на 10%.<br/>Продолжительность: 10 сек.',
       },
       // PVE Skill 22
-      "Heated Clean Shot": {
+      "PVE Skill 22": {
          "name": 'Heated Clean Shot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c8cababe00b6d512baada3b68a32cb866758a17.png',
          "job_icon": 'MCH',
@@ -320,7 +320,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Heated Slug Shot<br/>Сила в комбо: 380<br/>Комбо бонус: восполняет Heat Gauge на 5<br/>Комбо бонус: восполняет Battery Gauge на 10',
       },
       // PVE Skill 23
-      "Barrel Stabilizer": {
+      "PVE Skill 23": {
          "name": 'Barrel Stabilizer',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1688057a6b4150542d3c41e9e5202cf5aa14b5b7.png',
          "job_icon": 'MCH',
@@ -334,7 +334,7 @@
          "content": 'Восполняет Heat Gauge на 50.<br/>Может быть использовано только в бою.',
       },
       // PVE Skill 24
-      "Flamethrower": {
+      "PVE Skill 24": {
          "name": 'Flamethrower',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/07e9b7dbdb8/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/37f5418d1629e6ebc93161622a271d14aa82464e.png',
@@ -349,7 +349,7 @@
          "content": 'Наносит периодический урон по всем противникам в конусе перед персонажем.<br/>Сила атаки: 80<br/>Продолжительность: 10 сек.<br/>Умение прервется при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br/>Прерывает авто атаки при использовании умения.<br/>Запускает время восстановления боевых навыков после использования. Не может использоваться во время восстановления боевых навыков.',
       },
       // PVE Skill 25
-      "Bioblaster": {
+      "PVE Skill 25": {
          "name": 'Bioblaster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/193879ae7c68f4e144e385a018c69e3626dfa569.png',
          "job_icon": 'MCH',
@@ -363,7 +363,7 @@
          "content": 'Удар, наносящий урон с силой атаки 50 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 50<br/>Продолжительность: 15 сек.<br/>Имеет общее время восстановления с умением Drill.',
       },
       // PVE Skill 26
-      "Air Anchor": {
+      "PVE Skill 26": {
          "name": 'Air Anchor',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/85abf6ce8fa5c7b7bda98e11f37df0e8c024015e.png',
          "job_icon": 'MCH',
@@ -377,7 +377,7 @@
          "content": 'Удар, наносящий урон с силой атаки 600.<br/>Дополнительный эффект: восполняет шкалу Battery Gauge на 20<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
       },
       // PVE Skill 27
-      "Automaton Queen": {
+      "PVE Skill 27": {
          "name": 'Automaton Queen',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e27f4ccdaad09197dbb5c06734c52bd2e4b4af06.png',
          "job_icon": 'MCH',
@@ -391,7 +391,7 @@
          "content": 'Призывает Automaton Queen, которая сражается на стороне персонажа.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge, превышает требуемую стоимость на момент развертывания.<br/>Стоимость Battery Gauge: 50<br/>Продолжительность: 12 сек.<br/>Расходует Battery Gauge в процессе использования.<br/>Отключается, если истечет время действия, или после запуска Queen Overdrive.<br/>Имеет общее время восстановления с умением Queen Overdrive.',
       },
       // PVE Skill 28
-      "Queen Overdrive": {
+      "PVE Skill 28": {
          "name": 'Queen Overdrive',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1424989e6ca3765da1c9c323ebcf72d0c9ba1536.png',
          "job_icon": 'MCH',
@@ -405,7 +405,7 @@
          "content": 'Приказывает вашей Automaton Queen использовать Pile Bunker.<br/>Сила атаки Pile Bunker: 340<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 680 при максимальном значении.<br/>Automaton Queen отключается после использования умения. Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/>Имеет общее время восстановления с умением Automaton Queen.',
       },
       // PVE Skill 29
-      "Arm Punch": {
+      "PVE Skill 29": {
          "name": 'Arm Punch',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/813737b1502285e729d93645fe816e75350bb1c9.png',
          "job_icon": 'MCH',
@@ -419,7 +419,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 240 при максимальном значении.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 30
-      "Roller Dash": {
+      "PVE Skill 30": {
          "name": 'Roller Dash',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f01267b74b97a5447bd88cf5a953e532313255a.png',
          "job_icon": 'MCH',
@@ -433,7 +433,7 @@
          "content": 'Рывок к цели и удар, наносящий урон с силой атаки 240.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 480 при максимальном значении.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 31
-      "Pile Bunker": {
+      "PVE Skill 31": {
          "name": 'Pile Bunker',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5e8ab4cb384f66e2f6a041ab70923ac104fdab80.png',
          "job_icon": 'MCH',
@@ -447,7 +447,7 @@
          "content": 'Удар, наносящий урон с силой атаки 340.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 680 при максимальном значении.<br/>Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 32
-      "Scattergun": {
+      "PVE Skill 32": {
          "name": 'Scattergun',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8cde8fc67f1387b83328aa85cbe044d21a5bc9b0.png',
          "job_icon": 'MCH',
@@ -461,7 +461,7 @@
          "content": 'Удар, наносящий урон с силой атаки 150 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: восполняет Heat Gauge на 10',
       },
       // PVE Skill 33
-      "Crowned Collider": {
+      "PVE Skill 33": {
          "name": 'Crowned Collider',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e7dfcf4eb7f3e2cea526372e8edd8732348bc035.png',
          "job_icon": 'MCH',
@@ -475,7 +475,7 @@
          "content": 'дар, наносящий урон с силой атаки 390.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 780 при максимальном значении.<br/>Automaton Queen отключается после использования умения. Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 34
-      "Chain Saw": {
+      "PVE Skill 34": {
          "name": 'Chain Saw',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f788128862828a0a36c66d4dcd6f521f8391d04.png',
          "job_icon": 'MCH',
@@ -489,7 +489,7 @@
          "content": 'Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 600 для первого противника и на 65% меньше для всех остальных.<br/>Дополнительный эффект: восполняет Battery Gauge на 20<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
       },
       // Trait 01
-      "Increased Action Damage": {
+      "Trait 01": {
          "name": 'Increased Action Damage',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7a4446670bbb1ae60b4026125c28469c0c32802f.png',
          "job_icon": 'MCH',
@@ -497,7 +497,7 @@
          "content": 'Увеличивает базовый урон умений и урон турелей на 10%.',
       },
       // Trait 02
-      "Increased Action Damage II": {
+      "Trait 02": {
          "name": 'Increased Action Damage II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e58ddf4e9b28be5305924b0a016be89f3e6f5c09.png',
          "job_icon": 'MCH',
@@ -505,7 +505,7 @@
          "content": 'Увеличивает базовый урон умений и урон турелей на 20%.',
       },
       // Trait 03
-      "Split Shot Mastery": {
+      "Trait 03": {
          "name": 'Split Shot Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/708447cc2e7/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/17e2bfa91c00357867f74f213d54acbdb3eccf9c.png',
@@ -514,7 +514,7 @@
          "content": 'Улучшает умение Split Shot до Heated Split Shot.',
       },
       // Trait 04
-      "Slug Shot Mastery": {
+      "Trait 04": {
          "name": 'Slug Shot Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/74fe228d7b6/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fcfac995467f1b40637328ca1fb2e0f96d3d93fa.png',
@@ -523,7 +523,7 @@
          "content": 'Улучшает умение Slug Shot до Heated Slug Shot.',
       },
       // Trait 05
-      "Clean Shot Mastery": {
+      "Trait 05": {
          "name": 'Clean Shot Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/22ad0318de7c24159dee74596a7bfe78c1947d3a.png',
          "job_icon": 'MCH',
@@ -531,7 +531,7 @@
          "content": 'Улучшает умение Clean Shot до Heated Clean Shot.',
       },
       // Trait 06
-      "Charged Action Mastery": {
+      "Trait 06": {
          "name": 'Charged Action Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c9a0badfb53894c632d694c869e031bceebef88.png',
          "job_icon": 'MCH',
@@ -539,7 +539,7 @@
          "content": 'Позволяет накапливать 3 заряда Gauss Round и Ricochet.',
       },
       // Trait 07
-      "Hot Shot Mastery": {
+      "Trait 07": {
          "name": 'Hot Shot Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7973381f2d9c49f26b5b72f9cc370b402359d2a8.png',
          "job_icon": 'MCH',
@@ -547,7 +547,7 @@
          "content": 'Улучшает умение Hot Shot до Air Anchor.',
       },
       // Trait 08
-      "Enhanced Wildfire": {
+      "Trait 08": {
          "name": 'Enhanced Wildfire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ee45320e4da5dfac149b4d204d8b6d300cdc9623.png',
          "job_icon": 'MCH',
@@ -555,7 +555,7 @@
          "content": 'Увеличивает силу Wildfire за каждый использованный боевой навык до 240.',
       },
       // Trait 09
-      "Promotion": {
+      "Trait 09": {
          "name": 'Promotion',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f48e481afe9adde72358481f334754d9bd65016.png',
          "job_icon": 'MCH',
@@ -563,7 +563,7 @@
          "content": 'Улучшает Rook Autoturret и Rook Overdrive до Automaton Queen и Queen Overdrive.',
       },
       // Trait 10
-      "Spread Shot Mastery": {
+      "Trait 10": {
          "name": 'Spread Shot Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/733c87787a7829705ddb6e45ecc77afa3a69706f.png',
          "job_icon": 'MCH',
@@ -571,7 +571,7 @@
          "content": 'Улучшает умение Spread Shot до Scattergun.',
       },
       // Trait 11
-      "Enhanced Reassemble": {
+      "Trait 11": {
          "name": 'Enhanced Reassemble',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7ea5f5c63a2624cd7f20dc650d5714969117d531.png',
          "job_icon": 'MCH',
@@ -579,7 +579,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Reassemble.<br/>Максимум зарядов: 2',
       },
       // Trait 12
-      "Marksmans Mastery": {
+      "Trait 12": {
          "name": "Marksman's Mastery",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
          "job_icon": 'MCH',
@@ -587,7 +587,7 @@
          "content": 'Увеличивает силу атаки Heated Split Shot до 200, Heated Slug Shot до 120 и Heated Clean Shot до 120.',
       },
       // Trait 13
-      "Queens Gambit": {
+      "Trait 13": {
          "name": "Queen's Gambit",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bfe38af9b9aebf5a2febaafa0ed4c0867da59a2e.png',
          "job_icon": 'MCH',
@@ -595,7 +595,7 @@
          "content": 'Automaton Queen, после использования Pile Bunker, также использует Crowned Collider.',
       },
       // Trait 14
-      "Enhanced Tactician": {
+      "Trait 14": {
          "name": 'Enhanced Tactician',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/83abb5edaa137fdb0a1665598fbba3d0de804520.png',
          "job_icon": 'MCH',
@@ -603,7 +603,7 @@
          "content": 'Сокращает время восстановления Tactician до 90 сек.',
       },
       // PVP Skill 01
-      "PVP Blast Charge": {
+      "PVP Skill 01": {
          "name": 'Blast Charge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e15fdee2a9a849495d10440d6d5f007a66f636e0.png',
          "classification": 'Боевой навык',
@@ -615,7 +615,7 @@
          "content": 'Дальний удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: накладывает стак Heat, вплоть до 5<br/>Продолжительность: 15 сек.<br/>При максимальном количестве стаков накладывает Overheated и увеличивает скорость передвижения на 25%.<br/>Продолжительность: 5 сек.<br/>Для используется требуется время применения, однако во время применения можно перемещаться.<br/><br/>※Умение меняется на Heat Blast под действием эффекта Overheated.',
       },
       // PVP Skill 02
-      "PVP Scattergun": {
+      "PVP Skill 02": {
          "name": 'Scattergun',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a97a3334f7e3c5afaa91eb2ab84c953f9e1402a7.png',
          "classification": 'Боевой навык',
@@ -627,7 +627,7 @@
          "content": 'Удар, наносящий урон с силой атаки 6,000 по всем противникам в конусе перед персонажем. Наносит двойной удар, если поражает только одну цель.<br/>Дополнительный эффект: отбрасывает цель на 10 ялмов назад<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 03
-      "PVP Drill": {
+      "PVP Skill 03": {
          "name": 'Drill',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1843c5eb1876f021be1a9cf6359c316781916627.png',
          "classification": 'Боевой навык',
@@ -639,7 +639,7 @@
          "content": 'Дальний удар, наносящий урон с силой атаки 10,000.<br/>Сила атаки увеличивается до 20,000, пока персонаж находитесь под действием эффекта Analysis.<br/>Игнорирует эффект Guard при нанесении урона.<br/>Дополнительный эффект: накладывает эффект Bioblaster Primed<br/>Максимум зарядов: 2<br/>Можно использовать только под действием Drill Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Bioblaster под действием эффекта Bioblaster Primed.',
       },
       // PVP Skill 04
-      "PVP Wildfire": {
+      "PVP Skill 04": {
          "name": 'Wildfire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/95728389d41fbd0e5d09f80b2c0d10df41441cd9.png',
          "classification": 'Способность',
@@ -651,7 +651,7 @@
          "content": 'Окутывает цель медленно горящим огнем, накладывая эффект Wildfire. Наносит урон цели и всем противникам в радиусе 5 ялмов по истечении времени.<br/>Продолжительность: 7 сек.<br/>Сила атаки увеличивается на 4,000 за каждое атакующее умение персонажа, которое он совершаете до окончания действия эффекта.<br/>Если персонаж нанесет 3 атакующих умения по цели, то медленно горящая цель немедленно взорвется.',
       },
       // PVP Skill 05
-      "PVP Bishop Autoturret": {
+      "PVP Skill 05": {
          "name": 'Bishop Autoturret',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5b81ea0d7793a71e83ebe7472ce3f860a51a842a.png',
          "classification": 'Способность',
@@ -663,7 +663,7 @@
          "content": 'Развертывает боевую турель, которая будет наносить авто атаки по противникам с силой атаки 6,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 7 сек.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 7 сек.',
       },
       // PVP Skill 06
-      "PVP Analysis": {
+      "PVP Skill 06": {
          "name": 'Analysis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/38dc9d35007c7cdc38d10d63379748401fed9939.png',
          "classification": 'Способность',
@@ -675,7 +675,7 @@
          "content": 'Накладывает эффект, дающий дополнительные эффекты умениям Drill, Bioblaster, Air Anchor и Chain Saw при использовании этих боевых навыков.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект Drill: сила атаки увеличена до 200%<br/>Дополнительный эффект Bioblaster: удваивает силу атаки и накладывает цель тяжесть (heavy) +75%<br/>Дополнительный эффект Air Anchor: сила атаки увеличена на 50%, а эффект связывания (bind) становится оглушением (stun)<br/>Дополнительный эффект Chain Saw: сила атаки увеличена на 50%<br/>Максимум зарядов: 2',
       },
       // PVP Skill 07
-      "PVP Heat Blast": {
+      "PVP Skill 07": {
          "name": 'Heat Blast',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/84a05c1b20f3981ddf99a23880ea9a2063fe87b2.png',
          "classification": 'Боевой навык',
@@ -687,7 +687,7 @@
          "content": 'Дальний удар, наносящий урон с силой атаки 6,000.<br/>Может быть использовано только под действием эффекта Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 08
-      "PVP Bioblaster": {
+      "PVP Skill 08": {
          "name": 'Bioblaster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70783248b63c783d9df10fbe8f420ec6954d9eab.png',
          "classification": 'Боевой навык',
@@ -699,7 +699,7 @@
          "content": 'Удар, наносящий урон с силой атаки 4,000 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: удваивает силу атаки и накладывает на цель тяжесть (heavy) +75% при наличии эффекта Analysis<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: периодический урон<br/>Potency: 4,000<br/>Продолжительность: 12 сек.<br/>Удвоение силы атаки не распространяется на эффект периодического урона.<br/>Дополнительный эффект: накладывает эффект Air Anchor Primed<br/>Maximum Charges: 2<br/>Может быть использовано только под действием эффекта Bioblaster Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Air Anchor под действием эффекта Air Anchor Primed.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 09
-      "PVP Air Anchor": {
+      "PVP Skill 09": {
          "name": 'Air Anchor',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/120150f155ff0887d5b979ef25e82df2232e2afe.png',
          "classification": 'Боевой навык',
@@ -711,7 +711,7 @@
          "content": 'Дальний удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: связывание (bind)<br/>Продолжительность: 3 сек.<br/>Дополнительные эффекты: сила атаки увеличивается на 50%, а эффект связывания (bind) становится оглушением (stun) при наличии эффекта Analysis<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: накладывает эффект Chain Saw Primed<br/>Максимум зарядов: 2<br/>Может быть использовано только под действием эффекта Air Anchor Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Chain Saw под действием эффекта Chain Saw Primed.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 10
-      "PVP Chain Saw": {
+      "PVP Skill 10": {
          "name": 'Chain Saw',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/acbc270d0d2e6192541800dcc280c80a7eae3bba.png',
          "classification": 'Боевой навык',
@@ -723,7 +723,7 @@
          "content": 'Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается на 50%, если HP цели ниже 50%.<br/>Дополнительный эффект: сила атаки увеличивается на 50% при наличии эффекта Analysis<br/>Дополнительный эффект: накладывает эффект Drill Primed<br/>Максимум зарядов: 2<br/>Может быть использовано только под действием эффекта Chain Saw Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Drill под действием эффекта Drill Primed.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 11
-      "PVP Aether Mortar": {
+      "PVP Skill 11": {
          "name": 'Aether Mortar',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e630bb066bbc76a8e961d011612bbdcdaf9509d2.png',
          "classification": 'Способность',
@@ -735,7 +735,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 6,000 по всем ближайшим противникам.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 7 сек.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 7 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 12
-      "PVP Marksmans Spite": {
+      "PVP Skill 12": {
          "name": "Marksman's Spite",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b641fb27f646df1959aa4754f6389d54fd20b9d5.png',
          "cast": 'Мгновенная',
@@ -750,4 +750,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

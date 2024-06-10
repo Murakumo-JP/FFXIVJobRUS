@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 16/01/2024`,
       // PVE Skill 01
-      "Hard Slash": {
+      "PVE Skill 01": {
          "name": 'Hard Slash',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5c0fef99ef9100285ede6dbc62a5c35cea188d7c.png',
          "job_icon": 'DRK',
@@ -18,7 +18,7 @@
          "content": 'Удар, наносящий урон с силой атаки 170.',
       },
       // PVE Skill 02
-      "Syphon Strike": {
+      "PVE Skill 02": {
          "name": 'Syphon Strike',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e2a305d72e05ef339e0692bd5f7ed9626b6eb9ea.png',
          "job_icon": 'DRK',
@@ -33,7 +33,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Hard Slash<br/>Сила в комбо: 260<br/>Комбо бонус: восстанавливает MP',
       },
       // PVE Skill 03
-      "Unleash": {
+      "PVE Skill 03": {
          "name": 'Unleash',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/600c6a17bd8c4e08c783d1fb8891f12eea132a9a.png',
          "job_icon": 'DRK',
@@ -48,7 +48,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 120 по всем окружающим противникам.',
       },
       // PVE Skill 04
-      "Grit": {
+      "PVE Skill 04": {
          "name": 'Grit',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6d1592d4fcbcafe1e3b0958d688c50346fe2bd4.png',
          "job_icon": 'DRK',
@@ -63,7 +63,7 @@
          "content": 'Танковая стойка. Значительно повышает генерацию уровня угрозы.<br/>Эффект спадает при повторном использовании.',
       },
       // PVE Skill 05
-      "Release Grit": {
+      "PVE Skill 05": {
          "name": 'Release Grit',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/13a97691011df3c616e3181fd21b5f6805ce5799.png',
          "job_icon": 'DRK',
@@ -78,7 +78,7 @@
          "content": 'Отменяет эффект Grit.',
       },
       // PVE Skill 06
-      "Unmend": {
+      "PVE Skill 06": {
          "name": 'Unmend',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6203d55695d1cdde37d875f7b4b4253606266ad0.png',
          "job_icon": 'DRK',
@@ -93,7 +93,7 @@
          "content": 'Дальний удар, наносящий нестихийный урон с силой атаки 150.<br/>Дополнительный эффект: повышает уровень угрозы<br/>Дополнительный эффект: уменьшает время восстановления Plunge на 5 сек.',
       },
       // PVE Skill 07
-      "Souleater": {
+      "PVE Skill 07": {
          "name": 'Souleater',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c6a197869a69116f52b41b3fef2ce03c29b5212.png',
          "job_icon": 'DRK',
@@ -108,7 +108,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Syphon Strike<br/>Сила в комбо: 340<br/>Комбо бонус: восстанавливает HP персонажа<br/>Сила лечения: 300<br/>Комбо бонус: восполняет ресурс шкалы Blood Gauge на 20',
       },
       // PVE Skill 08
-      "Flood of Darkness": {
+      "PVE Skill 08": {
          "name": 'Flood of Darkness',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f194ac09168/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/438927fdaa593ec9d1bd020e1c60fad9ca495f3f.png',
@@ -124,7 +124,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 100 по всем противникам по линии перед персонажем.<br/>Дополнительный эффект: накладывает эффект Darkside, повышая наносимый урон на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность Darkside на 30 сек, вплоть до 60 сек.<br/>Имеет общее время восстановления с умением Edge of Darkness.',
       },
       // PVE Skill 09
-      "Blood Weapon": {
+      "PVE Skill 09": {
          "name": 'Blood Weapon',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/10d09894be4/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c0c4dd65cec09b11aa7ecfecf6526aff4c59b83f.png',
@@ -140,7 +140,7 @@
          "content": 'Накладывает 5 стаков Blood Weapon. Каждый стак увеличивает ресурс шкалы Blood Gauge на 10 и восстанавливает MP при каждом успешном использовании боевого навыка или заклинания.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется при нанесении урона нескольким целям одной атакой.',
       },
       // PVE Skill 10
-      "Shadow Wall": {
+      "PVE Skill 10": {
          "name": 'Shadow Wall',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7ea7904a9e066bb33d542755b5984ad78c711a45.png',
          "job_icon": 'DRK',
@@ -155,7 +155,7 @@
          "content": 'Снижает получаемый урон на 30%.<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 11
-      "Stalwart Soul": {
+      "PVE Skill 11": {
          "name": 'Stalwart Soul',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cc2fff4dcbf82d405c36a0d153fb28af5fcb9068.png',
          "job_icon": 'DRK',
@@ -170,7 +170,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 100 по всем окружающим противникам.<br/>Комбо умение: Unleash<br/>Сила в комбо: 140<br/>Комбо бонус: восстанавливает MP<br/>Комбо бонус: восполняет Blood Gauge на 20',
       },
       // PVE Skill 12
-      "Edge of Darkness": {
+      "PVE Skill 12": {
          "name": 'Edge of Darkness',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f2ee4d50232/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e62374eb5036fcaa1201fec390bc266620501abe.png',
@@ -186,7 +186,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 300.<br/>Дополнительный эффект: активирует умение Darkside, повышая наносимый урон на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность Darkside на 30 сек, вплоть до 60 сек.<br/>Имеет общее время восстановления с умением Flood of Darkness.',
       },
       // PVE Skill 13
-      "Dark Mind": {
+      "PVE Skill 13": {
          "name": 'Dark Mind',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/adb1f756a8cfa746f5ec2f97e487e41c06026a61.png',
          "job_icon": 'DRK',
@@ -201,7 +201,7 @@
          "content": 'Снижает получаемый магический урон на 20%.<br/>Продолжительность: 10 сек.',
       },
       // PVE Skill 14
-      "Living Dead": {
+      "PVE Skill 14": {
          "name": 'Living Dead',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/90b0a8ee600/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/968fc4ccd880ca468fff7b34680e793a80ffdab1.png',
@@ -217,7 +217,7 @@
          "content": 'Накладывает эффект Living Dead на персонажа.<br/>Когда HP снижается до 0 под эффектом Living Dead, вместо нокаута заменяет эффект на эффект Walking Dead.<br/>Продолжительность эффекта Living Dead: 10 сек.<br/>Дополнительный эффект: восстанавливает HP при каждом успешном попадании боевым навыком или заклинанием<br/>Сила лечения: 1,500<br/>Под действием эффекта Walking Dead не позволяет большинству атак опустить HP персонажа ниже 1. Если до истечения времени действия эффекта Walking Dead HP персонажа будет восстановлено на 100%, эффект заменяет на Undead Rebirth. Если HP персонажа не будет восстановлено на 100%, то он будет отправлен в нокаут.<br/>Продолжительность эффекта Walking Dead: 10 сек.<br/>Под действием эффекта Undead Rebirth не позволяет большинству атак опустить HP персонажа ниже 1.<br/>Продолжительность эффекта Undead Rebirth: оставшееся время эффекта Walking Dead.',
       },
       // PVE Skill 15
-      "Salted Earth": {
+      "PVE Skill 15": {
          "name": 'Salted Earth',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fe102830cbc/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c3e2f641cea5b3c0693034e6feafeff359341c5.png',
@@ -233,7 +233,7 @@
          "content": 'Создает у ног персонажа область, наносящую нестихийный урон с силой атаки 50 по всем противникам, которые оказываются в её пределах.<br/>Продолжительность: 15 сек.<br/><br/>※Умение меняется на Salt and Darkness после использования.',
       },
       // PVE Skill 16
-      "Plunge": {
+      "PVE Skill 16": {
          "name": 'Plunge',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/faf66e65690/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d95cc50b9a8950878a034c0d6f58c8bd8c58929d.png',
@@ -249,7 +249,7 @@
          "content": 'Прыжок, наносящий урон с силой атаки 150.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 17
-      "Abyssal Drain": {
+      "PVE Skill 17": {
          "name": 'Abyssal Drain',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3a5811b59d5/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/17543c65847814b073fe6481402a347c7efc9225.png',
@@ -265,7 +265,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 240 по цели и по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP персонажа<br/>Сила лечения: 200<br/>Дополнительный эффект: восстанавливает MP<br/>Имеет общее время восстановления с умениями Carve и Spit.',
       },
       // PVE Skill 18
-      "Carve and Spit": {
+      "PVE Skill 18": {
          "name": 'Carve and Spit',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/af56d79ad63/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6bbe53b6e1f87598b98967ae9d29e4337a7afadd.png',
@@ -281,7 +281,7 @@
          "content": 'Тройной удар, наносящий урон с силой атаки 510.<br/>Дополнительный эффект: восстанавливает MP<br/>Имеет общее время восстановления с умением Abyssal Drain.',
       },
       // PVE Skill 19
-      "Bloodspiller": {
+      "PVE Skill 19": {
          "name": 'Bloodspiller',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4e5cbcae7dcf48cf8e3522d308f0c86df9114f0d.png',
          "job_icon": 'DRK',
@@ -296,7 +296,7 @@
          "content": 'Удар, наносящий урон с силой атаки 500.<br/>Стоимость: 50 Blood Gauge',
       },
       // PVE Skill 20
-      "Quietus": {
+      "PVE Skill 20": {
          "name": 'Quietus',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ea30bbaacc0da577820f8b027cec26738c1be840.png',
          "job_icon": 'DRK',
@@ -311,7 +311,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200 по всем окружающим противникам.<br/>Стоимость: 50 Blood Gauge',
       },
       // PVE Skill 21
-      "Delirium": {
+      "PVE Skill 21": {
          "name": 'Delirium',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fbf4ae3878ecc04c6201114ce6b0aadf26bef857.png',
          "job_icon": 'DRK',
@@ -326,7 +326,7 @@
          "content": 'Накладывает 3 стака Delirium, каждый стак позволяет использовать Quietus или Bloodspiller без затрат Blood Gauge, восстанавливая MP после каждого успешного использования боевого навыка.<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 22
-      "The Blackest Night": {
+      "PVE Skill 22": {
          "name": 'The Blackest Night',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3ff39484d1/"',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f82c8fbcd6549c8cd72108a937aade172f8b98a8.png',
@@ -342,7 +342,7 @@
          "content": 'Создает барьер вокруг персонажа или выбранного сопартийца, поглощающий входящий урон в размере 25% от максимального запаса HP.<br/>Продолжительность: 7 сек.<br/>Накладывает эффект Dark Arts, когда барьер поглотит максимум урона.<br/>Эффект Dark Arts: расходует эффект Dark Arts вместо MP, чтобы использовать Edge of Shadow or Flood of Shadow',
       },
       // PVE Skill 23
-      "Flood of Shadow": {
+      "PVE Skill 23": {
          "name": 'Flood of Shadow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de4960def285cc69e33455acae0f50808a6cd623.png',
          "job_icon": 'DRK',
@@ -357,7 +357,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 160 по всем противникам по линии перед персонажем.<br/>Дополнительный эффект: активирует умение Darkside повышая наносимый урон на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность умения Darkside на 30 сек, вплоть до 60 сек.<br/>Имеет общее время восстановления с умением Edge of Shadow.',
       },
       // PVE Skill 24
-      "Edge of Shadow": {
+      "PVE Skill 24": {
          "name": 'Edge of Shadow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e4536e75673663bf1b91d1a78a565dabc2f041f6.png',
          "job_icon": 'DRK',
@@ -372,7 +372,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 460.<br/>Дополнительный эффект: активирует умение Darkside повышая наносимый урон на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность Darkside на 30 сек, вплоть до 60 сек.<br/>Имеет общее время восстановления с умением Flood of Shadow.',
       },
       // PVE Skill 25
-      "Dark Missionary": {
+      "PVE Skill 25": {
          "name": 'Dark Missionary',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png',
          "job_icon": 'DRK',
@@ -387,7 +387,7 @@
          "content": 'Снижает получаемый персонажем и сопартийцами магический урон в радиусе действия на 10%.<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 26
-      "Living Shadow": {
+      "PVE Skill 26": {
          "name": 'Living Shadow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5150a7bff7be43d689f896e7be140f4720a23f6e.png',
          "job_icon": 'DRK',
@@ -402,7 +402,7 @@
          "content": 'Создает живую тень, воплощающую темную сторону, которая сражается вместе с персонажем на поле боя.<br/>Сила атаки тени: 350<br/>Продолжительность: 20 сек.<br/>Стоимость: 50 Blood Gauge<br/>Дополнительный эффект: тень может использовать Shadowbringer, наносящий урон по всем противникам по прямой линии перед ней с силой атаки 500 для первого и на 25% меньше для всех остальных',
       },
       // PVE Skill 27
-      "Oblation": {
+      "PVE Skill 27": {
          "name": 'Oblation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5a42ca000eb7ab0c80e3952539ed260af3d4c5e8.png',
          "job_icon": 'DRK',
@@ -417,7 +417,7 @@
          "content": 'Снижает получаемый урон по персонажу или выбранному сопартийцу на 10%.<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 2',
       },
       // PVE Skill 28
-      "Salt and Darkness": {
+      "PVE Skill 28": {
          "name": 'Salt and Darkness',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb0216fb548f749ceb5bf25f071af462129be59b.png',
          "job_icon": 'DRK',
@@ -432,7 +432,7 @@
          "content": 'Все противники, находящиеся в оскверненной области Salted Earth, получают дополнительный нестихийный урон с силой атаки 500 для первого и на 50% меньше для остальных.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 29
-      "Shadowbringer": {
+      "PVE Skill 29": {
          "name": 'Shadowbringer',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb5281f6fd7eb6900cbda1c39722b4d3c7e51b6e.png',
          "job_icon": 'DRK',
@@ -447,7 +447,7 @@
          "content": 'Удар, наносящий нестихийный урон по прямой линиии по всем противникам перед персонажем с силой атаки 600 для первого и на 50% меньше для остальных.<br/>Максимум зарядов: 2<br/>Можно использовать только под эффектом Darkside.',
       },
       // Trait 01
-      "Tank Mastery": {
+      "Trait 01": {
          "name": 'Tank Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png',
          "job_icon": 'DRK',
@@ -455,7 +455,7 @@
          "content": 'Снижает получаемый урон на 20%. Также персонаж получает бонус к максимальному количеству HP в зависимости от значения выносливости (vitality) и бонус к урону в зависимости от значения силы (strength).',
       },
       // Trait 02
-      "Blackblood": {
+      "Trait 02": {
          "name": 'Blackblood',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bf25091f18b1804e88a4a5043ff35dab2cf498a7.png',
          "job_icon": 'DRK',
@@ -463,7 +463,7 @@
          "content": 'Позволяет восполнять ресурс шкалы Blood Gauge после использования определенным умений.',
       },
       // Trait 03
-      "Enhanced Blackblood": {
+      "Trait 03": {
          "name": 'Enhanced Blackblood',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c5de58c2097300e2c9b56678196ee5a710ffe27.png',
          "job_icon": 'DRK',
@@ -471,7 +471,7 @@
          "content": 'Позволяет восполнять Blood Gauge после атак с использованием оружия или заклинания, находясь под эффектом Blood Weapon.',
       },
       // Trait 04
-      "Darkside Mastery": {
+      "Trait 04": {
          "name": 'Darkside Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/68800dbdca2c85218b44e9add376f59aa5d41559.png',
          "job_icon": 'DRK',
@@ -479,7 +479,7 @@
          "content": 'Улучшает умение Flood of Darkness и Edge of Darkness до Flood of Shadow и Edge of Shadow.',
       },
       // Trait 05
-      "Enhanced Plunge": {
+      "Trait 05": {
          "name": 'Enhanced Plunge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b7963886295db47cd07244b399c4dd8c83dc937.png',
          "job_icon": 'DRK',
@@ -487,7 +487,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Plunge.<br/>Максимум зарядов: 2',
       },
       // Trait 06
-      "Enhanced Unmend": {
+      "Trait 06": {
          "name": 'Enhanced Unmend',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1254f70083b234ef84a6ad64c9e237231628896f.png',
          "job_icon": 'DRK',
@@ -495,7 +495,7 @@
          "content": 'Уменьшает время восстановления умения Plunge на 5 секунд при использовании Unmend на большинстве целей.',
       },
       // Trait 07
-      "Melee Mastery": {
+      "Trait 07": {
          "name": 'Melee Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
          "job_icon": 'DRK',
@@ -503,7 +503,7 @@
          "content": 'Увеличивает силу атаки умений Hard Slash до 170, Syphon Strike до 120 и Souleater до 120.',
       },
       // Trait 08
-      "Enhanced Living Shadow": {
+      "Trait 08": {
          "name": 'Enhanced Living Shadow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/14eb5e09a27cad9aca0badada5555013ee2336d0.png',
          "job_icon": 'DRK',
@@ -511,7 +511,7 @@
          "content": 'Увеличивает силу атак, наносимых тенью, до 350.',
       },
       // Trait 09
-      "Enhanced Living Shadow II": {
+      "Trait 09": {
          "name": 'Enhanced Living Shadow II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5ae34095410649e88aa247fedf9f6478a0e15409.png',
          "job_icon": 'DRK',
@@ -519,7 +519,7 @@
          "content": 'Улучшает умение Flood of Shadow, использующееся тенью, до Shadowbringer, наносящего урон по всем противникам по прямой линии перед тенью с силой атаки 500 для первого и на 25% меньше для всех остальных.',
       },
       // PVP Skill 01
-      "PVP Hard Slash": {
+      "PVP Skill 01": {
          "name": 'Hard Slash',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/67e397233e08c3886a8b4e8af9f97578c1df6de1.png',
          "classification": 'Боевой навык',
@@ -531,7 +531,7 @@
          "content": 'Удар, наносящий урон с силой атаки 3,000.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 02
-      "PVP Syphon Strike": {
+      "PVP Skill 02": {
          "name": 'Syphon Strike',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f14337e0878aed0662297235a0682243dc3b234.png',
          "classification": 'Боевой навык',
@@ -543,7 +543,7 @@
          "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Комбо умение: Hard Slash<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 03
-      "PVP Souleater": {
+      "PVP Skill 03": {
          "name": 'Souleater',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/13f3ceaeef0d6ec12fa91489b100915e78403bcb.png',
          "classification": 'Боевой навык',
@@ -555,7 +555,7 @@
          "content": 'Удар, наносящий урон с силой атаки 5,000.<br/>Комбо умение: Syphon Strike<br/>Дополнительный эффект: восстанавливает HP в размере 100% от наносимого урона<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 04
-      "PVP Quietus": {
+      "PVP Skill 04": {
          "name": 'Quietus',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d385ab8d3ac75ec39175ded7290d39631d2b1355.png',
          "classification": 'Боевой навык',
@@ -567,7 +567,7 @@
          "content": 'Удар, наносящий урон с силой атаки 8,000 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP в размере 100% от поглощенного урона<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.',
       },
       // PVP Skill 05
-      "PVP Shadowbringer": {
+      "PVP Skill 05": {
          "name": 'Shadowbringer',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/775946c6b9e7bd369a0a68635662781175930c0c.png',
          "classification": 'Способность',
@@ -579,7 +579,7 @@
          "content": 'Удар, наносящий нестихийный урон по прямой линиии по всем противникам перед персонажем с силой атаки 6,000.<br/>Расходует 20% текущего HP при использовании.<br/>Дополнительный эффект: накладывает эффект Blackblood<br/>Продолжительность: 10 сек.<br/>Не может быть использовано, если текущий уровень HP персонажа ниже 20%.<br/><br/>※Combo Souleater меняется на Bloodspiller под действием эффекта Blackblood.',
       },
       // PVP Skill 06
-      "PVP Plunge": {
+      "PVP Skill 06": {
          "name": 'Plunge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3e7f296d44600715e2bc8c0b5420d7b795afda3e.png',
          "classification": 'Способность',
@@ -591,7 +591,7 @@
          "content": 'Прыжок к цели, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: накладывает на цель эффект Sole Survivor<br/>Эффект Sole Survivor: уменьшает HP цели, восстанавливаемое лечебными умениями на 20%<br/>Продолжительность: 15 сек.<br/>Если цель нокаутирована в бою до истчения эффекта Sole Survivor, HP и MP персонажа будут восстановлены на 20%, а время восстановления умения Plunge будет сброшено.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVP Skill 07
-      "PVP The Blackest Night": {
+      "PVP Skill 07": {
          "name": 'The Blackest Night',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1ceca4c94f71633fea2d1d23b75384672dd6b82b.png',
          "classification": 'Способность',
@@ -603,7 +603,7 @@
          "content": 'Создает барьер вокруг персонажа или выбранного сопартийца, поглощающий урон, равный силе лечения 8,000.<br/>Продолжительность: 10 сек.<br/>Накладывает эффект Dark Arts, когда барьер поглотит максимум урона.<br/>Продолжительность: 10 сек.<br/>Эффект Dark Arts: расходует эффект Dark Arts вместо HP персонажа для использования Shadowbringer',
       },
       // PVP Skill 08
-      "PVP Salted Earth": {
+      "PVP Skill 08": {
          "name": 'Salted Earth',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4e8120ac0d17ab2daeefc27ca75e58a2d7d7da09.png',
          "classification": 'Способность',
@@ -615,7 +615,7 @@
          "content": 'Притягивает окружающих противников к персонажу и создает у его ног область, наносящую нестихийный урон по всем противникам, которые оказываются в её пределах.<br/>Сила атаки: 2,000<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: постепенно восстанавливает HP персонажа и снижает получаемый урон на 20%, пока он стоит в созданной области<br/>Сила лечения: 2,000<br/><br/>※Умение меняется на Salt and Darkness под действием эффекта Salted Earth.',
       },
       // PVP Skill 09
-      "PVP Bloodspiller": {
+      "PVP Skill 09": {
          "name": 'Bloodspiller',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fd2ac5dfc2a0ca3fd267a8b64ea360fcbe89a264.png',
          "classification": 'Боевой навык',
@@ -627,7 +627,7 @@
          "content": 'Удар, наносящий урон с силой атаки 6,000.<br/>Сила атаки увеличивается до 12 000 пропорционально уменьшению HP персонажа и достигает максимального значения, когда HP опускается ниже 25%.<br/>Можно использовать только под действием эффекта Blackblood.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 10
-      "PVP Salt and Darkness": {
+      "PVP Skill 10": {
          "name": 'Salt and Darkness',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5aa3108720c2431e655adb077eb533b60ce21312.png',
          "classification": 'Способность',
@@ -639,7 +639,7 @@
          "content": 'Все противники, находящиеся в области Salted Earth, получают дополнительный нестихийный урон с силой атаки 4,000.<br/>Дополнительный эффект: связывание (bind)<br/>Продолжительность: 2 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 11
-      "PVP Eventide": {
+      "PVP Skill 11": {
          "name": 'Eventide',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f52efe634939c12aaf8d17525fd4a52a54002f9.png',
          "cast": 'Мгновенная',
@@ -654,4 +654,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

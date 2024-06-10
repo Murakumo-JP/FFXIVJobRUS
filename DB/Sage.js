@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 16/01/2024`,
       // PVE Skill 01
-      "Dosis": {
+      "PVE Skill 01": {
          "name": 'Dosis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/817398ae8dfe613839528291eebfe76e05bd3584.png',
          "job_icon": 'SGE',
@@ -18,7 +18,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 300.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170',
       },
       // PVE Skill 02
-      "Diagnosis": {
+      "PVE Skill 02": {
          "name": 'Diagnosis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c750ddbd308f469bfe54e263e98f2b1dc42ecfd3.png',
          "job_icon": 'SGE',
@@ -33,7 +33,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 450',
       },
       // PVE Skill 03
-      "Kardia": {
+      "PVE Skill 03": {
          "name": 'Kardia',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bd80c68721d02a37275edfa07de82a39adbceb1c.png',
          "job_icon": 'SGE',
@@ -48,7 +48,7 @@
          "content": 'Накладывает на персонажа эффект Kardia, а на выбранного сопартийца или на персонажа эффект Kardion, восстанавливающий HP после применения определенных магических атак.',
       },
       // PVE Skill 04
-      "Prognosis": {
+      "PVE Skill 04": {
          "name": 'Prognosis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f8253801283aa010e5a6ff40dafda493f1d58a4.png',
          "job_icon": 'SGE',
@@ -63,7 +63,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 300',
       },
       // PVE Skill 05
-      "Egeiro": {
+      "PVE Skill 05": {
          "name": 'Egeiro',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b5dbe0188fba544474a1c3304af88544838e5cc.png',
          "job_icon": 'SGE',
@@ -78,7 +78,7 @@
          "content": 'Воскрешает цель, накладывая эффект слабости (weakeness).',
       },
       // PVE Skill 06
-      "Physis": {
+      "PVE Skill 06": {
          "name": 'Physis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2acbee8acf84344ed1cbf15e97a5f88fe0f2e22.png',
          "job_icon": 'SGE',
@@ -93,7 +93,7 @@
          "content": 'Постепенно восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 100<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 07
-      "Phlegma": {
+      "PVE Skill 07": {
          "name": 'Phlegma',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9f221a8b7c540f90f808d332e802b3626fef4431.png',
          "job_icon": 'SGE',
@@ -108,7 +108,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 400 для первого и на 30% меньше для остальных.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/>Максимум зарядов: 2<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
       },
       // PVE Skill 08
-      "Eukrasia": {
+      "PVE Skill 08": {
          "name": 'Eukrasia',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3d9da11ae40aa687171f1bf2a5655b6f0e442d79.png',
          "job_icon": 'SGE',
@@ -123,7 +123,7 @@
          "content": 'Усиливает некоторые защитные и исцеляющие магические умения.<br/>Dosis III улучшается до Eukrasian Dosis III.<br/>Diagnosis улучшается до Eukrasian Diagnosis.<br/>Prognosis улучшается до Eukrasian Prognosis.<br/>Этот умение не имеет общего времени восстановления с другими умениями. При использовании этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.',
       },
       // PVE Skill 09
-      "Eukrasian Diagnosis": {
+      "PVE Skill 09": {
          "name": 'Eukrasian Diagnosis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0a0085828964c504f045a98b67feaf6c26c2307d.png',
          "job_icon": 'SGE',
@@ -138,7 +138,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 300<br/>Дополнительный эффект: создает магический барьер, снижающий получаемый урон в размере 180％ от восстановленного HP. Когда восстанавливается критическое количество HP, накладывается Differential Diagnosis, предотвращая получение урона, равное 180% от восстановленного количества HP<br/>Продолжительность: 30 сек.<br/>Эффект не суммируется с Eukrasian Prognosis или Galvanize школяра.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 10
-      "Eukrasian Prognosis": {
+      "PVE Skill 10": {
          "name": 'Eukrasian Prognosis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/723cccd2fe9542159daffcd22f44ff52d8a2f6a1.png',
          "job_icon": 'SGE',
@@ -153,7 +153,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 100<br/>Дополнительный эффект: создает магический барьер, предотращающий получение урона в размере 320％ от восстановленного HP<br/>Продолжительность: 30 сек.<br/>Эффект не суммируется с Eukrasian Prognosis или Galvanize школяра.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 11
-      "Eukrasian Dosis": {
+      "PVE Skill 11": {
          "name": 'Eukrasian Dosis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3cffb9cb106612236b80ce85e1881e0d7760512f.png',
          "job_icon": 'SGE',
@@ -168,7 +168,7 @@
          "content": 'Периодический нестихийный урон.<br/>Сила атаки: 40<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 12
-      "Soteria": {
+      "PVE Skill 12": {
          "name": 'Soteria',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4f39d0024ea7741facfb247d0056064e831c3765.png',
          "job_icon": 'SGE',
@@ -183,7 +183,7 @@
          "content": 'Накладывает 4 стака Soteria, каждый стак увеличивает силу лечения от эффекта Kardion, наложенных на персонажа, на 70%.<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 13
-      "Icarus": {
+      "PVE Skill 13": {
          "name": 'Icarus',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/347d5069652ea0716aa462ba3dd96fc148156b0f.png',
          "job_icon": 'SGE',
@@ -198,7 +198,7 @@
          "content": 'Рывок к выбранному противнику или сопартийцу.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 14
-      "Druochole": {
+      "PVE Skill 14": {
          "name": 'Druochole',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/00cd1d056243c5e06b9bbb52a6112ddb35dbcbe9.png',
          "job_icon": 'SGE',
@@ -213,7 +213,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 600<br/>Дополнительный эффект: восстанавливает 7% от максимума MP<br/>Стоимость: 1 Addersgall',
       },
       // PVE Skill 15
-      "Dyskrasia": {
+      "PVE Skill 15": {
          "name": 'Dyskrasia',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/849a554b53462ae2c240dc06558bf710c0f98e5e.png',
          "job_icon": 'SGE',
@@ -228,7 +228,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 160 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170',
       },
       // PVE Skill 16
-      "Kerachole": {
+      "PVE Skill 16": {
          "name": 'Kerachole',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b49859cbf63de26b230527650742576590166760.png',
          "job_icon": 'SGE',
@@ -243,7 +243,7 @@
          "content": 'Снижает урон, наносимый персонажу и всем ближайшим сопартийцам, на 10%.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется с Taurochole.<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 100<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: восстанавливает 7% от максимума MP<br/>Стоимость: 1 Addersgall',
       },
       // PVE Skill 17
-      "Ixochole": {
+      "PVE Skill 17": {
          "name": 'Ixochole',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4ee83614031659334dda42affd3314aebcaf98f4.png',
          "job_icon": 'SGE',
@@ -258,7 +258,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400<br/>Дополнительный эффект: восстанавливает 7% от максимума MP<br/>Стоимость: 1 Addersgall',
       },
       // PVE Skill 18
-      "Zoe": {
+      "PVE Skill 18": {
          "name": 'Zoe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/958000045b75c90c1ce059d11d2f2ed488d72a65.png',
          "job_icon": 'SGE',
@@ -273,7 +273,7 @@
          "content": 'Увеличивает силу исцеляющей магии для следующего лечебного заклинания на 50%.<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 19
-      "Pepsis": {
+      "PVE Skill 19": {
          "name": 'Pepsis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/863096a46c76144097ba25d6d9d5fe1f997cda9e.png',
          "job_icon": 'SGE',
@@ -288,7 +288,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев, снимая наложенные на персонажа эффекты Eukrasian Diagnosis и Eukrasian Prognosis.<br/>Сила лечения Eukrasian Diagnosis: 450<br/>Сила лечения Eukrasian Prognosis: 350<br/>Цели, не находящиеся под эффектом Eukrasian Diagnosis или Eukrasian Prognosis, не будут исцелены.',
       },
       // PVE Skill 20
-      "Physis II": {
+      "PVE Skill 20": {
          "name": 'Physis II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ece8fe6d911ad6497e35a13d82572d2373d2a2a4.png',
          "job_icon": 'SGE',
@@ -303,7 +303,7 @@
          "content": 'Постепенно восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 130<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: увеличивает количество HP, восстанавливаемых лечебными умениями на 10%<br/>Продолжительность: 10 сек.',
       },
       // PVE Skill 21
-      "Taurochole": {
+      "PVE Skill 21": {
          "name": 'Taurochole',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fe3b0d2ce97deba2e6b4cfbc39e65e2abd32b31b.png',
          "job_icon": 'SGE',
@@ -318,7 +318,7 @@
          "content": 'Восстанавливает HP персонажа или выбранного сопартийца.<br/>Сила лечения: 700<br/>Дополнительный эффект: снижает получаемый целью урон на 10%<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется с Kerachole.<br/>Дополнительный эффект: восстанавливает 7% от максимума MP<br/>Стоимость: 1 Addersgall',
       },
       // PVE Skill 22
-      "Toxikon": {
+      "PVE Skill 22": {
          "name": 'Toxikon',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bedfcd09b95bf0fa2290753478364965c82a739b.png',
          "job_icon": 'SGE',
@@ -333,7 +333,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 300 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/>Стоимость: 1 Addersting',
       },
       // PVE Skill 23
-      "Haima": {
+      "PVE Skill 23": {
          "name": 'Haima',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/31657e2f5ec2ec375960c927a6ed532883d8d271.png',
          "job_icon": 'SGE',
@@ -348,7 +348,7 @@
          "content": 'Создает вокруг персонажа или сопартийца магический барьер, поглощающий урон, равный силе лечения 300.<br/>Дополнительный эффект: накладывает 5 стаков Haimatinon<br/>Продолжительность: 15 сек.<br/>Когда барьер полностью поглощает дамаг, расходуется стак Haimatinon и накладывается новый барьер<br/>Когда действие эффекта истекает, накладывается исцеляющий эффект.<br/>Сила лечения: 150 за каждый оставшийся стак Haimatinon',
       },
       // PVE Skill 24
-      "Dosis II": {
+      "PVE Skill 24": {
          "name": 'Dosis II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0323f174ced3df37c1c6699f4c4dc980e58b9b7b.png',
          "job_icon": 'SGE',
@@ -363,7 +363,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 320.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170',
       },
       // PVE Skill 25
-      "Phlegma II": {
+      "PVE Skill 25": {
          "name": 'Phlegma II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/abcef32ec5c7c111d5a2a3569ce427d7fc0a6ede.png',
          "job_icon": 'SGE',
@@ -378,7 +378,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 490 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/>Максимум зарядов: 2<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
       },
       // PVE Skill 26
-      "Eukrasian Dosis II": {
+      "PVE Skill 26": {
          "name": 'Eukrasian Dosis II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/075562984879d8d32898462a95da91d65e3df88c.png',
          "job_icon": 'SGE',
@@ -393,7 +393,7 @@
          "content": 'Периодический нестихийный урон.<br/>Сила атаки: 60<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 27
-      "Rhizomata": {
+      "PVE Skill 27": {
          "name": 'Rhizomata',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d4628890501806f6ebbc3371b1e21ba63e69940c.png',
          "job_icon": 'SGE',
@@ -408,7 +408,7 @@
          "content": 'Дает 1 стак Addersgall.',
       },
       // PVE Skill 28
-      "Holos": {
+      "PVE Skill 28": {
          "name": 'Holos',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/810d7969914bee1bbf088a70d62d6578a0949f9e.png',
          "job_icon": 'SGE',
@@ -423,7 +423,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 300<br/>Дополнительный эффект: создает магический барьер, который предотвращает получение урона, равный восстановленному HP<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: снижает урон, получаемый персонажем и ближайшими сопартийцами, на 10%<br/>Продолжительность: 20 сек.',
       },
       // PVE Skill 29
-      "Panhaima": {
+      "PVE Skill 29": {
          "name": 'Panhaima',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a59d4620bb6/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f7bdefbdd3410f2dd4b5c0f36e74ee72b115ccda.png',
@@ -439,7 +439,7 @@
          "content": 'Создает вокруг персонажа или ближайших сопартийцев магический барьер, поглощающий урон, равный силе лечения 200.<br/>Дополнительный эффект: накладывает 5 стаков Panhaimatinon<br/>Продолжительность: 15 сек.<br/>Когда барьер полностью поглощает дамаг, расходуется стак Panhaimatinon и накладывается новый барьер.<br/>Когда действие эффекта истекает, накладывается исцеляющий эффект.<br/>Сила лечения: 100 за каждый оставшийся стак Panhaimatinon',
       },
       // PVE Skill 30
-      "Dosis III": {
+      "PVE Skill 30": {
          "name": 'Dosis III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/99b9cce6a42b638d04a03e6e3de38555d333b53b.png',
          "job_icon": 'SGE',
@@ -454,7 +454,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 330<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170',
       },
       // PVE Skill 31
-      "Phlegma III": {
+      "PVE Skill 31": {
          "name": 'Phlegma III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/93dc61daa2db9449d34a5198669e59de306451e1.png',
          "job_icon": 'SGE',
@@ -469,7 +469,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 600 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/>Максимум стаков: 2<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
       },
       // PVE Skill 32
-      "Eukrasian Dosis III": {
+      "PVE Skill 32": {
          "name": 'Eukrasian Dosis III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e340f46db9e27a9fd1fcd729d8eaceacf4cfa9f.png',
          "job_icon": 'SGE',
@@ -484,7 +484,7 @@
          "content": 'Периодический нестихийный урон.<br/>Сила атаки: 75<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 33
-      "Dyskrasia II": {
+      "PVE Skill 33": {
          "name": 'Dyskrasia II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0f71b2b711281a46eb641cb99bbe0f3b9c2e4a0a.png',
          "job_icon": 'SGE',
@@ -499,7 +499,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 170 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170',
       },
       // PVE Skill 34
-      "Toxikon II": {
+      "PVE Skill 34": {
          "name": 'Toxikon II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a5a4b7ed8fbb4d9ac9fbf32fde1784f37367645a.png',
          "job_icon": 'SGE',
@@ -514,7 +514,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 330 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/>Стоимость: 1 Addersting',
       },
       // PVE Skill 35
-      "Krasis": {
+      "PVE Skill 35": {
          "name": 'Krasis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2ef8237422768324b57e9d244731351fb0eca548.png',
          "job_icon": 'SGE',
@@ -529,7 +529,7 @@
          "content": 'Увеличивает восстановление HP при помощи исцеляющих умений для персонажа или сопартийца на 20%.<br/>Продолжительность: 10 сек.',
       },
       // PVE Skill 36
-      "Pneuma": {
+      "PVE Skill 36": {
          "name": 'Pneuma',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5ec3407305900508ed6eaea6dba984851b883fe3.png',
          "job_icon": 'SGE',
@@ -544,7 +544,7 @@
          "content": 'Удар, наносящий нестихийный урон по всем противникам по прямой линии с силой атаки 330 для первого и на 40% меньше для остальных.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех сопартийцев в радиусе 20 ялмов<br/>Сила лечения: 600<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
       },
       // Trait 01
-      "Maim and Mend": {
+      "Trait 01": {
          "name": 'Maim and Mend',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
          "job_icon": 'SGE',
@@ -552,7 +552,7 @@
          "content": 'Увеличивает базовый урон умений и восстановления HP на 10%.',
       },
       // Trait 02
-      "Maim and Mend II": {
+      "Trait 02": {
          "name": 'Maim and Mend II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
          "job_icon": 'SGE',
@@ -560,7 +560,7 @@
          "content": 'Увеличивает базовый урон умений и восстановления HP на 30%.',
       },
       // Trait 03
-      "Addersgall": {
+      "Trait 03": {
          "name": 'Addersgall',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b86570a9f72fc265e443871ea6a405826d42060c.png',
          "job_icon": 'SGE',
@@ -568,7 +568,7 @@
          "content": 'Автоматически дает 1 стак Addersgall каждые двадцать секунд.<br/>Максимум стаков: 3<br/>Можно заряжать вне боя',
       },
       // Trait 04
-      "Somanoutic Oath": {
+      "Trait 04": {
          "name": 'Somanoutic Oath',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3ce64c88b1b8e70aee12747d90c599b922447938.png',
          "job_icon": 'SGE',
@@ -576,7 +576,7 @@
          "content": 'Увеличивает силу атаки Dosis до 250, Phlegma до 330 и Eukrasian Dosis до 35.',
       },
       // Trait 05
-      "Physis Mastery": {
+      "Trait 05": {
          "name": 'Physis Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6cf73d5fbe9a086a0860149db46f88f454bb3f13.png',
          "job_icon": 'SGE',
@@ -584,7 +584,7 @@
          "content": 'Улучшает умение Physis до Physis II.',
       },
       // Trait 06
-      "Somanoutic Oath II": {
+      "Trait 06": {
          "name": 'Somanoutic Oath II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e7e779832d0197ed60a0214abbab1ca702de2875.png',
          "job_icon": 'SGE',
@@ -592,7 +592,7 @@
          "content": 'Увеличивает силу атаки Dosis до 300, Phlegma до 400 и Eukrasian Dosis до 40.',
       },
       // Trait 07
-      "Addersting": {
+      "Trait 07": {
          "name": 'Addersting',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cfb87ef1a74d592d9dcfe7cb33621fb314a1ed01.png',
          "job_icon": 'SGE',
@@ -600,7 +600,7 @@
          "content": 'Дает 1 стак Addersting, когда барьер, наложенный Eukrasian Diagnosis на любого сопартийца, или барьер, наложенный Eukrasian Prognosis на персонажа, полностью поглощен.<br/>Максимум стаков: 3',
       },
       // Trait 08
-      "Offensive Magic Mastery": {
+      "Trait 08": {
          "name": 'Offensive Magic Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9c6143925ffafcc5c89f778468efc6007e462af3.png',
          "job_icon": 'SGE',
@@ -608,7 +608,7 @@
          "content": 'Улучшает умение Dosis до Dosis II, Phlegma до Phlegma II и Eukrasian Dosis до Eukrasian Dosis II. Также увеличивает силу атаки умения Toxikon до 300.',
       },
       // Trait 09
-      "Enhanced Kerachole": {
+      "Trait 09": {
          "name": 'Enhanced Kerachole',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e6fa10aa0dbee5933fac656f6ef6dafc1e1e690c.png',
          "job_icon": 'SGE',
@@ -616,7 +616,7 @@
          "content": 'Добавляет умению Kerachole дополнительный эффект, постепенно восстанавливающий HP.',
       },
       // Trait 10
-      "Offensive Magic Mastery II": {
+      "Trait 10": {
          "name": 'Offensive Magic Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/564a3b60ed5448982dad4d6ccc9cabd37c75c67e.png',
          "job_icon": 'SGE',
@@ -624,7 +624,7 @@
          "content": 'Улучшает умения Dosis II до Dosis III, Phlegma II до Phlegma III, Eukrasian Dosis II до Eukrasian Dosis III, Dyskrasia до Dyskrasia II и Toxikon до Toxikon II.',
       },
       // Trait 11
-      "Enhanced Healing Magic": {
+      "Trait 11": {
          "name": 'Enhanced Healing Magic',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
          "job_icon": 'SGE',
@@ -632,7 +632,7 @@
          "content": 'Увеличивает силу лечения умений Diagnosis до 450 и Kardia до 170. Также увеличивает прочность барьеров, созданных Eukrasian Diagnosis до 180% от восстановленных HP и Eukrasian Prognosis до 320% от восстановленных HP.',
       },
       // Trait 12
-      "Enhanced Zoe": {
+      "Trait 12": {
          "name": 'Enhanced Zoe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ff0ef626ed580de0d061fda117ba39273ae14e55.png',
          "job_icon": 'SGE',
@@ -640,7 +640,7 @@
          "content": 'Уменьшает время восстановления умения Zoe до 90 сек.',
       },
       // PVP Skill 01
-      "PVP Dosis III": {
+      "PVP Skill 01": {
          "name": 'Dosis III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60a74e21fb3694a5183dd1779235abb4f74f206.png',
          "classification": 'Заклинание',
@@ -652,7 +652,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 2,000',
       },
       // PVP Skill 02
-      "PVP Phlegma III": {
+      "PVP Skill 02": {
          "name": 'Phlegma III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9de1f71a8289f106201a31e0c7263f6cf8c29982.png',
          "classification": 'Заклинание',
@@ -664,7 +664,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 10,000 по цели и всем окружающим противникам.<br/>Максимум зарядов: 2<br/>Это умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 03
-      "PVP Pneuma": {
+      "PVP Skill 03": {
          "name": 'Pneuma',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a6b4ab382bd785eb618a79011b77f1bd41bbb229.png',
          "classification": 'Заклинание',
@@ -676,7 +676,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 12,000 по всем противникам по прямой линии перед персонажем.<br/>Дополнительный эффект: накладывает эффект Haima и 4 стака Haimatinon на персонажа и всех сопартийцев в радиусе 20 ялмов<br/>Эффект Haima: создает магический барьер, который поглощает урон, равный силе лечению 3,000<br/>Продолжительность: 10 сек.<br/>Когда барьер полностью поглощает урон, расходуется стак Haimatinon и накладывается новый барьер.<br/>Когда действие эффекта истекает, накладывается исцеляющий эффект.<br/>Сила лечения: 3,000 за каждый стак Haimatinon<br/>Это умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 04
-      "PVP Eukrasia": {
+      "PVP Skill 04": {
          "name": 'Eukrasia',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b179c19bd11aba27f8619c2ab77a59aa2fa99403.png',
          "classification": 'Заклинание',
@@ -688,7 +688,7 @@
          "content": 'Улучшает умение Dosis III до Eukrasian Dosis III.<br/>Продолжительность: 10 сек.<br/>Эффект заканчивается после использования Eukrasian Dosis III.<br/>Максимум зарядов: 2<br/>Это умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 05
-      "PVP Icarus": {
+      "PVP Skill 05": {
          "name": 'Icarus',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/418c952d0a14cb4ecfb8f8bb4a7133594102e907.png',
          "classification": 'Способность',
@@ -700,7 +700,7 @@
          "content": 'Рывок к выбранному противнику или сопартийцу.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVP Skill 06
-      "PVP Toxikon": {
+      "PVP Skill 06": {
          "name": 'Toxikon',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/57e8d9af7caf585ee813c10fa0bac46abea90b7c.png',
          "classification": 'Способность',
@@ -712,7 +712,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 2,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 6 сек.<br/>Максимум зарядов: 2<br/><br/>※Умение изменяется на Toxikon II под действием эффекта Addersting.',
       },
       // PVP Skill 07
-      "PVP Kardia": {
+      "PVP Skill 07": {
          "name": 'Kardia',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/41d57c299b7ac96212d214fc5c351d26d395538c.png',
          "classification": 'Способность',
@@ -724,7 +724,7 @@
          "content": 'Накладывает на персонажа эффект Kardia, а на выбранного сопартийца или персонажа эффект Kardion, давая дополнительные эффекты Dosis III и Eukrasian Dosis III при использовании этих заклинаний.',
       },
       // PVP Skill 08
-      "PVP Eukrasian Dosis III": {
+      "PVP Skill 08": {
          "name": 'Eukrasian Dosis III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/23a3889f4d44ead99c7744ddb4482020a03dde73.png',
          "classification": 'Заклинание',
@@ -736,7 +736,7 @@
          "content": 'Периодический нестихийный урон.<br/>Сила атаки: 4,000<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает Eukrasian Diagnosis на цель, находящуюся под действием Kardion наложенным персонажем<br/>Эффект Eukrasian Diagnosis: создает магический барьер, который поглощает урон, равный лечению с силой 8,000<br/>Продолжительность: 15 сек.<br/>Накладывает Addersting, когда барьер полностью поглощен.<br/>Продолжительность: 10 сек.<br/><br/>※Умение Toxikon меняется на Toxikon II под действиям эффекта Addersting.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 09
-      "PVP Toxikon II": {
+      "PVP Skill 09": {
          "name": 'Toxikon II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8cfa4b9e7012759fd371b373d52cca95f8591bf6.png',
          "classification": 'Способность',
@@ -748,7 +748,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 8,000 для первого и 2,000 для остальных.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 6 сек.<br/>Может быть использовано только под эффектом Addersting.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 10
-      "PVP Mesotes": {
+      "PVP Skill 10": {
          "name": 'Mesotes',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b7c802ff27b9c70dfeee638a7c41db4e7ffd642a.png',
          "cast": 'Мгновенная',
@@ -763,4 +763,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

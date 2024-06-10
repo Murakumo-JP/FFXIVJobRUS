@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 16/01/2024`,
       // PVE Skill 01
-      "Stone": {
+      "PVE Skill 01": {
          "name": 'Stone',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png',
          "job_icon": 'CNJ',
@@ -18,7 +18,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 140.',
       },
       // PVE Skill 02
-      "Cure": {
+      "PVE Skill 02": {
          "name": 'Cure',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a2d0e0ed56915f523e8a7326bbdd09eff0534eda.png',
          "job_icon": 'CNJ',
@@ -33,7 +33,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 500<br/>Дополнительный эффект: шанс 15%, что следующее применение Cure II не потребует MP<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 03
-      "Aero": {
+      "PVE Skill 03": {
          "name": 'Aero',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78107cd063a81b78b99eb7cb5da15f2bec403c70.png',
          "job_icon": 'CNJ',
@@ -48,7 +48,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 50.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 30<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 04
-      "Medica": {
+      "PVE Skill 04": {
          "name": 'Medica',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6c5fd075bab7c063aef743a1de5e36958354b42b.png',
          "job_icon": 'CNJ',
@@ -63,7 +63,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400',
       },
       // PVE Skill 05
-      "Raise": {
+      "PVE Skill 05": {
          "name": 'Raise',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/34bdc3ad370b701a106f32daa68e73055ab72331.png',
          "job_icon": 'CNJ',
@@ -78,7 +78,7 @@
          "content": 'Воскрешает цель, накладывая эффект слабости (weakeness).',
       },
       // PVE Skill 06
-      "Stone II": {
+      "PVE Skill 06": {
          "name": 'Stone II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ce8e52e199a7d9e548537bc77197f4d7965dea58.png',
          "job_icon": 'CNJ',
@@ -93,7 +93,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 190.',
       },
       // PVE Skill 07
-      "Cure II": {
+      "PVE Skill 07": {
          "name": 'Cure II',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a02c1c29571/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a70a8e3dcb347c11047f00945f9435687f21f06d.png',
@@ -109,7 +109,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 800',
       },
       // PVE Skill 08
-      "Presence of Mind": {
+      "PVE Skill 08": {
          "name": 'Presence of Mind',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e3eba90aefc/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7be14bf07b21fa5c78cd7f7891279704da6cadb9.png',
@@ -125,7 +125,7 @@
          "content": 'Снижает время применения и восстановления заклинаний, а также задержку между авто атаками на 20%.<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 09
-      "Regen": {
+      "PVE Skill 09": {
          "name": 'Regen',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/309e3e7e609/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/53bb0b4fc881c4c06d64c915864968cced6c6201.png',
@@ -141,7 +141,7 @@
          "content": 'Накладывает на цель эффект периодического лечения.<br/>Сила лечения: 250<br/>Продолжительность: 18 сек.',
       },
       // PVE Skill 10
-      "Cure III": {
+      "PVE Skill 10": {
          "name": 'Cure III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8891efb6fde/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/33c3597ee1004e364a6331f732f077666e798acd.png',
@@ -157,7 +157,7 @@
          "content": 'Восстанавливает HP цели и всех ближайших сопартийцев вокруг.<br/>Сила лечения: 600',
       },
       // PVE Skill 11
-      "Holy": {
+      "PVE Skill 11": {
          "name": 'Holy',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/20e64bc5c59/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb161bfc68766590d81cb1f7d6049711c949039b.png',
@@ -173,7 +173,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 140 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек.',
       },
       // PVE Skill 12
-      "Aero II": {
+      "PVE Skill 12": {
          "name": 'Aero II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e4202353c63451702e9944dc93551a18951efcf.png',
          "job_icon": 'CNJ',
@@ -188,7 +188,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 50.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 50<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 13
-      "Medica II": {
+      "PVE Skill 13": {
          "name": 'Medica II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/530234ed64e2b5b5aaacf978a90d87932734272f.png',
          "job_icon": 'CNJ',
@@ -203,7 +203,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen).<br/>Сила лечения: 150<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 14
-      "Benediction": {
+      "PVE Skill 14": {
          "name": 'Benediction',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6ea2ad6309a/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/44e09756739b6b8924b82471572e7103ac5ca1fb.png',
@@ -219,7 +219,7 @@
          "content": 'Полностью восстанавливает HP цели.',
       },
       // PVE Skill 15
-      "Afflatus Solace": {
+      "PVE Skill 15": {
          "name": 'Afflatus Solace',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a9c7b172b8c82aaa311a578fe3b42f5f30266e93.png',
          "job_icon": 'WHM',
@@ -234,7 +234,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 800<br/>Дополнительный эффект: накапливает Blood Lily<br/>Стоимость: 1 Lily Healing Gauge',
       },
       // PVE Skill 16
-      "Asylum": {
+      "PVE Skill 16": {
          "name": 'Asylum',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a8b01c03e71/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cf3242dc922e88211cb5b2c4aa67f9ae79fb88fb.png',
@@ -250,7 +250,7 @@
          "content": 'Создает в указанной области купол целителя, восстанавливащий HP персонажу и сопартийцам, находящимся внутри.<br/>Сила лечения: 100<br/>Продолжительность: 24 сек.<br/>Дополнительный эффект: увеличивает силу лечебных умений, применнёных на всех сопартийцев в области действия, на 10%',
       },
       // PVE Skill 17
-      "Stone III": {
+      "PVE Skill 17": {
          "name": 'Stone III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c34c7f08e8/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f38006e73efc8e122777b9c23097a4c40bc9c9c4.png',
@@ -266,7 +266,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 220.',
       },
       // PVE Skill 18
-      "Assize": {
+      "PVE Skill 18": {
          "name": 'Assize',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cbcd1cda8ca/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c9f83b599b37adfa6597ea7e884331cac170a12.png',
@@ -282,7 +282,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 400 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 400<br/>Дополнительный эффект: восстанавливает 5% от максимума MP персонажа',
       },
       // PVE Skill 19
-      "Thin Air": {
+      "PVE Skill 19": {
          "name": 'Thin Air',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/96be5e383ec/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/539a73220a23fd185c17bed962b140bf7b4673d2.png',
@@ -298,7 +298,7 @@
          "content": 'Следующее умение не потребует затрат MP.<br/>Продолжительность: 12 сек.<br/>Максимум зарядов: 2',
       },
       // PVE Skill 20
-      "Tetragrammaton": {
+      "PVE Skill 20": {
          "name": 'Tetragrammaton',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3aeddb8e685/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6e00b907b75a6906045955d68cf68af66ba6aa9e.png',
@@ -314,7 +314,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 700',
       },
       // PVE Skill 21
-      "Stone IV": {
+      "PVE Skill 21": {
          "name": 'Stone IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/33eacc1401b5fe03a2dd54e317cd60ccbb912c44.png',
          "job_icon": 'WHM',
@@ -329,7 +329,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 260.',
       },
       // PVE Skill 22
-      "Divine Benison": {
+      "PVE Skill 22": {
          "name": 'Divine Benison',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/065d9df35159a3bc53d59984a18b35581b442a73.png',
          "job_icon": 'WHM',
@@ -344,7 +344,7 @@
          "content": 'Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный силе лечения 500.<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2',
       },
       // PVE Skill 23
-      "Plenary Indulgence": {
+      "PVE Skill 23": {
          "name": 'Plenary Indulgence',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/83f6c053e16/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2144617daa9bac9ea7bc1f063a9e0cd033fcd363.png',
@@ -360,7 +360,7 @@
          "content": 'Накладывает Confession на персонажа и всех ближайших сопартийцев.<br/>После восстановления HP с помощью Medica, Medica II, Cure III или Afflatus Rapture персонажем, Confession дополнительно восстанавливает HP.<br/>Сила лечения: 200<br/>Продолжительность: 10 сек.',
       },
       // PVE Skill 24
-      "Dia": {
+      "PVE Skill 24": {
          "name": 'Dia',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de737874f0025d808d0bddac1d4156fec9464d00.png',
          "job_icon": 'WHM',
@@ -375,7 +375,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 65.<br/>Дополнительный эффект: нестихийный периодический урон<br/>Сила атаки: 65<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 25
-      "Glare": {
+      "PVE Skill 25": {
          "name": 'Glare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c1f9bdbca11c2c7944e3e95cf7599a6a3849e5a2.png',
          "job_icon": 'WHM',
@@ -390,7 +390,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 290.',
       },
       // PVE Skill 26
-      "Afflatus Misery": {
+      "PVE Skill 26": {
          "name": 'Afflatus Misery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e01507664cb997891de06ec522b71619279969bc.png',
          "job_icon": 'WHM',
@@ -405,7 +405,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 1240 для первого и на 50% меньше для всех остальных.<br/>Может использоваться только когда Blood Lily полностью расцвела.',
       },
       // PVE Skill 27
-      "Afflatus Rapture": {
+      "PVE Skill 27": {
          "name": 'Afflatus Rapture',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9582c5aa6ffa9abf82db6140916020235a003a20.png',
          "job_icon": 'WHM',
@@ -420,7 +420,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400<br/>Дополнительный эффект: накапливает Blood Lily<br/>Стоимость: 1 Lily Healing Gauge',
       },
       // PVE Skill 28
-      "Temperance": {
+      "PVE Skill 28": {
          "name": 'Temperance',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78e099cba536b64fe978d05487c51b28a66f29df.png',
          "job_icon": 'WHM',
@@ -435,7 +435,7 @@
          "content": 'Увеличивает эффективность магии лечения на 20%, также снижает получаемый урон персонажем и сопартийцами в радиусе 50 ялмов на 10%.<br/>Продолжительность: 20 сек.',
       },
       // PVE Skill 29
-      "Glare III": {
+      "PVE Skill 29": {
          "name": 'Glare III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dfafd20ceefae82548deba9511d3d765c4535b3a.png',
          "job_icon": 'WHM',
@@ -450,7 +450,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 310.',
       },
       // PVE Skill 30
-      "Holy III": {
+      "PVE Skill 30": {
          "name": 'Holy III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eceb9103dbf8066a8b6c8bce2e84df7552f1a074.png',
          "job_icon": 'WHM',
@@ -465,7 +465,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 150 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек.',
       },
       // PVE Skill 31
-      "Aquaveil": {
+      "PVE Skill 31": {
          "name": 'Aquaveil',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f87f8e18282665458cc9c358ff1a2b8a78833491.png',
          "job_icon": 'WHM',
@@ -480,7 +480,7 @@
          "content": 'Снижает получаемый урон персонажем или сопартийцем урон на 15%.<br/>Продолжительность: 8 сек.',
       },
       // PVE Skill 32
-      "Liturgy of the Bell": {
+      "PVE Skill 32": {
          "name": 'Liturgy of the Bell',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d31a93f520e700ac70ab1604bdb6811f124ebb4.png',
          "job_icon": 'WHM',
@@ -495,7 +495,7 @@
          "content": 'Помещает исцеляющий цветок в указанное место и дает персонажу 5 стаков Liturgy of the Bell.<br/>Продолжительность: 20 сек.<br/>Когда персонаж получает урон, 1 стак Liturgy of the Bell расходуется, чтобы исцелить себя и всех сопартийцев в радиусе 20 ялмов.<br/>Сила лечения: 400<br/>Эффект этого умения срабатывает не чаще одного раза в секунду.<br/>По окончанию времени действия умения или при использовании его второй раз все оставшиеся стаки Liturgy of the Bell будет использованы для дополнительного восстановления HP.<br/>Сила лечения: 200 за каждый оставшийся стак Liturgy of the Bell<br/>Этот умение не имеет общего время восстановления с другими умениями.',
       },
       // Trait 01
-      "Stone Mastery": {
+      "Trait 01": {
          "name": 'Stone Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ec59af21d4783ec07af93ded5382036016d67ade.png',
          "job_icon": 'CNJ',
@@ -503,7 +503,7 @@
          "content": 'Улучшает умение Stone до Stone II.',
       },
       // Trait 02
-      "Maim and Mend": {
+      "Trait 02": {
          "name": 'Maim and Mend',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
          "job_icon": 'CNJ',
@@ -511,7 +511,7 @@
          "content": 'Увеличивает базовый урон умений и восстановления HP на 10%.',
       },
       // Trait 03
-      "Freecure": {
+      "Trait 03": {
          "name": 'Freecure',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a3a57f7b7aa0de5e6da5e5696661ad29a4888e7f.png',
          "job_icon": 'CNJ',
@@ -519,7 +519,7 @@
          "content": 'Дает 15% шанс, что после использования Cure, стоимость следующего Cure II будет равна 0 MP.<br/>Продолжительность: 15 сек.',
       },
       // Trait 04
-      "Maim and Mend II": {
+      "Trait 04": {
          "name": 'Maim and Mend II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
          "job_icon": 'CNJ',
@@ -527,7 +527,7 @@
          "content": 'Увеличивает базовый урон умений и восстановления HP на 30%.',
       },
       // Trait 05
-      "Aero Mastery": {
+      "Trait 05": {
          "name": 'Aero Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bfb73b26584ff1beea3c051df995efb2057f9746.png',
          "job_icon": 'CNJ',
@@ -535,7 +535,7 @@
          "content": 'Улучшает умение Aero до Aero II.',
       },
       // Trait 06
-      "Secret of the Lily": {
+      "Trait 06": {
          "name": 'Secret of the Lily',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a8b01c03e71/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9d84d98cec3b373c4d288036197345815b0079a5.png',
@@ -544,7 +544,7 @@
          "content": 'Добавляет Lily на Healing Gauge персонажа каждые 20 секунд при нахождении в бою. Максимум 3 Lily.',
       },
       // Trait 07
-      "Stone Mastery II": {
+      "Trait 07": {
          "name": 'Stone Mastery II',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c34c7f08e8/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7700f3365453c8581b17b771446e0ceb253d2482.png',
@@ -553,7 +553,7 @@
          "content": 'Улучшает умение Stone II до Stone III.',
       },
       // Trait 08
-      "Stone Mastery III": {
+      "Trait 08": {
          "name": 'Stone Mastery III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0dece0a812fe1229b768f235340926de1be3a4d9.png',
          "job_icon": 'WHM',
@@ -561,7 +561,7 @@
          "content": 'Улучшает умение Stone III до Stone IV.',
       },
       // Trait 09
-      "Aero Mastery II": {
+      "Trait 09": {
          "name": 'Aero Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f5083e44cab6be3c440d2db89c35be3242d340d.png',
          "job_icon": 'WHM',
@@ -569,7 +569,7 @@
          "content": 'Улучшает умение Aero II до Dia.',
       },
       // Trait 10
-      "Stone Mastery IV": {
+      "Trait 10": {
          "name": 'Stone Mastery IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/092e5ba991784873f9b5f9a92db364956029657a.png',
          "job_icon": 'WHM',
@@ -577,7 +577,7 @@
          "content": 'Улучшает умение Stone IV до Glare.',
       },
       // Trait 11
-      "Transcendent Afflatus": {
+      "Trait 11": {
          "name": 'Transcendent Afflatus',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/df2fd48f77f5355c6ddc3580504abf58b9aa69ea.png',
          "job_icon": 'WHM',
@@ -585,7 +585,7 @@
          "content": 'Добавляет Blood Lily к Healing Gauge, которая расцветает после трех применений Afflatus Solace или Afflatus Rapture.',
       },
       // Trait 12
-      "Enhanced Asylum": {
+      "Trait 12": {
          "name": 'Enhanced Asylum',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b340f8eedf09a0058e1a6d74bf129a6c0cfff5d1.png',
          "job_icon": 'WHM',
@@ -593,7 +593,7 @@
          "content": 'Добавляет дополнительный эффект умению Asylum, увеличивающий силу умений восстанавливающих HP на 10%.',
       },
       // Trait 13
-      "Glare Mastery": {
+      "Trait 13": {
          "name": 'Glare Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a78ef89a46bfc230651382c1326ea848696bf4f.png',
          "job_icon": 'WHM',
@@ -601,7 +601,7 @@
          "content": 'Улучшает умение Glare to Glare III.',
       },
       // Trait 14
-      "Holy Mastery": {
+      "Trait 14": {
          "name": 'Holy Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8754d08e1d361478839e1a220369134a71a28d0a.png',
          "job_icon": 'WHM',
@@ -609,7 +609,7 @@
          "content": 'Улучшает умение Holy да Holy III.',
       },
       // Trait 15
-      "Enhanced Healing Magic": {
+      "Trait 15": {
          "name": 'Enhanced Healing Magic',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
          "job_icon": 'WHM',
@@ -617,7 +617,7 @@
          "content": 'Увеличивает силу исцеляющих умений Cure до 500, Medica до 400, Cure II до 800, Regen до 250, Cure III до 600, Medica II до 250, эффект периодического лечения Medica II (regen) до 150, Afflatus Solace до 800 и Afflatus Rapture до 400.',
       },
       // Trait 16
-      "Enhanced Divine Benison": {
+      "Trait 16": {
          "name": 'Enhanced Divine Benison',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70956bb631d282deba1787b5497f70b9540eeaa5.png',
          "job_icon": 'WHM',
@@ -625,7 +625,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Divine Benison.<br/>Максимум зарядов: 2',
       },
       // PVP Skill 01
-      "PVP Glare III": {
+      "PVP Skill 01": {
          "name": 'Glare III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/889b00ef7b55083b462b1dc589add79e07e87379.png',
          "classification": 'Заклинание',
@@ -637,7 +637,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 5,000.',
       },
       // PVP Skill 02
-      "PVP Cure II": {
+      "PVP Skill 02": {
          "name": 'Cure II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e7fd985e01134a3f7a76bda607c5cb1a36b3f7c.png',
          "classification": 'Заклинание',
@@ -649,7 +649,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 12,000<br/>Максимум стаков: 2<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Cure III под действием эффекта Cure III Ready.',
       },
       // PVP Skill 03
-      "PVP Afflatus Misery": {
+      "PVP Skill 03": {
          "name": 'Afflatus Misery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/67c045d9c3c41f736c36022272cefd8c0980f19f.png',
          "classification": 'Заклинание',
@@ -661,7 +661,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 12,000.<br/>Этот умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 04
-      "PVP Aquaveil": {
+      "PVP Skill 04": {
          "name": 'Aquaveil',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/db63ef3d2573abbcb89237b70189beb66d9f08c1.png',
          "classification": 'Способность',
@@ -673,7 +673,7 @@
          "content": 'Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный лечению с силой 8,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: снимает один статусный эффект, который может быть снят Purify<br/>Сила барьера удваивается, если данное умение успешно снимает статусный эффект.',
       },
       // PVP Skill 05
-      "PVP Miracle of Nature": {
+      "PVP Skill 05": {
          "name": 'Miracle of Nature',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1245aecd31eaf0821a81907c6664946404770339.png',
          "classification": 'Способность',
@@ -685,7 +685,7 @@
          "content": 'Насильно превращает цель в крошечное существо, лишая ее возможности использовать умения.<br/>Продолжительность: 2 сек.<br/>Не действует на неигровых персонажей, игроков под действием Guard или находящихся в роботах.',
       },
       // PVP Skill 06
-      "PVP Seraph Strike": {
+      "PVP Skill 06": {
          "name": 'Seraph Strike',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f0999ae68bff865ab683d7f1059024d126b013e.png',
          "classification": 'Способность',
@@ -697,7 +697,7 @@
          "content": 'Прыжок на цель, наносящий нестихийный урон с силой атаки 8,000 по цели и по всем окружающим противникам.<br/>Дополнительный эффект: накладывает эффект Protect на персонажа и всех окружающих сопартийцев<br/>Эффект Protect: снижает получаемый урон на 10%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Cure III Ready<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Умение Cure II меняется на Cure III под действием эффекта Cure III Ready.',
       },
       // PVP Skill 07
-      "PVP Cure III": {
+      "PVP Skill 07": {
          "name": 'Cure III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c4b6cbc3b8ae09ebf0dc3c69c16594e211cdfe6.png',
          "classification": 'Заклинание',
@@ -709,7 +709,7 @@
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 16000<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 08
-      "PVP Afflatus Purgation": {
+      "PVP Skill 08": {
          "name": 'Afflatus Purgation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/885443eeb029d7cbca537be10edca5eb6c920401.png',
          "cast": 'Мгновенная',
@@ -724,4 +724,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

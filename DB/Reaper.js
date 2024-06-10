@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 19/03/2024`,
       // PVE Skill 01
-      "Slice": {
+      "PVE Skill 01": {
          "name": 'Slice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/26fda59956454f1dbca5f260b2763321a2bb761a.png',
          "job_icon": 'RPR',
@@ -17,7 +17,7 @@
          "content": 'Удар, наносящий урон с силой атаки 320.<br/>Дополнительный эффект: восполняет шкалу Soul Gauge на 10',
       },
       // PVE Skill 02
-      "Waxing Slice": {
+      "PVE Skill 02": {
          "name": 'Waxing Slice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4bab01eb43df9752e98deef097e9251647ad96df.png',
          "job_icon": 'RPR',
@@ -31,7 +31,7 @@
          "content": 'Удар, наносящий урон с силой атаки 160.<br/>Комбо умение: Slice<br/>Сила в комбо: 400<br/>Дополнительный эффект: восполняет шкалу Soul Gauge на 10',
       },
       // PVE Skill 03
-      "Shadow of Death": {
+      "PVE Skill 03": {
          "name": 'Shadow of Death',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e3e48cee91c7abf77a15f6c4c9c9630349849205.png',
          "job_icon": 'RPR',
@@ -45,7 +45,7 @@
          "content": "Удар, наносящий урон с силой атаки 300.<br/>Дополнительный эффект: накладывает на цель эффект Death's Design, увеличивает наносимый персонажем урон по цели на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность эффекта Death's Design на 30 сек, вплоть до 60 сек.<br/>Дополнительный эффект: восполняет Soul Gauge на 10, если цель убита до конца действия эффекта",
       },
       // PVE Skill 04
-      "Harpe": {
+      "PVE Skill 04": {
          "name": 'Harpe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d3ae9c9673da37ea10aa4103b747163250c4a385.png',
          "job_icon": 'RPR',
@@ -59,7 +59,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 300.',
       },
       // PVE Skill 05
-      "Hells Ingress": {
+      "PVE Skill 05": {
          "name": "Hell's Ingress",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2e1c97fd007f90808b2fd40ad86354b9e97447a8.png',
          "job_icon": 'RPR',
@@ -73,7 +73,7 @@
          "content": "Быстрый рывок вперед на 15 ялмов.<br/>Дополнительный эффект: накладывает эффект Enhanced Harpe, позволяющий использовать Harpe без времени применения<br/>Длительность: 20 сек.<br/>Дополнительный эффект: оставляет за собой на месте рывка Hellsgate и накладывает на персонажа эффект Threshold<br/>Длительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Имеет общее время восстановления с умением Hell's Egress",
       },
       // PVE Skill 06
-      "Hells Egress": {
+      "PVE Skill 06": {
          "name": "Hell's Egress",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/113b87916c7ffdb9a8007615f697f2c189c6646a.png',
          "job_icon": 'RPR',
@@ -87,7 +87,7 @@
          "content": "Быстрый рывок назад на 15 ялмов.<br/>Дополнительный эффект: накладывает эффект Enhanced Harpe, позволяющий использовать Harpe без времени применения<br/>Длительность: 20 сек.<br/>Дополнительный эффект: оставляет за собой на месте рывка Hellsgate и накладывает на персонажа эффект Threshold<br/>Длительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Имеет общее время восстановления с умением Hell's Ingress.",
       },
       // PVE Skill 07
-      "Spinning Scythe": {
+      "PVE Skill 07": {
          "name": 'Spinning Scythe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dac9dba46aa8ff673cd2e365c9468525db0ba1a2.png',
          "job_icon": 'RPR',
@@ -101,7 +101,7 @@
          "content": 'Удар, наносящий урон с силой атаки 140 по всем ближайшим противникам.<br/>Дополнительный эффект: восполняет шкалу Soul Gauge на 10',
       },
       // PVE Skill 08
-      "Infernal Slice": {
+      "PVE Skill 08": {
          "name": 'Infernal Slice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aa7a7dd464459f24aa2209cddcbf8a3ebb167f0b.png',
          "job_icon": 'RPR',
@@ -115,7 +115,7 @@
          "content": 'Удар, наносящий урон с силой атаки 180.<br/>Комбо умение: Waxing Slice<br/>Сила в комбо: 500<br/>Комбо бонус: восполняет шкалу Soul Gauge на 10',
       },
       // PVE Skill 09
-      "Whorl of Death": {
+      "PVE Skill 09": {
          "name": 'Whorl of Death',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/31d409f8aaeae041b8150e68764e032fccd7c4c6.png',
          "job_icon": 'RPR',
@@ -129,7 +129,7 @@
          "content": "Удар, наносящий урон с силой атаки 100 по всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на цель эффект Death's Design,увеличивает наносимый персонажем урон по цели на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность эффекта Death's Design на 30 сек., вплоть до 60 сек.<br/>Дополнительный эффект: восполняет Soul Gauge на 10, если цель убита до конца действия эффекта",
       },
       // PVE Skill 10
-      "Arcane Crest": {
+      "PVE Skill 10": {
          "name": 'Arcane Crest',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9977fdbbf70443f9f31f4868cba97138fbec5460.png',
          "job_icon": 'RPR',
@@ -143,7 +143,7 @@
          "content": 'Накладывает эффект Crest of Time Borrowed на персонажа, создающий барьер, который поглощает урон в размере 10% от максимального HP.<br/>Продолжительность: 5 сек.<br/>Накладывает Crest of Time Returned на персонажа и ближайших сопартийцев в радиусе 15 ялмов, когда барьер будет поглощён или расходован<br/>Эффект Crest of Time Returned: постепенно восстанавливает HP<br/>Сила лечения: 50<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 11
-      "Nightmare Scythe": {
+      "PVE Skill 11": {
          "name": 'Nightmare Scythe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/710256a9319251859b53dd3804078cc8e35c2333.png',
          "job_icon": 'RPR',
@@ -157,7 +157,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120 по всем ближайшим противникам.<br/>Комбо умение: Spinning Scythe<br/>Сила в комбо: 180<br/>Комбо бонус: восполняет шкалу Soul Gauge на 10',
       },
       // PVE Skill 12
-      "Blood Stalk": {
+      "PVE Skill 12": {
          "name": 'Blood Stalk',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0f3d4c722f5f9b36b25ba72d3774b4b811b699d.png',
          "job_icon": 'RPR',
@@ -171,7 +171,7 @@
          "content": "Призывает аватар, наносящего удар с силой атаки 340.<br/>Дополнительный эффект: накладывает эффект Soul Reaver<br/>Продолжительность: 30 сек.<br/>Количество стаков уменьшится до 1, если персонаж уже находится под действием эффекта Soul Reaver.<br/>Стоимость: 50 Soul Gauge <br/>Имеет общее время восстановления со всеми атаками аватара, кроме Gluttony.<br/><br/>※Умение меняется на Lemure's Slice под действием эффекта Enshrouded.",
       },
       // PVE Skill 13
-      "Grim Swathe": {
+      "PVE Skill 13": {
          "name": 'Grim Swathe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ac34fd282b758c407014a47e3c30e188050307d8.png',
          "job_icon": 'RPR',
@@ -185,7 +185,7 @@
          "content": "Призывает аватар, наносящего удар с силой атаки 140 во всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: накладывает эффект Soul Reaver<br/>Продолжительность: 30 сек.<br/>Количество стаков уменьшится до 1, если персонаж уже находится под действием эффекта Soul Reaver.<br/>Стоимость: 50 Soul Gauge <br/>Имеет общее время восстановления со всеми атаками аватара, кроме Gluttony.<br/><br/>※Умение меняется на Lemure's Slice под действием эффекта Enshrouded.",
       },
       // PVE Skill 14
-      "Soul Slice": {
+      "PVE Skill 14": {
          "name": 'Soul Slice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/089e7135cc2e4e64590c18db17fbab56e0040843.png',
          "job_icon": 'RPR',
@@ -199,7 +199,7 @@
          "content": 'Удар, наносящий урон с силой атаки 460.<br/>Дополнительный эффект: восполняет шкалу Soul Gauge на 50<br/>Максимум зарядов: 2 <br/>Имеет общее время восстановления с умением Soul Scythe.<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
       },
       // PVE Skill 15
-      "Soul Scythe": {
+      "PVE Skill 15": {
          "name": 'Soul Scythe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/22ae994a06569700d3f9d51b1b999c951ca171e3.png',
          "job_icon": 'RPR',
@@ -213,7 +213,7 @@
          "content": 'Удар, наносящий урон с силой атаки 180 по всем ближайшим противникам.<br/>Дополнительный эффект: восполняет шкалу Soul Gauge на 50<br/>Максимум зарядов: 2<br/>Имеет общее время восстановления с умением Soul Slice.<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
       },
       // PVE Skill 16
-      "Gibbet": {
+      "PVE Skill 16": {
          "name": 'Gibbet',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f8259f07fef48d2d418535404fdc672bdc852285.png',
          "job_icon": 'RPR',
@@ -227,7 +227,7 @@
          "content": 'Удар, наносящий урон с силой атаки 400, при выполнении удара в бок цели 460.<br/>Сила атаки Enhanced Gibbet: 460<br/>Сила атаки Enhanced Gibbet в бок цели: 520<br/>Дополнительный эффект: накладывает Enhanced Gallows<br/>Продолжительность: 60 сек.<br/>Умение Blood Stalk меняется на Unveiled Gallows под действием эффекта Enhanced Gallows.<br/>Дополнительный эффект: восполняет шкалу Shroud Gauge на 10<br/>Можно использовать только под действием эффекта Soul Reaver.<br/><br/>※Умение меняется на Void Reaping под действием эффекта Enshrouded.',
       },
       // PVE Skill 17
-      "Gallows": {
+      "PVE Skill 17": {
          "name": 'Gallows',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ae681cd40113523630db64f0e3823235db61a364.png',
          "job_icon": 'RPR',
@@ -241,7 +241,7 @@
          "content": 'Удар, наносящий урон с силой атаки 400, при выполнении удара в спину цели 460.<br/>Сила атаки Enhanced Gallows: 460<br/>Сила атаки Enhanced Gallows в спину цели: 520<br/>Дополнительный эффект: накладывает Enhanced Gibbet<br/>Продолжительность: 60 сек.<br/>Умение Blood Stalk меняется на Unveiled Gibbet под действием эффекта Enhanced Gibbet<br/>Дополнительный эффект: восполняет шкалу Shroud Gauge на 10<br/>Можно использовать только под действием эффекта Soul Reaver.<br/><br/>※Умение меняется на Cross Reaping под действием эффекта Enshrouded.',
       },
       // PVE Skill 18
-      "Guillotine": {
+      "PVE Skill 18": {
          "name": 'Guillotine',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b4d685f506367e2bd3228603e7b2c4172567f933.png',
          "job_icon": 'RPR',
@@ -255,7 +255,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: восполняет шкалу Shroud Gauge на 10<br/>Можно использовать только под действием эффекта Soul Reaver.<br/><br/>※Умение меняется на Grim Reaping под действием эффекта Enshrouded.',
       },
       // PVE Skill 19
-      "Unveiled Gibbet": {
+      "PVE Skill 19": {
          "name": 'Unveiled Gibbet',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/02ab830b9551480d0b5d62a24012c401a422b0bd.png',
          "job_icon": 'RPR',
@@ -269,7 +269,7 @@
          "content": 'Призывает аватар, наносящего удар с силой атаки 400.<br/>Дополнительный эффект: накладывает эффект Soul Reaver<br/>Продолжительность: 30 сек.<br/>Количество стаков уменьшится до 1, если персонаж уже находится под действием эффекта Soul Reaver.<br/>Стоимость: 50 Soul Gauge <br/>Можно использовать только под действием эффекта Enhanced Gibbet.<br/>Имеет общее время восстановления со всеми атаками аватара, кроме Gluttony.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 20
-      "Unveiled Gallows": {
+      "PVE Skill 20": {
          "name": 'Unveiled Gallows',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/017af138fc2458f9cae561ec96f027791d1da803.png',
          "job_icon": 'RPR',
@@ -283,7 +283,7 @@
          "content": 'Призывает аватар, наносящего удар с силой атаки 400.<br/>Дополнительный эффект: накладывает эффект Soul Reaver<br/>Продолжительность: 30 сек.<br/>Количество стаков уменьшится до 1, если персонаж уже находится под действием эффекта Soul Reaver.<br/>Стоимость: 50 Soul Gauge <br/>Можно использовать только под действием эффекта Enhanced Gallows.<br/>Имеет общее время восстановления со всеми атаками аватара, кроме Gluttony.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 21
-      "Arcane Circle": {
+      "PVE Skill 21": {
          "name": 'Arcane Circle',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b561271272c45fb8436bfe4dfb590b76c631687b.png',
          "job_icon": 'RPR',
@@ -297,7 +297,7 @@
          "content": 'Увеличивает урон персонажа и ближайших сопартийцев на 3%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает на персонажа и ближайших сопартийцев эффект Circle of Sacrifice<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: накладывает на персонажа эффект Bloodsown Circle<br/>Продолжительность: 6 сек.<br/>Эффект Circle of Sacrifice: когда персонаж или сопартийцы, находящиеся под этим эффектом, успешно используют боевой навык или произносят заклинание, рипер получает стак Immortal Sacrifice, вплоть до 8<br/>Продолжительность: 30 сек.<br/>Эффект Bloodsown Circle: позволяет накапливать стаки Immortal Sacrifice от сопартийцев, находящихся под действием эффекта Circle of Sacrifice',
       },
       // PVE Skill 22
-      "Regress": {
+      "PVE Skill 22": {
          "name": 'Regress',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eaeec5829efd0623650ee09d1b3867ef3804c643.png',
          "job_icon": 'RPR',
@@ -311,7 +311,7 @@
          "content": 'Персонаж мгновенно перемещается в оставленные Hellsgate.<br/>Может быть использовано только под действием Threshold.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 23
-      "Gluttony": {
+      "PVE Skill 23": {
          "name": 'Gluttony',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/933867484213377dc45cafd796ff5d934cee8906.png',
          "job_icon": 'RPR',
@@ -325,7 +325,7 @@
          "content": 'Призывает аватар, наносящего нестихийный урон по цели и всем ближайшим противникам с силой атаки 520 для первого и на 25% меньше для остальных.<br/>Дополнительный эффект: накладывает 2 стака Soul Reaver<br/>Продолжительность: 30 сек.<br/>Стоимость: 50 Soul Gauge ',
       },
       // PVE Skill 24
-      "Enshroud": {
+      "PVE Skill 24": {
          "name": 'Enshroud',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3c7fb68def/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4e389efd3504b3ed9dcd4f7633ebc9a5bb528971.png',
@@ -340,7 +340,7 @@
          "content": 'Тело персонажа становится сосудом для аватара и персонаж получает максимальное количество стаков Lemure Shroud.<br/>Продолжительность: 30 сек.<br/>Некоторые умения не могут быть использованы, пока персонаж во власти аватара.<br/>Стоимость: 50 Soul Gauge',
       },
       // PVE Skill 25
-      "Void Reaping": {
+      "PVE Skill 25": {
          "name": 'Void Reaping',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d2632208267baca74f7d9c19ee7a9c794034f2f0.png',
          "job_icon": 'RPR',
@@ -354,7 +354,7 @@
          "content": 'Удар, наносящий урон с силой атаки 460.<br/>Сила атаки Enhanced Void Reaping: 520<br/>Дополнительный эффект: накладывает эффект Enhanced Cross Reaping<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: добавляет стак Void Shroud<br/>Может быть использовано только под действием эффекта Enshrouded.<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.<br/>Стоимость: 1 Lemure Shroud<br/>Это умение не имеет общего времени восстановления с другими умениями. После использования время повторного восстановления этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 26
-      "Cross Reaping": {
+      "PVE Skill 26": {
          "name": 'Cross Reaping',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a080e4189263d80adcd79deaaac266c93798d202.png',
          "job_icon": 'RPR',
@@ -368,7 +368,7 @@
          "content": 'Удар, наносящий урон с силой атаки 460.<br/>Сила атаки Enhanced Cross Reaping: 520<br/>Дополнительный эффект: накладывает эффект Enhanced Void Reaping<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: добавляет стак Void Shroud<br/>Можно использовать только под действием эффекта Lemure Shroud.<br/>Стоимость: 1 Lemure Shroud<br/>Это умение не имеет общего времени восстановления с другими умениями. После использования время повторного восстановления этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 27
-      "Grim Reaping": {
+      "PVE Skill 27": {
          "name": 'Grim Reaping',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b57c45ec39fc75788c9603653a77c5b95f04e67.png',
          "job_icon": 'RPR',
@@ -382,7 +382,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: накладывает эффект Void Shroud<br/>Можно использовать только под действием эффекта Enshrouded.<br/>Стоимость: 1 Lemure Shroud<br/>Это умение не имеет общего времени восстановления с другими умениями. После использования время повторного восстановления этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 28
-      "Soulsow": {
+      "PVE Skill 28": {
          "name": 'Soulsow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a59a5def406758cbd282cffdea8bea00a98f5e58.png',
          "job_icon": 'RPR',
@@ -396,7 +396,7 @@
          "content": 'Накладывает эффект Soulsow на персонажа, меняя умение на Harvest Moon.<br/>Применяется мгновенно, если использовано вне боя.',
       },
       // PVE Skill 29
-      "Harvest Moon": {
+      "PVE Skill 29": {
          "name": 'Harvest Moon',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e5f0a7dabd5ef44d08e8d5920d834f3e734169d9.png',
          "job_icon": 'RPR',
@@ -410,7 +410,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 600 для первого противника и на 50% меньше для всех остальных.<br/>Может быть использовано только под действием эффекта Soulsow.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 30
-      "Lemures Slice": {
+      "PVE Skill 30": {
          "name": "Lemure's Slice",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9ae486399356401f032b455ea5b13f986236c82.png',
          "job_icon": 'RPR',
@@ -424,7 +424,7 @@
          "content": "Удар, наносящий урон с силой атаки 240.<br/>Стоимость: 2 Void Shroud<br/>Имеет общее время восстановления с умением Lemure's Scythe.<br/><br/>※Это умение нельзя поместить на хотбар.",
       },
       // PVE Skill 31
-      "Lemures Scythe": {
+      "PVE Skill 31": {
          "name": "Lemure's Scythe",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/479155b751c2764273ae35c1aab71ed298ad9d18.png',
          "job_icon": 'RPR',
@@ -438,7 +438,7 @@
          "content": "Удар, наносящий урон с силой атаки 100 по всем противникам в конусе перед персонажем.<br/>Стоимость: 2 Void Shroud<br/>Имеет общее время восстановления с умением Lemure's Slice.<br/><br/>※Это умение нельзя поместить на хотбар.",
       },
       // PVE Skill 32
-      "Plentiful Harvest": {
+      "PVE Skill 32": {
          "name": 'Plentiful Harvest',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/08babf4d2bf7ce046d03f459af8fa4c9921f96cc.png',
          "job_icon": 'RPR',
@@ -452,7 +452,7 @@
          "content": 'Удар, наносящий урон по всем противникам по прямой линии с силой атаки 720 для первого противника и на 60% меньше для всех остальных.<br/>Стоимость: 1 стак Immortal Sacrifice<br/>Сила атаки увеличивается до 1,000, когда стаки Immortal Sacrifice превышают минимальную стоимость.<br/>Дополнительный эффект: восполняет шкалу Shroud Gauge на 50<br/>Не может быть использовано под действием эффекта Bloodsown Circle.<br/>При использовании расходует все стаки Immortal Sacrifice.',
       },
       // PVE Skill 33
-      "Communio": {
+      "PVE Skill 33": {
          "name": 'Communio',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b0daa7e454abbd2b6ce037b5c77157462fadbf7.png',
          "job_icon": 'RPR',
@@ -466,7 +466,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 1,100 для первого противника и на 60% меньше для всех остальных.<br/>Эффект Enshrouded завершается после использования.<br/>Для использования требуется как минимум один стак Lemure Shroud.',
       },
       // Trait 01
-      "Soul Gauge": {
+      "Trait 01": {
          "name": 'Soul Gauge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cdd4dbdaa89dfc284e0be14a8ef05287679e7210.png',
          "job_icon": 'RPR',
@@ -474,7 +474,7 @@
          "content": "Позволяет восполнять шкалу Soul Gauge при использовании определенных умений или при победе над врагами, находящимися под действием эффекта Death's Design.",
       },
       // Trait 02
-      "Death Scythe Mastery": {
+      "Trait 02": {
          "name": 'Death Scythe Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/868f687700f2e429581e3415762630deeaf18d30.png',
          "job_icon": 'RPR',
@@ -482,7 +482,7 @@
          "content": 'Увеличивает силу атаки Slice до 300, Waxing Slice до 140, Shadow of Death до 300, Harpe до 300, Spinning Scythe до 140, Infernal Slice до 140, Whorl of Death до 100 и Nightmare Scythe до 120.',
       },
       // Trait 03
-      "Enhanced Avatar": {
+      "Trait 03": {
          "name": 'Enhanced Avatar',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/884cf03809d4b64336961dedfcb87d7fa5c065f3.png',
          "job_icon": 'RPR',
@@ -490,7 +490,7 @@
          "content": 'Накладывает эффект Soul Reaver при успешном использовании Blood Stalk или Grim Swathe.<br/>Продолжительность: 30 сек.<br/>Эффект прекращается при использовании любого боевого навыка или магической атаки.',
       },
       // Trait 04
-      "Hellsgate": {
+      "Trait 04": {
          "name": 'Hellsgate',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/197108fc180510d46e15ba85434a517352da9ea3.png',
          "job_icon": 'RPR',
@@ -498,7 +498,7 @@
          "content": "Использовав умение Hell's Ingress или Hell's Egress, персонаж оставляет за собой Hellsgate и накладывает эффект Threshold на персонажа.<br/>Продолжительность: 10 сек.<br/>Hell's Ingress меняется на Regress после использования Hell's Egress и наоборот.",
       },
       // Trait 05
-      "Tempered Soul": {
+      "Trait 05": {
          "name": 'Tempered Soul',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c1fcd7a37a619bdd241fafe156ffe6e1c306553d.png',
          "job_icon": 'RPR',
@@ -506,7 +506,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Soul Slice и Soul Scythe.<br/>Максимум зарядов: 2 ',
       },
       // Trait 06
-      "Shroud Gauge": {
+      "Trait 06": {
          "name": 'Shroud Gauge',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3c7fb68def/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aec909a3e2c44d5c726b997c0d1af8da7175218d.png',
@@ -515,7 +515,7 @@
          "content": 'Позволяет восполнять Shroud Gauge при использовании Gibbet, Gallows или Guillotine.',
       },
       // Trait 07
-      "Enhanced Arcane Crest": {
+      "Trait 07": {
          "name": 'Enhanced Arcane Crest',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2f58d09091b830b74082188a84bb17efd365dc2.png',
          "job_icon": 'RPR',
@@ -523,7 +523,7 @@
          "content": 'Накладывает эффект Crest of Time Returned на персонажа и ближайших сопартийцев, постепенно восстанавливая HP. Этот эффект появляется только тогда, когда барьер Crest of Time Borrowed полностью поглощен.<br/>Сила лечения: 50<br/>Продолжительность: 15 сек.',
       },
       // Trait 08
-      "Death Scythe Mastery II": {
+      "Trait 08": {
          "name": 'Death Scythe Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d8ed394455fccbea2e0bddd53ff6bd3058ce263.png',
          "job_icon": 'RPR',
@@ -531,7 +531,7 @@
          "content": 'Увеличивает силу атаки Slice до 320, Waxing Slice до 160 и Infernal Slice до 180.',
       },
       // Trait 09
-      "Enhanced Shroud": {
+      "Trait 09": {
          "name": 'Enhanced Shroud',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ada3c73d86be1fc25e17386dd10e76e170fef077.png',
          "job_icon": 'RPR',
@@ -539,7 +539,7 @@
          "content": 'Добавляет стак Void Shroud после использования Void Reaping, Cross Reaping или Grim Reaping.',
       },
       // Trait 10
-      "Enhanced Arcane Circle": {
+      "Trait 10": {
          "name": 'Enhanced Arcane Circle',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6f540f8120532425d4aa28831c6f8cdcbfa5db7.png',
          "job_icon": 'RPR',
@@ -547,7 +547,7 @@
          "content": 'Накладывает эффект Circle of Sacrifice на персонажа и ближайших сопартийцев при использовании умения Arcane Circle.<br/>Продолжительность: 5 сек.<br/>Когда персонаж или сопартийцы под этим эффектом успешно используют боевые навыки или произносят заклинание, персонаж получает стак Immortal Sacrifice, вплоть до 8.<br/>Продолжительность: 30 сек.<br/>Накладывает на персонажа Bloodsown Circle, позволяя получать стаки Immortal Sacrifice от сопартийцев, находящихся под действием эффекта Circle of Sacrifice.<br/>Продолжительность: 6 сек.',
       },
       // PVP Skill 01
-      "PVP Slice": {
+      "PVP Skill 01": {
          "name": 'Slice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b3aba81b36f1d7f627a0f83e38f1b9a6b92434cd.png',
          "classification": 'Боевой навык',
@@ -559,7 +559,7 @@
          "content": 'Удар, наносящий урон с силой атаки 3,000.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 02
-      "PVP Waxing Slice": {
+      "PVP Skill 02": {
          "name": 'Waxing Slice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d626f5a33df738e1e06dfdd8d7094bda770ad64.png',
          "classification": 'Боевой навык',
@@ -571,7 +571,7 @@
          "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Комбо умение: Slice<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 03
-      "PVP Infernal Slice": {
+      "PVP Skill 03": {
          "name": 'Infernal Slice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dd4a740c4bbf1f6fa18b92187e7039379fbfed30.png',
          "classification": 'Боевой навык',
@@ -583,7 +583,7 @@
          "content": 'Удар, наносящий урон с силой атаки 5,000.<br/>Комбо умение: Waxing Slice<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 04
-      "PVP Soul Slice": {
+      "PVP Skill 04": {
          "name": 'Soul Slice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f9f04bc14107eb92ebc354091b1274464e9c002.png',
          "classification": 'Боевой навык',
@@ -595,7 +595,7 @@
          "content": 'Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: накладывает стак Immortal Sacrifice, вплоть до 8<br/>Максимум зарядов: 2<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 05
-      "PVP Plentiful Harvest": {
+      "PVP Skill 05": {
          "name": 'Plentiful Harvest',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ab0eae0be0bf452487bd9f9c33ac06ab5ae53efc.png',
          "classification": 'Боевой навык',
@@ -607,7 +607,7 @@
          "content": 'Удар, наносящий урон по всем противникам по прямой линии с силой атаки 4,000.<br/>Сила атаки увеличивается до 24,000 в зависимости от накопленных стаков Immortal Sacrifice, полученных за использование Soul Slice, убийства противников или получение ассистов.<br/>Дополнительный эффект: постепенно заполняет шкалу лимит брейка<br/>Продолжительность: 15 сек.<br/>Эффект можно активировать только в бою.<br/>При использовании расходует все стаки Immortal Sacrifice.<br/>Может быть использовано только в то время, когда на персонажа не наложен эффект Enshrouded.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 06
-      "PVP Grim Swathe": {
+      "PVP Skill 06": {
          "name": 'Grim Swathe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4b0d41599ef62b2057cf1e0ac5a007eb235baa5f.png',
          "classification": 'Способность',
@@ -619,7 +619,7 @@
          "content": 'Призывает аватар, наносящего удар с силой атаки 4,000 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: накладывает эффект Soul Reaver<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/><br/>※Infernal Slice Combo меняется на Guillotine при использовании.',
       },
       // PVP Skill 07
-      "PVP Death Warrant": {
+      "PVP Skill 07": {
          "name": 'Death Warrant',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4717cd6aa17ee7ea4fb28d37658b738c83d67f34.png',
          "classification": 'Способность',
@@ -631,7 +631,7 @@
          "content": 'Накладывает на цель эффект Death Warrant, накапливающий урон, который персонаж наносит цели.<br/>По истечении действия эффекта цель получает 50% от накопленного урона.<br/>Продолжительность: 7 сек.<br/>Дополнительный эффект: накладывает эффект Soulsow<br/>Продолжительность: 10 сек.<br/><br/>※После использования умение меняется на Harvest Moon.',
       },
       // PVP Skill 08
-      "PVP Hells Ingress": {
+      "PVP Skill 08": {
          "name": "Hell's Ingress",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2424ad75e462d533b623f1371216bc130c82b109.png',
          "classification": 'Способность',
@@ -643,7 +643,7 @@
          "content": 'Быстрый рывок вперед на 15 ялмов.<br/>Дополнительный эффект: оставляет за собой на месте рывка Hellsgate и накладывает на персонажа эффект Threshold<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: увеличивает скорость передвижения на 25%<br/>Продолжительность: 5 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※При использовании умение меняется на Regress.',
       },
       // PVP Skill 09
-      "PVP Arcane Crest": {
+      "PVP Skill 09": {
          "name": 'Arcane Crest',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/076c61a60da76d1c1060275a87218c9ea298974b.png',
          "classification": 'Способность',
@@ -655,7 +655,7 @@
          "content": 'Накладывает эффект Crest of Time Borrowed на персонажа, создавая барьер, предотвращающий получение урона, равного силе лечения 12,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: увеличивает наносимый урон на 10%<br/>Продолжительность: 10 сек.<br/>Накладывает эффект Crest of Time Returned на персонажа и ближайших сопартийцев в радиусе 15 ялмов, когда барьер полностью поглощен.<br/>Эффект Crest of Time Returned: постепенно восстанавливает HP<br/>Сила лечения: 6,000<br/>Продолжительность: 6 сек.',
       },
       // PVP Skill 10
-      "PVP Guillotine": {
+      "PVP Skill 10": {
          "name": 'Guillotine',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9b769d7ad4c9f51f1f714df3d66cc4884ae1f97.png',
          "classification": 'Боевой навык',
@@ -667,7 +667,7 @@
          "content": 'Удар, наносящий урон с силой атаки 8,000 по всем противникам в конусе перед персонажем.<br/>Можно использовать только под действием эффекта Soul Reaver.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 11
-      "PVP Void Reaping": {
+      "PVP Skill 11": {
          "name": 'Void Reaping',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a9236a05eda40fadfa57db522498cf8da0c1338f.png',
          "classification": 'Боевой навык',
@@ -679,7 +679,7 @@
          "content": 'Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: накладывает Ripe for Reaping<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта Enshrouded.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Infernal Slice Combo меняется на Cross Reaping под действием эффекта Ripe for Reaping.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 12
-      "PVP Cross Reaping": {
+      "PVP Skill 12": {
          "name": 'Cross Reaping',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3e622ba1498759d256ccbb7ae712fb848142b8b4.png',
          "classification": 'Боевой навык',
@@ -691,7 +691,7 @@
          "content": 'Удар, наносящий урон с силой атаки 8,000.<br/>Может быть использовано только под действием эффектов Enshrouded и Ripe for Reaping.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 13
-      "PVP Lemures Slice": {
+      "PVP Skill 13": {
          "name": "Lemure's Slice",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9506431de0afcffcbfa5d260d2d488afbceb84a7.png',
          "classification": 'Способность',
@@ -703,7 +703,7 @@
          "content": 'Удар, наносящий урон с силой атаки 4,000 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: связывание (bind)<br/>Продолжительность: 3 сек.<br/>Можно использовать только под действием эффекта Enshrouded.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 14
-      "PVP Harvest Moon": {
+      "PVP Skill 14": {
          "name": 'Harvest Moon',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c70f9fe69e5c51199086c4345095722bf7a9b5a.png',
          "classification": 'Способность',
@@ -715,7 +715,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000 по цели и всем ближайшим противникам.<br/>Сила атаки увеличивается до 8,000 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 50% HP или меньше.<br/>Дополнительный эффект: поглощает 100% нанесенного урона в виде HP<br/>Можно использовать только под действием эффекта Soulsow.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 15
-      "PVP Regress": {
+      "PVP Skill 15": {
          "name": 'Regress',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f9dde969872d209ff9752660a9fe5083df829856.png',
          "classification": 'Способность',
@@ -727,7 +727,7 @@
          "content": 'Персонаж мгновенно перемещается в оставленный Hellsgate.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 16
-      "PVP Communio": {
+      "PVP Skill 16": {
          "name": 'Communio',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fad15db3f8853ecf4d7789fb9d5429e64edb02ba.png',
          "classification": 'Заклинание',
@@ -739,7 +739,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 16,000 по цели и всем ближайшим противникам.<br/>Требуется как минимум один стак эффекта Enshrouded.<br/>При использовании расходует все стаки эффекта Enshrouded.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 17
-      "PVP Tenebrae Lemurum": {
+      "PVP Skill 17": {
          "name": 'Tenebrae Lemurum',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a2c6adec36c8eeace712802c88eb896c788a8c94.png',
          "cast": 'Мгновенная',
@@ -754,4 +754,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

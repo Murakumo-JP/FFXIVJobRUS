@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 19/03/2024`,
       // PVE Skill 01
-      "Ruin": {
+      "PVE Skill 01": {
          "name": 'Ruin',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c74fa1688f3d89d6f5b972ce384df15f62e35d1.png',
          "job_icon": 'ACN',
@@ -18,7 +18,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 240.',
       },
       // PVE Skill 02
-      "Summon Carbuncle": {
+      "PVE Skill 02": {
          "name": 'Summon Carbuncle',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/14a64b174c103f36179809458245dc5e4f4fe0a6.png',
          "job_icon": 'ACN',
@@ -33,7 +33,7 @@
          "content": 'Призыв питомца Carbuncle, который будет сражаться на стороне персонажа.',
       },
       // PVE Skill 03
-      "Radiant Aegis": {
+      "PVE Skill 03": {
          "name": 'Radiant Aegis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a116b861109158ee5db8e36cf922fae8f923e7d5.png',
          "job_icon": 'ACN',
@@ -48,7 +48,7 @@
          "content": 'Приказывает Carbuncle использовать умение Radiant Aegis.<br/>Эффект Radiant Aegis: создает барьер вокруг персонажа, поглощающий урон в размере 20% от максимального HP<br/>Продолжительность: 30 сек.<br/>Максимум зарядов: 2<br/>Можно использовать только когда Carbuncle призван.',
       },
       // PVE Skill 04
-      "Physick": {
+      "PVE Skill 04": {
          "name": 'Physick',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e51f309947cde0c36f3a0cd815ca01e268928eb6.png',
          "job_icon": 'ACN',
@@ -63,7 +63,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 400',
       },
       // PVE Skill 05
-      "Aethercharge": {
+      "PVE Skill 05": {
          "name": 'Aethercharge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ad9a8a02fa446a43dc54439c8ac1d04dad1384b2.png',
          "job_icon": 'ACN',
@@ -78,7 +78,7 @@
          "content": 'Накладывает Aethercharge, увеличивающий силу заклинаний Ruin, Ruin II и Ruin III на 50, а Outburst - на 20.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Ruby Arcanum, Topaz Arcanum и Emerald Arcanum<br/>Можно использовать только в бою и когда Carbuncle призван.',
       },
       // PVE Skill 06
-      "Summon Ruby": {
+      "PVE Skill 06": {
          "name": 'Summon Ruby',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/23ce1df0ac3aa5df6aa4b22cdf2369ff364cabc0.png',
          "job_icon": 'ACN',
@@ -93,7 +93,7 @@
          "content": 'Призывает Ruby Carbuncle и приказывает ему использовать умение Glittering Ruby.<br/>Эффект Glittering Ruby: бросается на цель и наносит урон огнем с силой атаки 400<br/>Дополнительный эффект: накладывает 2 стака эффекта Fire Attunement<br/>Эффект Fire Attunement: умения Gemshine и Precious Brilliance получают свойства стихии огня<br/>Продолжительность: 30 сек.<br/>Может быть использовано только под действием эффекта Ruby Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Ruby Carbuncle, и вернется, как только закончится призыв.',
       },
       // PVE Skill 07
-      "Gemshine": {
+      "PVE Skill 07": {
          "name": 'Gemshine',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b1b0a655e18e0c446a0774ef264f010a8766db7f.png',
          "job_icon": 'ACN',
@@ -108,7 +108,7 @@
          "content": 'Использует энергию текущей активной стихии для атаки противника.<br/>Эффект Fire Attunement: наносит урон огнем по одной цели<br/>Эффект Earth Attunement: наносит урон землей по одной цели<br/>Эффект Wind Attunement: наносит урон ветром по одной цели',
       },
       // PVE Skill 08
-      "Ruby Ruin": {
+      "PVE Skill 08": {
          "name": 'Ruby Ruin',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c74fa1688f3d89d6f5b972ce384df15f62e35d1.png',
          "job_icon": 'ACN',
@@ -123,7 +123,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 340.<br/>Стоимость: 1 Fire Attunement <br/>Это умение не имеет общего времени восстановления с другими умениями. После выполнения время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 09
-      "Fester": {
+      "PVE Skill 09": {
          "name": 'Fester',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2df31cca5d00be7bba89943c76b799ae82aba8d.png',
          "job_icon": 'ACN',
@@ -138,7 +138,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 340.<br/>Стоимость: 1 Aetherflow Gauge',
       },
       // PVE Skill 10
-      "Energy Drain": {
+      "PVE Skill 10": {
          "name": 'Energy Drain',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/92ea9227a8a09c62eb53852e2c26c0d6763a35c2.png',
          "job_icon": 'ACN',
@@ -153,7 +153,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 200.<br/>Дополнительный эффект: накладывается эффект Aetherflow II<br/>Дополнительный эффект: накладывается эффект Further Ruin<br/>Продолжительность: 60 сек.<br/>Имеет общее время восстановления с умением Energy Siphon.',
       },
       // PVE Skill 11
-      "Resurrection": {
+      "PVE Skill 11": {
          "name": 'Resurrection',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9e61ea15caf1f7c0e4b44943dcbee0178e61a9fd.png',
          "job_icon": 'ACN',
@@ -168,7 +168,7 @@
          "content": 'Воскрешает цель, накладывая эффект слабости (weakeness).',
       },
       // PVE Skill 12
-      "Summon Topaz": {
+      "PVE Skill 12": {
          "name": 'Summon Topaz',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c6975b0e58d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/45345cb4f108a07c372f8a355b26c13661d51887.png',
@@ -184,7 +184,7 @@
          "content": 'Призывает Topaz Carbuncle и приказывает ему использовать умение Glittering Topaz.<br/>Эффект Glittering Topaz: бросается на цель и наносит урон землей с силой атаки 400<br/>Дополнительный эффект: накладывает 4 стака эффекта Earth Attunement<br/>Эффект Earth Attunement: умения Gemshine and Precious Brilliance получают свойства стихии земли<br/>Продолжительность: 30 сек.<br/>Может быть использовано только под действием эффекта Topaz Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Topaz Carbuncle, и вернется, как только закончится призыв.',
       },
       // PVE Skill 13
-      "Topaz Ruin": {
+      "PVE Skill 13": {
          "name": 'Topaz Ruin',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c74fa1688f3d89d6f5b972ce384df15f62e35d1.png',
          "job_icon": 'ACN',
@@ -199,7 +199,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 240.<br/>Стоимость: 1 Earth Attunement<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 14
-      "Summon Emerald": {
+      "PVE Skill 14": {
          "name": 'Summon Emerald',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d9d328ec1a7b30579dd56ad69fad33981e197f70.png',
          "job_icon": 'ACN',
@@ -214,7 +214,7 @@
          "content": 'Призывает Emerald Carbuncle и приказывает ему использовать умение Glittering Emerald.<br/>Эффект Glittering Topaz: бросается на цель и наносит урон ветром с силой атаки 400<br/>Дополнительный эффект: накладывает 4 стака эффекта Wind Attunement<br/>Эффект Wind Attunement: умения Gemshine and Precious Brilliance получают свойства стихии ветра<br/>Продолжительность: 30 сек.<br/>Может быть использовано только под действием эффекта Emerald Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Emerald Carbuncle, и вернется, как только закончится призыв.',
       },
       // PVE Skill 15
-      "Emerald Ruin": {
+      "PVE Skill 15": {
          "name": 'Emerald Ruin',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c74fa1688f3d89d6f5b972ce384df15f62e35d1.png',
          "job_icon": 'ACN',
@@ -229,7 +229,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 160.<br/>Стоимость: 1 Wind Attunement<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 16
-      "Outburst": {
+      "PVE Skill 16": {
          "name": 'Outburst',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aa5a6e6d676d222c70ac9c001132276cd401a140.png',
          "job_icon": 'ACN',
@@ -244,7 +244,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 100 по цели и всем ближайшим противникам.',
       },
       // PVE Skill 17
-      "Precious Brilliance": {
+      "PVE Skill 17": {
          "name": 'Precious Brilliance',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1fa3119e51a423fedea3e3a238497548d0c64960.png',
          "job_icon": 'ACN',
@@ -259,7 +259,7 @@
          "content": 'Использует текущей активной стихии для атаки нескольких противников.<br/>Эффект Fire Attunement: наносит урон огнем по цели и всем ближайшим противникам<br/>Эффект Earth Attunement: наносит урон землей по цели и всем ближайшим противникам<br/>Эффект Wind Attunement: наносит урон ветром по цели и всем ближайшим противникам',
       },
       // PVE Skill 18
-      "Ruby Outburst": {
+      "PVE Skill 18": {
          "name": 'Ruby Outburst',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aa5a6e6d676d222c70ac9c001132276cd401a140.png',
          "job_icon": 'ACN',
@@ -274,7 +274,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 160 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Fire Attunement<br/>Это умение не имеет общего времени восстановления с другими умениями. После выполнения время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 19
-      "Topaz Outburst": {
+      "PVE Skill 19": {
          "name": 'Topaz Outburst',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aa5a6e6d676d222c70ac9c001132276cd401a140.png',
          "job_icon": 'ACN',
@@ -289,7 +289,7 @@
          "content": 'дар, наносящий урон землей с силой атаки 110 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Earth Attunement<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 20
-      "Emerald Outburst": {
+      "PVE Skill 20": {
          "name": 'Emerald Outburst',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aa5a6e6d676d222c70ac9c001132276cd401a140.png',
          "job_icon": 'ACN',
@@ -304,7 +304,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 70 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Wind Attunement<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 21
-      "Ruin II": {
+      "PVE Skill 21": {
          "name": 'Ruin II',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/45ea45aff3a/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d6875ae1008a9e4b2d04562cff42646752e919c5.png',
@@ -320,7 +320,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 270.',
       },
       // PVE Skill 22
-      "Summon Ifrit": {
+      "PVE Skill 22": {
          "name": 'Summon Ifrit',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4bb5af1e8a9/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5e826d0c09e4894638df5676fc15863cce8d5182.png',
@@ -336,7 +336,7 @@
          "content": "Призывает Ifrit-Egi и приказывает ему использовать умение Inferno.<br/>Эффект Inferno: бросается вперед и наносит урон огнем всем противникам в конусе 5 ялмов перед существом с силой атаки 600 для первого и на 60% меньше для всех остальных<br/>Дополнительный эффект: накладывает 2 стака Fire Attunement<br/>Эффект Fire Attunement: Gemshine и Precious Brilliance  получают свойства стихии огня<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает Ifrit's Favor<br/>Эффект Ifrit's Favor заканчивается при использовании определенных умений призывателя.<br/>Может быть использовано только под действием эффекта Ruby Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Ifrit-Egi, и вернется, как только закончится призыв.",
       },
       // PVE Skill 23
-      "Ruby Ruin II": {
+      "PVE Skill 23": {
          "name": 'Ruby Ruin II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d6875ae1008a9e4b2d04562cff42646752e919c5.png',
          "job_icon": 'ACN',
@@ -351,7 +351,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 380.<br/>Стоимость: 1 Fire Attunement<br/>Это умение не имеет общего времени восстановления с другими умениями. После использования время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 24
-      "Topaz Ruin II": {
+      "PVE Skill 24": {
          "name": 'Topaz Ruin II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d6875ae1008a9e4b2d04562cff42646752e919c5.png',
          "job_icon": 'ACN',
@@ -366,7 +366,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 270.<br/>Стоимость: 1 Earth Attunement<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 25
-      "Emerald Ruin II": {
+      "PVE Skill 25": {
          "name": 'Emerald Ruin II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d6875ae1008a9e4b2d04562cff42646752e919c5.png',
          "job_icon": 'ACN',
@@ -381,7 +381,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 170.<br/>Стоимость: 1 Wind Attunement <br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 26
-      "Summon Titan": {
+      "PVE Skill 26": {
          "name": 'Summon Titan',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/46cfc4f4ead/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0e63c4fe037c46bb8fcb3b1402319d0cf1084711.png',
@@ -397,7 +397,7 @@
          "content": 'Призывает Titan-Egi и приказывает ему использовать умение Earthen Fury.<br/>Эффект Earthen Fury: бросается вперед и наносит урон землем всем противникам в радусе 5 ялмов с силой атаки 600 для первого и на 60% меньше для всех остальных<br/>Дополнительный эффект: накладывает 2 стака Earth Attunement<br/>Эффект Earth Attunement: Gemshine и Precious Brilliance  получают свойства стихии земли<br/>Продолжительность: 30 сек.<br/>Может быть использовано только под действием эффекта Topaz Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Titan-Egi, и вернется, как только закончится призыв.',
       },
       // PVE Skill 27
-      "Painflare": {
+      "PVE Skill 27": {
          "name": 'Painflare',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/722e85adea5/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0d06f6fcf4a18fc6dcf2e084098a5acecf958f28.png',
@@ -413,7 +413,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 150 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Aetherflow Gauge',
       },
       // PVE Skill 28
-      "Summon Garuda": {
+      "PVE Skill 28": {
          "name": 'Summon Garuda',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/20d0b7fc492/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0d45cc564da364190b10ea26b9978147b3813fd.png',
@@ -429,7 +429,7 @@
          "content": "Призывает Garuda-Egi  и приказывает ему использовать умение Aerial Blast.<br/>Эффект Aerial Blast: наносит урон ветром по цели и всем противникам в радиусе 5 ялмов с силой атаки 600 для первого и на 60% меньше для всех остальных<br/>Дополнительный эффект: накладывает 4 стака Wind Attunement<br/>Эффект Wind Attunement: Gemshine и Precious Brilliance получают свойства стихии ветра<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает эффект Garuda's Favor<br/>Эффект Garuda's Favor заканчивается при использовании определенных умений призывателя.<br/>Может быть использовано только под действием эффекта Emerald Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Garuda-Egi, и вернется, как только закончится призыв.",
       },
       // PVE Skill 29
-      "Energy Siphon": {
+      "PVE Skill 29": {
          "name": 'Energy Siphon',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/7beee5ac856/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9a6ba0bc2e8f682c23f8c2d9241a2ed4bf6a637c.png',
@@ -445,7 +445,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 100 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: накладывается эффект Aetherflow II<br/>Additional Effect: накладывается эффект Further Ruin<br/>Продолжительность: 60 сек.<br/>Имеет общее время восстановления с умением Energy Drain.',
       },
       // PVE Skill 30
-      "Ruin III": {
+      "PVE Skill 30": {
          "name": 'Ruin III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c2839ee8c3d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d2d65267abd378e60f7f9e832ee92be084ff6d7.png',
@@ -461,7 +461,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 310.',
       },
       // PVE Skill 31
-      "Ruby Ruin III": {
+      "PVE Skill 31": {
          "name": 'Ruby Ruin III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d2d65267abd378e60f7f9e832ee92be084ff6d7.png',
          "job_icon": 'SMN',
@@ -476,7 +476,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 410<br/>Стоимость: 1 Fire Attunement<br/>Это умение не имеет общего времени восстановления с другими умениями. После выполнения время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 32
-      "Topaz Ruin III": {
+      "PVE Skill 32": {
          "name": 'Topaz Ruin III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d2d65267abd378e60f7f9e832ee92be084ff6d7.png',
          "job_icon": 'SMN',
@@ -491,7 +491,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 300.<br/>Стоимость: 1 Earth Attunement<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 33
-      "Emerald Ruin III": {
+      "PVE Skill 33": {
          "name": 'Emerald Ruin III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d2d65267abd378e60f7f9e832ee92be084ff6d7.png',
          "job_icon": 'SMN',
@@ -506,7 +506,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 180.<br/>Стоимость: 1 Wind Attunement <br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 34
-      "Dreadwyrm Trance": {
+      "PVE Skill 34": {
          "name": 'Dreadwyrm Trance',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/565ec60b81e/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/629a0b7a52fe0aad68cf3d0a7a0d40ab0d9c45bf.png',
@@ -522,7 +522,7 @@
          "content": 'Персонаж входит в Dreadwyrm Trance.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: изменяет Ruin III на Astral Impulse и Outburst на Astral Flare<br/>Дополнительный эффект: дает Ruby Arcanum, Topaz Arcanum и Emerald Arcanum<br/>Можно использовать только в бою и когда Carbuncle призван.<br/>Это умение не имеет общего времени восстановления с другими умениями. ',
       },
       // PVE Skill 35
-      "Astral Impulse": {
+      "PVE Skill 35": {
          "name": 'Astral Impulse',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2ba7ab41cd2f8dac96ba0c89426eebff963d6be0.png',
          "job_icon": 'SMN',
@@ -537,7 +537,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 440<br/>Может быть использовано только под действием эффекта Dreadwyrm Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 36
-      "Astral Flare": {
+      "PVE Skill 36": {
          "name": 'Astral Flare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/41380367e3ff56dfc723ac049dbcacd00ac5c6f8.png',
          "job_icon": 'SMN',
@@ -552,7 +552,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 180 по цели и всем ближайшим противникам.<br/>Может быть использовано только под действием эффекта Dreadwyrm Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 37
-      "Astral Flow": {
+      "PVE Skill 37": {
          "name": 'Astral Flow',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fad79bc76d6/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3fd44c9091d6888f7b3b3ee449d3f71d94d9b05a.png',
@@ -568,7 +568,7 @@
          "content": "Направьте энергию активного транса или элементальной благосклонности на выполнение одного из нескольких умений.<br/>Эффект Dreadwyrm Trance: умение меняется на Deathflare<br/>Эффект Firebird Trance: умение меняется на Rekindle<br/>Эффект Ifrit's Favor: умение меняется на Crimson Cyclone<br/>Эффект Titan's Favor: умение меняется на Mountain Buster<br/>Эффект Garuda's Favor: умение меняется на Slipstream",
       },
       // PVE Skill 38
-      "Deathflare": {
+      "PVE Skill 38": {
          "name": 'Deathflare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/710d60dfcdf5a59cb192084786c7c37bff62fb99.png',
          "job_icon": 'SMN',
@@ -583,7 +583,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 500 для первого и на 60% меньше для всех остальных.<br/>Может быть использовано только под действием эффекта Dreadwyrm Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 39
-      "Ruin IV": {
+      "PVE Skill 39": {
          "name": 'Ruin IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/84226db4cce94d2c2c686af2c6fca01dfc6a63f9.png',
          "job_icon": 'SMN',
@@ -598,7 +598,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 430 для первого и на 60% меньше для всех остальных.<br/>Может быть использовано только под действием эффекта Further Ruin.',
       },
       // PVE Skill 40
-      "Searing Light": {
+      "PVE Skill 40": {
          "name": 'Searing Light',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6c4b1ae3c69201feb415963f374cd3449a4ad7db.png',
          "job_icon": 'SMN',
@@ -613,7 +613,7 @@
          "content": 'Увеличивает наносимый урон персонажем и ближайшими сопартийцами на 3%.<br/>Длительность: 30 сек.',
       },
       // PVE Skill 41
-      "Summon Bahamut": {
+      "PVE Skill 41": {
          "name": 'Summon Bahamut',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a1074a175f6/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2e961ffd2e67115c99ad1b4863fc29d5064c4fe9.png',
@@ -629,7 +629,7 @@
          "content": 'Персонаж входит в Dreadwyrm Trance и вызывает Demi-Bahamut.<br/>После вызова Demi-Bahamut автоматически использует Wyrmwave к целям, которые атакует персонаж.<br/>Увеличивает уровень угрозы персонажа при вызове Demi-Bahamut.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: изменяет Ruin III на Astral Impulse и Tri-disaster на Astral Flare<br/>Дополнительный эффект: дает Ruby Arcanum, Topaz Arcanum, and Emerald Arcanum<br/>Можно использовать только в бою и когда Carbuncle призван.<br/>Это умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVE Skill 42
-      "Wyrmwave": {
+      "PVE Skill 42": {
          "name": 'Wyrmwave',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d2234447db9cad86e7f87d6af71b7088e5fee400.png',
          "job_icon": 'SMN',
@@ -644,7 +644,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 150.<br/>Можно использовать только во время призыва Demi-Bahamut.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 43
-      "Enkindle Bahamut": {
+      "PVE Skill 43": {
          "name": 'Enkindle Bahamut',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cbf72c7579e45d4a64a7232be3fa7d38a34b703f.png',
          "job_icon": 'SMN',
@@ -659,7 +659,7 @@
          "content": 'риказывает Demi-Bahamut использовать Akh Morn.<br/>Эффект Akh Morn: удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 1,300 для первого и на 60% меньше для всех остальных.',
       },
       // PVE Skill 44
-      "Akh Morn": {
+      "PVE Skill 44": {
          "name": 'Akh Morn',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bdea704b3466837dbf634ca8fa4b21e80cddf833.png',
          "job_icon": 'SMN',
@@ -674,7 +674,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 1,300 для первого и на 60% меньше для всех остальных.<br/>Можно использовать только во время призыва Demi-Bahamut.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 45
-      "Ruby Rite": {
+      "PVE Skill 45": {
          "name": 'Ruby Rite',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c739e3604ba2d045b691a46c0dbef1a658951f3.png',
          "job_icon": 'SMN',
@@ -689,7 +689,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 510.<br/>Стоимость: 1 Fire Attunement<br/>Это умение не имеет общего времени восстановления с другими умениями. После выполнения время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 46
-      "Topaz Rite": {
+      "PVE Skill 46": {
          "name": 'Topaz Rite',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c4900529cf628e2f3fda4134c996741f8b465c3.png',
          "job_icon": 'SMN',
@@ -704,7 +704,7 @@
          "content": "Удар, наносящий урон землей с силой атаки 330.<br/>Дополнительный эффект: накладывает эффект Titan's Favor<br/>Эффект Titan's Favor заканчивается при использовании определенных умений призывателя.<br/>Стоимость: 1 Earth Attunement<br/><br/>※Это умение нельзя поместить на хотбар.",
       },
       // PVE Skill 47
-      "Emerald Rite": {
+      "PVE Skill 47": {
          "name": 'Emerald Rite',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/87c16672ddea00204d4c0489b5417166cdb2546a.png',
          "job_icon": 'SMN',
@@ -719,7 +719,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 230.<br/>Стоимость: 1 Wind Attunement <br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 48
-      "Tri-disaster": {
+      "PVE Skill 48": {
          "name": 'Tri-disaster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/20e1e40922c159401231154ab0cc94c789b1f58f.png',
          "job_icon": 'SMN',
@@ -734,7 +734,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 120 по цели и всем ближайшим противникам.',
       },
       // PVE Skill 49
-      "Ruby Disaster": {
+      "PVE Skill 49": {
          "name": 'Ruby Disaster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/20e1e40922c159401231154ab0cc94c789b1f58f.png',
          "job_icon": 'SMN',
@@ -749,7 +749,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 190 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Fire Attunement<br/>Это умение не имеет общего времени восстановления с другими умениями. После выполнения время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 50
-      "Topaz Disaster": {
+      "PVE Skill 50": {
          "name": 'Topaz Disaster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/20e1e40922c159401231154ab0cc94c789b1f58f.png',
          "job_icon": 'SMN',
@@ -764,7 +764,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 130 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Earth Attunement<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 51
-      "Emerald Disaster": {
+      "PVE Skill 51": {
          "name": 'Emerald Disaster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/20e1e40922c159401231154ab0cc94c789b1f58f.png',
          "job_icon": 'SMN',
@@ -779,7 +779,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 90 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Wind Attunement <br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 52
-      "Fountain of Fire": {
+      "PVE Skill 52": {
          "name": 'Fountain of Fire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1b50beab981774f701d16ac61674bfc01747f38b.png',
          "job_icon": 'SMN',
@@ -794,7 +794,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 540.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 53
-      "Brand of Purgatory": {
+      "PVE Skill 53": {
          "name": 'Brand of Purgatory',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/daebb0133d31dbdcc989ecf9fd04ef3acf040cba.png',
          "job_icon": 'SMN',
@@ -809,7 +809,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 240 по цели и всем ближайшим противникам.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 54
-      "Summon Phoenix": {
+      "PVE Skill 54": {
          "name": 'Summon Phoenix',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e38e769e9f268f4dcc345b25d310cd53d10d4795.png',
          "job_icon": 'SMN',
@@ -824,7 +824,7 @@
          "content": 'Персонаж входит в Firebird Trance и вызывает Demi-Phoenix, который в момент своего появления использует Everlasting Flight.<br/>После вызова Demi-Phoenix автоматически использует Scarlet Flame к целям, которые атакует персонаж.<br/>Увеличивает уровень угрозы персонажа при вызове Demi-Phoenix.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: изменяет Ruin III на Fountain of Fire и Tri-disaster на Brand of Purgatory<br/>Дополнительный эффект: дает Ruby Arcanum, Topaz Arcanum и Emerald Arcanum<br/>Можно использовать только в бою и когда Carbuncle призван.<br/>Это умение не имеет общего времени восстановления с другими умениями. ',
       },
       // PVE Skill 55
-      "Everlasting Flight": {
+      "PVE Skill 55": {
          "name": 'Everlasting Flight',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/47555a1b908cba86b377560667afa40e8471b69a.png',
          "job_icon": 'SMN',
@@ -839,7 +839,7 @@
          "content": 'Постепенно восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 100<br/>Продолжительность: 21 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 56
-      "Rekindle": {
+      "PVE Skill 56": {
          "name": 'Rekindle',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6b2befa4d39ad77fa8992d934bd796e836eed13f.png',
          "job_icon": 'SMN',
@@ -854,7 +854,7 @@
          "content": 'Восстанавливает HP персонажа или выбранному сопартийцу.<br/>Сила лечения: 400<br/>Дополнительный эффект: накладывает на цель Rekindle<br/>Продолжительность: 30 сек.<br/>Эффект Rekindle: периодическое лечение, когда HP падает ниже 75% или по истечении срока действия эффекта<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 57
-      "Scarlet Flame": {
+      "PVE Skill 57": {
          "name": 'Scarlet Flame',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/865ff61841e27dc0ede5742b0109c45b672c2ef2.png',
          "job_icon": 'SMN',
@@ -869,7 +869,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 150.<br/>Можно использовать только во время призыва Demi-Phoenix.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 58
-      "Enkindle Phoenix": {
+      "PVE Skill 58": {
          "name": 'Enkindle Phoenix',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/596917791c140eef84754e4488df04bfb7aabf87.png',
          "job_icon": 'SMN',
@@ -884,7 +884,7 @@
          "content": 'Приказывает Demi-Phoenix использовать Revelation.<br/>Эффект Revelation: удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 1,300 для первого и на 60% меньше для всех остальных<br/>Умение заменяет Enkindle Bahamut, пока призван Demi-Phoenix.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 59
-      "Revelation": {
+      "PVE Skill 59": {
          "name": 'Revelation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9358e80cfda84c41bef60f05c6f66218842a6f74.png',
          "job_icon": 'SMN',
@@ -899,7 +899,7 @@
          "content": 'Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 1,300 для первого и на 60% меньше для всех остальных.<br/>Можно использовать только во время призыва Demi-Phoenix.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 60
-      "Ruby Catastrophe": {
+      "PVE Skill 60": {
          "name": 'Ruby Catastrophe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aff103d032034722b3a4063ad749eb2bb85793aa.png',
          "job_icon": 'SMN',
@@ -914,7 +914,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 210 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Fire Attunement<br/>Это умение не имеет общего времени восстановления с другими умениями. После выполнения время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 61
-      "Topaz Catastrophe": {
+      "PVE Skill 61": {
          "name": 'Topaz Catastrophe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f6bc648e6b39fcdfdb5d747cc28ea98dd65b441.png',
          "job_icon": 'SMN',
@@ -929,7 +929,7 @@
          "content": "Удар, наносящий урон землей с силой атаки 140 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: накладывает эффект Titan's Favor<br/>Эффект Titan's Favor заканчивается при использовании определенных умений призывателя.<br/>Стоимость: 1 Earth Attunement<br/><br/>※Это умение нельзя поместить на хотбар.",
       },
       // PVE Skill 62
-      "Emerald Catastrophe": {
+      "PVE Skill 62": {
          "name": 'Emerald Catastrophe',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/876d6589f594c3f74d7d2834d297f18da7809199.png',
          "job_icon": 'SMN',
@@ -944,7 +944,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 100 по цели и всем ближайшим противникам.<br/>Стоимость: 1 Wind Attunement <br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 63
-      "Crimson Cyclone": {
+      "PVE Skill 63": {
          "name": 'Crimson Cyclone',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7ec3b0243e57959d38e7bcbfaaab4fe0bbf8972b.png',
          "job_icon": 'SMN',
@@ -959,7 +959,7 @@
          "content": "Рывок вперед и удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 430 для первого и на 65% меньше для всех остальных.<br/>Может быть использовано только под действием эффекта Ifrit's Favor.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Умение меняется на Crimson Strike после использования.<br/>※Это умение нельзя поместить на хотбар.",
       },
       // PVE Skill 64
-      "Crimson Strike": {
+      "PVE Skill 64": {
          "name": 'Crimson Strike',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a63bb4e29d20c938e1b68ea0dc0ab64c3a8a9fdf.png',
          "job_icon": 'SMN',
@@ -974,7 +974,7 @@
          "content": 'Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 430 для первого и на 65% меньше для всех остальных.<br/>Комбо умение: Crimson Cyclone<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 65
-      "Mountain Buster": {
+      "PVE Skill 65": {
          "name": 'Mountain Buster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/735d3aabed75539866193ca97b356367f818821f.png',
          "job_icon": 'SMN',
@@ -989,7 +989,7 @@
          "content": "Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 150 для первого и на 70% меньше для всех остальных.<br/>Может быть использовано только под действием эффекта Titan's Favor.<br/><br/>※Это умение нельзя поместить на хотбар.",
       },
       // PVE Skill 66
-      "Slipstream": {
+      "PVE Skill 66": {
          "name": 'Slipstream',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6a54b05a1f6bd144d28149045f1f9cc61f86daf3.png',
          "job_icon": 'SMN',
@@ -1004,7 +1004,7 @@
          "content": "Удар, наносящий урон ветром по цели и всем ближайшим противникам с силой атаки 430 для первого и на 65% меньше для всех остальных.<br/>Дополнительный эффект: создает ураган вокруг цели, наносящий урон всем противникам, попавшим в него<br/>Сила атаки: 30<br/>Продолжительность: 15 сек.<br/>Может быть использовано только под действием эффекта Garuda's Favor.<br/>Это умение не имеет общего времени восстановления с другими умениями. После выполнения время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.<br/><br/>※Это умение нельзя поместить на хотбар.",
       },
       // PVE Skill 67
-      "Summon Ifrit II": {
+      "PVE Skill 67": {
          "name": 'Summon Ifrit II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e49b3a55b75a637cb0e6e794d588b2ba4886c742.png',
          "job_icon": 'SMN',
@@ -1019,7 +1019,7 @@
          "content": "Призывает Ruby Ifrit и приказывает ему использовать умение Inferno.<br/>Эффект Inferno: бросается вперед и наносит урон огнем по цели и всем противникам в радиусе 5 ялмов с силой атаки 750 для первого и на 60% меньше для всех остальных<br/>Дополнительный эффект: накладывает 2 стака Fire Attunement<br/>Продолжительность: 30 сек.<br/>Эффект Fire Attunement: Gemshine и Precious Brilliance  получают свойства стихии огня<br/>Дополнительный эффект: накладывает Ifrit's Favor<br/>Эффект Ifrit's Favor заканчивается при использовании определенных умений призывателя.<br/>Может быть использовано только под действием эффекта Ruby Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Ruby Ifrit и вернется, как только закончится призыв.",
       },
       // PVE Skill 68
-      "Summon Titan II": {
+      "PVE Skill 68": {
          "name": 'Summon Titan II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d5e3edcb915673621b1ccb51774abf494eba6b5e.png',
          "job_icon": 'SMN',
@@ -1034,7 +1034,7 @@
          "content": 'Призывает Topaz Titan и приказывает ему использовать умение Earthen Fury.<br/>Эффект Inferno: бросается вперед и наносит урон землей по цели и всем противникам в радиусе 5 ялмов с силой атаки 750 для первого и на 60% меньше для всех остальных<br/>Дополнительный эффект: накладывает 4 стака Earth Attunement<br/>Продолжительность: 30 сек.<br/>Эффект Earth Attunement: Gemshine и Precious Brilliance  получают свойства стихии земли<br/>Может быть использовано только под действием эффекта Topaz Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Topaz Titan, и вернется, как только закончится призыв.',
       },
       // PVE Skill 69
-      "Summon Garuda II": {
+      "PVE Skill 69": {
          "name": 'Summon Garuda II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f25f4c81570c889872295e4ba99496ee6bf3fc89.png',
          "job_icon": 'SMN',
@@ -1049,7 +1049,7 @@
          "content": "Призывает Emerald Garuda и приказывает ему использовать умение Aerial Blast.<br/>Эффект Aerial Blast: наносит урон ветром по цели и всем противникам в радиусе 5 ялмов с силой атаки 750 для первого и на 60% меньше для всех остальных<br/>Дополнительный эффект: накладывает 4 стака Wind Attunement<br/>Продолжительность: 30 сек.<br/>Эффект Wind Attunement: Gemshine и Precious Brilliance получают свойства стихии ветра<br/>Дополнительный эффект: накладывает эффект Garuda's Favor<br/>Эффект Garuda's Favor заканчивается при использовании определенных умений призывателя.<br/>Может быть использовано только под действием эффекта Emerald Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Emerald Garuda, и вернется, как только закончится призыв.",
       },
       // Pet Action
-      "Pet Radiant Aegis": {
+      "Pet Action": {
          "name": 'Radiant Aegis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/926e42e9a30e357e4214c95427cd1dd1592974c5.png',
          "job_icon": 'ACN',
@@ -1070,7 +1070,7 @@
       "Guard": 'Приказ питомцу не атаковать, пока ваш персонаж не атакует.<',
       "Steady": 'Приказ питомцу не атаковать до тех пор, пока вы напрямую ему не прикажете.',
       // Trait 01
-      "Enhanced Aethercharge": {
+      "Trait 01": {
          "name": 'Enhanced Aethercharge',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c6975b0e58d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0d5f1b0f41d84fb376bb973d3d453f1ed48a9ca2.png',
@@ -1079,7 +1079,7 @@
          "content": 'Накладывает эффекты Ruby Arcanum и Topaz Arcanum при использовании Aethercharge.',
       },
       // Trait 02
-      "Maim and Mend": {
+      "Trait 02": {
          "name": 'Maim and Mend',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
          "job_icon": 'ACN',
@@ -1087,7 +1087,7 @@
          "content": 'Увеличивает базовый урон от умений и восстановление HP на 10%. Также увеличивает базовый урон и восстановление HP питомца на 10%.',
       },
       // Trait 03
-      "Enhanced Aethercharge II": {
+      "Trait 03": {
          "name": 'Enhanced Aethercharge II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/df55a50ece90bf55a6df3e1029d3c6ee481527fb.png',
          "job_icon": 'ACN',
@@ -1095,7 +1095,7 @@
          "content": 'Накладывает эффект Ruby Arcanum, Topaz Arcanum и Emerald Arcanum после использования Aethercharge.',
       },
       // Trait 04
-      "Ruin Mastery": {
+      "Trait 04": {
          "name": 'Ruin Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/45ea45aff3a/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c168e6c62a3af11ff0e563c27ebe4ce647be6fd3.png',
@@ -1104,7 +1104,7 @@
          "content": 'Улучшает умение Ruin до Ruin II.',
       },
       // Trait 05
-      "Ruby Summoning Mastery": {
+      "Trait 05": {
          "name": 'Ruby Summoning Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4bb5af1e8a9/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ab4d285d509b54780c84520c65ce899550edb7ba.png',
@@ -1113,7 +1113,7 @@
          "content": 'Улучшает Summon Ruby до Summon Ifrit.',
       },
       // Trait 06
-      "Topaz Summoning Mastery": {
+      "Trait 06": {
          "name": 'Topaz Summoning Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/46cfc4f4ead/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5352a72c327a0d3f663cf4dd75dfec7cc6dbd8bc.png',
@@ -1122,7 +1122,7 @@
          "content": 'Улучшает Summon Topaz до Summon Titan.',
       },
       // Trait 07
-      "Maim and Mend II": {
+      "Trait 07": {
          "name": 'Maim and Mend II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
          "job_icon": 'ACN',
@@ -1130,7 +1130,7 @@
          "content": 'Увеличивает базовый урон от умений и восстановление HP на 30%. Также увеличивает базовый урон и восстановление HP питомца на 30%.',
       },
       // Trait 08
-      "Emerald Summoning Mastery": {
+      "Trait 08": {
          "name": 'Emerald Summoning Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/20d0b7fc492/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f4f08c3219769e18eb45db731619e58bff42c137.png',
@@ -1139,7 +1139,7 @@
          "content": 'Улучшает Summon Emerald до Summon Garuda.',
       },
       // Trait 09
-      "Enkindle": {
+      "Trait 09": {
          "name": 'Enkindle',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/7fcd8e13916/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e9c0aec5b67359dfa8fcd1b5cdd72000d94705b6.png',
@@ -1148,7 +1148,7 @@
          "content": "Усиливает основную атаку призываемых существ, улучшая Ifrit-Egi's Burning Strike до Inferno, Titan-Egi's Rock Buster до Earthen Fury и Garuda-Egi's Aerial Slash до Aerial Blast.",
       },
       // Trait 10
-      "Ruin Mastery II": {
+      "Trait 10": {
          "name": 'Ruin Mastery II',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c2839ee8c3d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/922e9f98625dbd32de2731c34566f15d168d987d.png',
@@ -1157,7 +1157,7 @@
          "content": 'Улучшает умение Ruin II до Ruin III.',
       },
       // Trait 11
-      "Aethercharge Mastery": {
+      "Trait 11": {
          "name": 'Aethercharge Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/565ec60b81e/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8b4a2b42cc234681fc17f9c6896ee86fe590077a.png',
@@ -1166,7 +1166,7 @@
          "content": 'Улучшает умение Aethercharge до Dreadwyrm Trance.',
       },
       // Trait 12
-      "Enhanced Energy Siphon": {
+      "Trait 12": {
          "name": 'Enhanced Energy Siphon',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/53ddce372333beca80631fa8666b8c55f2d1828e.png',
          "job_icon": 'SMN',
@@ -1174,7 +1174,7 @@
          "content": 'Накладывает эффект Further Ruin после использования Energy Drain или Energy Siphon.',
       },
       // Trait 13
-      "Enhanced Dreadwyrm Trance": {
+      "Trait 13": {
          "name": 'Enhanced Dreadwyrm Trance',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a1074a175f6/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8eed8e90cb9b2303b53bca1d58495492b16a5b6f.png',
@@ -1183,7 +1183,7 @@
          "content": 'Улучшает умение Dreadwyrm Trance до Summon Bahamut.',
       },
       // Trait 14
-      "Ruin Mastery III": {
+      "Trait 14": {
          "name": 'Ruin Mastery III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/878a70f208dc7cc5bd6adbbfa406c94cb4703203.png',
          "job_icon": 'SMN',
@@ -1191,7 +1191,7 @@
          "content": 'Усиливает Gemshine в соответствии с текущей активной стихией.<br/>Улучшение Fire Attunement: Ruby Rite<br/>Улучшение Earth Attunement: Topaz Rite<br/>Улучшение Wind Attunement: Emerald Rite',
       },
       // Trait 15
-      "Outburst Mastery": {
+      "Trait 15": {
          "name": 'Outburst Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a041cbfab769ce247b1e8845cb9f766eb435a89.png',
          "job_icon": 'SMN',
@@ -1199,7 +1199,7 @@
          "content": 'Улучшает умение Outburst до Tri-disaster.',
       },
       // Trait 16
-      "Enhanced Summon Bahamut": {
+      "Trait 16": {
          "name": 'Enhanced Summon Bahamut',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8b01009ce2128991d557d23ac60c016fa5f77a68.png',
          "job_icon": 'SMN',
@@ -1207,7 +1207,7 @@
          "content": 'Улучшает Summon Bahamut до Summon Phoenix, когда Demi-Bahamut возвращается после призыва.',
       },
       // Trait 17
-      "Outburst Mastery II": {
+      "Trait 17": {
          "name": 'Outburst Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cb628fc19fa6edbd36ec1c3f10ae2c511a574873.png',
          "job_icon": 'SMN',
@@ -1215,7 +1215,7 @@
          "content": 'Усиливает Precious Brilliance в соответствии с текущей активной стихией.<br/>Улучшение Fire Attunement: Ruby Catastrophe<br/>Улучшение Earth Attunement: Topaz Catastrophe<br/>Улучшение Wind Attunement: Emerald Catastrophe',
       },
       // Trait 18
-      "Ruin Mastery IV": {
+      "Trait 18": {
          "name": 'Ruin Mastery IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d74d04bc18a9d70697cc89b5172335a2a8efd55f.png',
          "job_icon": 'SMN',
@@ -1223,7 +1223,7 @@
          "content": 'Увеличивает силу атаки Ruin III до 310, Ruby Rite до 510, Topaz Rite до 330 и Emerald Rite до 230.',
       },
       // Trait 19
-      "Elemental Mastery": {
+      "Trait 19": {
          "name": 'Elemental Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/416d78494cf0fff59953835015c798594957d3fa.png',
          "job_icon": 'SMN',
@@ -1231,7 +1231,7 @@
          "content": "Накладывает Ifrit's Favor после использования Summon Ifrit, Titan's Favor после использования Topaz Rite или Topaz Catastrophe и Garuda's Favor после использования Summon Garuda.<br/>Усиливает Astral Flow в соответствии с благосклонностью на персонаже.<br/>Улучшение Ifrit's Favor: Crimson Cyclone<br/>Улучшение Titan's Favor: Mountain Buster<br/>Улучшение Garuda's Favor: Slipstream",
       },
       // Trait 20
-      "Enhanced Radiant Aegis": {
+      "Trait 20": {
          "name": 'Enhanced Radiant Aegis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e7fa7ae2aa1f0c0fc8ee4623545a07e592a62e75.png',
          "job_icon": 'SMN',
@@ -1239,7 +1239,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Radiant Aegis.<br/>Максимум зарядов: 2',
       },
       // Trait 21
-      "Enkindle II": {
+      "Trait 21": {
          "name": 'Enkindle II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e9ffce052261a486d77cc418e7a220293b8d0d35.png',
          "job_icon": 'SMN',
@@ -1247,7 +1247,7 @@
          "content": 'Улучшает Summon Ifrit до Summon Ifrit II, Summon Titan до Summon Titan II и Summon Garuda до Summon Garuda II.',
       },
       // PVP Skill 01
-      "PVP Ruin III": {
+      "PVP Skill 01": {
          "name": 'Ruin III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/38c2df65f188c9a5f9a3ad26343f8d835f309628.png',
          "classification": 'Заклинание',
@@ -1259,7 +1259,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 5,000.<br/><br/>※Умение меняется на Astral Impulse под действием эффекта Dreadwyrm Trance.<br/>※Умение меняется на Fountain of Fire под действием эффекта Firebird Trance.',
       },
       // PVP Skill 02
-      "PVP Crimson Cyclone": {
+      "PVP Skill 02": {
          "name": 'Crimson Cyclone',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79fa50e276f79eda778dfce164dc19481e609e30.png',
          "classification": 'Заклинание',
@@ -1271,7 +1271,7 @@
          "content": 'Рывок вперед и удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 8,000.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Это умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Crimson Strike после использования.',
       },
       // PVP Skill 03
-      "PVP Slipstream": {
+      "PVP Skill 03": {
          "name": 'Slipstream',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ce754803ec26e9785e32a9650cffcfc65c56409e.png',
          "classification": 'Заклинание',
@@ -1283,7 +1283,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 8,000 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: создает Slipstream вокруг цели, наносящий урон всем противникам, попавшим в него..<br/>Противники, находящиеся в радиусе 5 ялмов от центра бури не получают урона.<br/>Сила атаки: 4,000<br/>Дополнительный эффект: увеличивает скорость передвижения сопартийцев, находящихся в Slipstream, на 25%<br/>Продолжительность: 10 сек.<br/>Это умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 04
-      "PVP Radiant Aegis": {
+      "PVP Skill 04": {
          "name": 'Radiant Aegis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b85eed363cf03ccdd2ddb535f391e2578dc27f61.png',
          "classification": 'Способность',
@@ -1295,7 +1295,7 @@
          "content": 'оздает барьер вокруг персонажа или выбранного сопартийца, снижающий получаемый урон на 20% и поглощающий урон, равный силе лечения 10,000.<br/>Продолжительность: 10 сек.',
       },
       // PVP Skill 05
-      "PVP Mountain Buster": {
+      "PVP Skill 05": {
          "name": 'Mountain Buster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4fc71ae248e50adc69b9c80b00442de765b93d4b.png',
          "classification": 'Способность',
@@ -1307,7 +1307,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 4,000 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на первую цель эффект связывание (bind), а на все остальные цели - тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: притягивает остальные цели к первой',
       },
       // PVP Skill 06
-      "PVP Fester": {
+      "PVP Skill 06": {
          "name": 'Fester',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a3ee44589112e6e3be04096f2b468bf6c6cb44bc.png',
          "classification": 'Способность',
@@ -1319,7 +1319,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000.<br/>Сила атаки увеличивается по мере уменьшения HP цели, вплоть до 8,000, и достигает максимального значения, когда у цели остается 50% HP или меньше.<br/>Максимум зарядов: 2',
       },
       // PVP Skill 07
-      "PVP Astral Impulse": {
+      "PVP Skill 07": {
          "name": 'Astral Impulse',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a4f03f56fc241517b2f1d3b66f44968caf83d6f7.png',
          "classification": 'Заклинание',
@@ -1331,7 +1331,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 7,500.<br/>Может быть использовано только под действием эффекта Dreadwyrm Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 08
-      "PVP Fountain of Fire": {
+      "PVP Skill 08": {
          "name": 'Fountain of Fire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/38e05864b47b78020da96fc263981869c4b6a5c9.png',
          "classification": 'Заклинание',
@@ -1343,7 +1343,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 5,000.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 09
-      "PVP Crimson Strike": {
+      "PVP Skill 09": {
          "name": 'Crimson Strike',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/20b52c9ffc91356c6aceaaf9752e942df7bceffb.png',
          "classification": 'Заклинание',
@@ -1355,7 +1355,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 12000 по цели и всем ближайшим противникам.<br/>Комбо умение: Crimson Cyclone<br/>Дополнительный эффект: отталкивает противников на 5 ялмов от первой цели<br/>Это умение не имеет общего времени восстановления с другими умениями. <br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 10
-      "PVP Enkindle Bahamut": {
+      "PVP Skill 10": {
          "name": 'Enkindle Bahamut',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/527ed62ae9f390bfc9ca7280f99d4d44a5d6d623.png',
          "classification": 'Способность',
@@ -1367,7 +1367,7 @@
          "content": 'Приказывает Demi-Bahamut использовать Akh Morn.<br/>Эффект Akh Morn: удар, наносящий нестихийный урон с силой атаки 12,000 по цели и всем ближайшим противникам.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 11
-      "PVP Wyrmwave": {
+      "PVP Skill 11": {
          "name": 'Wyrmwave',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/486ac3f0e00283c10de5009a26b0cc90c3c424d4.png',
          "classification": 'Заклинание',
@@ -1379,7 +1379,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 6,000.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 12
-      "PVP Akh Morn": {
+      "PVP Skill 12": {
          "name": 'Akh Morn',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/527ed62ae9f390bfc9ca7280f99d4d44a5d6d623.png',
          "classification": 'Способность',
@@ -1391,7 +1391,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 12,000 по цели и всем ближайшим противникам.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 13
-      "PVP Enkindle Phoenix": {
+      "PVP Skill 13": {
          "name": 'Enkindle Phoenix',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f372829c6195b29b0bc550a544a39e1307e859b6.png',
          "classification": 'Способность',
@@ -1403,7 +1403,7 @@
          "content": 'Приказывает Demi-Phoenix использовать Revelation.<br/>Эффект Revelation: удар, наносящий нестихийный урон с силой атаки 6000 по цели и всем ближайшим противникам<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 14
-      "PVP Scarlet Flame": {
+      "PVP Skill 14": {
          "name": 'Scarlet Flame',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b078c7a3180375e47a20012da7ca10c5ca364ef.png',
          "classification": 'Заклинание',
@@ -1415,7 +1415,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 4,000.<br/>Дополнительный эффект: снижает наносимый целью урон на 50%<br/>Продолжительность: 5 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 15
-      "PVP Revelation": {
+      "PVP Skill 15": {
          "name": 'Revelation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7b2d75cdeffd1d00b2e2088f9073b3d02f7da5e1.png',
          "classification": 'Способность',
@@ -1427,7 +1427,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 6,000 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 16
-      "PVP Summon Bahamut": {
+      "PVP Skill 16": {
          "name": 'Summon Bahamut',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7ef1dd621306bd909533ec27e89d0c1dc00da182.png',
          "cast": 'Мгновенная',
@@ -1438,7 +1438,7 @@
          "content": 'Персонаж входит в Dreadwyrm Trance и вызывает Demi-Bahamut на выбранное место.<br/>Продолжительность: 20 сек.<br/>После призыва Demi-Bahamut применит Megaflare, а затем автоматически использует Wyrmwave, отдавая предпочтение целям с наименьшим количеством HP в радиусе 30 ялмов.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Умение меняется на Enkindle Bahamut после использования.<br/>※Ruin III меняется на Astral Impulse после использования под эффектом Dreadwyrm Trance.',
       },
       // PVP Skill 17
-      "PVP Megaflare": {
+      "PVP Skill 17": {
          "name": 'Megaflare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2a26548300186f20cfb000ecd2e279e952b0daf7.png',
          "cast": 'Мгновенная',
@@ -1449,7 +1449,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 18000 по всем ближайшим противникам.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 18
-      "PVP Summon Phoenix": {
+      "PVP Skill 18": {
          "name": 'Summon Phoenix',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/43a7121c604b4da78f2a9d4110cc2a85bc6c6425.png',
          "cast": 'Мгновенная',
@@ -1460,7 +1460,7 @@
          "content": 'Персонаж входит в Firebird Trance и вызывает Demi-Phoenix на выбранное место.<br/>Продолжительность: 20 сек.<br/>После призыва Demi-Phoenix применит Everlasting Flight, а затем автоматически использует Scarlet Flame, выбирая ближайшую цель в радиусе 30 ялмов.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Умение меняется на Enkindle Phoenix после использования.<br/>※Ruin III меняется на Fountain of Fire после использования под эффектом Firebird Trance.',
       },
       // PVP Skill 19
-      "PVP Everlasting Flight": {
+      "PVP Skill 19": {
          "name": 'Everlasting Flight',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/790d6bfaf5e0b6360d2a39c760e66f1b92ba4b46.png',
          "cast": 'Мгновенная',
@@ -1475,4 +1475,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

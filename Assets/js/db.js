@@ -162,3 +162,11 @@ function FILL_DB_SKILLS_LIMITED(DB){
 		<td class="content">`+skill['content']+`</td>`
 	});
 }
+
+function FILL_DB_SKILLS_MENU(DB){
+	$('*[db-skill-menu]').each(function () {
+		let key = this.getAttribute('db-skill-menu');
+		let skill = DB[key];
+		this.innerHTML = `<p title="`+ skill['name'] +`"></p><img src="`+skill['skill_icon']+`">`
+	});
+}

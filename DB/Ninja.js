@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 02/10/2023`,
       // PVE Skill 01
-      "Spinning Edge": {
+      "PVE Skill 01": {
          "name": 'Spinning Edge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/657b568d32fd379339d365704c75ee7ca7e0cbd9.png',
          "job_icon": 'ROG',
@@ -17,7 +17,7 @@
          "content": 'Удар, наносящий урон с силой атаки 220.<br/>Дополнительный эффект: восполняет шкалу Ninki Gauge на 5',
       },
       // PVE Skill 02
-      "Shade Shift": {
+      "PVE Skill 02": {
          "name": 'Shade Shift',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/533a4a3e924aaf268ee89a9c58845941bb73bad1.png',
          "job_icon": 'ROG',
@@ -31,7 +31,7 @@
          "content": 'Создает тени, которые поглощают получаемый урон в размере 20% от максимального HP.<br/>Продолжительность: 20 сек.',
       },
       // PVE Skill 03
-      "Gust Slash": {
+      "PVE Skill 03": {
          "name": 'Gust Slash',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b3414364511f0fa913d25a989b88668c6152a90.png',
          "job_icon": 'ROG',
@@ -45,7 +45,7 @@
          "content": 'Удар, наносящий урон с силой атаки 160.<br/>Комбо умение: Spinning Edge<br/>Сила в комбо: 320<br/>Комбо бонус: восполняет шкалу Ninki Gauge на 5',
       },
       // PVE Skill 04
-      "Hide": {
+      "PVE Skill 04": {
          "name": 'Hide',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2dc011be7f8180f6559af70db7dc93c4b0229d95.png',
          "job_icon": 'ROG',
@@ -59,7 +59,7 @@
          "content": 'Персонаж сливается с окружающим миром, чтобы большинство противников не смогли его обнаружить, снижая скорость передвижения на 50%. Не действует на врагов на 10 уровней выше, а также на некоторых противников с особым зрением.<br/>Дополнительный эффект: восстанавливает 2 заряда всех мудр<br/>Эффект Doton заканчивается после использования Hide.<br/>Не может быть использовано во время боя.<br/>Эффект заканчивается при использовании любого умения, кроме ускорения (sprint) или при повторном использовании Hide.',
       },
       // PVE Skill 05
-      "Throwing Dagger": {
+      "PVE Skill 05": {
          "name": 'Throwing Dagger',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9bb819456d7/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e874766b966c4e6a786b58a35d76d3c0bd25b973.png',
@@ -74,7 +74,7 @@
          "content": 'Дальний удар, наносящий урон с силой атаки 120.<br/>Дополнительный эффект: восполняет шкалу Ninki Gauge на 5',
       },
       // PVE Skill 06
-      "Mug": {
+      "PVE Skill 06": {
          "name": 'Mug',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3551bcd013b/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/61a5e5150f8d24fa8d9d5dfbefceb5ec53fe4045.png',
@@ -89,7 +89,7 @@
          "content": 'Удар, наносящий урон с силой атаки 150.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 5%<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: увеличивает шанс выпадения дополнительных предметов из цели (в открытом мире), если Mug нанесен до или в качестве завершающего удара<br/>Дополнительный эффект: восполняет шкалу Ninki Gauge на 40',
       },
       // PVE Skill 07
-      "Trick Attack": {
+      "PVE Skill 07": {
          "name": 'Trick Attack',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fb4232c3fd76ce4d889759ec7ef7bffb15b78ede.png',
          "job_icon": 'ROG',
@@ -103,7 +103,7 @@
          "content": 'Удар, наносящий урон с силой атаки 300, при выполнении удара в спину цели 400.<br/>Дополнительный эффект: увеличивает наносимый персонажем урон по цели на 10%<br/>Продолжительность: 15 сек.<br/>Может быть использовано только под действием эффекта Hidden.',
       },
       // PVE Skill 08
-      "Aeolian Edge": {
+      "PVE Skill 08": {
          "name": 'Aeolian Edge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e68ade763da71adb1e8401db79a08e1df6f4d9e1.png',
          "job_icon": 'ROG',
@@ -117,7 +117,7 @@
          "content": 'Удар, наносящий урон с силой атаки 140, при выполнении удара в спину цели 200.<br/>Комбо умение: Gust Slash<br/>Сила в комбо: 380<br/>Сила в комбо в спину цели: 440<br/>Комбо бонус: восполняет шкалу Ninki Gauge на 15',
       },
       // PVE Skill 09
-      "Ten": {
+      "PVE Skill 09": {
          "name": 'Ten',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fb587e6e821/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/55c66e798d7404567ec69a023335542cef7cd916.png',
@@ -132,7 +132,7 @@
          "content": 'Собирает жестами рук ритуальную мудру, обозначающую "небо".<br/>Продолжительность: 6 сек.<br/>Максимум зарядов: 2<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/>И наоборот, использование боевых навыков приводит к активации времени восстановления этого умения.',
       },
       // PVE Skill 10
-      "Ninjutsu": {
+      "PVE Skill 10": {
          "name": 'Ninjutsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b1362c998dbfc19dfd13223d2ae275be7f4db7cc.png',
          "job_icon": 'NIN',
@@ -146,7 +146,7 @@
          "content": 'Собирает специальное ниндзюцу, соответсвующее с комбинацией мудр, созданной непосредственно перед этим.<br/>Если до объединения мудр и выполнения ниндзюцу будет использовано любое другое умение, Ninjutsu будет провалено.<br/>При использовании Ninjutsu активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/>И наоборот, использование боевых навыков приводит к активации времени восстановления этого умения.<br/>Восстанавливает 2 заряда всех мудр при использовании Hide вне боя.',
       },
       // PVE Skill 11
-      "Chi": {
+      "PVE Skill 11": {
          "name": 'Chi',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d1c274636ba/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1836df5cdf1d1f78ae7b2f65462661f2fa6a79d8.png',
@@ -161,7 +161,7 @@
          "content": 'Собирает жестами рук ритуальную мудру, обозначающую "земля".<br/>Продолжительность: 6 сек.<br/>Максимум зарядов: 2<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/>И наоборот, использование боевых навыков приводит к активации времени восстановления этого умения.',
       },
       // PVE Skill 12
-      "Death Blossom": {
+      "PVE Skill 12": {
          "name": 'Death Blossom',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d40b78dd5c99076b25086882f27de295f8a609af.png',
          "job_icon": 'ROG',
@@ -175,7 +175,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100 по всем окружающим противникам.<br/>Дополнительный эффект: восполняет шкалу Ninki Gauge на 5',
       },
       // PVE Skill 13
-      "Assassinate": {
+      "PVE Skill 13": {
          "name": 'Assassinate',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/99d0c3688cb4d3fafd0df210199783bcadc74cc2.png',
          "job_icon": 'NIN',
@@ -189,7 +189,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200.',
       },
       // PVE Skill 14
-      "Shukuchi": {
+      "PVE Skill 14": {
          "name": 'Shukuchi',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1f28eecd53c/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ea2717bad5b805b35bb32731d78113692104a30d.png',
@@ -204,7 +204,7 @@
          "content": 'Быстро перемещается в указанное место.<br/>Максимум заряд: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 15
-      "Jin": {
+      "PVE Skill 15": {
          "name": 'Jin',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2c937a7e1f7/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2183f2672edde169e6276764503ec11ae06b4c1e.png',
@@ -219,7 +219,7 @@
          "content": 'Собирает жестами рук ритуальную мудру, обозначающую "человек".<br/>Продолжительность: 6 сек.<br/>Максимум зарядов: 2<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/>И наоборот, использование боевых навыков приводит к активации времени восстановления этого умения.',
       },
       // PVE Skill 16
-      "Kassatsu": {
+      "PVE Skill 16": {
          "name": 'Kassatsu',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2d589d83483/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a12553440d7385aaafc940cac8f14682e3012392.png',
@@ -234,7 +234,7 @@
          "content": 'Позволяет использовать одно ниндзюцу без расхода зарядов мудры.<br/>Дополнительный эффект: увеличивает урон от следующего умения ниндзюцу на 30%<br/>Продолжительность: 15 сек.<br/>Время повторного применения мудры не зависит от использования этого умения.',
       },
       // PVE Skill 17
-      "Hakke Mujinsatsu": {
+      "PVE Skill 17": {
          "name": 'Hakke Mujinsatsu',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/74499f0e20d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/86e59c1bd3dedee2a6b68d3321da04c68a3acb52.png',
@@ -249,7 +249,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100 по всем окружающим противникам.<br/>Комбо умение: Death Blossom<br/>Сила в комбо: 130<br/>Комбо бонус: увеличивает продолжительность Huton на 10 сек., вплоть до 60 сек.<br/>Комбо бонус: восполняет шкалу Ninki Gauge на 5',
       },
       // PVE Skill 18
-      "Armor Crush": {
+      "PVE Skill 18": {
          "name": 'Armor Crush',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/7f99763377d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f8e49f627d8f6e16b91b2192b322812f09c40475.png',
@@ -264,7 +264,7 @@
          "content": 'Удар, наносящий урон с силой атаки 140, при выполнении удара в спину цели 200.<br/>Комбо умение: Gust Slash<br/>Combo Potency: 360<br/>Сила в комбо в спину цели: 420<br/>Комбо бонус: увеличивает продолжительность Huton на 30 сек., вплоть до 60 сек.<br/>Комбо бонус: восполняет шкалу Ninki Gauge на 15',
       },
       // PVE Skill 19
-      "Dream Within a Dream": {
+      "PVE Skill 19": {
          "name": 'Dream Within a Dream',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51342498a4d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f2e750bda00af60c3a06480f512753c8b6d5951b.png',
@@ -279,7 +279,7 @@
          "content": 'Тройной удар, каждый из которых наносит урон с силой атаки 150.',
       },
       // PVE Skill 20
-      "Huraijin": {
+      "PVE Skill 20": {
          "name": 'Huraijin',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b8732f78acf/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3bb09311515f9d0258b29e3751f0e05ec0c18cec.png',
@@ -294,7 +294,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: накладывает эффект Huton<br/>Продолжительность: 60 сек.<br/>Дополнительный эффект: восполняет шкалу Ninki Gauge на 5',
       },
       // PVE Skill 21
-      "Hellfrog Medium": {
+      "PVE Skill 21": {
          "name": 'Hellfrog Medium',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c802df3d7abd5e50889d1cc5e97cf64eb1610afa.png',
          "job_icon": 'NIN',
@@ -308,7 +308,7 @@
          "content": 'Удар, наносящий урон с силой атаки 160 по цели и всем окружающим противникам.<br/>Стоимость: 50 Ninki Gauge<br/>Имеет общее время восстановления с умением Bhavacakra.',
       },
       // PVE Skill 22
-      "Bhavacakra": {
+      "PVE Skill 22": {
          "name": 'Bhavacakra',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7fa8283b30b9ac35aada60984cbfaf01d3268c95.png',
          "job_icon": 'NIN',
@@ -322,7 +322,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 350.<br/>Бонус Meisui: сила атаки увеличивается до 500, когда персонаж находится под эффектом Meisui<br/>Стоимость: 50 Ninki Gauge<br/>Имеет общее время восстановления с умением Hellfrog Medium.',
       },
       // PVE Skill 23
-      "Ten Chi Jin": {
+      "PVE Skill 23": {
          "name": 'Ten Chi Jin',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a5518b30cd3/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9c0c72efe9ba9c13d3765b1b7dd863c68eeaf4ba.png',
@@ -337,7 +337,7 @@
          "content": 'Временно превращает каждую из трех мудр в умение ниндзюцу. Использование одного из этих умений преобразует остальные мудры в различные умения ниндзюцу, пока не будут использованы все три или не истечет срок действия эффекта Ten Chi Jin.<br/>Продолжительность: 6 сек.<br/>Можно использовать только ниндзюцу, пока активно умение. Одно и то же ниндзюцу не может быть использовано дважды.<br/>Не может быть использовано под действием Kassatsu. Эффект прекращается при перемещении.',
       },
       // PVE Skill 24
-      "Meisui": {
+      "PVE Skill 24": {
          "name": 'Meisui',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9c7d1c58eb10c5d105f1ee98a21f84a031d26518.png',
          "job_icon": 'NIN',
@@ -351,7 +351,7 @@
          "content": 'Рассеивает Suiton, увеличивая шкалу Ninki Gauge на 50.<br/>Дополнительный эффект: увеличивает силу атаки Bhavacakra до 500<br/>Продолжительность: 30 сек.<br/>Может быть использовано только в бою.',
       },
       // PVE Skill 25
-      "Bunshin": {
+      "PVE Skill 25": {
          "name": 'Bunshin',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0469d406babef3b172ba2a567f748b6ff8e11860.png',
          "job_icon": 'NIN',
@@ -365,7 +365,7 @@
          "content": 'Накладывает 5 стаков Bunshin, каждый из которых позволяет тени персонажа атаковать противников каждый раз, когда используется боевой навык. Сила атаки тени зависит от использованной атаки, но не зависит от комбо бонусов.<br/>Сила атаки ближнего боя: 160<br/>Сила атаки дальнего боя: 160<br/>Сила атаки по площади: 80<br/>Ninki Gauge увеличивается на 5 каждый раз, когда тень персонажа наносит атак<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает Phantom Kamaitachi Ready<br/>Продолжительность: 45 сек.<br/>Стоимость: 50 Ninki Gauge<br/><br/>※После использования умение меняется на Phantom Kamaitachi.',
       },
       // PVE Skill 26
-      "Phantom Kamaitachi": {
+      "PVE Skill 26": {
          "name": 'Phantom Kamaitachi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/45a5ef76e62a78c0c0fcf1feeefb4b992ab82346.png',
          "job_icon": 'NIN',
@@ -379,7 +379,7 @@
          "content": 'Тень персонажа атакует, нанося урон ветром по цели и всем ближайшим противникам в радиусе 5 ялмов с силой 600 для первого противника и на 50% меньше для всех остальных.<br/>Дополнительный эффект: увеличивает продолжительность Huton на 10 сек., вплоть до 60 сек.<br/>Дополнительный эффект: увеличивает Ninki Gauge на 10<br/>Можно использовать только под действием эффекта Phantom Kamaitachi Ready.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 27
-      "Hollow Nozuchi": {
+      "PVE Skill 27": {
          "name": 'Hollow Nozuchi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/54d329bd6de61295054388e35afdd610561884ca.png',
          "job_icon": 'NIN',
@@ -393,7 +393,7 @@
          "content": 'Все противники, стоящие на проклятой земле Doton, получают дополнительный урон землей с силой атаки 50.<br/>Требует использования Katon, Goka Mekkyaku, Phantom Kamaitachi или Hakke Mujinsatsu в качестве комбо умения.<br/>Эффект может быть использован только при активном Doton.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 28
-      "Forked Raiju": {
+      "PVE Skill 28": {
          "name": 'Forked Raiju',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9ab20d782e03641292336da9b2453f426435a3b0.png',
          "job_icon": 'NIN',
@@ -407,7 +407,7 @@
          "content": 'Рывок к цели и молниеносный удар, наносящий урон с силой атаки  560.<br/>Дополнительный эффект: увеличивает Ninki Gauge на 5<br/>Можно использовать только под действием эффекта Raiju Ready.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 29
-      "Fleeting Raiju": {
+      "PVE Skill 29": {
          "name": 'Fleeting Raiju',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aaf631010c04fc9685247fe855060f640dff89f7.png',
          "job_icon": 'NIN',
@@ -421,7 +421,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 560.<br/>Дополнительный эффект: увеличивает Ninki Gauge на 5<br/>Может быть использовано только под действием эффекта Raiju Ready.',
       },
       // Ninjutsu 01
-      "Fuma Shuriken": {
+      "Ninjutsu 01": {
          "name": 'Fuma Shuriken',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/be6fdb084ef5ffd556f82bf0f3e0bb0085adf53f.png',
          "job_icon": 'NIN',
@@ -435,7 +435,7 @@
          "content": 'Дальний удар ниндзюцу, наносящий урон с силой атаки 450.<br/>Комбинация мудр: одна любая Ten, Chi или Jin мудра<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Ninjutsu 02
-      "Katon": {
+      "Ninjutsu 02": {
          "name": 'Katon',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c13292e99775bf7b834e9bf44eae59cdf977dc8c.png',
          "job_icon": 'NIN',
@@ -449,7 +449,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 350 по цели и окружающим противникам.<br/>Комбинация мудр: Chi→Ten или Jin→Ten<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Ninjutsu 03
-      "Raiton": {
+      "Ninjutsu 03": {
          "name": 'Raiton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c5d9c8d2301016f0d1d7412cc5100a7e41de735.png',
          "job_icon": 'NIN',
@@ -463,7 +463,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 650.<br/>Дополнительный эффект: накладывает стак Raiju Ready<br/>Продолжительность: 30 сек.<br/>Максимум стаков: 3<br/>Эффект Raiju Ready заканчивается при использовании любого боевого умения ближнего боя.<br/>Комбинация мудр: Ten→Chi или Jin→Chi<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Ninjutsu 04
-      "Hyoton": {
+      "Ninjutsu 04": {
          "name": 'Hyoton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c1f09309f06281706fd1a6f37051a97dc8fdfd4f.png',
          "job_icon": 'NIN',
@@ -477,7 +477,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 350.<br/>Дополнительный эффект: обездвиживает цель (bind)<br/>Продолжительность: 15 сек.<br/>Комбинация мудр: Ten→Jin или Chi→Jin<br/>Прерывает авто атаки при использовании умения.<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Ninjutsu 05
-      "Huton": {
+      "Ninjutsu 05": {
          "name": 'Huton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/52e16f75932d2dc542606dccf6b9a8ffdef35b5d.png',
          "job_icon": 'NIN',
@@ -491,7 +491,7 @@
          "content": 'Уменьшает время восстановления боевых навыков и задержку между авто атаками на 15%.<br/>Продолжительность: 60 сек.<br/>Комбинация мудр: Jin→Chi→Ten или Chi→Jin→Ten<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Ninjutsu 06
-      "Doton": {
+      "Ninjutsu 06": {
          "name": 'Doton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c4807f81a654f2b25cca49c1f61e9b3bc7df62d6.png',
          "job_icon": 'NIN',
@@ -505,7 +505,7 @@
          "content": 'Создает область проклятой земли, наносящую урон с силой атаки 80 всем противникам, входящим в область.<br/>Продолжительность: 18 сек.<br/>Дополнительный эффект: тяжесть (heavy) +40%<br/>Комбинация мудр: Ten→Jin→Chi или Jin→Ten→Chi<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Ninjutsu 07
-      "Suiton": {
+      "Ninjutsu 07": {
          "name": 'Suiton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fd706ad1980d3382fd9c64ffec7a0374d549d5cc.png',
          "job_icon": 'NIN',
@@ -519,7 +519,7 @@
          "content": 'Удар, наносящий урон водой с силой атаки 500.<br/>Дополнительный эффект: накладывает эффект Suiton<br/>Продолжительность: 20 сек.<br/>Эффект Suiton: позволяет использовать умения, которые требуют нахождения под действием Hidden, не находясь под этим эффектом<br/>Комбинация мудр: Ten→Chi→Jin или Chi→Ten→Jin<br/>Использование активирует время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Ninjutsu 08
-      "Goka Mekkyaku": {
+      "Ninjutsu 08": {
          "name": 'Goka Mekkyaku',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/289a0bd6679306c587cb3bcf2f90a1ed6bfb1897.png',
          "job_icon": 'NIN',
@@ -533,7 +533,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 600 по цели и всем окружающим противникам.<br/>Комбинация мудр: Chi→Ten или Jin→Ten<br/>Может использоваться только под действием эффекта Kassatsu.<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Ninjutsu 09
-      "Hyosho Ranryu": {
+      "Ninjutsu 09": {
          "name": 'Hyosho Ranryu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a700c6a595b5f5ee272b5a3452f680497df8fabe.png',
          "job_icon": 'NIN',
@@ -547,7 +547,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 1,300.<br/>Комбинация мудр: Chi→Jin or Ten→Jin<br/>Может использоваться только под действием эффекта Kassatsu.<br/>При использовании активируется время восстановления боевых навыков, мудр и Ninjutsu.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Trait 01
-      "All Fours": {
+      "Trait 01": {
          "name": 'All Fours',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c99182c1513f1a387f6a0b8d25ec630f3109fb9.png',
          "job_icon": 'ROG',
@@ -555,7 +555,7 @@
          "content": 'Снижает получаемый при падении урон.',
       },
       // Trait 02
-      "Fleet of Foot": {
+      "Trait 02": {
          "name": 'Fleet of Foot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a6cdfeaa6ad9084494fd2ad0eaea1e9701386e3c.png',
          "job_icon": 'ROG',
@@ -563,7 +563,7 @@
          "content": 'Увеличивает скорость передвижения.',
       },
       // Trait 03
-      "Adept Assassination": {
+      "Trait 03": {
          "name": 'Adept Assassination',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51342498a4d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b87e949a34c52ddeba48178f74445dd578b6d8c9.png',
@@ -572,7 +572,7 @@
          "content": 'Улучшает умение Assassinate до Dream Within a Dream.',
       },
       // Trait 04
-      "Shukiho": {
+      "Trait 04": {
          "name": 'Shukiho',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ed4979c9bfae8fed8e478ff2ce14e88961c7d014.png',
          "job_icon": 'NIN',
@@ -580,7 +580,7 @@
          "content": 'Восполняет шкалу Ninki Gauge на 5 после успешного использования определенных боевых умений или завершения определенных комбо.',
       },
       // Trait 05
-      "Enhanced Shukuchi": {
+      "Trait 05": {
          "name": 'Enhanced Shukuchi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/947645f8d561b8bc9d8102189d9c36d7bbf5a5b1.png',
          "job_icon": 'NIN',
@@ -588,7 +588,7 @@
          "content": 'Сбрасывает время восстановления Shukuchi после использования Katon, Raiton или Hyoton по большинству целей.',
       },
       // Trait 06
-      "Enhanced Mug": {
+      "Trait 06": {
          "name": 'Enhanced Mug',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f8789bead06bbb86cf1961b04271a275413ca68e.png',
          "job_icon": 'NIN',
@@ -596,7 +596,7 @@
          "content": 'Восполняет Ninki Gauge на 40 при успешном использования Mug.',
       },
       // Trait 07
-      "Enhanced Shukuchi II": {
+      "Trait 07": {
          "name": 'Enhanced Shukuchi II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0360c16afed0561315ba7bc311e7f4e29e061ddc.png',
          "job_icon": 'NIN',
@@ -604,7 +604,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Shukuchi.<br/>Максимум зарядов: 2',
       },
       // Trait 08
-      "Melee Mastery": {
+      "Trait 08": {
          "name": 'Melee Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
          "job_icon": 'NIN',
@@ -612,7 +612,7 @@
          "content": 'Увеличивает силу атаки Gust Slash до 120, Aeolian Edge до 140 и Armor Crush до 140.',
       },
       // Trait 09
-      "Enhanced Kassatsu": {
+      "Trait 09": {
          "name": 'Enhanced Kassatsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d579d27b0f2e059f63390cb5bcc22bac26365149.png',
          "job_icon": 'NIN',
@@ -620,7 +620,7 @@
          "content": 'Улучшает умения Katon и Hyoton до Goka Mekkyaku и Hyosho Ranryu под действием эффекта Kassatsu.',
       },
       // Trait 10
-      "Shukiho II": {
+      "Trait 10": {
          "name": 'Shukiho II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f907e0c1b9b1d0a739cf2438986fcd4a3b51175a.png',
          "job_icon": 'NIN',
@@ -628,7 +628,7 @@
          "content": 'Восполняет Ninki Gauge на 10 при успешном завершении комбо с Aeolian Edge или Armor Crush.',
       },
       // Trait 11
-      "Shukiho III": {
+      "Trait 11": {
          "name": 'Shukiho III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d4af7caeb6ccefc6db10dcc03953e90b24824950.png',
          "job_icon": 'NIN',
@@ -636,7 +636,7 @@
          "content": 'Восполняет Ninki Gauge на 15 при успешном завершении комбо с Aeolian Edge или Armor Crush.',
       },
       // Trait 12
-      "Melee Mastery II": {
+      "Trait 12": {
          "name": 'Melee Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb2173170fff9f761a656135293703a149717ede.png',
          "job_icon": 'NIN',
@@ -644,7 +644,7 @@
          "content": 'Увеличивает силу атаки Spinning Edge до 220 и Gust Slash до 160.',
       },
       // Trait 13
-      "Enhanced Meisui": {
+      "Trait 13": {
          "name": 'Enhanced Meisui',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c47e82ddc2a4148f8b8dbdcbad6277e8ff1c73e4.png',
          "job_icon": 'NIN',
@@ -652,7 +652,7 @@
          "content": 'Увеличивает силу атаки Bhavacakra до 500, пока персонаж находится под эффектом Meisui.<br />Продолжительность: 30 сек.',
       },
       // Trait 14
-      "Enhanced Raiton": {
+      "Trait 14": {
          "name": 'Enhanced Raiton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/347d3667b142103093c59bc61db363a7f089ca69.png',
          "job_icon": 'NIN',
@@ -660,7 +660,7 @@
          "content": 'Накладывает стак Raiju Ready при использовании Raiton.<br/>Максимум стаков: 3<br/>Продолжительность: 30 сек.<br/>Эффект Raiju Ready заканчивается при использовании любого боевого навыка ближнего боя.',
       },
       // PVP Skill 01
-      "PVP Spinning Edge": {
+      "PVP Skill 01": {
          "name": 'Spinning Edge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2c7a551985023f8a7d2e338a014ab29454318b81.png',
          "classification": 'Боевой навык',
@@ -672,7 +672,7 @@
          "content": 'Удар, наносящий урон с силой атаки 3,000.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 02
-      "PVP Gust Slash": {
+      "PVP Skill 02": {
          "name": 'Gust Slash',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/443f61d91e3c8a64e725b7366c33c267f606c8b1.png',
          "classification": 'Боевой навык',
@@ -684,7 +684,7 @@
          "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Комбо умение: Spinning Edge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 03
-      "PVP Aeolian Edge": {
+      "PVP Skill 03": {
          "name": 'Aeolian Edge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/baa12f591901930702230bc6e3e5119c194de1db.png',
          "classification": 'Боевой навык',
@@ -696,7 +696,7 @@
          "content": 'Удар, наносящий урон с силой атаки 5,000.<br/>Комбо умение: Gust Slash<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 04
-      "PVP Fuma Shuriken": {
+      "PVP Skill 04": {
          "name": 'Fuma Shuriken',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a4295da0185e15eaf0481b14d04e59133c8fc699.png',
          "classification": 'Боевой навык',
@@ -708,7 +708,7 @@
          "content": 'Дальний удар, наносящий урон с силой атаки 6,000.<br/>Максимум зарядов: 3<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Hyosho Ranryu под действием эффекта Three Mudra.',
       },
       // PVP Skill 05
-      "PVP Mug": {
+      "PVP Skill 05": {
          "name": 'Mug',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0b093065502dad176d2b335b15528e1947bf806f.png',
          "classification": 'Способность',
@@ -720,7 +720,7 @@
          "content": 'Удар, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: уменьшает время повторного применения Fuma Shuriken на 10 сек.<br/><br/>※Умение меняется на Goka Mekkyaku под действием эффекта Three Mudra.',
       },
       // PVP Skill 06
-      "PVP Three Mudra": {
+      "PVP Skill 06": {
          "name": 'Three Mudra',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/df52e05ddb6ca5801114faf60e5ba05442c5cb6f.png',
          "classification": 'Способность',
@@ -732,7 +732,7 @@
          "content": 'Накладывает Three Mudra, позволяющие немедленно использовать любое умение ninjutsu. Однако одно и то же умение ninjutsu не может быть использовано последовательно.<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 2<br/><br/>※Умение меняется на Meisui под действием эффекта Three Mudra.<br/>※Все умения, кроме Seiton Tenchu, будут изменены на соответствующие умения ниндзюцу, под действием эффекта Three Mudra.',
       },
       // PVP Skill 07
-      "PVP Bunshin": {
+      "PVP Skill 07": {
          "name": 'Bunshin',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dd5359193e18dec8796cb164c2a31cd7de730e31.png',
          "classification": 'Способность',
@@ -744,7 +744,7 @@
          "content": 'На пять атак тень персонажа становится живой и атакует противников каждый раз, когда используется боевой навык.<br/>Сила атаки тени будет равна силе атаки боевыми умениями персонажа, но будет уменьшена вдвое при использовании Fuma Shuriken или Assassinate.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: создает тень, поглощающую урон, равный силе лечения 8,000<br/>Продолжительность: 10 сек.<br/><br/>※Умение меняется на Huton под действием эффекта Three Mudra.',
       },
       // PVP Skill 08
-      "PVP Shukuchi": {
+      "PVP Skill 08": {
          "name": 'Shukuchi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cf1bb42ed0500b95e768ec8fff4aa0f7b3d1c20a.png',
          "classification": 'Способность',
@@ -756,7 +756,7 @@
          "content": 'Персонаж быстро перемещается в указанное место.<br/>Дополнительный эффект: накладывает эффект Hidden<br/>Эффект Hidden: персонаж сливается с окружающим миром, становясь невидимым для противников и не давая выбрать в качестве цели<br/>Продолжительность: 4 сек.<br/>Эффект заканчивается при использовании любого умения или при получении урона от противника.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Умение меняется на Doton под действием эффекта Three Mudra.<br/>※Aeolian Edge Combo меняется на Assassinate под действием эффекта Hidden.',
       },
       // PVP Skill 09
-      "PVP Forked Raiju": {
+      "PVP Skill 09": {
          "name": 'Forked Raiju',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4808fd0960ff552e382c3bc3242c43c4634b3a16.png',
          "classification": 'Боевой навык',
@@ -768,7 +768,7 @@
          "content": 'Рывок к цели, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: stun (оглушение)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает Fleeting Raiju Ready<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Aeolian Edge Combo меняется на Fleeting Raiju под действием эффекта Fleeting Raiju Ready.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 10
-      "PVP Fleeting Raiju": {
+      "PVP Skill 10": {
          "name": 'Fleeting Raiju',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/834c61d21d0517e99776d435f3125c0d856bff96.png',
          "classification": 'Боевой навык',
@@ -780,7 +780,7 @@
          "content": 'Рывок к цели, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: stun (оглушение)<br/>Продолжительность: 2 сек.<br/>Можно использовать только под действием эффекта Fleeting Raiju Ready.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 11
-      "PVP Hyosho Ranryu": {
+      "PVP Skill 11": {
          "name": 'Hyosho Ranryu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7b5b3ecb51c13a72c65bbb7dd48b6d702d546da9.png',
          "classification": 'Заклинание',
@@ -792,7 +792,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 16,000.<br/>Может быть использовано только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 12
-      "PVP Goka Mekkyaku": {
+      "PVP Skill 12": {
          "name": 'Goka Mekkyaku',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8ecdf7edc6dd4e686813cdd58a5edcdf49e0404d.png',
          "classification": 'Заклинание',
@@ -804,7 +804,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 4,000<br/>DПродолжительность: 12 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 13
-      "PVP Meisui": {
+      "PVP Skill 13": {
          "name": 'Meisui',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/359bc1829d69bdbe859863cd2a782fbacc61de16.png',
          "classification": 'Заклинание',
@@ -816,7 +816,7 @@
          "content": 'Восстанавливает HP персонажу или выбранному сопартийцу.<br/>Сила лечения: 8,000<br/>Дополнительный эффект: накладывает на цель постепенное восстановление HP<br/>Сила лечения: 4,000<br/>Продолжительность: 15 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 14
-      "PVP Huton": {
+      "PVP Skill 14": {
          "name": 'Huton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/839919eb2756e950cdae46be906b564ce77bd4b6.png',
          "classification": 'Заклинание',
@@ -828,7 +828,7 @@
          "content": 'Накладывает эффект Huton, создавая барьер, поглощающий урон, равный силе лечения 16,000 и увеличивающий скорость передвижения на 25%.<br/>Продолжительность: 10 сек.<br/>Скорость передвижения возвращается к нормальной, когда барьер поглотит весь урон.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 15
-      "PVP Doton": {
+      "PVP Skill 15": {
          "name": 'Doton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c6735eac69b6180ad6b23c92fc467a81701cf4a.png',
          "classification": 'Заклинание',
@@ -840,7 +840,7 @@
          "content": 'Создает под ногами персонажа область оскверненной земли, наносящей урон с силой атаки 3,000 по всем противникам, вошедшим в него.<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 16
-      "PVP Hollow Nozuchi": {
+      "PVP Skill 16": {
          "name": 'Hollow Nozuchi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d2a67da760022e80b85ba1ccbeeecdf8bddda757.png',
          "classification": 'Способность',
@@ -852,7 +852,7 @@
          "content": 'Все противники, находящиеся в области оскверненной земли Doton, получают дополнительный урон землей с силой атаки 3,000.<br/>Требуется использование боевого навыка, Hyosho Ranryu или Goka Mekkyaku<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 17
-      "PVP Assassinate": {
+      "PVP Skill 17": {
          "name": 'Assassinate',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bd62134b59f61995abdfea2f7fee502c5795f9f9.png',
          "classification": 'Боевой навык',
@@ -864,7 +864,7 @@
          "content": 'Удар, наносящий урон с силой атаки 12,000.<br/>Можно использовать только под действием эффекта Hidden.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 18
-      "PVP Seiton Tenchu": {
+      "PVP Skill 18": {
          "name": 'Seiton Tenchu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b3cc3f2b23553fa8ce5a4a46fe159c12a2f82aaa.png',
          "cast": 'Мгновенная',
@@ -879,4 +879,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 19/03/2024`,
       // PVE Skill 01
-      "Blizzard": {
+      "PVE Skill 01": {
          "name": 'Blizzard',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dab74d4a196c546228d67c91db4bde70c32c45df.png',
          "job_icon": 'THM',
@@ -18,7 +18,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 180.<br/>Дополнительный эффект: накладывает эффект Umbral Ice или снимает эффект Astral Fire<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 02
-      "Fire": {
+      "PVE Skill 02": {
          "name": 'Fire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0f0b18de207de52d394b2ca8cb990a38e96587e0.png',
          "job_icon": 'THM',
@@ -33,7 +33,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 180.<br/>Дополнительный эффект: накладывает эффект Astral Fire или снимает эффект Umbral Ice<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: шанс 40%, что следующее применение заклинания Fire III будет бесплатным (не потребует MP) и будет использоваться мгновенно<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 03
-      "Transpose": {
+      "PVE Skill 03": {
          "name": 'Transpose',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/11343c230e7ebd41588ca8f684cb99ee13809398.png',
          "job_icon": 'THM',
@@ -48,7 +48,7 @@
          "content": 'Заменяет эффект Astral Fire на одиночный Umbral Ice или эффект Umbral Ice на одиночный Astral Fire.',
       },
       // PVE Skill 04
-      "Thunder": {
+      "PVE Skill 04": {
          "name": 'Thunder',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/db30f0fa05ce4f541f839c5b2c57cfe0e9fb77f8.png',
          "job_icon": 'THM',
@@ -63,7 +63,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 30.<br/>Дополнительный эффект: периодический урон с молнией<br/>Сила атаки: 35<br/>Продолжительность: 21 сек.<br/>Дополнительный эффект: шанс 10%, что после каждого нанесения периодического урона, к начальному урону следующего любого заклинания Thunder добавится весь периодический урон, а также заклинание будет бесплатным (не потребует MP) и будет использоваться мгновенно<br/>Продолжительность: 40 сек.<br/>На одну цель может быть наложено только одно заклинание Thunder, наносящее периодический урон.',
       },
       // PVE Skill 05
-      "Blizzard II": {
+      "PVE Skill 05": {
          "name": 'Blizzard II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/af68a6b262379df65a5b4bd0408fafbfd3feb450.png',
          "job_icon": 'THM',
@@ -78,7 +78,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 100 по цели и ближайшим противникам.<br/>Дополнительный эффект: накладывает эффект Umbral Ice III или снимает эффект Astral Fire<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 06
-      "Scathe": {
+      "PVE Skill 06": {
          "name": 'Scathe',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/82cdaaebcce/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9b763aecc46c5559bbbccadfe866fe42d56a9597.png',
@@ -94,7 +94,7 @@
          "content": 'дар, наносящий нестихийный урон с силой атаки 100.<br/>Дополнительный эффект: 20% шанс, что сила заклинания будет удвоена.',
       },
       // PVE Skill 07
-      "Fire II": {
+      "PVE Skill 07": {
          "name": 'Fire II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8876f1b3cf116acf7138253e0193396c75698651.png',
          "job_icon": 'THM',
@@ -109,7 +109,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 100 по цели и ближайшим противникам.<br/>Дополнительный эффект: накладывает эффект Astral Fire III или снимает эффект Umbral Ice<br/>Продолжительность: 15 сек.<br/>Бонус Astral Fire: накладывает эффект Enhanced Flare<br/>Эффект отменяется, если эффект Astral Fire заканчивается.',
       },
       // PVE Skill 08
-      "Thunder II": {
+      "PVE Skill 08": {
          "name": 'Thunder II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/67205b06f51ddd0e07f16441e38e90d59840f1b6.png',
          "job_icon": 'THM',
@@ -124,7 +124,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 50 по цели и ближайшим противникам.<br/>Дополнительный эффект: периодический урон молнией<br/>Сила атаки: 15<br/>Продолжительность: 18 сек.<br/>Дополнительный эффект: шанс 3%, что после каждого нанесения периодического урона, к начальному урону следующего любого заклинания Thunder добавится весь периодический урон, а также заклинание будет бесплатным (не потребует MP) и используется мгновенно<br/>Продолжительность: 40 сек.<br/>На одну цель может быть наложено только одно заклинание Thunder, наносящее периодический урон.',
       },
       // PVE Skill 09
-      "Manaward": {
+      "PVE Skill 09": {
          "name": 'Manaward',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/efb4d31dbd3/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/75ed92265dc2dcc6fa1e0b8f22a01258799f222d.png',
@@ -140,7 +140,7 @@
          "content": 'Создает барьер, предотвращающий получение урона до 30% от максимального HP.<br/>Продолжительность: 20 сек.',
       },
       // PVE Skill 10
-      "Manafont": {
+      "PVE Skill 10": {
          "name": 'Manafont',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/eec832efc26/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/46be5d9b06e228473154bc91d303ba989308a1cb.png',
@@ -156,7 +156,7 @@
          "content": 'Восстанавливает 30% от максимального MP.',
       },
       // PVE Skill 11
-      "Fire III": {
+      "PVE Skill 11": {
          "name": 'Fire III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3ff8dcabba57f6a697d5a86fc7490884b74eddff.png',
          "job_icon": 'THM',
@@ -171,7 +171,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 260.<br/>Дополнительный эффект: накладывает эффект Astral Fire III и снимает эффект Umbral Ice<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 12
-      "Blizzard III": {
+      "PVE Skill 12": {
          "name": 'Blizzard III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cc550942448/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6dbb819d3f64b93d6f6ffa23a73101c79592ae2f.png',
@@ -187,7 +187,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 260.<br/>Дополнительный эффект: накладывает эффект Umbral Ice III и снимает эффект Astral Fire<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 13
-      "Freeze": {
+      "PVE Skill 13": {
          "name": 'Freeze',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/bf524c2622f/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2190c4a6ebb204b010020af62a99b1829185aa21.png',
@@ -203,7 +203,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 120 по цели и ближайшим противникам.<br/>Дополнительный эффект: накладывает 3 Umbral Hearts<br/>Эффект Umbral Heart: предотвращает увеличение стоимости MP для заклинаний Fire и снижает стоимость MP у заклинания Flare на одну треть<br/>Возможно использовать только под действием эффекта Umbral Ice.',
       },
       // PVE Skill 14
-      "Thunder III": {
+      "PVE Skill 14": {
          "name": 'Thunder III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e023bb97879/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2efb022c0715f802a88e1edef4924c075e92a53d.png',
@@ -219,7 +219,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 50.<br/>Дополнительный эффект: периодический урон молнией<br/>Сила атаки: 35<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: шанс 10%, что после каждого нанесения периодического урона, к начальному урону следующего любого заклинания Thunder добавится весь периодический урон, а также заклинание будет бесплатным (не потребует MP) и используется мгновенно<br/>Продолжительность: 40 сек.<br/>На одну цель может быть наложено только одно заклинание Thunder, наносящее периодический урон.',
       },
       // PVE Skill 15
-      "Aetherial Manipulation": {
+      "PVE Skill 15": {
          "name": 'Aetherial Manipulation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a8c94264a1522d4e1f80e9dcac7864eb6170d722.png',
          "job_icon": 'THM',
@@ -234,7 +234,7 @@
          "content": 'Мгновенное перемещение к сопартийцу.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 16
-      "Flare": {
+      "PVE Skill 16": {
          "name": 'Flare',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cecfdb58804/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a2d60b093374b2c896487aba2e32eb8bd32eee7c.png',
@@ -250,7 +250,7 @@
          "content": 'Удар, наносящий урон по цели и всем ближайшим противникам с силой атаки 220 для первого и на 40% меньше для всех остальных.<br/>Сила атаки Enhanced Flare: 280<br/>Дополнительный эффект: накладывает эффект Astral Fire III<br/>Продолжительность: 15 сек.<br/>Возможно использовать только под действием эффекта Astral Fire.',
       },
       // PVE Skill 17
-      "Ley Lines": {
+      "PVE Skill 17": {
          "name": 'Ley Lines',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cede0d25c63/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2c84ee7f590f1563a8eda87c8ac5d89081365a92.png',
@@ -266,7 +266,7 @@
          "content": 'оздает круг силы вокруг персонажа, нахождение в котором снижает время применения и время восстановления заклинаний, а также задержку между авто атаками на 15%.<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 18
-      "Sharpcast": {
+      "PVE Skill 18": {
          "name": 'Sharpcast',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a86e6754790/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d30e1f20a2c947f03759e516655feb426db85de4.png',
@@ -282,7 +282,7 @@
          "content": 'Гарантирует, что следующее применение заклинания Scathe, Fire или Thunder, при первом попадании вызовет дополнительный эффект Scathe, Firestarter или Thundercloud соответственно.<br/>Продолжительность: 30 сек.<br/>Максимум зарядов: 2',
       },
       // PVE Skill 19
-      "Blizzard IV": {
+      "PVE Skill 19": {
          "name": 'Blizzard IV',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c4360e9d473/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/43e1468c5bc711966fdbb2790cd60aa6527461bf.png',
@@ -298,7 +298,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 310.<br/>Дополнительный эффект: накладывает 3 Umbral Hearts<br/>Бонус Umbral Heart: предотвращает увеличение стоимости MP для заклинаний Astral Fire и снижает стоимость MP у заклинания Flare на одну треть<br/>Возможно использовать только под действием эффекта Umbral Ice.',
       },
       // PVE Skill 20
-      "Fire IV": {
+      "PVE Skill 20": {
          "name": 'Fire IV',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2e548618321/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1a353ade6d0e1ff5828cca6b4bbc11c9f52618bb.png',
@@ -314,7 +314,7 @@
          "content": 'дар, наносящий урон огнем с силой атаки 310.<br/>Возможно использовать только под действием эффекта Astral Fire.',
       },
       // PVE Skill 21
-      "Between the Lines": {
+      "PVE Skill 21": {
          "name": 'Between the Lines',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c05d4b844c5a3f1e85e6f4b19214715f7d609e2.png',
          "job_icon": 'BLM',
@@ -329,7 +329,7 @@
          "content": 'Мгновенное перемещение в Ley Lines, созданные персонажем.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 22
-      "Thunder IV": {
+      "PVE Skill 22": {
          "name": 'Thunder IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de62d077a3306797d48ee62f183e82c474b2b768.png',
          "job_icon": 'BLM',
@@ -344,7 +344,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 50 по цели и ближайшим противникам.<br/>Дополнительный эффект: периодический урон молнией<br/>Сила атаки: 20<br/>Продолжительность: 18 сек.<br/>Дополнительный эффект: шанс 3%, что после каждого нанесения периодического урона, к начальному урону следующего любого заклинания Thunder добавится весь периодический урон, а также заклинание будет бесплатным (не потребует MP) и используется мгновенно<br/>Продолжительность: 40 сек.<br/>На одну цель может быть наложено только одно заклинание Thunder, наносящее периодический урон.',
       },
       // PVE Skill 23
-      "Triplecast": {
+      "PVE Skill 23": {
          "name": 'Triplecast',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d5bb89a25bf7ce54c03b6fb2898927bd06653219.png',
          "job_icon": 'BLM',
@@ -359,7 +359,7 @@
          "content": 'Следующие три заклинания будут использованы мгновенно.<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2',
       },
       // PVE Skill 24
-      "Foul": {
+      "PVE Skill 24": {
          "name": 'Foul',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c1f2ce42b9d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a87efd9bcba0589fb9e9a86b1f9dcd38157c1ee.png',
@@ -375,7 +375,7 @@
          "content": 'дар, наносящий нестихийный урон по цели и всем противникам с силой атаки 600 для первого и на 60% меньше для всех остальных.<br/>Стоимость: 1 Polyglot',
       },
       // PVE Skill 25
-      "Despair": {
+      "PVE Skill 25": {
          "name": 'Despair',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/73a81c740f02599d7ec5d451d659b1fe4409123a.png',
          "job_icon": 'BLM',
@@ -390,7 +390,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 340.<br/>Дополнительный эффект: накладывает эффект Astral Fire III<br/>Продолжительность: 15 сек.<br/>Возможно использовать только под действием эффекта Astral Fire.',
       },
       // PVE Skill 26
-      "Umbral Soul": {
+      "PVE Skill 26": {
          "name": 'Umbral Soul',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5c3311c8d38df2d4617c0a325772cdd229f3c181.png',
          "job_icon": 'BLM',
@@ -405,7 +405,7 @@
          "content": 'Накладывает эффект Umbral Ice и дает 1 Umbral Heart.<br/>Эффект Umbral Heart: предотвращает увеличение стоимости MP для заклинаний Astral Fire и снижает стоимость MP у заклинания Flare на одну треть<br/>Возможно использовать только под действием эффекта Umbral Ice.',
       },
       // PVE Skill 27
-      "Xenoglossy": {
+      "PVE Skill 27": {
          "name": 'Xenoglossy',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/428eac2232a6d9531a9a02e344dc48bb06310c6c.png',
          "job_icon": 'BLM',
@@ -420,7 +420,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 880.<br/>Стоимость: 1 Polyglot',
       },
       // PVE Skill 28
-      "High Fire II": {
+      "PVE Skill 28": {
          "name": 'High Fire II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/46a0285209f71ee209c27b8211e9aa798417813c.png',
          "job_icon": 'BLM',
@@ -435,7 +435,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 140 по цели и ближайшим противникам.<br/>Дополнительный эффект: накладывает эффект Astral Fire III или снимает эффект Umbral Ice<br/>Продолжительность: 15 сек.<br/>Бонус Astral Fire: накладывает эффект Enhanced Flare<br/>Эффект отменяется, если эффект Astral Fire заканчивается.',
       },
       // PVE Skill 29
-      "High Blizzard II": {
+      "PVE Skill 29": {
          "name": 'High Blizzard II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f775fdd2f3ef5115cad5ed5a85c81ca2a2cfd735.png',
          "job_icon": 'BLM',
@@ -450,7 +450,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 140 по цели и ближайшим противникам.<br/>Дополнительный эффект: накладывает эффект Umbral Ice III или снимает эффект Astral Fire<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 30
-      "Amplifier": {
+      "PVE Skill 30": {
          "name": 'Amplifier',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6f48a9f1b585cf23a21cf9ed3f7a012745928295.png',
          "job_icon": 'BLM',
@@ -465,7 +465,7 @@
          "content": 'обавляет Polyglot.<br/>Возможно использовать только под действием эффекта Astral Fire или Umbral Ice.',
       },
       // PVE Skill 31
-      "Paradox": {
+      "PVE Skill 31": {
          "name": 'Paradox',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7a6d48e67b25969c1ad12f0f42d03b484f8f9f9b.png',
          "job_icon": 'BLM',
@@ -480,7 +480,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 500.<br/>Бонус Astral Fire: увеличивает продолжительность действия Astral Fire и дает 40% шанс получить эффект Firestarter<br/>Продолжительность: 15 сек.<br/>Эффект Firestarter: следующий Fire III будет использован мгновенно и не расходует MP<br/>Продолжительность: 30 сек.<br/>Бонус Umbral Ice: заклинание используется мгновенно, не потребует MP для использования и обновляет время действия Umbral Ice<br/>Продолжительность: 15 сек.<br/>Может использоваться только под действием эффекта Paradox.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Trait 01
-      "Aspect Mastery": {
+      "Trait 01": {
          "name": 'Aspect Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1f6dc1fc194d45867020cb6f5d28829bc1320a35.png',
          "job_icon": 'THM',
@@ -488,7 +488,7 @@
          "content": 'Использование персонажем определённых огненных и ледяных заклинаний дает стак Astral Fire and Umbral Ice соответственно.<br/>Максимум стаков: 1<br/>Продолжительность: 15 сек.<br/>Пока персонаж находится под действием эффекта Astral Fire или Umbral Ice, произнесение заклинания противоположной стихии не будет расходовать MP.<br/>Эффект не распространяется на Flare.',
       },
       // Trait 02
-      "Maim and Mend": {
+      "Trait 02": {
          "name": 'Maim and Mend',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
          "job_icon": 'THM',
@@ -496,7 +496,7 @@
          "content": 'Увеличивает базовый урон умений и восстановления HP на 10%.',
       },
       // Trait 03
-      "Aspect Mastery II": {
+      "Trait 03": {
          "name": 'Aspect Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a82ec92018c475ea79c983d7cd8aee36403769c5.png',
          "job_icon": 'THM',
@@ -504,7 +504,7 @@
          "content": 'Позволяет накапливать второй стак Astral Fire и Umbral Ice.',
       },
       // Trait 04
-      "Thundercloud": {
+      "Trait 04": {
          "name": 'Thundercloud',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5896aef421d89831e2942bb2f79e2ffa79eb9e19.png',
          "job_icon": 'THM',
@@ -512,7 +512,7 @@
          "content": 'Дает 10% шанс, что после каждого нанесения периодического урона Thunder или Thunder III (3% Thunder II или Thunder IV), следующий Thunder, Thunder II, Thunder III или Thunder IV добавит весь периодический урон к своему начальному урону, а также будет использовано мгновенно и не израсходует MP.<br/>Продолжительность: 40 сек.',
       },
       // Trait 05
-      "Aspect Mastery III": {
+      "Trait 05": {
          "name": 'Aspect Mastery III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/76a7c6ce2f03e8daa6d5639923955353d7ad7cb8.png',
          "job_icon": 'THM',
@@ -520,7 +520,7 @@
          "content": 'Позволяет накапливать третий Astral Fire и Umbral Ice.<br/>Использование Fire II или Blizzard II дает максимальное количество стаков Astral Fire или Umbral Ice соответственно.<br/>При поддержании трех стаков Astral Fire или Umbral Ice время применения заклинаний противоположной стихии сокращается вдвое.',
       },
       // Trait 06
-      "Maim and Mend II": {
+      "Trait 06": {
          "name": 'Maim and Mend II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
          "job_icon": 'THM',
@@ -528,7 +528,7 @@
          "content": 'Увеличивает базовый урон умений и восстановления HP на 30%.',
       },
       // Trait 07
-      "Firestarter": {
+      "Trait 07": {
          "name": 'Firestarter',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eba9b84751761d8b1a31d917f098c8b1843f8572.png',
          "job_icon": 'THM',
@@ -536,7 +536,7 @@
          "content": 'ает 40% шанс, что после использования заклинания Fire следующее заклинание Fire III не потребует MP и будет использовано мгновенно.<br/>Продолжительность: 30 сек.',
       },
       // Trait 08
-      "Thunder Mastery": {
+      "Trait 08": {
          "name": 'Thunder Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e023bb97879/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d246d935235a66fd245a11325a9e49fb8c41525d.png',
@@ -545,7 +545,7 @@
          "content": 'Улучшает умение Thunder до Thunder III.',
       },
       // Trait 09
-      "Enochian": {
+      "Trait 09": {
          "name": 'Enochian',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/27332e04866/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/455d53e43676e9604b93ba67180e9050cfd7077f.png',
@@ -554,7 +554,7 @@
          "content": 'Увеличивает наносимый урон на 5% под действием эффекта Astral Fire или Umbral Ice.<br/>При успешном использовании Fire II под действием эффекта Astral Fire накладывает эффект Enhanced Flare.<br/>Эффект Enhanced Flare заканчивается, когда Astral Fire пропадает.',
       },
       // Trait 10
-      "Enhanced Freeze": {
+      "Trait 10": {
          "name": 'Enhanced Freeze',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ce76c1e60e5142933464685eaf280db31ef825a5.png',
          "job_icon": 'BLM',
@@ -562,7 +562,7 @@
          "content": 'Накладывает 3 Umbral Hearts после использования Freeze.',
       },
       // Trait 11
-      "Thunder Mastery II": {
+      "Trait 11": {
          "name": 'Thunder Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9bc1640c47083f7df3ba856be93dfa1e59d600f.png',
          "job_icon": 'BLM',
@@ -570,7 +570,7 @@
          "content": 'Улучшает умение Thunder II до Thunder IV.',
       },
       // Trait 12
-      "Enhanced Enochian": {
+      "Trait 12": {
          "name": 'Enhanced Enochian',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c1f2ce42b9d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/53a893a774b158e25e4803a4b9ec92b50e6492da.png',
@@ -579,7 +579,7 @@
          "content": 'Накладывает эффект Polyglot при поддержании Enochian в течение 30 секунд. Также усиливает увеличение магического урона Enochian до 10%.',
       },
       // Trait 13
-      "Enhanced Sharpcast": {
+      "Trait 13": {
          "name": 'Enhanced Sharpcast',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f5a57815a029c8c93af22e5ccf24f3b28ef5ad6.png',
          "job_icon": 'BLM',
@@ -587,7 +587,7 @@
          "content": 'Снижает время восстановления умения Sharpcast до 30 сек.',
       },
       // Trait 14
-      "Enhanced Enochian II": {
+      "Trait 14": {
          "name": 'Enhanced Enochian II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/442db8a1a39e876e2abbc2727fcb816255f701b7.png',
          "job_icon": 'BLM',
@@ -595,7 +595,7 @@
          "content": 'Усиливает увеличение магического урона Enochian до 15%.',
       },
       // Trait 15
-      "Enhanced Polyglot": {
+      "Trait 15": {
          "name": 'Enhanced Polyglot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ecd14c75e33f69d4006d1c80fd44952d60c2c0a2.png',
          "job_icon": 'BLM',
@@ -603,7 +603,7 @@
          "content": 'Позволяет накапливать второй стак Polyglot.',
       },
       // Trait 16
-      "Enhanced Foul": {
+      "Trait 16": {
          "name": 'Enhanced Foul',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4e8b85566fa51e858b0dfdf86e0f9457e8606880.png',
          "job_icon": 'BLM',
@@ -611,7 +611,7 @@
          "content": 'Позволяет мгновенно использовать Foul.',
       },
       // Trait 17
-      "Aspect Mastery IV": {
+      "Trait 17": {
          "name": 'Aspect Mastery IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3ae30d9437eea508883a60853048894f3c8af421.png',
          "job_icon": 'BLM',
@@ -619,7 +619,7 @@
          "content": 'Улучшает умение Fire II и Blizzard II до High Fire II и High Blizzard II.',
       },
       // Trait 18
-      "Enhanced Manafont": {
+      "Trait 18": {
          "name": 'Enhanced Manafont',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/791a538cb15c66db13742a098bfd38f2f8f8ec53.png',
          "job_icon": 'BLM',
@@ -627,7 +627,7 @@
          "content": 'Сокращает время восстановления Manafont до 120 сек.',
       },
       // Trait 19
-      "Enhanced Enochian III": {
+      "Trait 19": {
          "name": 'Enhanced Enochian III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/72578b4df3af511dffc110405fba9737cff7d922.png',
          "job_icon": 'BLM',
@@ -635,7 +635,7 @@
          "content": 'Усиливает увеличение магического урона Enochian до 23%.',
       },
       // Trait 20
-      "Enhanced Sharpcast II": {
+      "Trait 20": {
          "name": 'Enhanced Sharpcast II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9ee975c4c5acc8f6b21380e8260e9061c99c7666.png',
          "job_icon": 'BLM',
@@ -643,7 +643,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Sharpcast.<br/>Максимум зарядов: 2',
       },
       // Trait 21
-      "Aspect Mastery V": {
+      "Trait 21": {
          "name": 'Aspect Mastery V',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c81e19d6212f972df31805fc204e150740067760.png',
          "job_icon": 'BLM',
@@ -651,7 +651,7 @@
          "content": 'Добавляет маркер Paradox к шкале Elemental Gauge персонажа.<br/>Маркер становится активным после достижения Astral Fire III, а затем переключения на противоположную стихию. И наоборот, маркер можно сделать активным, достигнув Umbral Ice III и получив 3 Umbral Hearts, а затем переключившись на противоположную стихию.<br/>Умения Blizzard и Fire становятся Paradox, когда маркер Paradox становится активным.',
       },
       // PVP Skill 01
-      "PVP Fire": {
+      "PVP Skill 01": {
          "name": 'Fire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bd8aefe983c379ed726996e5030785d492cef722.png',
          "classification": 'Заклинание',
@@ -663,7 +663,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 4,000.<br/>Заклинание используется мгновенно, если если персонаж находится действием Umbral Ice.<br/>Дополнительный эффект: накладывает на цель стак эффекта Astral Warmth, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Umbral Freeze<br/>Дополнительный эффект: накладывает эффект Astral Fire II<br/>Продолжительность: 30 сек.<br/>Эффект не складывается с эффектом Umbral Ice.<br/><br/>※Умением меняется на Fire IV под действием эффекта Astral Fire II.',
       },
       // PVP Skill 02
-      "PVP Blizzard": {
+      "PVP Skill 02": {
          "name": 'Blizzard',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dc24fffcea464a6f5f4ae83c893e89f31ca6a274.png',
          "classification": 'Заклинание',
@@ -675,7 +675,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 4,000.<br/>Заклинание используется мгновенно, если если персонаж находится действием Astral Fire.<br/>Дополнительный эффект: накладывает на цель стак эффекта Umbral Freeze, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Astral Warmth.<br/>Дополнительный эффект: накладывает эффект Ice II<br/>Продолжительность: 30 сек.<br/>Эффект не складывается с эффектом Astral Fire.<br/><br/>※Умением меняется на Blizzard IV под действием эффекта Umbral Ice II.',
       },
       // PVP Skill 03
-      "PVP Burst": {
+      "PVP Skill 03": {
          "name": 'Burst',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f2047323e6e33591811d0303209137f0f841cd81.png',
          "classification": 'Заклинание',
@@ -687,7 +687,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 16,000 по всем ближайшим противникам.<br/>Дополнительный эффект: создает барьер вокруг персонажа, поглощающий урон, равный силе лечения 16,000.<br/>Продолжительность: 10 сек.<br/>Это умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 04
-      "PVP Paradox": {
+      "PVP Skill 04": {
          "name": 'Paradox',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1fd314a320e0ffcf7b928a1e8edb882a7803a7a9.png',
          "classification": 'Заклинание',
@@ -699,7 +699,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 8,000.<br/>Дополнительный эффект: увеличивает на цели количество стаков эффекта Astral Warmth или Umbral Freeze до максимума<br/>Продолжительность: 15 сек.<br/>Это умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 05
-      "PVP Night Wing": {
+      "PVP Skill 05": {
          "name": 'Night Wing',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/39b84e9b07f19b7d4fd195171668fc71d98d438b.png',
          "classification": 'Способность',
@@ -711,7 +711,7 @@
          "content": 'Накладывает на цель и всех ближайших противников эффект полу-сон (half-sleep).<br/>Продолжительность: 3 сек.<br/>Эффект Half-asleep: цель погружается в сон (sleep) по истечении действия эффекта<br/>Продолжительность: 3 сек.<br/>Цели, находящиеся под действием эффекта сон (sleep), получают дополнительный урон с силой атаки 8,000, после чего эффект рассеется.',
       },
       // PVP Skill 06
-      "PVP Aetherial Manipulation": {
+      "PVP Skill 06": {
          "name": 'Aetherial Manipulation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b7bfe048da3d02b5572be0dfa123d46be0ca3784.png',
          "classification": 'Способность',
@@ -723,7 +723,7 @@
          "content": 'Мгновенное перемещение к сопартийцу или в противнику.<br/>Дополнительный эффект: накладывает эффект Swiftcast<br/>Эффект Swiftcast: следующее заклинание можно использовать мгновенно<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVP Skill 07
-      "PVP Superflare": {
+      "PVP Skill 07": {
          "name": 'Superflare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6864c3e2bb745d9715492532ad74a4277ea5b2ab.png',
          "classification": 'Способность',
@@ -735,7 +735,7 @@
          "content": 'Удар, наносящий урон по всем ближайшим противникам с силой атаки от 3,000 до 9,000, в зависимости от количество стаков эффекта Astral Warmth или Umbral Freeze на них.<br/>Дополнительный эффект: противники, находящиеся под действием эффекта Astral Warmth, получают Burns, наносящий периодический урон огнем<br/>Сила атаки: 3,000<br/>Продолжительность: 6 сек.<br/>Длительность увеличивается на 3 сек. за каждый дополнительный стак Astral Warmth, вплоть до 12 сек.<br/>Дополнительный эффект: противники, находящиеся под действием эффекта Umbral Freeze, получают негативный статус, соответствующее количеству накопленных стаков<br/>1 стак: тяжесть (heavy)<br/>2 стака: связывание (bind)<br/>3 стака: глубокая заморозка (deep freeze)<br/>Продолжительность: 2 сек.<br/>Максимум зарядов: 2',
       },
       // PVP Skill 08
-      "PVP Fire IV": {
+      "PVP Skill 08": {
          "name": 'Fire IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c19670b228b7a32f1555a892ad6c6f6cf5a299eb.png',
          "classification": 'Заклинание',
@@ -747,7 +747,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 6,000.<br/>Дополнительный эффект: накладывает на цель стак эффекта Astral Warmth, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Umbral Freeze.<br/>Дополнительный эффект: накладывает эффект Astral Fire III<br/>Продолжительность: 30 сек.<br/>Эффект не складывается с эффектом Umbral Ice.<br/>Можно использовать только под действием эффекта Astral Fire II.<br/><br/>※Умение меняется на Flare под действием эффекта Astral Fire III.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 09
-      "PVP Flare": {
+      "PVP Skill 09": {
          "name": 'Flare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e741977a1edf3dd9346fda665513f44e2f3657f4.png',
          "classification": 'Заклинание',
@@ -759,7 +759,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 12,000 по цели и 8,000 по всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на цель стак эффекта Astral Warmth, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Umbral Freeze<br/>Можно использовать только под действием эффекта Astral Fire III.<br/>Эффект Astral Fire III прекращается после использования.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 10
-      "PVP Blizzard IV": {
+      "PVP Skill 10": {
          "name": 'Blizzard IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07ed8d0a26c2565eb1b299106a1cf65e947f1c6f.png',
          "classification": 'Заклинание',
@@ -771,7 +771,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 6,000.<br/>Дополнительный эффект: накладывает на цель стак эффекта Umbral Freeze, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Astral Warmth.<br/>Дополнительный эффект: накладывает эффект Umbral Ice III<br/>Продолжительность: 30 сек.<br/>Эффект не складывается с эффектом Astral Fire.<br/>Можно использовать только под действием эффекта Umbral Ice II.<br/><br/>※Умение меняется на Freeze под действием эффекта Umbral Ice II.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 11
-      "PVP Freeze": {
+      "PVP Skill 11": {
          "name": 'Freeze',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aafe3a863f3f3f97139afda8225384ef31a5dd96.png',
          "classification": 'Заклинание',
@@ -783,7 +783,7 @@
          "content": 'Удар, наносящий урон льдом с силой атаки 12,000 по цели и 8,000 по всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на цель стак эффекта Umbral Freeze, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Astral Warmth.<br/>Можно использовать только под действием эффекта Umbral Ice III.<br/>Эффект Umbral Ice III прекращается после использования.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 12
-      "PVP Foul": {
+      "PVP Skill 12": {
          "name": 'Foul',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c69c9a5fc01ef8c831af84aff7d3d7c5cba0d1f0.png',
          "classification": 'Заклинание',
@@ -795,7 +795,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 16,000 по цели и всем ближайшим противникам.<br/>Можно использовать только под действием эффекта Polyglot.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 13
-      "PVP Soul Resonance": {
+      "PVP Skill 13": {
          "name": 'Soul Resonance',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b834e18e2f5e1eb8dcdde2e1360761650e6296a3.png',
          "cast": 'Мгновенная',
@@ -810,4 +810,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

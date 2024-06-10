@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 19/03/2024`,
       // PVE Skill 01
-      "Riposte": {
+      "PVE Skill 01": {
          "name": 'Riposte',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c24d1459dbae096bb8927efb52db5feb9b0d316.png',
          "job_icon": 'RDM',
@@ -18,7 +18,7 @@
          "content": 'Удар, наносящий урон с силой атаки 130. <br/>Навык улучшается до Enchanted Riposte, если запас Black Mana и White Mana 20 или больше.',
       },
       // PVE Skill 02
-      "Jolt": {
+      "PVE Skill 02": {
          "name": 'Jolt',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9fc8c455d50ec08c721f4674e7e9015f4700debe.png',
          "job_icon": 'RDM',
@@ -33,7 +33,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 170.<br/>Дополнительный эффект: восполняет текущий запас Black Mana и White Mana на 2',
       },
       // PVE Skill 03
-      "Verthunder": {
+      "PVE Skill 03": {
          "name": 'Verthunder',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f5a91b090922e24a43d172f2cdfb85fc4ff9423a.png',
          "job_icon": 'RDM',
@@ -48,7 +48,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 360.<br/>Дополнительный эффект: восполняет запас Black Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 04
-      "Corps-a-corps": {
+      "PVE Skill 04": {
          "name": 'Corps-a-corps',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ca149fa59c97f3ce000ba2cdd143dd181a25def6.png',
          "job_icon": 'RDM',
@@ -63,7 +63,7 @@
          "content": 'Рывок к цели, наносящий урон с силой атаки 130.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 05
-      "Veraero": {
+      "PVE Skill 05": {
          "name": 'Veraero',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a774e32d6c268433b5e2c56dc152cae973605e2e.png',
          "job_icon": 'RDM',
@@ -78,7 +78,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 360.<br/>Дополнительный эффект: восполняет запас White Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 06
-      "Scatter": {
+      "PVE Skill 06": {
          "name": 'Scatter',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/adbad46ea7684b2e5914b23c4ec7de0ecb19432d.png',
          "job_icon": 'RDM',
@@ -93,7 +93,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 120 по цели и всем ближайшим противникам.<br/>Сила атаки Acceleration: 170<br/>Дополнительный эффект: восполняет текущий запас Black Mana и White Mana на 3',
       },
       // PVE Skill 07
-      "Verthunder II": {
+      "PVE Skill 07": {
          "name": 'Verthunder II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e81a0ede20ee59190bd71e6e1e0398449a3d9b54.png',
          "job_icon": 'RDM',
@@ -108,7 +108,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 140 по цели и ближайшим противникам<br/>Дополнительный эффект: восполняет запас Black Mana на 7',
       },
       // PVE Skill 08
-      "Veraero II": {
+      "PVE Skill 08": {
          "name": 'Veraero II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bd4b649f82039bd9b028dc8bafacef3eb671da79.png',
          "job_icon": 'RDM',
@@ -123,7 +123,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 140 по цели и ближайшим противникам<br/>Дополнительный эффект: восполняет запас White Mana на 7',
       },
       // PVE Skill 09
-      "Verfire": {
+      "PVE Skill 09": {
          "name": 'Verfire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ce7efb90e13d0fef394abb8d2e57a09402452890.png',
          "job_icon": 'RDM',
@@ -138,7 +138,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 340.<br/>Дополнительный эффект: восполняет запас Black Mana на 5<br/>Может использоваться только когда эффект Verfire Ready активен.',
       },
       // PVE Skill 10
-      "Verstone": {
+      "PVE Skill 10": {
          "name": 'Verstone',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c5ddf887a06b23a2ae9426a5a6288b863b92eced.png',
          "job_icon": 'RDM',
@@ -153,7 +153,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 340.<br/>Дополнительный эффект: восполняет запас White Mana на 5<br/>Может использоваться только когда эффект Verfire Ready активен.',
       },
       // PVE Skill 11
-      "Zwerchhau": {
+      "PVE Skill 11": {
          "name": 'Zwerchhau',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/adef75e55602967f0c722896b45d5be518cd9dd4.png',
          "job_icon": 'RDM',
@@ -168,7 +168,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Riposte или Enchanted Riposte<br/>Сила в комбо: 150<br/>Умение улучшается до Enchanted Zwerchhau если текущий запас Black Mana и White Mana 15 и больше.',
       },
       // PVE Skill 12
-      "Displacement": {
+      "PVE Skill 12": {
          "name": 'Displacement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3a7bcdd99a2d4f40c95c39ce19d97be8ee0a151b.png',
          "job_icon": 'RDM',
@@ -183,7 +183,7 @@
          "content": 'Удар, наносящий урон с силой атаки 180.<br/>Дополнительный эффект: прыжок назад на 15 ялмов<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Делит время восстановления умений с Engagement.',
       },
       // PVE Skill 13
-      "Engagement": {
+      "PVE Skill 13": {
          "name": 'Engagement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/341778a835813d9d96dd39d0a4f67e13b6c09527.png',
          "job_icon": 'RDM',
@@ -198,7 +198,7 @@
          "content": 'Удар, наносящий урон с силой атаки 180.<br/>Максимум зарядов: 2<br/>Делит время восстановления умений с Displacement.',
       },
       // PVE Skill 14
-      "Fleche": {
+      "PVE Skill 14": {
          "name": 'Fleche',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f950d18911258503ab8a8ec2fa28ca3fdb6a8a6d.png',
          "job_icon": 'RDM',
@@ -213,7 +213,7 @@
          "content": 'Удар, наносящий урон с силой атаки 460.',
       },
       // PVE Skill 15
-      "Redoublement": {
+      "PVE Skill 15": {
          "name": 'Redoublement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/292f17a2bcaebf7db4560ff8c977f64908db9917.png',
          "job_icon": 'RDM',
@@ -228,7 +228,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Zwerchhau или Enchanted Zwerchhau<br/>Сила в комбо: 230<br/>Умение улучшается до Enchanted Redoublement если текущий запас Black Mana и White Mana 15 и больше.',
       },
       // PVE Skill 16
-      "Acceleration": {
+      "PVE Skill 16": {
          "name": 'Acceleration',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/831a96d8378a68659074d13e8a1e90e0de2da5a4.png',
          "job_icon": 'RDM',
@@ -243,7 +243,7 @@
          "content": 'Гарантирует, что следующее применение умения Verthunder III, Veraero III или Impact будет мгновенным.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: увеличивает силу атаки Impact на 50<br/>Дополнительный эффект: гарантирует, что умения Verthunder III и Veraero III активируют эффект Verfire Ready или Verstone Ready<br/>Максимум зарядов: 2',
       },
       // PVE Skill 17
-      "Moulinet": {
+      "PVE Skill 17": {
          "name": 'Moulinet',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fe9877c05ef3a4622f0488b580b6ea36b7446bca.png',
          "job_icon": 'RDM',
@@ -258,7 +258,7 @@
          "content": 'Удар, наносящий урон с силой атаки 60 по всем противникам в конусе перед персонажем.<br/>Умение улучшается до Enchanted Moulinet если текущий запас Black Mana и White Mana 20 и больше.',
       },
       // PVE Skill 18
-      "Vercure": {
+      "PVE Skill 18": {
          "name": 'Vercure',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d23f5785bdb0f0c398a14087753ddcedab6d4e78.png',
          "job_icon": 'RDM',
@@ -273,7 +273,7 @@
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 350',
       },
       // PVE Skill 19
-      "Contre Sixte": {
+      "PVE Skill 19": {
          "name": 'Contre Sixte',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e9183e5932215335efe798ce4d6422d37befaf27.png',
          "job_icon": 'RDM',
@@ -288,7 +288,7 @@
          "content": 'Удар, наносящий урон с силой атаки 380 по цели и всем ближайшим противникам.',
       },
       // PVE Skill 20
-      "Embolden": {
+      "PVE Skill 20": {
          "name": 'Embolden',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/85d6955ad939bb051fe8b893c194497b9499d89e.png',
          "job_icon": 'RDM',
@@ -303,7 +303,7 @@
          "content": 'Увеличивает магический урон на 5% и весь наносимый урон ближайшими сопартийцами на 5%.<br/>Продолжительность: 20 сек.',
       },
       // PVE Skill 21
-      "Manafication": {
+      "PVE Skill 21": {
          "name": 'Manafication',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fcad96771c4/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5f145a66018e2f197e16b966e30c53bba09e13bd.png',
@@ -319,7 +319,7 @@
          "content": 'Восполняет текущий запас Black Mana and White Mana на 50.<br/>Дополнительный эффект: накладывает 6 стаков эффекта Manafication<br/>Эффект Manafication: увеличивает магический урон на 5%<br/>Продолжительность: 15 сек.<br/>Все комбо будут сброшены после использования Manafication.<br/>Возможно использовать только в бою.',
       },
       // PVE Skill 22
-      "Jolt II": {
+      "PVE Skill 22": {
          "name": 'Jolt II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e2b3cc05547ba6a37ba5e883f190570d32eabb10.png',
          "job_icon": 'RDM',
@@ -334,7 +334,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 320.<br/>Дополнительный эффект: восполняет текущий запас Black Mana and White Mana на 2',
       },
       // PVE Skill 23
-      "Verraise": {
+      "PVE Skill 23": {
          "name": 'Verraise',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6be6c45a105e3890f5390c26a2d5532a7e2eea43.png',
          "job_icon": 'RDM',
@@ -349,7 +349,7 @@
          "content": 'Воскрешает цель, накладывая эффект слабости (weakeness).',
       },
       // PVE Skill 24
-      "Impact": {
+      "PVE Skill 24": {
          "name": 'Impact',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c5d66100b8539f4dd5779a760ccbc29f5878e6a.png',
          "job_icon": 'RDM',
@@ -364,7 +364,7 @@
          "content": 'дар, наносящий нестихийный урон с силой атаки 210 по цели и всем ближайшим противникам.<br/>Сила атаки Acceleration: 260<br/>Дополнительный эффект: восполняет текущий запас Black Mana and White Mana на 3',
       },
       // PVE Skill 25
-      "Verflare": {
+      "PVE Skill 25": {
          "name": 'Verflare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d20080ca189b4843d89ac2faab14d42099bd2e4c.png',
          "job_icon": 'RDM',
@@ -379,7 +379,7 @@
          "content": 'Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 600 для первого и на 60% меньше для всех остальных.<br/>Дополнительный эффект: восполняет Black Mana на 11<br/>Дополнительный эффект: 20% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.<br/>Шанс получить эффект Verfire Ready повышается до 100%, если White Mana больше чем Black Mana во время использования умения.<br/>Стоимость: 3 Mana Stack<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 26
-      "Verholy": {
+      "PVE Skill 26": {
          "name": 'Verholy',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b0bc78e2f74/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/34f4be861c3f40879653fef7fe7039f8df1108c1.png',
@@ -395,7 +395,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 600 для первого и на 60% меньше для всех остальных.<br/>Дополнительный эффект: восполняет White Mana на 11<br/>Дополнительный эффект: 20% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.<br/>Шанс получить эффект Verfire Ready повышается до 100%, если Black Mana больше, чем White Mana во время использования умения.<br/>Стоимость: 3 Mana Stack<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 27
-      "Reprise": {
+      "PVE Skill 27": {
          "name": 'Reprise',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5a263708112bc6c8cbada8c40c34e97811874caf.png',
          "job_icon": 'RDM',
@@ -410,7 +410,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100.<br/>Умение улучшается до Enchanted Reprise, если запас Black Mana и White Mana 5 или больше.',
       },
       // PVE Skill 28
-      "Scorch": {
+      "PVE Skill 28": {
          "name": 'Scorch',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ebe66b332de0465570b50147ee257968cfd77d0e.png',
          "job_icon": 'RDM',
@@ -425,7 +425,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 680 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Verflare или Verholy<br/>Дополнительный эффект: восполняет запас Black Mana и White Mana на 4<br/>Jolt II и Impact сменяется на Scorch после использования Verflare или Verholy в комбо.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 29
-      "Verthunder III": {
+      "PVE Skill 29": {
          "name": 'Verthunder III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8753ec70302b5e3613d8f95980f6d80d30c8ee9d.png',
          "job_icon": 'RDM',
@@ -440,7 +440,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 380.<br/>Дополнительный эффект: восполняет запас Black Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 30
-      "Veraero III": {
+      "PVE Skill 30": {
          "name": 'Veraero III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d9d556c8c08c0704176d7239be8de27e2c1f4aba.png',
          "job_icon": 'RDM',
@@ -455,7 +455,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 380.<br/>Дополнительный эффект: восполняет запас White Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 31
-      "Magick Barrier": {
+      "PVE Skill 31": {
          "name": 'Magick Barrier',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/76814235b2963003889ec3f3fc8c4857d82d3177.png',
          "job_icon": 'RDM',
@@ -470,7 +470,7 @@
          "content": 'Снижает магический урон, наносимый персонажу и ближайшим сопартийцам на 10%, а также увеличивает количество HP, восстанавливаемое  исцеляющими умениями на 5%.<br/>Продолжительность: 10 сек.',
       },
       // PVE Skill 32
-      "Resolution": {
+      "PVE Skill 32": {
          "name": 'Resolution',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3683481bcc4bf11a5c0d8d2b979d3109eb2664f7.png',
          "job_icon": 'RDM',
@@ -485,7 +485,7 @@
          "content": 'Удар, наносящий нестихийный урон по всем ближайшим противникам по прямой линии перед персонажем с силой атаки 750 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Scorch<br/>Дополнительный эффект: восполняет запас Black Mana и White Mana на 4<br/>Scorch изменяется на Resolution, после использования Scorch в комбо.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 33
-      "Enchanted Riposte": {
+      "PVE Skill 33": {
          "name": 'Enchanted Riposte',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f3b5d72daa982d01b469e4d45a73b184b7056154.png',
          "job_icon": 'RDM',
@@ -500,7 +500,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 280.<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 20 Black Mana шкалы Balance Gauge<br/>Стоимость: 20 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 34
-      "Enchanted Zwerchhau": {
+      "PVE Skill 34": {
          "name": 'Enchanted Zwerchhau',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4740dd6eac66424c4d1b236f9002b979f7f993e7.png',
          "job_icon": 'RDM',
@@ -515,7 +515,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 150.<br/>Комбо умение: Riposte или Enchanted Riposte<br/>Сила в комбо: 340<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 35
-      "Enchanted Redoublement": {
+      "PVE Skill 35": {
          "name": 'Enchanted Redoublement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/12329935fdf53d176f290194929c91b4f96c5212.png',
          "job_icon": 'RDM',
@@ -530,7 +530,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 130.<br/>Комбо умение: Enchanted Zwerchhau<br/>Сила в комбо: 500<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 36
-      "Enchanted Moulinet": {
+      "PVE Skill 36": {
          "name": 'Enchanted Moulinet',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/078ff2ecf682fbabebea07caf8631619a223a774.png',
          "job_icon": 'RDM',
@@ -545,7 +545,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 130 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 20 Black Mana шкалы Balance Gauge<br/>Стоимость: 20 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 37
-      "Enchanted Reprise": {
+      "PVE Skill 37": {
          "name": 'Enchanted Reprise',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a6e98885e3a5709ef22ba5ea9ad2991f3015752e.png',
          "job_icon": 'RDM',
@@ -560,7 +560,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 340.<br/>Стоимость: 5 Black Mana шкалы Balance Gauge<br/>Стоимость: 5 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Trait 01
-      "Dualcast": {
+      "Trait 01": {
          "name": 'Dualcast',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba8e7c2fa1542aff1a448951340a771cea935b14.png',
          "job_icon": 'RDM',
@@ -568,7 +568,7 @@
          "content": 'Накладывает эффект Dualcast при использовании любого заклинания, имеющего время применения. Когда персонаж находится под эффектом Dualcast, следующее заклинание не будет требовать времени применения. Эффект прекращается при выполнении любого действия, кроме способности. Авто атаки не отменяют эффект.<br/>Продолжительность: 15 сек.',
       },
       // Trait 02
-      "Maim and Mend": {
+      "Trait 02": {
          "name": 'Maim and Mend',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png',
          "job_icon": 'RDM',
@@ -576,7 +576,7 @@
          "content": 'Увеличивает базовый урон умений и восстановления HP на 10%.',
       },
       // Trait 03
-      "Maim and Mend II": {
+      "Trait 03": {
          "name": 'Maim and Mend II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png',
          "job_icon": 'RDM',
@@ -584,7 +584,7 @@
          "content": 'Увеличивает базовый урон умений и восстановления HP на 30%.',
       },
       // Trait 04
-      "Enhanced Jolt": {
+      "Trait 04": {
          "name": 'Enhanced Jolt',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b1a374ca735f065a1e74d73de21f2ff0ae9e37d4.png',
          "job_icon": 'RDM',
@@ -592,7 +592,7 @@
          "content": 'Улучшает умение Jolt до Jolt II. Также повышает силу атаки умений Verthunder и Veraero до 360, и силу атаки умений Verfire и Verstone до 300.',
       },
       // Trait 05
-      "Scatter Mastery": {
+      "Trait 05": {
          "name": 'Scatter Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/25dd9bda53f9b07bde960cd4a2cd17a32e20fce2.png',
          "job_icon": 'RDM',
@@ -600,7 +600,7 @@
          "content": 'Улучшает умение Scatter до Impact.',
       },
       // Trait 06
-      "Mana Stack": {
+      "Trait 06": {
          "name": 'Mana Stack',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d6d2042423f8017649fa46279afe981ad911ba7.png',
          "job_icon": 'RDM',
@@ -608,7 +608,7 @@
          "content": 'Добавляет Mana Stack к шкале Balance Gauge при использования Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement или Enchanted Moulinet, максимум 3.<br/>После получения 3 Mana Stacks Verthunder и Verthunder II улучшаются до Verflare.<br/>После изучения Verholy получение 3 Mana Stacks также улучшает Veraero и Veraero II до Verholy.',
       },
       // Trait 07
-      "Enhanced Displacement": {
+      "Trait 07": {
          "name": 'Enhanced Displacement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d5ae42ee8a96d14ccb2aca8fb77a3dc07870ac98.png',
          "job_icon": 'RDM',
@@ -616,7 +616,7 @@
          "content": 'Увеличивает силу атаки Displacement и Engagement до 180.',
       },
       // Trait 08
-      "Red Magic Mastery": {
+      "Trait 08": {
          "name": 'Red Magic Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/66e611103eb0f8e13a49f0ca1149c7d1cd5059aa.png',
          "job_icon": 'RDM',
@@ -624,7 +624,7 @@
          "content": 'Снижает время восстановления Contre Sixte до 35 секунд и увеличивает силу Verthunder II и Veraero II до 120.',
       },
       // Trait 09
-      "Enhanced Manafication": {
+      "Trait 09": {
          "name": 'Enhanced Manafication',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8ebee2fe5cc848fb74933058a952ae40ccf70e6c.png',
          "job_icon": 'RDM',
@@ -632,7 +632,7 @@
          "content": 'Снижает время восстановления Manafication до 110 секунд и добавляет эффект увеличения магического урона на 5%.',
       },
       // Trait 10
-      "Red Magic Mastery II": {
+      "Trait 10": {
          "name": 'Red Magic Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79d78648190b44e68aba9e81a5663b5b1c53823f.png',
          "job_icon": 'RDM',
@@ -640,7 +640,7 @@
          "content": 'Улучшает умение Verthunder до Verthunder III и Veraero до Veraero III.<br/>После получения 3 Mana Stacks Verthunder III улучшается до Verflare и Veraero III улучшается до Verholy.',
       },
       // Trait 11
-      "Red Magic Mastery III": {
+      "Trait 11": {
          "name": 'Red Magic Mastery III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ad98a9599086d8643f4d5808e2cabbc50cad1e44.png',
          "job_icon": 'RDM',
@@ -648,7 +648,7 @@
          "content": 'Увеличивает силу атаки Enchanted Riposte до 280, Verthunder II до 140, Veraero II до 140, Verfire до 340, Verstone до 340, Enchanted Zwerchhau до 150, Enchanted Redoublement до 130, Jolt II до 320, Impact до 210 и Enchanted Reprise до 340.',
       },
       // Trait 12
-      "Enhanced Acceleration": {
+      "Trait 12": {
          "name": 'Enhanced Acceleration',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f20258e6dd074997a3856ce6b8744ee3049c6a86.png',
          "job_icon": 'RDM',
@@ -656,7 +656,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Acceleration.<br/>Максимум зарядов: 2',
       },
       // Trait 13
-      "Enhanced Manafication II": {
+      "Trait 13": {
          "name": 'Enhanced Manafication II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/082650d5e7a3b38c4db5f32824e527281fb91ba1.png',
          "job_icon": 'RDM',
@@ -664,7 +664,7 @@
          "content": 'Увеличивает максимальное количество стаков Manafication до 6.',
       },
       // PVP Skill 01
-      "PVP Verstone": {
+      "PVP Skill 01": {
          "name": 'Verstone',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9df7186ba12f011456175039cccc827396f24b22.png',
          "classification": 'Заклинание',
@@ -676,7 +676,7 @@
          "content": 'Удар, наносящий урон землей с силой атаки 5,000.<br/>Дополнительный эффект: накладывает эффект Dualcast, позволяющую мгновенно использовать следующее заклинание<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта White Shift.<br/><br/>※Умение меняется на Dualcast под действием эффекта Veraero III.<br/>※Умение меняется на Verfire под действием эффекта Black Shift.<br/>※Умение меняется на Verthunder III под действием эффектов Black Shift и Dualcast.',
       },
       // PVP Skill 02
-      "PVP Enchanted Riposte": {
+      "PVP Skill 02": {
          "name": 'Enchanted Riposte',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/67f481da4b0a277ad6b06432a130adfe4b986d32.png',
          "classification": 'Боевой навык',
@@ -688,7 +688,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 6,000.<br/>Эффект White Shift: создает вокруг персонажа барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: сила барьера увеличивается на 10%, если на цель наложен эффект Monomachy<br/>Эффект Black Shift: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 6 сек.<br/><br/>※Умение меняется на Enchanted Zwerchhau после использования.',
       },
       // PVP Skill 03
-      "PVP Resolution": {
+      "PVP Skill 03": {
          "name": 'Resolution',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5aae4c251545f2fc478c40be35966398c7ab9b99.png',
          "classification": 'Боевой навык',
@@ -700,7 +700,7 @@
          "content": 'Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 8,000.<br/>Эффект White Shift: безмолвие (silence)<br/>Продолжительность: 2 сек.<br/>Эффект Black Shift: связывание (bind)<br/>Продолжительность: 3 сек.<br/>Этот умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 04
-      "PVP Magick Barrier": {
+      "PVP Skill 04": {
          "name": 'Magick Barrier',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a18eb34f3095e008c14b977841ebd45e02ef04d4.png',
          "classification": 'Способность',
@@ -712,7 +712,7 @@
          "content": 'Снижает урон, получаемый персонажем и ближайшими сопартийцами на 10%, а также увеличивает восстановление HP при использовании лечебных умений на 10%.<br/>Продолжительность: 10 сек.<br/>Может быть выполнено только под действием эффекта White Shift.<br/>Имеет общее время восстановления с умением Frazzle.<br/><br/>※Умение меняется на Frazzle под действием эффекта Black Shift.',
       },
       // PVP Skill 05
-      "PVP Corps-a-corps": {
+      "PVP Skill 05": {
          "name": 'Corps-a-corps',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b524bce7a6b14bd3f524b8c29f5df87cdfc0d955.png',
          "classification": 'Способность',
@@ -724,7 +724,7 @@
          "content": 'Рывок к цели, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: накладывает на цель эффект Monomachy<br/>Эффект Monomachy: увеличивает наносимый урон по цели на 10% и снижает получаемый урон от нее на 10%<br/>Продолжительность: 7 сек.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.',
       },
       // PVP Skill 06
-      "PVP Displacement": {
+      "PVP Skill 06": {
          "name": 'Displacement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/447cbba6771ca9884e9fdb197d8bf20dd2b2fa15.png',
          "classification": 'Способность',
@@ -736,7 +736,7 @@
          "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: прыжок назад на 15 ялмов<br/>Дополнительный эффект: накладывает эффект Manafication<br/>Эффект Manafication: увеличивает наносимый урон и силу лечения следующего заклинания на 20%<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.',
       },
       // PVP Skill 07
-      "PVP Black Shift": {
+      "PVP Skill 07": {
          "name": 'Black Shift',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ae0ecdc73d81aa25cff5dd887ee3381de4d9328c.png',
          "classification": 'Способность',
@@ -748,7 +748,7 @@
          "content": 'Накладывает эффект Black Shift, изменяющее эффекты нескольких умений.<br/>Можно использовать только под действием эффекта White Shift.<br/><br/>※Умение меняется на White Shift после использования.',
       },
       // PVP Skill 08
-      "PVP Veraero III": {
+      "PVP Skill 08": {
          "name": 'Veraero III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/24a8dde706c9065539f39a69856dd5590e6e2657.png',
          "classification": 'Заклинание',
@@ -760,7 +760,7 @@
          "content": 'Удар, наносящий урон ветром с силой атаки 5 000.<br/>Можно использовать только под действием эффектов White Shift и Dualcast.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 09
-      "PVP Verholy": {
+      "PVP Skill 09": {
          "name": 'Verholy',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07cf43acafca1e04285879b3a5027c5cc7c6d135.png',
          "classification": 'Заклинание',
@@ -772,7 +772,7 @@
          "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 8,000.<br/>Дополнительный эффект: восстанавливает HP персонажа<br/>Сила лечения: 8,000<br/>Дополнительный эффект: восстанавливает HP сопартийцев, находящихся рядом с целью<br/>Сила лечения: 8,000<br/>Можно использовать только под действием эффектов White Shift и Vermilion Radiance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 10
-      "PVP Verfire": {
+      "PVP Skill 10": {
          "name": 'Verfire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/924e11f407179cd1d2bdedaac9eccbf157425635.png',
          "classification": 'Заклинание',
@@ -784,7 +784,7 @@
          "content": 'Удар, наносящий урон огнем с силой атаки 5,000.<br/>Дополнительный эффект: накладывает эффект Dualcast, позволяющую мгновенно использовать следующее заклинание<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Black Shift.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 11
-      "PVP Verthunder III": {
+      "PVP Skill 11": {
          "name": 'Verthunder III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1878973a204eebd0d777a7f32cf11e03c53405ff.png',
          "classification": 'Заклинание',
@@ -796,7 +796,7 @@
          "content": 'Удар, наносящий урон молнией с силой атаки 5,000.<br/>Можно использовать только под действием эффектов Black Shift и Dualcast.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 12
-      "PVP Verflare": {
+      "PVP Skill 12": {
          "name": 'Verflare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/94fb60c36518f1f3988644ffdcc786c49446eb0d.png',
          "classification": 'Заклинание',
@@ -808,7 +808,7 @@
          "content": 'Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 12,000.<br/>Можно использовать только под действием эффектов Black Shift и Vermilion Radiance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 13
-      "PVP Enchanted Zwerchhau": {
+      "PVP Skill 13": {
          "name": 'Enchanted Zwerchhau',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e908bf25ba9fac88edf30da9b4edf9b8bcbf1758.png',
          "classification": 'Боевой навык',
@@ -820,7 +820,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 7,000.<br/>Комбо умение: Enchanted Riposte<br/>Эффект White Shift : создает барьер вокруг персонажа, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: сила барьера увеличивается на 10%, если на цель наложен эффект Monomachy<br/>Эффект Black Shift: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 6 сек.<br/><br/>※Умение меняется на Enchanted Redoublement после использования.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 14
-      "PVP Enchanted Redoublement": {
+      "PVP Skill 14": {
          "name": 'Enchanted Redoublement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2f8944b29325a91ae300010c1fb774e9d53316e.png',
          "classification": 'Боевой навык',
@@ -832,7 +832,7 @@
          "content": 'Удар, наносящий нестихийный урон с силой атаки 8,000.<br/>Комбо умение: Enchanted Zwerchhau<br/>Дополнительный эффект: накладывает эффект Vermilion Radiance<br/>Продолжительность: 10 сек.<br/>Эффект White Shift: создает барьер вокруг персонажа, поглощающая урон, равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: сила барьера увеличивается на 10%, если на цель наложен эффект Monomachy<br/>Эффект Black Shift: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 6 сек.<br/><br/>※Умение меняется на Verholy под действием эффектов White Shift и Vermilion Radiance.<br/>※Умение меняется на Verflare под действием эффектов Black Shift и Vermilion Radiance.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 15
-      "PVP Frazzle": {
+      "PVP Skill 15": {
          "name": 'Frazzle',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1acc1c44ad72be77ee1391495ad6b3a48254d7ba.png',
          "classification": 'Способность',
@@ -844,7 +844,7 @@
          "content": 'Увеличивает получаемый урон ближайших противников на 10%, а также уменьшает HP, восстанавливаемое исцеляющими умениями на 10%.<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Black Shift.<br/>Имеет общее время восстановления с умением Magick Barrier.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 16
-      "PVP White Shift": {
+      "PVP Skill 16": {
          "name": 'White Shift',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/15220233b94a04dc32fa1b3aafcd4d996e47e47c.png',
          "classification": 'Способность',
@@ -856,7 +856,7 @@
          "content": 'Накладывает эффект White Shift, изменяющее эффекты нескольких умений.<br/>Можно использовать только под действием эффекта Black Shift.<br/>Автоматически активируется при смене класса на красного мага.<br/><br/>※Умение меняется на Black Shift после использования.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 17
-      "PVP Southern Cross": {
+      "PVP Skill 17": {
          "name": 'Southern Cross',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c93e62e034c1a0d6cfd0dfc01ed9fa386528e9e.png',
          "cast": 'Мгновенная',
@@ -871,4 +871,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();

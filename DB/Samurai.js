@@ -3,7 +3,7 @@
       "PVE Update": `Последнее обновление: 02/10/2023`,
       "PVP Update": `Последнее обновление: 19/03/2024`,
       // PVE Skill 01
-      "Hakaze": {
+      "PVE Skill 01": {
          "name": 'Hakaze',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/55c0a798d2db426ad407ab0d506fae3afe14cd1d.png',
          "job_icon": 'SAM',
@@ -17,7 +17,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200<br/>Дополнительный эффект: восполняет шкалу Kenki Gauge на 5',
       },
       // PVE Skill 02
-      "Jinpu": {
+      "PVE Skill 02": {
          "name": 'Jinpu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2cdd1c3fa2b166f8da269d9e3241399d3a37f959.png',
          "job_icon": 'SAM',
@@ -31,7 +31,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Hakaze<br/>Сила в комбо: 280<br/>Комбо бонус: накладывает Fugetsu<br/>Эффект Fugetsu: увеличивает наносимый урон на 13%<br/>Продолжительность: 40 сек.<br/>Комбо бонус: восполняет шкалу Kenki Gauge на 5',
       },
       // PVE Skill 03
-      "Third Eye": {
+      "PVE Skill 03": {
          "name": 'Third Eye',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c97e963e92ae242000e51159d9eb749897d8a68.png',
          "job_icon": 'SAM',
@@ -45,7 +45,7 @@
          "content": 'Снижает входящий урон от следующей атаки на 10%.<br/>Продолжительность: 4 сек.<br/>Дополнительный эффект: восполняет Kenki Gauge на 10 при получении урона',
       },
       // PVE Skill 04
-      "Enpi": {
+      "PVE Skill 04": {
          "name": 'Enpi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2b75c383779cbd254a8bca3dbd30f2490c1d270.png',
          "job_icon": 'SAM',
@@ -59,7 +59,7 @@
          "content": 'Дальний удар, наносящий урон с силой атаки 100.<br/>Бонус силы атаки Enhanced Enpi: 260<br/>Дополнительный эффект: восполняет Kenki Gauge на 10 ',
       },
       // PVE Skill 05
-      "Shifu": {
+      "PVE Skill 05": {
          "name": 'Shifu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/64dcd53611773e2f2c981bc01877937b5331df8c.png',
          "job_icon": 'SAM',
@@ -73,7 +73,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Hakaze<br/>Сила в комбо: 280<br/>Комбо бонус: накладывает Fuka<br/>Эффект Fuka: уменьшает время длительности применения и время восстановления боевых навыков и заклинаний, а также промежуток между авто атаками на 13%<br/>Продолжительность: 40 сек.<br/>Комбо бонус: восполняет шкалу Kenki Gauge на 5',
       },
       // PVE Skill 06
-      "Fuga": {
+      "PVE Skill 06": {
          "name": 'Fuga',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5f181040a9d1ef66c6310a307036639fd78ef6c8.png',
          "job_icon": 'SAM',
@@ -87,7 +87,7 @@
          "content": 'Удар, наносящий урон с силой атаки 90 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: восполняет Kenki Gauge на 5',
       },
       // PVE Skill 07
-      "Gekko": {
+      "PVE Skill 07": {
          "name": 'Gekko',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/69a82466c03f3531657ce703afb8a399fdd89812.png',
          "job_icon": 'SAM',
@@ -101,7 +101,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120, при выполнении удара в спину цели 170.<br/>Комбо умение: Jinpu<br/>Сила в комбо: 480<br/>Сила в комбо в спину цели: 380<br/>Комбо бонус: восполняет Kenki Gauge на 5<br/>Комбо бонус: активирует Getsu',
       },
       // PVE Skill 08
-      "Iaijutsu": {
+      "PVE Skill 08": {
          "name": 'Iaijutsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/64757011257ac3561af53f09ffb47bd76744803d.png',
          "job_icon": 'SAM',
@@ -115,7 +115,7 @@
          "content": 'Использует боевой навык в зависимости от числа Sen сохраненных в Sen Gauge.<br/>1 Sen: Higanbana<br/>2 Sen: Tenka Goken<br/>3 Sen: Midare Setsugekka',
       },
       // PVE Skill 09
-      "Mangetsu": {
+      "PVE Skill 09": {
          "name": 'Mangetsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/81e6e44a8a26f2355226894a36dea570ce1d6962.png',
          "job_icon": 'SAM',
@@ -129,7 +129,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100 по всем ближайшим противникам.<br/>Комбо умение: Fuko<br/>Сила в комбо: 120<br/>Комбо бонус: накладывает Fugetsu<br/>Эффект Fugetsu: увеличивает урон на 13%<br/>Продолжительность: 40 сек.<br/>Комбо бонус: восполняет Kenki Gauge на 10<br/>Комбо бонус: активирует Getsu',
       },
       // PVE Skill 10
-      "Kasha": {
+      "PVE Skill 10": {
          "name": 'Kasha',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8330058e7e147dc2093e838239c2865aea6d6166.png',
          "job_icon": 'SAM',
@@ -143,7 +143,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120, при выполнении удара в бок цели 170.<br/>Комбо эффект: Shifu<br/>Сила в комбо: 330<br/>Сила в комбо в бок цели: 380<br/>Комбо бонус: восполняет Kenki Gauge на 10<br/>Комбо бонус: активирует  Ka',
       },
       // PVE Skill 11
-      "Oka": {
+      "PVE Skill 11": {
          "name": 'Oka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/83caa2b18aa8a589ccdd81b8367452ef73d1e2b2.png',
          "job_icon": 'SAM',
@@ -157,7 +157,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100 по всем ближайшим противникам.<br/>Комбо умение: Fuko<br/>Сила в комбо: 120<br/>Комбо бонус: накладывает Fuka<br/>Эффект Fuka: уменьшает время длительности применения и время восстановления боевых навыков и заклинаний, а также промежуток между авто атаками на 13%<br/>Продолжительность: 40 сек.<br/>Комбо бонус: восполняет Kenki Gauge на 10<br/>Комбо бонус: активирует  Ka',
       },
       // PVE Skill 12
-      "Yukikaze": {
+      "PVE Skill 12": {
          "name": 'Yukikaze',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/353a35cad8a1e089d162451dbe5de1fb78f4b0a9.png',
          "job_icon": 'SAM',
@@ -171,7 +171,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Hakaze<br/>Сила в комбо: 300<br/>Комбо бонус: восполняет Kenki Gauge на 15<br/>Комбо бонус: активирует  Setsu',
       },
       // PVE Skill 13
-      "Meikyo Shisui": {
+      "PVE Skill 13": {
          "name": 'Meikyo Shisui',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/13e7fc6c10bb476259ec8d29d086bef49bea509c.png',
          "job_icon": 'SAM',
@@ -185,7 +185,7 @@
          "content": 'Позволяет использовать до трех боевых навыков, требующих комбо эффект без него. Не влияет на Iaijutsu или Ogi Namikiri.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: успешное использование Gekko накладывает Fugetsu, а успешное использование Kasha накладывает Fuka<br/>Максимум зарядов: 2',
       },
       // PVE Skill 14
-      "Hissatsu Shinten": {
+      "PVE Skill 14": {
          "name": 'Hissatsu: Shinten',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c57812e667388d676fd1267d87583aa29c2da2ef.png',
          "job_icon": 'SAM',
@@ -199,7 +199,7 @@
          "content": 'Удар, наносящий урон с силой атаки атаки 250.<br/>Стоимость: 25 Kenki Gauge ',
       },
       // PVE Skill 15
-      "Hissatsu Gyoten": {
+      "PVE Skill 15": {
          "name": 'Hissatsu: Gyoten',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/98f63e44032f5b66bbe9f77ad2882e38b42854b3.png',
          "job_icon": 'SAM',
@@ -213,7 +213,7 @@
          "content": 'Рывок к цели, наносящий урон с силой атаки 100.<br/>Стоимость: 10 Kenki Gauge<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 16
-      "Hissatsu Yaten": {
+      "PVE Skill 16": {
          "name": 'Hissatsu: Yaten',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f939f0b2b36012cbc5096f6b64a787a8d5f5ed6a.png',
          "job_icon": 'SAM',
@@ -227,7 +227,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100.<br/>Дополнительный эффект: отскок назад на 10 ялмов<br/>Дополнительный эффект: накладывает Enhanced Enpi<br/>Продолжительность: 15 сек.<br/>Стоимость: 10 Kenki Gauge<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 17
-      "Meditate": {
+      "PVE Skill 17": {
          "name": 'Meditate',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/5c8e5325725/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4b642f7d616d6ca25a2ac0dfb230cb5f953eebd1.png',
@@ -242,7 +242,7 @@
          "content": 'Постепенно восполняет шкалу Kenki Gauge.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает стаки Meditation когда используется в бою, вплоть до 3 стаков<br/>Kenki Gauge не будет восполняться вне битвы.<br/>Эффект спадет при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br/>Прерывает авто атаки при использовании умения.<br/>Активирует время восстановления боевых навыков. Не может использоваться во время восстановления боевых навыков.',
       },
       // PVE Skill 18
-      "Hissatsu Kyuten": {
+      "PVE Skill 18": {
          "name": 'Hissatsu: Kyuten',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b0d5ff90bd65e254949741965c77d50b100b8241.png',
          "job_icon": 'SAM',
@@ -256,7 +256,7 @@
          "content": 'Удар, наносящий урон с силой атаки 120 по всем ближайшим противникам.<br/>Стоимость: 25 Kenki Gauge',
       },
       // PVE Skill 19
-      "Hagakure": {
+      "PVE Skill 19": {
          "name": 'Hagakure',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/afaf9f6273e5d6a275a84ad286c390d7337cd11d.png',
          "job_icon": 'SAM',
@@ -270,7 +270,7 @@
          "content": 'Конвертирует Setsu, Getsu и Ka в Kenki. Каждый конвертированный Sen восполняет шкалу Kenki Gauge на 10. Может использоваться под эффектом хотя бы одного из трех Sen.',
       },
       // PVE Skill 20
-      "Ikishoten": {
+      "PVE Skill 20": {
          "name": 'Ikishoten',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9165fbf83411057b22d8d9c2a5e29dd6fd6fce5c.png',
          "job_icon": 'SAM',
@@ -284,7 +284,7 @@
          "content": 'Восполняет шкалу Kenki Gauge на 50.<br/>Дополнительный эффект: накладывает Ogi Namikiri Ready<br/>Продолжительность: 30 сек.<br/>Может использоваться только в бою.',
       },
       // PVE Skill 21
-      "Hissatsu Guren": {
+      "PVE Skill 21": {
          "name": 'Hissatsu: Guren',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/efa0a96cc36/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a6e4fbc47fbb90b64d6a58495cf991f9aad2548b.png',
@@ -299,7 +299,7 @@
          "content": 'Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 500 для первого и на 50% меньше для остальных.<br/>Стоимость: 50 Kenki Gauge<br/>Имеет общее время восстановления с умением Hissatsu: Senei.',
       },
       // PVE Skill 22
-      "Hissatsu Senei": {
+      "PVE Skill 22": {
          "name": 'Hissatsu: Senei',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1812ee8f2135ed92057b767eacbf2469ef0b25ee.png',
          "job_icon": 'SAM',
@@ -313,7 +313,7 @@
          "content": 'Удар, наносящий урон с силой атаки 860.<br/>Стоимость: 25 Kenki Gauge <br/>Имеет общее время восстановления с умением Hissatsu: Guren.',
       },
       // PVE Skill 23
-      "Tsubame-gaeshi": {
+      "PVE Skill 23": {
          "name": 'Tsubame-gaeshi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2aeabf974ab57ac123bc19cacfcd94c3ad86373a.png',
          "job_icon": 'SAM',
@@ -327,7 +327,7 @@
          "content": 'Повторяет использованный до этого iaijutsu.<br/>Максимум зарядов: 2<br/>Может быть использовано только сразу после Iaijutsu.<br/>Активирует время восстановления боевых навыков после использования. Не может использоваться во время восстановления боевых навыков.',
       },
       // PVE Skill 24
-      "Shoha": {
+      "PVE Skill 24": {
          "name": 'Shoha',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7dfe5d9335e25731063d777068c6fa58f1806e51.png',
          "job_icon": 'SAM',
@@ -341,7 +341,7 @@
          "content": 'Удар, наносящий урон с силой атаки 560.<br/>Может использоваться после накопления трех стаков Meditation, выполняя Iaijutsu, Meditate или Ogi Namikiri во время боя.<br/>Эффект Meditation спадет после использования умения.<br/>Имеет общее время восстановления с умением Shoha II.',
       },
       // PVE Skill 25
-      "Shoha II": {
+      "PVE Skill 25": {
          "name": 'Shoha II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4285d69fdc2206304ddc8c21087b0a136bffded9.png',
          "job_icon": 'SAM',
@@ -355,7 +355,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200 по всем ближайшим противникам.<br/>Может использоваться после накопления трех стаков Meditation, выполняя Iaijutsu, Meditate или Ogi Namikiri во время боя.<br/>Эффект Meditation спадет после использования умения.<br/>Имеет общее время восстановления с умением Shoha.',
       },
       // PVE Skill 26
-      "Fuko": {
+      "PVE Skill 26": {
          "name": 'Fuko',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/db60b934788a92fdfd9bf4b749c5c7ab80a56d03.png',
          "job_icon": 'SAM',
@@ -369,7 +369,7 @@
          "content": 'Удар, наносящий урон с силой атаки 100 по всем ближайшим противникам.<br/>Стоимость: восполняет Kenki Gauge на 10',
       },
       // PVE Skill 27
-      "Ogi Namikiri": {
+      "PVE Skill 27": {
          "name": 'Ogi Namikiri',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/08d676ac5d79d9f433c8ebc11ff39fa40246ae2b.png',
          "job_icon": 'SAM',
@@ -383,7 +383,7 @@
          "content": 'Удар,наносящий критический (critical) урон по всем противникам в конусе перед персонажем с силой атаки 860 для первого и на 75% меньше для остальных.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Накладывает стак Meditation, вплоть до 3 стаков.<br/>Можно использовать только под действием эффекта Ogi Namikiri Ready.<br/><br/>※Умение меняется на Kaeshi: Namikiri после использования.',
       },
       // PVE Skill 28
-      "Kaeshi Namikiri": {
+      "PVE Skill 28": {
          "name": 'Kaeshi: Namikiri',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/63536deb9e8a888c17e4b367bff095cc0f3c2740.png',
          "job_icon": 'SAM',
@@ -397,7 +397,7 @@
          "content": 'Удар, наносящий критический (critical) урон по всем противникам в конусе перед персонажем с силой атаки 860 для первого и на 75% меньше для остальных.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Активирует время восстановления боевых навыков после использования. Не может использоваться во время восстановления боевых навыков.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Jyutsu 01
-      "Higanbana": {
+      "Jyutsu 01": {
          "name": 'Higanbana',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3db719d146f5af6ef728a9d8d093aa26553ce690.png',
          "job_icon": 'SAM',
@@ -411,7 +411,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: периодический урон<br/>Сила урона: 45<br/>Продолжительность: 60 сек.<br/>Дополнительный эффект: накладывает стак Meditation, максимум 3<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Jyutsu 02
-      "Tenka Goken": {
+      "Jyutsu 02": {
          "name": 'Tenka Goken',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a1e9553412c34a1614a4f9a1ece32becc2463e15.png',
          "job_icon": 'SAM',
@@ -425,7 +425,7 @@
          "content": 'Удар, наносящий урон с силой атаки 300 по всем окружающим противникам.<br/>Дополнительный эффект: накладывает стак Meditation, максимум 3<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Jyutsu 03
-      "Midare Setsugekka": {
+      "Jyutsu 03": {
          "name": 'Midare Setsugekka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2df83ffd6e49570528cb44af4ad17d777722ab1f.png',
          "job_icon": 'SAM',
@@ -439,7 +439,7 @@
          "content": 'Удар, наносящий критический (critical) урон с силой атаки 640.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Дополнительный эффект: накладывает стак Meditation, максимум 3<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Jyutsu 04
-      "Kaeshi Higanbana": {
+      "Jyutsu 04": {
          "name": 'Kaeshi: Higanbana',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8054c80bdd0dd509ee470910d819c399c67f29db.png',
          "job_icon": 'SAM',
@@ -453,7 +453,7 @@
          "content": 'Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 45<br/>Продолжительность: 60 сек.<br/>Эффект не суммируется с Higanbana.<br/>Активирует время восстановления боевых навыков после использования. Нельзя использовать во время восстановления боевых навыков.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Jyutsu 05
-      "Kaeshi Goken": {
+      "Jyutsu 05": {
          "name": 'Kaeshi: Goken',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4609d44fb480c238ed73e42eed5cd0b722020341.png',
          "job_icon": 'SAM',
@@ -467,7 +467,7 @@
          "content": 'Удар, наносящий урон с силой атаки 300 по всем окружающим противникам.<br/>Активирует время восстановления боевых навыков после использования. Нельзя использовать во время восстановления боевых навыков.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Jyutsu 06
-      "Kaeshi Setsugekka": {
+      "Jyutsu 06": {
          "name": 'Kaeshi: Setsugekka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3a733f5ba1130d94fdef4b1e58f7cab9188ded4b.png',
          "job_icon": 'SAM',
@@ -481,7 +481,7 @@
          "content": 'Удар, наносящий критический (critical) урон с силой атаки 640.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Активирует время восстановления боевых навыков после использования. Нельзя использовать во время восстановления боевых навыков.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Trait 01
-      "Kenki Mastery": {
+      "Trait 01": {
          "name": 'Kenki Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/61100cfbd684bff162dc7c9c39eeaaa3f0d96c26.png',
          "job_icon": 'SAM',
@@ -489,7 +489,7 @@
          "content": 'Восполняет Kenki Gauge при использовании определенных боевых навыков или при получении урона под эффектом Third Eye.',
       },
       // Trait 02
-      "Kenki Mastery II": {
+      "Trait 02": {
          "name": 'Kenki Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/845bef194008ec4a881c27dd5871ec567eb45d39.png',
          "job_icon": 'SAM',
@@ -497,7 +497,7 @@
          "content": 'Восполняет Kenki Gauge после использования всех боевых навыков, исключая Iaijutsu.',
       },
       // Trait 03
-      "Way of the Samurai": {
+      "Trait 03": {
          "name": 'Way of the Samurai',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
          "job_icon": 'SAM',
@@ -505,7 +505,7 @@
          "content": 'Увеличивает силу атаки Hakaze до 200, Jinpu до 120 и Shifu до 120.',
       },
       // Trait 04
-      "Enhanced Iaijutsu": {
+      "Trait 04": {
          "name": 'Enhanced Iaijutsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c54d56abfcd872e0c91d3759851982328da139d2.png',
          "job_icon": 'SAM',
@@ -513,7 +513,7 @@
          "content": 'Уменьшает время использования Iaijutsu до 1.3 сек.',
       },
       // Trait 05
-      "Enhanced Fugetsu and Fuka": {
+      "Trait 05": {
          "name": 'Enhanced Fugetsu and Fuka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/976f373fc969a791206bc0fd6a8f7da24279052d.png',
          "job_icon": 'SAM',
@@ -521,7 +521,7 @@
          "content": 'Увеличивает урон Fugetsu на 13%, а Fuka уменьшает время длительности применения и время восстановления боевых навыков и заклинаний, а также промежуток между авто атаками на 13%.',
       },
       // Trait 06
-      "Enhanced Tsubame-gaeshi": {
+      "Trait 06": {
          "name": 'Enhanced Tsubame-gaeshi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7640d34fd1134633e78b4f6c02b86f6f64f9f630.png',
          "job_icon": 'SAM',
@@ -529,7 +529,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Tsubame-gaeshi.<br/>Максимум зарядов: 2',
       },
       // Trait 07
-      "Way of the Samurai II": {
+      "Trait 07": {
          "name": 'Way of the Samurai II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb2173170fff9f761a656135293703a149717ede.png',
          "job_icon": 'SAM',
@@ -537,7 +537,7 @@
          "content": 'Увеличивает силу атаки Gekko, Kasha и Yukikaze до 120.',
       },
       // Trait 08
-      "Fuga Mastery": {
+      "Trait 08": {
          "name": 'Fuga Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/953ac92360e4249d146c6135eb58f7787ad3a0f0.png',
          "job_icon": 'SAM',
@@ -545,7 +545,7 @@
          "content": 'Улучшает умение Fuga до Fuko.',
       },
       // Trait 09
-      "Enhanced Meikyo Shisui": {
+      "Trait 09": {
          "name": 'Enhanced Meikyo Shisui',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a851869daf899599e7095c2968af9b247be6bbb7.png',
          "job_icon": 'SAM',
@@ -553,7 +553,7 @@
          "content": 'Позволяет накапливать заряды для последовательного использования Meikyo Shisui.<br/>Максимум зарядов: 2',
       },
       // Trait 10
-      "Enhanced Ikishoten": {
+      "Trait 10": {
          "name": 'Enhanced Ikishoten',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0a505b3bd0761c6075c5e0d9564fe6c4a54d8f70.png',
          "job_icon": 'SAM',
@@ -561,7 +561,7 @@
          "content": 'Накладывает Ogi Namikiri Ready после использования Ikishoten.<br/>Продолжительность: 30 сек.',
       },
       // PVP Skill 01
-      "PVP Yukikaze": {
+      "PVP Skill 01": {
          "name": 'Yukikaze',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4550282f1053e01184225a9ebebfbd33bbe5cc82.png',
          "classification": 'Боевой навык',
@@ -573,7 +573,7 @@
          "content": 'Удар, наносящий урон с силой атаки 3,000.<br/><br/>※Умение меняется на Hyosetsu под действием эффекта Kaiten.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 02
-      "PVP Gekko": {
+      "PVP Skill 02": {
          "name": 'Gekko',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e2fec945f14e98f42ab2722c491576d938e630d.png',
          "classification": 'Боевой навык',
@@ -585,7 +585,7 @@
          "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Комбо умение: Yukikaze или Hyosetsu<br/><br/>※Умение меняется на Mangetsu под действием эффекта Kaiten.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 03
-      "PVP Kasha": {
+      "PVP Skill 03": {
          "name": 'Kasha',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/01a57cd74642c830b68cd1cf56fe16a93e71ef74.png',
          "classification": 'Боевой навык',
@@ -597,7 +597,7 @@
          "content": 'Удар, наносящий урон с силой атаки 5,000.<br/>Комбо умение: Gekko или Mangetsu<br/><br/>※Умение меняется на Oka под действием эффекта Kaiten.<br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 04
-      "PVP Ogi Namikiri": {
+      "PVP Skill 04": {
          "name": 'Ogi Namikiri',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2ae0363856a5ee2cf457d107dee97b25d53ae416.png',
          "classification": 'Боевой навык',
@@ -609,7 +609,7 @@
          "content": 'Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается на 50%, если атаковать только одну цель.<br/>Дополнительный эффект: при атаке двух или более целей создает вокруг персонажа барьер, поглощающий урон, равный силе лечения 8,000<br/>Продолжительность: 10 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>При использовании умение меняется на Kaeshi: Namikiri.',
       },
       // PVP Skill 05
-      "PVP Hissatsu Soten": {
+      "PVP Skill 05": {
          "name": 'Hissatsu: Soten',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4319cb6547b05b752ade2cd29a192146e77770fb.png',
          "classification": 'Способность',
@@ -621,7 +621,7 @@
          "content": 'Стремительно прыгает вперед, нанося урон всем противникам на пути с силой атаки 4,000.<br/>Дополнительный эффект: накладывает Kaiten<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 3<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Yukikaze меняется на Hyosetsu под действием эффекта Kaiten.<br/>※Gekko меняется на Mangetsy под действием эффекта Kaiten.<br/>※Kasha меняется на Oka под действием эффекта Kaiten.',
       },
       // PVP Skill 06
-      "PVP Hissatsu Chiten": {
+      "PVP Skill 06": {
          "name": 'Hissatsu: Chiten',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f482255082d1bbb81b74609b8d3f374073e2f30.png',
          "classification": 'Способность',
@@ -633,7 +633,7 @@
          "content": 'Снижает получаемый урон на 25% и наносит контрудар с силой атаки 2,000 каждый раз, когда персонаж получает урон.<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: накладывает на цель эффект Kuzushi<br/>Эффект Kuzushi: увеличивает наносимый цели урон на 25%<br/>Продолжительность: 4 сек.',
       },
       // PVP Skill 07
-      "PVP Mineuchi": {
+      "PVP Skill 07": {
          "name": 'Mineuchi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c73a2812a60a1d4905999e4ed74619e7319449b7.png',
          "classification": 'Способность',
@@ -645,7 +645,7 @@
          "content": 'Наносит урон цели, равный 10% от ее текущего HP.<br/>При нанесении урона игнорируется эффект Guard<br/>Наносит урон с силой атаки 4000 по неигровым персонажам и игрокам, находящихся в роботах.<br/>Дополнительный эффект: stun (оглушение)<br/>Продолжительность: 2 сек.',
       },
       // PVP Skill 08
-      "PVP Meikyo Shisui": {
+      "PVP Skill 08": {
          "name": 'Meikyo Shisui',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0e7c1775565b0143c3a89d14f0d700db42893691.png',
          "classification": 'Способность',
@@ -657,7 +657,7 @@
          "content": 'Накладывает Meikyo Shisui и Midare.<br/>Эффект Meikyo Shisui: снимает все статусные негативные эффекты, которые можно снять с помощью Purify<br/>Продолжительность: 3 сек.<br/>Продолжительность Midare: 10 сек.<br/><br/>※Умение меняется на Midare Setsugekka под действием эффекта Midare.',
       },
       // PVP Skill 09
-      "PVP Hyosetsu": {
+      "PVP Skill 09": {
          "name": 'Hyosetsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79456c6255deea729d1bc1637362c55d9e2ac996.png',
          "classification": 'Боевой навык',
@@ -669,7 +669,7 @@
          "content": 'Удар, наносящий урон с силой атаки 3,000 по всем ближайшим противникам.<br/>Дополнительный эффект: связывание (bind)<br/>Продолжительность: 2 сек.<br/>Можно использовать только под действием эффекта Kaiten.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 10
-      "PVP Mangetsu": {
+      "PVP Skill 10": {
          "name": 'Mangetsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3a4302dbe77ba8ab0c294a18ae2ed7ae2122c4df.png',
          "classification": 'Боевой навык',
@@ -681,7 +681,7 @@
          "content": 'Удар, наносящий урон с силой атаки 8,000 по всем ближайшим противникам.<br/>Комбо умение: Yukikaze или Hyosetsu<br/>Можно использовать только под действием эффекта Kaiten.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 11
-      "PVP Oka": {
+      "PVP Skill 11": {
          "name": 'Oka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2177f5db1158be2e88d7bb12c44dee594c64ccbb.png',
          "classification": 'Боевой навык',
@@ -693,7 +693,7 @@
          "content": 'Удар, наносящий урон с силой атаки 5,000 по всем ближайшим противникам.<br/>Комбо умение: Gekko или Mangetsu<br/>Дополнительный эффект: поглощает 100% нанесенного урона в виде HP<br/>Можно использовать только под действием эффекта Kaiten.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 12
-      "PVP Midare Setsugekka": {
+      "PVP Skill 12": {
          "name": 'Midare Setsugekka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e3c037af956f70ba94408aac789a2310bfa5da51.png',
          "classification": 'Боевой навык',
@@ -705,7 +705,7 @@
          "content": 'Удар, наносящий урон с силой атаки 16,000.<br/>Можно использовать только под действием эффекта Midare.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 13
-      "PVP Kaeshi Namikiri": {
+      "PVP Skill 13": {
          "name": 'Kaeshi: Namikiri',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/511537fac5a52af6263ec710e0f44f3bacb27d12.png',
          "classification": 'Боевой навык',
@@ -717,7 +717,7 @@
          "content": 'Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается на 50%, если атаковать только одну цель.<br/>Комбо умение: Ogi Namikiri<br/>Дополнительный эффект: при атаке двух или более целей создает вокруг персонажа барьер, поглощающий урон, равный силе лечения 8000<br/>Продолжительность: 10 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 14
-      "PVP Zantetsuken": {
+      "PVP Skill 14": {
          "name": 'Zantetsuken',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ff8b2867c7cbf972efb8da7deaf7a5c4f48d60cb.png',
          "cast": 'Мгновенная',
@@ -732,4 +732,5 @@
    FILL_DB_SKILLS(db);
    FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
+   FILL_DB_SKILLS_MENU(db);
 })();
