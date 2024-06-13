@@ -25,7 +25,6 @@ document.body.onload = function () {
 		var loader = document.getElementById('page-loader');
 		if (!preloader.classList.contains('done')) {
 			preloader.classList.add('done');
-			loader.classList.add('loader_none');
 			$('body').css('overflow-y', 'visible');
 		}
 		var id = window.location.hash;

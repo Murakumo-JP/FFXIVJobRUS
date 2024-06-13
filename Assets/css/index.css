@@ -26,7 +26,6 @@
 	--color-error: #a62137;
 	--main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #84b9ba 0%, #dbd6a5 100%);
 }
-
 body {
 	overflow-y: hidden;
 	overflow-x: hidden;
@@ -229,14 +228,14 @@ footer {
 	top: 0;
 	z-index: 9999;
 	opacity: 1;
-	transition: 1s all;
+	transition: 1.5s all;
 	opacity: 1;
 	visibility: visible;
 }
 .loader {
 	width: 100px;
 	height: 100px;
-	border: 5px solid #1b1b1b;
+	border: 5px solid transparent;
 	border-top-color: var(--color-set-3);
 	border-radius: 50%;
 	position: absolute;
@@ -249,17 +248,6 @@ footer {
 	opacity: 0;
 	visibility: hidden;
 }
-.loader_none {
-	display: none;
-}
-@keyframes spin {
-	from {
-		transform: translate(-50%, -50%) rotate(0deg);
-	}
-	to {
-		transform: translate(-50%, -50%) rotate(360deg);
-	}
-}
 .preloader:before {
 	content: 'Загрузка...';
 	display: block;
@@ -270,6 +258,26 @@ footer {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	animation: 3s flash infinite linear;
+}
+@keyframes flash {
+	from,
+	50%,
+	to {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes spin {
+	from {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
 }
 /* Webkit */
 ::-webkit-scrollbar {
