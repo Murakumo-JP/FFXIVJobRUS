@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
-
    <head>
       <meta charset="UTF-8">
       <title>Job Guide | FFXIV RU</title>
+      <link rel="canonical" href="https://ff14jobguide.ru/JobGuide" />
       <link rel="shortcut icon" type="image/x-icon" href="Assets/img/favicon.ico" />
+      <!-- Open Graph Meta -->
+      <meta property="og:title" content="Job Guide | FFXIV RU">
+      <meta property="og:site_name" content="FFXIV Job Guide RU">
+      <meta property="og:description" content="Описание классовых умений Final Fantasy XIV на русском языке">
+      <meta property="og:url" conent="https://ff14jobguide.ru/JobGuide">
+      <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/git-preview.png">
+      <meta name="theme-color" content="#732828">
+      <meta name="description" content="Описание классовых умений Final Fantasy XIV на русском языке">
+      <!-- Styles and Script -->
       <link rel="stylesheet" href="Assets/css/index.css" />
       <script type="text/javascript" src="Assets/js/jquery.min.js"></script>
       <!-- Google tag (gtag.js) -->
@@ -29,24 +38,19 @@
                   <a href="/" class="job_header_guide_top"><span>На главную</span></a>
                </div>
                <div class="link_list">
-                  <a class="job_db eorzeadb_link" target="_blank" href="https://discord.gg/5RmsfZGFMu">
-                     <span>
-                        <img class="discord" src="Assets/img/svg/discord.svg"> Наш Discord
-                     </span>
+                  <a class="btn_link" target="_blank" href="https://discord.gg/5RmsfZGFMu">
+                     <img src="Assets/img/svg/discord.svg">                        
+                     <span>Наш Discord</span>
                   </a>
-                  <a class="job_db eorzeadb_link" target="_blank" href="https://boosty.to/murakumo">
-                     <span>
-                        <img src="Assets/img/svg/boosty.svg"> Поддержи проект
-                     </span>
+                  <a class="btn_link" target="_blank" href="https://boosty.to/murakumo">
+                     <img src="Assets/img/svg/boosty.svg">
+                     <span>Поддержи проект</span>
                   </a>
+                  <span id="inner_update"><span>
                </div>
                <h1>
                   <img src="Assets/img/DoWDoM/JobGuideRU.png">
                </h1>
-               <div class="jobguide_update">
-                  <img src="Assets/img/main/Updated_6.5.png">
-                  <p>Последнее обновление: 02.10.2023</p>
-               </div>
             </div>
          </header>
          <div class="jobguide_catch">
@@ -61,20 +65,23 @@
             </p>
             <p class="jobguide_text">
                При переводе на русский язык были использованы следующие термины:
-               <br>- Weaponskill — Боевой навык
-               <br>- Ability — Способность
-               <br>- Spell — Заклинание
-               <br>
-               <br>Термином "умение" объединены все указанные выше термины.
-               <br>Термин "potency" переведен как "сила атаки". Когда имеется в виду именно атрибут силы, в скобках оставлено оригинальное наименование (Strength).
-               <br>Если в описании какого-либо умения указан элемент стихии либо явно указано, что атака "нестихийная", то такая атака является магической.
-               <br>В других случаях - физической.
+               <br/>- Weaponskill — Боевой навык
+               <br/>- Ability — Способность
+               <br/>- Spell — Заклинание
+               <br/>
+               <br/>Термином "умение" объединены все указанные выше термины.
+               <br/>Термин "potency" переведен как "сила атаки".
+               <br/>Когда имеется в виду именно атрибут силы, в скобках оставлено оригинальное наименование (Strength).
+               <br/>Если в описании какого-либо умения указан элемент стихии либо явно указано, что атака "нестихийная", то такая атака является магической.
+               <br/>В других случаях - физической.
             </p>
+            <div class="warn_info"></div>
             <p class="info_pop">
-               Перевод выполнен Seiffear и Morriganna Latrial. Предложения, вопросы и замечания направляйте в Discord: morriganna 
-               <br>Большая благодарность всем, кто помогал с данным проектом. 
-               <br>Отдельное спасибо: Rei Eltrei, Budanochka Poly, Gella Zenhat, Kaka Demon, Ken Zattano и Schmelvin Dotan.
-               <br>Перевод выполнен на основе информации с сайта <a href="https://eu.finalfantasyxiv.com/jobguide/battle/">Job Guide</a>
+               Перевод выполнен Seiffear и Morriganna Latrial. 
+               <br/>Предложения, вопросы и замечания направляйте в Discord: morriganna 
+               <br/>Большая благодарность всем, кто помогал с данным проектом. 
+               <br/>Отдельное спасибо: Rei Eltrei, Budanochka Poly, Gella Zenhat, Kaka Demon, Ken Zattano и Schmelvin Dotan.
+               <br/>Перевод выполнен на основе информации с сайта <a href="https://eu.finalfantasyxiv.com/jobguide/battle/">Job Guide</a>
             </p>
             <div class="jobguide_flex">
                <!-- Tank -->
@@ -163,126 +170,135 @@
                   <img src="Assets/img/main/DPS.png" width="32" height="32">
                   DPS
                </h2>
-               <div class="jobguide_flex" style="height: 750px;">
-                  <!-- Melee DPS -->
-                  <div class="jobguide_dps">
-                     <h3>
-                        <img src="Assets/img/main/MeleeDPS.png" width="32" height="32">
-                        Melee DPS
-                     </h3>
-                     <div class="jobguide_dps_list">
-                        <p>
-                           Мили DPS атакуют врага на ближней дистанции.
-                           <br>
-                           Они ориентированы на использование комбо и позиции относительно врага для нанесения максимального урона.
-                        </p>
-                        <ul>
-                           <li>
-                              <a href="Page/MNK">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/MNK.png">
-                                 Monk (MNK)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/DRG">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/DRG.png">
-                                 Dragoon (DRG)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/NIN">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/NIN.png">
-                                 Ninja (NIN)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/SAM">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/SAM.png">
-                                 Samurai (SAM)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/RPR">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/RPR.png">
-                                 Reaper (RPR)
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
+               <!-- Melee DPS -->
+               <div class="jobguide_dps">
+                  <h3>
+                     <img src="Assets/img/main/MeleeDPS.png" width="32" height="32">
+                     Melee DPS
+                  </h3>
+                  <div class="jobguide_dps_list">
+                     <p>
+                        Мили DPS атакуют врага на ближней дистанции.
+                        <br>
+                        Они ориентированы на использование комбо и позиции относительно врага для нанесения максимального урона.
+                     </p>
+                     <ul>
+                        <li>
+                           <a href="Page/MNK">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/MNK.png">
+                              Monk (MNK)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/DRG">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/DRG.png">
+                              Dragoon (DRG)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/NIN">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/NIN.png">
+                              Ninja (NIN)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/SAM">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/SAM.png">
+                              Samurai (SAM)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/RPR">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/RPR.png">
+                              Reaper (RPR)
+                           </a>
+                        </li>
+                        <li class="job_none">
+                           <a href="Page/VPR">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/VPR.png">
+                              Viper (VPR)
+                           </a>
+                        </li>
+                     </ul>
                   </div>
+               </div>
+               <!-- Magical DPS -->
+               <div class="jobguide_dps">
                   <!-- Physical Ranged DPS -->
-                  <div class="jobguide_dps">
-                     <h3>
-                        <img src="Assets/img/main/PhysicalRangedDPS.png" width="32" height="32">
-                        Physical Ranged DPS
-                     </h3>
-                     <div class="jobguide_dps_list">
-                        <p>
-                           Physical Ranged DPS наносят непрерывный урон на расстоянии. 
-                           <br>
-                           А также оказывают поддержку сопартийцам различными усилениями.
-                        </p>
-                        <ul>
-                           <li>
-                              <a href="Page/BRD">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/BRD.png">
-                                 Bard (BRD)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/MCH">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/MCH.png">
-                                 Machinist (MCH)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/DNC">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/DNC.png">
-                                 Dancer (DNC)
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
+                  <h3>
+                     <img src="Assets/img/main/PhysicalRangedDPS.png" width="32" height="32">
+                     Physical Ranged DPS
+                  </h3>
+                  <div class="jobguide_dps_list">
+                     <p>
+                        Physical Ranged DPS наносят непрерывный урон на расстоянии. 
+                        <br>
+                        А также оказывают поддержку сопартийцам различными усилениями.
+                     </p>
+                     <ul>
+                        <li>
+                           <a href="Page/BRD">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/BRD.png">
+                              Bard (BRD)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/MCH">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/MCH.png">
+                              Machinist (MCH)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/DNC">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/DNC.png">
+                              Dancer (DNC)
+                           </a>
+                        </li>
+                     </ul>
                   </div>
                   <!-- Magical Ranged DPS -->
-                  <div class="jobguide_dps" style="bottom: 100px; position: relative;">
-                     <h3>
-                        <img src="Assets/img/main/MagicalRangedDPS.png" width="32" height="32">
-                        Magical Ranged DPS
-                     </h3>
-                     <div class="jobguide_dps_list">
-                        <p>
-                           Magical Ranged DPS атакуют врагов, используя различные тайные искусства.
-                           <br>
-                           Их передвижения ограничены во время применения заклинаний, но они наносят очень высокий урон.
-                        </p>
-                        <ul>
-                           <li>
-                              <a href="Page/BLM">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/BLM.png">
-                                 Black Mage (BLM)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/SMN">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/SMN.png">
-                                 Summoner (SMN)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/RDM">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/RDM.png">
-                                 Red Mage (RDM)
-                              </a>
-                           </li>
-                           <li>
-                              <a href="Page/BLU">
-                                 <img class="job_img" src="Assets/img/DoWDoM/Job/BLU.png">
-                                 Blue Mage (BLU, Limited Job)
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
+                  <h3>
+                     <img src="Assets/img/main/MagicalRangedDPS.png" width="32" height="32">
+                     Magical Ranged DPS
+                  </h3>
+                  <div class="jobguide_dps_list">
+                     <p>
+                        Magical Ranged DPS атакуют врагов, используя различные тайные искусства.
+                        <br>
+                        Их передвижения ограничены во время применения заклинаний, но они наносят очень высокий урон.
+                     </p>
+                     <ul>
+                        <li>
+                           <a href="Page/BLM">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/BLM.png">
+                              Black Mage (BLM)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/SMN">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/SMN.png">
+                              Summoner (SMN)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/RDM">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/RDM.png">
+                              Red Mage (RDM)
+                           </a>
+                        </li>
+                        <li class="job_none">
+                           <a href="Page/PCT">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/PCT.png">
+                              Pictomancer (PCT)
+                           </a>
+                        </li>
+                        <li>
+                           <a href="Page/BLU">
+                              <img class="job_img" src="Assets/img/DoWDoM/Job/BLU.png">
+                              Blue Mage (BLU, Limited Job)
+                           </a>
+                        </li>
+                     </ul>
                   </div>
                </div>
             </div>

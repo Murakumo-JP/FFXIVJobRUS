@@ -32,7 +32,7 @@ p {
 .jobguide {
 	width: 100%;
 	display: table;
-	background: #ecede7;
+	background: var(--color-set-3);
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 12px;
 }
@@ -56,26 +56,10 @@ p {
 
 .jobguide_header_inner h1 {
 	position: absolute;
-	top: 76px;
+	top: 50px;
 	left: 0;
 	width: 960px;
 	height: 244px;
-}
-
-.jobguide_update {
-	position: absolute;
-	top: 270px;
-	right: 0;
-}
-
-.jobguide_update p {
-	background-color: #00000080;
-	text-align: center;
-	padding: 5px;
-	border-radius: 10px;
-	font-size: 14px;
-	font-weight: bold;
-	color: #ffffff;
 }
 
 .jobguide_catch {
@@ -122,8 +106,16 @@ p {
 }
 
 .jobguide_dps {
-	width: 400px;
-	overflow: hidden;
+	width: 390px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 20px;
+}
+
+.jobguide_dps:nth-last-child(1) {
+	margin-right: 0;
 }
 
 .jobguide__dps {
@@ -264,4 +256,46 @@ li {
 	border-top-right-radius: 8px;
 	text-align: center;
 	cursor: pointer;
+}
+.range,
+.radius {
+	text-align: center;
+}
+/* Незабыть потом удалить эту фигню */
+.job_none {position: relative;}
+.job_none a {pointer-events: none;}
+.job_none a {filter: opacity(0.5);}
+.job_none:after {
+	content: "В процессе перевода";
+	background: var(--dps-color);
+	box-shadow: 0px 0px 5px 0px var(--dps-color);
+	color: white;
+	padding: 5px 20px 5px;
+	border-radius: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+	display: block;
+	left: 18px;
+	bottom: 5px;
+	width: 0;
+	text-align: center;
+	width: 170px;
+	line-height: 38px;
+	transition: all 0.3s;
+	opacity: 0;
+}
+.job_none:hover:after {opacity: 1;}
+/* Color Set */
+.jobguide_tank {
+	box-shadow: 0px 0px 5px 0px var(--tank-color);
+	border-radius: 10px;
+}
+.jobguide_healer {
+	box-shadow: 0px 0px 5px 0px var(--healer-color);
+	border-radius: 10px;
+}
+.jobguide__dps{
+	box-shadow: 0px 0px 5px 0px var(--dps-color);
+	border-radius: 10px;
 }
