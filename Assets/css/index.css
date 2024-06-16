@@ -684,7 +684,7 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	.main_header_alignment {
 		margin: 0 auto;
 	}
-	.btn_link span {
+	.btn_link span, #inner_update {
 		display: none;
 	}
 	.link_list {
@@ -703,5 +703,11 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 		margin: 0 auto;
 		right: 0;
 		left: 0;
+	}
+	.main_header_alignment{
+		width: 100%;
+	}
+	.main_header_text {
+		bottom: 30px;
 	}
 }
