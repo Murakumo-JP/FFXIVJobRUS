@@ -330,3 +330,36 @@ p + p {margin: 10px;}
    background: #59514c0d;
    border-radius: 2px;
 }
+.gs_wrapper {
+   width: 640px;
+   margin: 0 auto;
+}
+.gs_wrapper p {
+   position: relative;
+   margin: 15px -98px 55px;
+   padding: 0 98px;
+   font-size: 14px;
+   color: #585858;
+   height: 1%;
+   margin-bottom: 16px;
+   font-family: 'Noto Sans';
+}
+.gs_p--40{margin-bottom: 40px !important;}
+.gs_p--32{margin-bottom: 32px !important;}
+.gs_wrapper_h3 {
+   position: relative;
+   padding-left: 20px;
+   font-size: 18px;
+   color: #585858;
+   font-weight: bold;
+}
+.gs_wrapper_h3:after {
+   content: '';
+   position: absolute;
+   top: 4px;
+   left: 0;
+   width: 14px;
+   height: 14px;
+   border-radius: 14px;
+   background-color: #d99857;
+}
