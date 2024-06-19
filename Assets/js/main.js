@@ -34,11 +34,11 @@ document.body.onload = function () {
 	}, 500);
 };
 // Smooth Scrolling
-var $page = $('html, body');
 $('a[href*="#"]').click(function () {
-	$page.animate(
+	var page = $('html, body');
+	page.animate(
 		{
-			scrollTop: $($.attr(this, 'href')).offset().top - 48,
+			scrollTop: $($(this).attr('href')).offset().top - 48,
 		},
 		1500
 	);
@@ -60,7 +60,7 @@ $('.js-tab-trigger').click(function () {
 // Back to Top
 function backToTop() {
 	let button = $('.nome_app_top');
-
+	
 	$(window).on('scroll', () => {
 		if ($(this).scrollTop() >= 200) {
 			button.fadeIn();
