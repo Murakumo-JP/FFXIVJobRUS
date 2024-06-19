@@ -50,6 +50,10 @@
 	background: url(../img/JobHaider/HaiderRPR.jpg) no-repeat center top #4f1717;
 	background-attachment: fixed;
 }
+.job_vpr {
+	background: url(../img/JobHaider/HaiderVPR.jpg) no-repeat center top #4f1717;
+	background-attachment: fixed;
+}
 .job_brd {
 	background: url(../img/JobHaider/HaiderBRD.jpg) no-repeat center top #4f1717;
 	background-attachment: fixed;
@@ -72,6 +76,10 @@
 }
 .job_rdm {
 	background: url(../img/JobHaider/HaiderRDM.jpg) no-repeat center top #4f1717;
+	background-attachment: fixed;
+}
+.job_pct {
+	background: url(../img/JobHaider/HaiderPCT.jpg) no-repeat center top #4f1717;
 	background-attachment: fixed;
 }
 .job_blu {
