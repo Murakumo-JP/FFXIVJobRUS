@@ -24,6 +24,7 @@
 	--color-set-2: #000;
 	--color-set-3: #ecede7;
 	--color-error: #a62137;
+	--block-width: 472px;
 	--main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #84b9ba 0%, #dbd6a5 100%);
 }
 body {
