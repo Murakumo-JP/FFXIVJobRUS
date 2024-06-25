@@ -14,7 +14,7 @@ $(document).ready(function () {
 	});
 	// Info Update
 	$('#inner_update').prepend('<p class="latest_update">Последнее обновление: 28.06.2024 | Патч: 7.0</p>');
-	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br />Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/1dcbf39c97285ba9a42012eecf2c031f0ffbceb1/">патч ноутам</a>.');
+	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br />Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/e2d4089cb8c5dcbf44f4c4ea2beb0ae8afb8654e/">патч ноутам</a>.');
 	$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновление сайта и перевод будет производиться по мере актуализации информации на официальном сайте игры и может занять какое-то время.</p></div>');
 	$('.SE').append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>')
 });
