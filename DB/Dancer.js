@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 19/03/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Cascade',
@@ -395,6 +395,48 @@
          "radius": '25y',
          "content": 'Удар, наносящий критический (critical) прямой (direct) урон по всем противникам по прямой линии перед персонажем с силой атаки 600 для первого противника и на 75% меньше для всех остальных.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) и прямого (direct) урона.<br/>Может использоваться только под действием эффекта Flourishing Starfall.',
       },
+      // PVE Skill 29 NEW
+      "PVE Skill 29": {
+         "name": 'Last Dance',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4928175718cd6dcb3f4e39eccea94c7c2fd6f595.png',
+         "job_icon": 'DNC',
+         "level": '92',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 30 NEW
+      "PVE Skill 30": {
+         "name": 'Finishing Move',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8b85962f58aaef35ad086a228b5fb12584fc6e0d.png',
+         "job_icon": 'DNC',
+         "level": '96',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '30 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": '',
+      },
+      // PVE Skill 31 NEW
+      "PVE Skill 31": {
+         "name": 'Dance of the Dawn',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a4c8408be6396477a003a90a573bc23c141b54a6.png',
+         "job_icon": 'DNC',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
       // Step Actions 01
       "Step Actions 01": {
          "name": 'Emboite',
@@ -538,6 +580,46 @@
          "job_icon": 'DNC',
          "level": '90',
          "content": 'Накладывает Flourishing Starfall после использования Devilment.<br/>Продолжительность: 20 сек.',
+      },
+      // Trait 12 NEW
+      "Trait 12": {
+         "name": 'Enhanced Standard Finish',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/61f7797649fc9a916295e3bf5e7cff0d77da5954.png',
+         "job_icon": 'DNC',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 13 NEW
+      "Trait 13": {
+         "name": 'Dynamic Dancer',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c948f409f459cc6cc4983962f78d071f06ef5b8.png',
+         "job_icon": 'DNC',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 14 NEW
+      "Trait 14": {
+         "name": 'Enhanced Flourish II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/755e03aa52e57a1f2e5b6796e74a6ce0be288e1d.png',
+         "job_icon": 'DNC',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 15 NEW
+      "Trait 15": {
+         "name": 'Enhanced Shield Samba II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/198ae66af1422a784316aebe385e4a4e69d5694b.png',
+         "job_icon": 'DNC',
+         "level": '98',
+         "content": '',
+      },
+      // Trait 16 NEW
+      "Trait 16": {
+         "name": 'Enhanced Technical Finish II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4331a113b8c8cf86ebf54913cf3998201c719ae6.png',
+         "job_icon": 'DNC',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
