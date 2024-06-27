@@ -329,9 +329,9 @@ img {
 	display: block;
 }
 /* Update and New */
-tr.pve_new {
+tr.skill_new {
 	background-color: #f0dddd;
 }
-tr.pve_update {
+tr.skill_update {
 	background-color: #f0e4c5;
 }

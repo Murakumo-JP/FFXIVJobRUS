@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 19/03/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Hakaze',
@@ -329,7 +329,7 @@
       // PVE Skill 24
       "PVE Skill 24": {
          "name": 'Shoha',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7dfe5d9335e25731063d777068c6fa58f1806e51.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1f8f320806d886a35983a5c411ba95ede40072ce.png',
          "job_icon": 'SAM',
          "level": '80',
          "classification": 'Способность',
@@ -340,19 +340,19 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 560.<br/>Может использоваться после накопления трех стаков Meditation, выполняя Iaijutsu, Meditate или Ogi Namikiri во время боя.<br/>Эффект Meditation спадет после использования умения.<br/>Имеет общее время восстановления с умением Shoha II.',
       },
-      // PVE Skill 25
+      // PVE Skill 25 NEW
       "PVE Skill 25": {
-         "name": 'Shoha II',
+         "name": 'Tengetsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4285d69fdc2206304ddc8c21087b0a136bffded9.png',
          "job_icon": 'SAM',
          "level": '82',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
+         "classification": 'Ability',
+         "cast": 'Instant',
          "recast": '15 сек.',
          "range": '0y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий урон с силой атаки 200 по всем ближайшим противникам.<br/>Может использоваться после накопления трех стаков Meditation, выполняя Iaijutsu, Meditate или Ogi Namikiri во время боя.<br/>Эффект Meditation спадет после использования умения.<br/>Имеет общее время восстановления с умением Shoha.',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
       },
       // PVE Skill 26
       "PVE Skill 26": {
@@ -395,6 +395,34 @@
          "radius_img": 'R4',
          "radius": '8y',
          "content": 'Удар, наносящий критический (critical) урон по всем противникам в конусе перед персонажем с силой атаки 860 для первого и на 75% меньше для остальных.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Активирует время восстановления боевых навыков после использования. Не может использоваться во время восстановления боевых навыков.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVE Skill 29 NEW
+      "PVE Skill 29": {
+         "name": 'Gyofu',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ddb014de5732830d67f200a551b9e53a5537c3b7.png',
+         "job_icon": 'SAM',
+         "level": '92',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 30 NEW
+      "PVE Skill 30": {
+         "name": 'Zanshin',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4f7a3ffda80a03425ae8a4001c4f4c2412012047.png',
+         "job_icon": 'SAM',
+         "level": '96',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '8y',
+         "radius_img": 'R4',
+         "radius": '8y',
+         "content": '',
       },
       // Jyutsu 01
       "Jyutsu 01": {
@@ -440,20 +468,6 @@
       },
       // Jyutsu 04
       "Jyutsu 04": {
-         "name": 'Kaeshi: Higanbana',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8054c80bdd0dd509ee470910d819c399c67f29db.png',
-         "job_icon": 'SAM',
-         "level": '76',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '60 сек.',
-         "range": '6y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 45<br/>Продолжительность: 60 сек.<br/>Эффект не суммируется с Higanbana.<br/>Активирует время восстановления боевых навыков после использования. Нельзя использовать во время восстановления боевых навыков.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // Jyutsu 05
-      "Jyutsu 05": {
          "name": 'Kaeshi: Goken',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4609d44fb480c238ed73e42eed5cd0b722020341.png',
          "job_icon": 'SAM',
@@ -466,8 +480,8 @@
          "radius": '8y',
          "content": 'Удар, наносящий урон с силой атаки 300 по всем окружающим противникам.<br/>Активирует время восстановления боевых навыков после использования. Нельзя использовать во время восстановления боевых навыков.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // Jyutsu 06
-      "Jyutsu 06": {
+      // Jyutsu 05
+      "Jyutsu 05": {
          "name": 'Kaeshi: Setsugekka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3a733f5ba1130d94fdef4b1e58f7cab9188ded4b.png',
          "job_icon": 'SAM',
@@ -479,6 +493,62 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий критический (critical) урон с силой атаки 640.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Активирует время восстановления боевых навыков после использования. Нельзя использовать во время восстановления боевых навыков.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // Jyutsu 06 NEW
+      "Jyutsu 06": {
+         "name": 'Tendo Goken',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e2af5b5515a9ffc966a94097a466bd7aaf2376e4.png',
+         "job_icon": 'SAM',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": '1.3 сек.',
+         "recast": '2.5 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '8y',
+         "content": '',
+      },
+      // Jyutsu 07 NEW
+      "Jyutsu 07": {
+         "name": 'Tendo Setsugekka',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e4a2a3e87d6208ffe851e7555665b840b1a76f10.png',
+         "job_icon": 'SAM',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": '1.3 сек.',
+         "recast": '3.2 сек.',
+         "range": '6y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // Jyutsu 08 NEW
+      "Jyutsu 08": {
+         "name": 'Tendo Kaeshi Goken',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07fe16cdbe1915f02ba048c0f4ce6980f74efdee.png',
+         "job_icon": 'SAM',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '8y',
+         "content": '',
+      },
+      // Jyutsu 09 NEW
+      "Jyutsu 09": {
+         "name": 'Tendo Kaeshi Setsugekka',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/210010f360b4b0d0e9f8362352abf579ea8baad5.png',
+         "job_icon": 'SAM',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '3.2 сек.',
+         "range": '6y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
       },
       // Trait 01
       "Trait 01": {
@@ -499,7 +569,7 @@
       // Trait 03
       "Trait 03": {
          "name": 'Way of the Samurai',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'SAM',
          "level": '66',
          "content": 'Увеличивает силу атаки Hakaze до 200, Jinpu до 120 и Shifu до 120.',
@@ -512,45 +582,45 @@
          "level": '74',
          "content": 'Уменьшает время использования Iaijutsu до 1.3 сек.',
       },
-      // Trait 05
+      // Trait 05 NEW
       "Trait 05": {
+         "name": 'Enhanced Meikyo Shisui',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1651419c5c39dd98ff974b56f6b0a9942a13b473.png',
+         "job_icon": 'SAM',
+         "level": '76',
+         "content": ' ',
+      },
+      // Trait 06
+      "Trait 06": {
          "name": 'Enhanced Fugetsu and Fuka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/976f373fc969a791206bc0fd6a8f7da24279052d.png',
          "job_icon": 'SAM',
          "level": '78',
          "content": 'Увеличивает урон Fugetsu на 13%, а Fuka уменьшает время длительности применения и время восстановления боевых навыков и заклинаний, а также промежуток между авто атаками на 13%.',
       },
-      // Trait 06
-      "Trait 06": {
-         "name": 'Enhanced Tsubame-gaeshi',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7640d34fd1134633e78b4f6c02b86f6f64f9f630.png',
+      // Trait 07 NEW
+      "Trait 07": {
+         "name": 'Third Eye Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b709028b6e355c5ae928635159c7201b101d401.png',
          "job_icon": 'SAM',
          "level": '84',
-         "content": 'Позволяет накапливать заряды для последовательного использования Tsubame-gaeshi.<br/>Максимум зарядов: 2',
+         "content": ' ',
       },
-      // Trait 07
-      "Trait 07": {
+      // Trait 08
+      "Trait 08": {
          "name": 'Way of the Samurai II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb2173170fff9f761a656135293703a149717ede.png',
          "job_icon": 'SAM',
          "level": '84',
          "content": 'Увеличивает силу атаки Gekko, Kasha и Yukikaze до 120.',
       },
-      // Trait 08
-      "Trait 08": {
+      // Trait 09
+      "Trait 09": {
          "name": 'Fuga Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/953ac92360e4249d146c6135eb58f7787ad3a0f0.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/424690aa05325ca6f9e0235cec0805bb500aec0a.png',
          "job_icon": 'SAM',
          "level": '86',
          "content": 'Улучшает умение Fuga до Fuko.',
-      },
-      // Trait 09
-      "Trait 09": {
-         "name": 'Enhanced Meikyo Shisui',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a851869daf899599e7095c2968af9b247be6bbb7.png',
-         "job_icon": 'SAM',
-         "level": '88',
-         "content": 'Позволяет накапливать заряды для последовательного использования Meikyo Shisui.<br/>Максимум зарядов: 2',
       },
       // Trait 10
       "Trait 10": {
@@ -559,6 +629,46 @@
          "job_icon": 'SAM',
          "level": '90',
          "content": 'Накладывает Ogi Namikiri Ready после использования Ikishoten.<br/>Продолжительность: 30 сек.',
+      },
+      // Trait 11 NEW
+      "Trait 11": {
+         "name": 'Hakaze Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1035949594b931728b2aa142259f98c75f1e104f.png',
+         "job_icon": 'SAM',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 12 NEW
+      "Trait 12": {
+         "name": 'Enhanced Hissatsu',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ffe8bda1216028de5c987ce9d6721a1eb8e5dea8.png',
+         "job_icon": 'SAM',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 13 NEW
+      "Trait 13": {
+         "name": 'Way of the Samurai III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/76ee293b5a8fae7dd16716bc05d79216ef2689a9.png',
+         "job_icon": 'SAM',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 14 NEW
+      "Trait 14": {
+         "name": 'Enhanced Ikishoten II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6efd3bb5cbe5bad60fee0cb0e2dc1e44a352ec5.png',
+         "job_icon": 'SAM',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 15 NEW
+      "Trait 15": {
+         "name": 'Enhanced Meikyo Shisui II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/114c9dbe00b13a2221cad88744b8c10f5ee6a724.png',
+         "job_icon": 'SAM',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
