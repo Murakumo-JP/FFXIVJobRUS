@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 02/10/2023`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Spinning Edge',
@@ -10,7 +10,7 @@
          "level": '1',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -38,7 +38,7 @@
          "level": '4',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -67,7 +67,7 @@
          "level": '15',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '20y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -110,7 +110,7 @@
          "level": '26',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -168,7 +168,7 @@
          "level": '38',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '5y',
@@ -242,7 +242,7 @@
          "level": '52',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '5y',
@@ -257,7 +257,7 @@
          "level": '54',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -280,21 +280,6 @@
       },
       // PVE Skill 20
       "PVE Skill 20": {
-         "name": 'Huraijin',
-         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b8732f78acf/',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3bb09311515f9d0258b29e3751f0e05ec0c18cec.png',
-         "job_icon": 'NIN',
-         "level": '60',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
-         "range": '3y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: накладывает эффект Huton<br/>Продолжительность: 60 сек.<br/>Дополнительный эффект: восполняет шкалу Ninki Gauge на 5',
-      },
-      // PVE Skill 21
-      "PVE Skill 21": {
          "name": 'Hellfrog Medium',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c802df3d7abd5e50889d1cc5e97cf64eb1610afa.png',
          "job_icon": 'NIN',
@@ -306,6 +291,20 @@
          "radius_img": 'R2',
          "radius": '6y',
          "content": 'Удар, наносящий урон с силой атаки 160 по цели и всем окружающим противникам.<br/>Стоимость: 50 Ninki Gauge<br/>Имеет общее время восстановления с умением Bhavacakra.',
+      },
+      // PVE Skill 21
+      "PVE Skill 21": {
+         "name": 'Dokumori',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/751e11fc60c05f5ac427b522211ae510ef845f6c.png',
+         "job_icon": 'NIN',
+         "level": '66',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '120 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": ' ',
       },
       // PVE Skill 22
       "PVE Skill 22": {
@@ -372,7 +371,7 @@
          "level": '82',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '20y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -400,7 +399,7 @@
          "level": '90',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '20y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -414,11 +413,67 @@
          "level": '90',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
+         "recast": '2.12 сек.',
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий урон молнией с силой атаки 560.<br/>Дополнительный эффект: увеличивает Ninki Gauge на 5<br/>Может быть использовано только под действием эффекта Raiju Ready.',
+      },
+      // PVE Skill 30 NEW
+      "PVE Skill 30": {
+         "name": "Kunai's Bane",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70139d7c1c6e323518d56f1bd503a9e8bc94d21b.png',
+         "job_icon": 'NIN',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '60 сек.',
+         "range": '3y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 31 NEW
+      "PVE Skill 31": {
+         "name": 'Deathfrog Medium',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cb1fc6f802ae442daa8ead243f4f9f49bf9525f4.png',
+         "job_icon": 'NIN',
+         "level": '96',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '6y',
+         "content": '',
+      },
+      // PVE Skill 32 NEW
+      "PVE Skill 32": {
+         "name": 'Zesho Meppo',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/55604bbe9cf720982be6e0ef74e9bf002d939935.png',
+         "job_icon": 'NIN',
+         "level": '96',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 33 NEW
+      "PVE Skill 33": {
+         "name": 'Tenri Jindo',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7604dd447d3b450e4816e62d5bf4e2f83fafabc4.png',
+         "job_icon": 'NIN',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '20y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
       },
       // Ninjutsu 01
       "Ninjutsu 01": {
@@ -562,8 +617,16 @@
          "level": '20',
          "content": 'Увеличивает скорость передвижения.',
       },
-      // Trait 03
+      // Trait 03 NEW
       "Trait 03": {
+         "name": 'Increase Attack Speed',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6d96e09b096b18633938943d197373212d767009.png',
+         "job_icon": 'ROG',
+         "level": '45',
+         "content": ' ',
+      },
+      // Trait 04
+      "Trait 04": {
          "name": 'Adept Assassination',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51342498a4d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b87e949a34c52ddeba48178f74445dd578b6d8c9.png',
@@ -571,93 +634,125 @@
          "level": '56',
          "content": 'Улучшает умение Assassinate до Dream Within a Dream.',
       },
-      // Trait 04
-      "Trait 04": {
+      // Trait 05
+      "Trait 05": {
          "name": 'Shukiho',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ed4979c9bfae8fed8e478ff2ce14e88961c7d014.png',
          "job_icon": 'NIN',
          "level": '62',
          "content": 'Восполняет шкалу Ninki Gauge на 5 после успешного использования определенных боевых умений или завершения определенных комбо.',
       },
-      // Trait 05
-      "Trait 05": {
+      // Trait 06
+      "Trait 06": {
          "name": 'Enhanced Shukuchi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/947645f8d561b8bc9d8102189d9c36d7bbf5a5b1.png',
          "job_icon": 'NIN',
          "level": '64',
          "content": 'Сбрасывает время восстановления Shukuchi после использования Katon, Raiton или Hyoton по большинству целей.',
       },
-      // Trait 06
-      "Trait 06": {
-         "name": 'Enhanced Mug',
+      // Trait 07 NEW
+      "Trait 07": {
+         "name": 'Mug Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f8789bead06bbb86cf1961b04271a275413ca68e.png',
          "job_icon": 'NIN',
          "level": '66',
-         "content": 'Восполняет Ninki Gauge на 40 при успешном использования Mug.',
+         "content": ' ',
       },
-      // Trait 07
-      "Trait 07": {
+      // Trait 08
+      "Trait 08": {
          "name": 'Enhanced Shukuchi II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0360c16afed0561315ba7bc311e7f4e29e061ddc.png',
          "job_icon": 'NIN',
          "level": '74',
          "content": 'Позволяет накапливать заряды для последовательного использования Shukuchi.<br/>Максимум зарядов: 2',
       },
-      // Trait 08
-      "Trait 08": {
+      // Trait 09
+      "Trait 09": {
          "name": 'Melee Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'NIN',
          "level": '74',
          "content": 'Увеличивает силу атаки Gust Slash до 120, Aeolian Edge до 140 и Armor Crush до 140.',
       },
-      // Trait 09
-      "Trait 09": {
+      // Trait 10
+      "Trait 10": {
          "name": 'Enhanced Kassatsu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d579d27b0f2e059f63390cb5bcc22bac26365149.png',
          "job_icon": 'NIN',
          "level": '76',
          "content": 'Улучшает умения Katon и Hyoton до Goka Mekkyaku и Hyosho Ranryu под действием эффекта Kassatsu.',
       },
-      // Trait 10
-      "Trait 10": {
+      // Trait 11
+      "Trait 11": {
          "name": 'Shukiho II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f907e0c1b9b1d0a739cf2438986fcd4a3b51175a.png',
          "job_icon": 'NIN',
          "level": '78',
          "content": 'Восполняет Ninki Gauge на 10 при успешном завершении комбо с Aeolian Edge или Armor Crush.',
       },
-      // Trait 11
-      "Trait 11": {
+      // Trait 12
+      "Trait 12": {
          "name": 'Shukiho III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d4af7caeb6ccefc6db10dcc03953e90b24824950.png',
          "job_icon": 'NIN',
          "level": '84',
          "content": 'Восполняет Ninki Gauge на 15 при успешном завершении комбо с Aeolian Edge или Armor Crush.',
       },
-      // Trait 12
-      "Trait 12": {
+      // Trait 13
+      "Trait 13": {
          "name": 'Melee Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eb2173170fff9f761a656135293703a149717ede.png',
          "job_icon": 'NIN',
          "level": '84',
          "content": 'Увеличивает силу атаки Spinning Edge до 220 и Gust Slash до 160.',
       },
-      // Trait 13
-      "Trait 13": {
+      // Trait 14
+      "Trait 14": {
          "name": 'Enhanced Meisui',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c47e82ddc2a4148f8b8dbdcbad6277e8ff1c73e4.png',
          "job_icon": 'NIN',
          "level": '88',
          "content": 'Увеличивает силу атаки Bhavacakra до 500, пока персонаж находится под эффектом Meisui.<br />Продолжительность: 30 сек.',
       },
-      // Trait 14
-      "Trait 14": {
+      // Trait 15
+      "Trait 15": {
          "name": 'Enhanced Raiton',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/347d3667b142103093c59bc61db363a7f089ca69.png',
          "job_icon": 'NIN',
          "level": '90',
          "content": 'Накладывает стак Raiju Ready при использовании Raiton.<br/>Максимум стаков: 3<br/>Продолжительность: 30 сек.<br/>Эффект Raiju Ready заканчивается при использовании любого боевого навыка ближнего боя.',
+      },
+      // Trait 16 NEW
+      "Trait 16": {
+         "name": 'Trick Attack Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4ab2eab74e5f92060d2d1866451d9ebfe86204a7.png',
+         "job_icon": 'NIN',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 17 NEW
+      "Trait 17": {
+         "name": 'Melee Mastery III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/76ee293b5a8fae7dd16716bc05d79216ef2689a9.png',
+         "job_icon": 'NIN',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 18 NEW
+      "Trait 18": {
+         "name": 'Enhanced Dokumori',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f5e5d42f5d1ac030ce64650db8a0496edca66cd9.png',
+         "job_icon": 'NIN',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 19 NEW
+      "Trait 19": {
+         "name": 'Enhanced Ten Chi Jin',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5c06ede286225c8c52a672be5d631803f4fc4821.png',
+         "job_icon": 'NIN',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
