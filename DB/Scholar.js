@@ -440,7 +440,7 @@
          "level": '74',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '90 сек.',
+         "recast": '60 сек.',
          "cost": '-',
          "range": '0y',
          "radius_img": 'R1',
