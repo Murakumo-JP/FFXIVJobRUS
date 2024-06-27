@@ -122,53 +122,83 @@
          "radius": '0y',
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 800',
       },
-      // PVE Skill 09
+      // PVE Skill 09 NEW
       "PVE Skill 09": {
-         "name": 'Draw',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2ed60d4c6e0f8e9ef8c57b590450b63fbbc169a.png',
+         "name": 'Astral Draw',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ca9495b5dd2708d088f8180b433b812580622dcb.png',
          "job_icon": 'AST',
          "level": '30',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '30 сек.',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '60 сек.',
          "cost": '-',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Тянет карту (Arcanum) из гадальной колоды. Одновременно можно вытянуть только одну карту.<br/>Эффект карты можно использовать умением Play.<br/>Дополнительный эффект: восстанавливает 8% от максимума MP<br/>Дополнительный эффект: накладывает эффект Clarifying Draw, который позволяет использовать Redraw<br/>Максимум зарядов: 2',
+         "content": '',
       },
-      // PVE Skill 10
+      // PVE Skill 10 NEW
       "PVE Skill 10": {
-         "name": 'Undraw',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/620351e666c5758b3875ee2c8d0bfe46fda357a1.png',
+         "name": 'Umbral Draw',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3a5badd54650309c03a120ea6906ad51276e8c6e.png',
          "job_icon": 'AST',
          "level": '30',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '60 сек.',
          "cost": '-',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Возвращает вытянутую в данный момент карту в колоду.',
+         "content": '',
       },
-      // PVE Skill 11
+      // PVE Skill 11 NEW
       "PVE Skill 11": {
-         "name": 'Play',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9544d7e3db69c71c3e50b8a8a38e801a4d48443b.png',
+         "name": 'Play I',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aa32f90984104b56be403963081f119244df50a8.png',
          "job_icon": 'AST',
          "level": '30',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
+         "classification": 'Ability',
+         "cast": 'Instant',
          "recast": '1 сек.',
          "cost": '-',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Активирует эффект вытянутой карты.',
+         "content": '',
       },
-      // PVE Skill 12
+      // PVE Skill 12 NEW
       "PVE Skill 12": {
+         "name": 'Play II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d7b124a1b665b5be6db3759a2f5060eef40b89d.png',
+         "job_icon": 'AST',
+         "level": '30',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 13 NEW
+      "PVE Skill 13": {
+         "name": 'Play III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/59c09c6f090fb75d16bb4f906793b951fd58b4cf.png',
+         "job_icon": 'AST',
+         "level": '30',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 14
+      "PVE Skill 14": {
          "name": 'Aspected Benefic',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9abd9dc20f6f0864806e050841e5ae74172d3d93.png',
          "job_icon": 'AST',
@@ -182,24 +212,8 @@
          "radius": '0y',
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 250<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 13
-      "PVE Skill 13": {
-         "name": 'Redraw',
-         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/749b8483b61/',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/562ee5721d04aff075f3a21c02643ae5cd6496a2.png',
-         "job_icon": 'AST',
-         "level": '40',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
-         "cost": '-',
-         "range": '0y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Тянет другую карту из колоды.<br/>Может быть использовано только под действием эффекта Clarifying Draw.',
-      },
-      // PVE Skill 14
-      "PVE Skill 14": {
+      // PVE Skill 15
+      "PVE Skill 15": {
          "name": 'Aspected Helios',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ee92429fd70cd18d445735da357c023336da994d.png',
          "job_icon": 'AST',
@@ -213,8 +227,8 @@
          "radius": '15y',
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 150<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 15
-      "PVE Skill 15": {
+      // PVE Skill 16
+      "PVE Skill 16": {
          "name": 'Gravity',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f625f3a645c/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/42e3c5d1cccb388c35ee3d6907a6e6109ba4b852.png',
@@ -229,8 +243,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 120 по цели и всем окружающим противникам.',
       },
-      // PVE Skill 16
-      "PVE Skill 16": {
+      // PVE Skill 17
+      "PVE Skill 17": {
          "name": 'Combust II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/447dd0b8ed8d759beeaa8b8aa7f8f1ec2cbec7b4.png',
          "job_icon": 'AST',
@@ -244,8 +258,8 @@
          "radius": '0y',
          "content": 'Периодический нестихийный урон.<br/>Сила атаки: 50<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 17
-      "PVE Skill 17": {
+      // PVE Skill 18
+      "PVE Skill 18": {
          "name": 'Synastry',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/67a7f1c0d57/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/883284b0f5ce828b73992bdaf990124383c77efd.png',
@@ -260,8 +274,8 @@
          "radius": '0y',
          "content": 'Создает эфирную связь с выбранным сопартийцем. Каждое применение одиночного лечебного заклинания на персонажа или сопартийца восстанавливает 40% HP от оригинального эффекта заклинания связанному сопартийцу.<br/>Продолжительность: 20 сек.',
       },
-      // PVE Skill 18
-      "PVE Skill 18": {
+      // PVE Skill 19
+      "PVE Skill 19": {
          "name": 'Divination',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/24e1ea2b4dce9d16ae60f33ab860190a67a3a506.png',
          "job_icon": 'AST',
@@ -274,21 +288,6 @@
          "radius_img": 'R2',
          "radius": '30y',
          "content": 'Увеличивает урон персонажа и всех ближайших сопартийцев на 6%.<br/>Продолжительность: 15 сек.',
-      },
-      // PVE Skill 19
-      "PVE Skill 19": {
-         "name": 'Astrodyne',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/97986c90b046e3198e2121d251e2872066a9f505.png',
-         "job_icon": 'AST',
-         "level": '50',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
-         "cost": '-',
-         "range": '0y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Накладывает эффект, использующий астрознаки (astrosigns), прочитанные из гадательной колоды.<br/>Может быть использован только при наличии трех прочтения астрознаков (astrosigns).<br/>Эффекты определяются количеством прочитанных астрознаков разных типов:<br/>1 тип: накладывает эффект Harmony of Spirit<br/>2 типа: накладывает эффекты Harmony of Spirit и Harmony of Body<br/>3 типа: накладывает эффекты Harmony of Spirit, Harmony of Body и Harmony of Mind<br/>Продолжительность: 15 сек.<br/>Эффект Harmony of Spirit: постепенно восстанавливает MP персонажа<br/>Сила: 50<br/>Эффект Harmony of Body: уменьшает время произнесения заклинаний и время их повторного использования, а также снижает задержку между авто атаками на 10%<br/>Эффект Harmony of Mind: увеличивает наносимый урон и эффективность лечения на 5%',
       },
       // PVE Skill 20
       "PVE Skill 20": {
@@ -386,7 +385,6 @@
       // PVE Skill 26
       "PVE Skill 26": {
          "name": 'Minor Arcana',
-         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4dd4d472031/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5f9cec813674a23520286ff23759e752db5499bd.png',
          "job_icon": 'AST',
          "level": '70',
@@ -564,6 +562,51 @@
          "radius": '20y',
          "content": 'Активирует исцеляющий эффект Macrocosmos, восстанавливающий HP, равное силе лечения 200, прибавляя 50% накопленного урона.<br/>Количество восстановленных HP не может превышать максимальное количество HP цели.',
       },
+      // PVE Skill 38 NEW
+      "PVE Skill 38": {
+         "name": 'Oracle',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c826ef697cd5d5934661e9238dd5ba0ad607e9d.png',
+         "job_icon": 'AST',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 39 NEW
+      "PVE Skill 39": {
+         "name": 'Helios Conjunction',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/20768aed61f83aeae04632231cba41ae889e187f.png',
+         "job_icon": 'AST',
+         "level": '96',
+         "classification": 'Spell',
+         "cast": '1.5 сек.',
+         "recast": '2.5 сек.',
+         "cost": '800 MP',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": '',
+      },
+      // PVE Skill 40 NEW
+      "PVE Skill 40": {
+         "name": 'Sun Sign',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9b0527d5ad6cdb263a912b463d4ff12bd13e9fea.png',
+         "job_icon": 'AST',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '30y',
+         "content": '',
+      },
       // Arcana 01
       "Arcana 01": {
          "name": 'The Balance',
@@ -686,31 +729,14 @@
       },
       // Trait 04
       "Trait 04": {
-         "name": 'Enhanced Draw',
-         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/749b8483b61/',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6c5465c4c581e1e62511ab687e0b861aac698aeb.png',
-         "job_icon": 'AST',
-         "level": '40',
-         "content": 'Накладывает эффект Clarifying после использования Draw.',
-      },
-      // Trait 05
-      "Trait 05": {
          "name": 'Combust Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f89557c8a060b5202436b06ce55c414930a87824.png',
          "job_icon": 'AST',
          "level": '46',
          "content": 'Улучшает умения Combust до Combust II.',
       },
-      // Trait 06
-      "Trait 06": {
-         "name": 'Enhanced Draw II',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9cf76aaad5284548c49a878dfa522a7f5536664b.png',
-         "job_icon": 'AST',
-         "level": '50',
-         "content": 'Накладывает Solar Sign, Lunar Sign или Celestial Sign в соответствии с арканом, разыгранном в бою.',
-      },
-      // Trait 07
-      "Trait 07": {
+      // Trait 05
+      "Trait 05": {
          "name": 'Malefic Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/220108abf60/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/096c90be485edbee28599286d9aa506904bfedc1.png',
@@ -718,77 +744,125 @@
          "level": '54',
          "content": 'Улучшает умение Malefic до Malefic II.',
       },
-      // Trait 08
-      "Trait 08": {
+      // Trait 06
+      "Trait 06": {
          "name": 'Malefic Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f519d617a33b436f8bfae128cafb433fa5b4de01.png',
          "job_icon": 'AST',
          "level": '64',
          "content": 'Улучшает умение Malefic II до Malefic III.',
       },
-      // Trait 09
-      "Trait 09": {
+      // Trait 07
+      "Trait 07": {
          "name": 'Hyper Lightspeed',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/97aa38c611b5b28a96f41040e8369f9d662c0398.png',
          "job_icon": 'AST',
          "level": '68',
          "content": 'Уменьшает время восстановления умения Lightspeed до 90 сек.',
       },
-      // Trait 10
-      "Trait 10": {
+      // Trait 08 NEW
+      "Trait 08": {
+         "name": 'Minor Arcana Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b6a9c01931066dd4d28235ea22c332cb20b7a4a1.png',
+         "job_icon": 'AST',
+         "level": '70',
+         "content": '',
+      },
+      // Trait 09
+      "Trait 09": {
          "name": 'Combust Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fa5c279e7998444bf41ef52dd540e514040310ba.png',
          "job_icon": 'AST',
          "level": '72',
          "content": 'Улучшает умение Combust II до Combust III.',
       },
-      // Trait 11
-      "Trait 11": {
+      // Trait 10
+      "Trait 10": {
          "name": 'Malefic Mastery III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79a6019f3f36d87224dcb1621917ede36f53a0eb.png',
          "job_icon": 'AST',
          "level": '72',
          "content": 'Улучшает умение Malefic III до Malefic IV.',
       },
-      // Trait 12
-      "Trait 12": {
+      // Trait 11
+      "Trait 11": {
          "name": 'Enhanced Essential Dignity',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5e5dc4bdd1316f0b6e37f3e7aef349e7504a0713.png',
          "job_icon": 'AST',
          "level": '78',
          "content": 'Позволяет накапливать заряды для последовательного использования Essential Dignity.<br/>Максимум зарядов: 2',
       },
-      // Trait 13
-      "Trait 13": {
+      // Trait 12
+      "Trait 12": {
          "name": 'Malefic Mastery IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/263e46f4c7940ee1681d0f15582ac7a32af7fc6a.png',
          "job_icon": 'AST',
          "level": '82',
          "content": 'Улучшает умение Malefic IV до Fall Malefic.',
       },
-      // Trait 14
-      "Trait 14": {
+      // Trait 13
+      "Trait 13": {
          "name": 'Gravity Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e458835a8f922a7e95c1ca5e325e3498007798b6.png',
          "job_icon": 'AST',
          "level": '82',
          "content": 'Улучшает умение Gravity до Gravity II.',
       },
-      // Trait 15
-      "Trait 15": {
+      // Trait 14
+      "Trait 14": {
          "name": 'Enhanced Healing Magic',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png',
          "job_icon": 'AST',
          "level": '85',
          "content": 'Увеличивает силу исцеляющих умений Benefic до 500, Helios до 400, Benefic II до 800, Aspected Benefic до 250, эффект периодического лечения Aspected Benefic (regen) до 250, Aspected Helios до 250 и эффект периодического лечения Aspected Helios (regen) до 150.',
       },
-      // Trait 16
-      "Trait 16": {
+      // Trait 15
+      "Trait 15": {
          "name": 'Enhanced Celestial Intersection',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f43bd4d97118a07e9521573ace0ca9f5cebfb4a5.png',
          "job_icon": 'AST',
          "level": '88',
          "content": 'Позволяет накапливать заряды для последовательного использования Celestial Intersection.<br/>Максимум зарядов: 2',
+      },
+      // Trait 16 NEW
+      "Trait 16": {
+         "name": 'Enhanced Divination',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c830c636c71c4ad906fb4cf3f5a5d2ce684f34f.png',
+         "job_icon": 'AST',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 17 NEW
+      "Trait 17": {
+         "name": 'Magick Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
+         "job_icon": 'AST',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 18 NEW
+      "Trait 18": {
+         "name": 'Aspected Helios Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2cba14df39809f3229349749785e64eb391bed15.png',
+         "job_icon": 'AST',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 19 NEW
+      "Trait 19": {
+         "name": 'Enhanced Essential Dignity II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2836e6ebf3b7d82144fbc5a8ea04c58aa7dff5da.png',
+         "job_icon": 'AST',
+         "level": '98',
+         "content": '',
+      },
+      // Trait 20 NEW
+      "Trait 20": {
+         "name": 'Enhanced Neutral Sect',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/874220e311422fcc32177900e58af6b005976cb2.png',
+         "job_icon": 'AST',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
