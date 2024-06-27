@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 16/01/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Keen Edge',
@@ -226,19 +226,19 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 300.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 60<br/>Продолжительность: 30 сек.<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.',
       },
-      // PVE Skill 17
+      // PVE Skill 17 NEW
       "PVE Skill 17": {
-         "name": 'Rough Divide',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc361feaf6715fac0c476639ef2a5ce0f207f00d.png',
+         "name": 'Trajectory',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/905366f09c4875cbe0ba664aa043c8bd22aefc1c.png',
          "job_icon": 'GNB',
-         "level": '56',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '30 сек.',
-         "range": '20y',
+         "level": '54',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Прыжок, наносящий урон с силой атаки 150.<br/>Максимальный заряд: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
+         "content": ' ',
       },
       // PVE Skill 18
       "PVE Skill 18": {
@@ -465,6 +465,76 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1200 для первого и на 15% меньше для всех остальных.<br/>Стоимость: 2 Cartridge<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
       },
+      // PVE Skill 34 NEW
+      "PVE Skill 34": {
+         "name": 'Great Nebula',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c6aa9ac9d9d3b144c6c5d955616edbecbb40d19a.png',
+         "job_icon": 'GNB',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '120 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 35 NEW
+      "PVE Skill 35": {
+         "name": 'Fated Brand',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/212d089b8f857465c135f0aed8a6a201e8cfdc90.png',
+         "job_icon": 'GNB',
+         "level": '96',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 36 NEW
+      "PVE Skill 36": {
+         "name": 'Reign of Beasts',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/df78916692df98ce5e4990edbb531dba1d535e8e.png',
+         "job_icon": 'GNB',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 37 NEW
+      "PVE Skill 37": {
+         "name": 'Noble Blood',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/10aad4140dd5bacfad70315a6a6da6bd3c4e59a0.png',
+         "job_icon": 'GNB',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 38 NEW
+      "PVE Skill 38": {
+         "name": 'Lion Heart',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/105394eb5da461f87c00f49826e7ba06e4c93577.png',
+         "job_icon": 'GNB',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
       // Trait 01
       "Trait 01": {
          "name": 'Tank Mastery',
@@ -481,61 +551,101 @@
          "level": '30',
          "content": 'Добавляет Cartridge в шкалу Powder Gauge после успешного использования комбо с Solid Barrel.<br/>Максимум: 2 Cartridge',
       },
-      // Trait 03
+      // Trait 03 NEW
       "Trait 03": {
+         "name": 'Enhanced No Mercy',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/720c9e99130d321869f43956ed85abd1b11f512b.png',
+         "job_icon": 'GNB',
+         "level": '54',
+         "content": '',
+      },
+      // Trait 04
+      "Trait 04": {
          "name": 'Enhanced Brutal Shell',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f222fb36167954d21f86b99d1e24a5c11eebd0d4.png',
          "job_icon": 'GNB',
          "level": '52',
          "content": 'Позволяет наложить эффект Brutal Shell после успешного использования комбо с Brutal Shell.<br/>Продолжительность: 30 сек.',
       },
-      // Trait 04
-      "Trait 04": {
+      // Trait 05
+      "Trait 05": {
          "name": 'Danger Zone Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/14b8867b1e317ddf820ff1ce4ef6a5590643a108.png',
          "job_icon": 'GNB',
          "level": '80',
          "content": 'Улучшает умение Danger Zone до Blasting Zone.',
       },
-      // Trait 05
-      "Trait 05": {
+      // Trait 06
+      "Trait 06": {
          "name": 'Heart of Stone Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ef3d170a508f2962c68fd2c95bdb606244b7f7b5.png',
          "job_icon": 'GNB',
          "level": '82',
          "content": 'Улучшает Heart of Stone до Heart of Corundum.',
       },
-      // Trait 06
-      "Trait 06": {
+      // Trait 07
+      "Trait 07": {
          "name": 'Enhanced Aurora',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cdab08fb238d0ea0fb5fdafb684504d9f9b39d41.png',
          "job_icon": 'GNB',
          "level": '84',
          "content": 'Позволяет накапливать заряды для последовательного использования Aurora.<br/>Максимум зарядов: 2',
       },
-      // Trait 07
-      "Trait 07": {
+      // Trait 08
+      "Trait 08": {
          "name": 'Melee Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'GNB',
          "level": '84',
          "content": 'Увеличивает силу атаки умениям Keen Edge до 200, Brutal Shell до 160 и Solid Barrel до 140.',
       },
-      // Trait 08
-      "Trait 08": {
+      // Trait 09
+      "Trait 09": {
          "name": 'Enhanced Continuation',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/60bd025c4db0fdea6006fa8312ca75b961d30664.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9d916d7b45b51d289bef5373704ca2e4751ded29.png',
          "job_icon": 'GNB',
          "level": '86',
          "content": 'Позволяет наложить эффект Ready to Blast после использования Burst Strike.<br/>Продолжительность: 10 сек.',
       },
-      // Trait 09
-      "Trait 09": {
+      // Trait 10
+      "Trait 10": {
          "name": 'Cartridge Charge II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d4133f5308e1fc0c138ce0659e65ba3797dc31bd.png',
          "job_icon": 'GNB',
          "level": '88',
          "content": 'Увеличивает вместимость шкалы Powder Gauge до 3 Cartridges.<br/>Позволяет заряжать 3 Cartridges при использовании умения Bloodfest.',
+      },
+      // Trait 11 NEW
+      "Trait 11": {
+         "name": 'Nebula Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b15792e2c2ccc44dd445fe90e3ee303635b6c3be.png',
+         "job_icon": 'GNB',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 12 NEW
+      "Trait 12": {
+         "name": 'Melee Mastery II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png',
+         "job_icon": 'GNB',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 13 NEW
+      "Trait 13": {
+         "name": 'Enhanced Continuation II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0388c677531ad523e8c897686069e587b5eaca68.png',
+         "job_icon": 'GNB',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 14 NEW
+      "Trait 14": {
+         "name": 'Enhanced Bloodfest',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a4fa44bc77a8bc9d1a942936b533ed4cbecb896.png',
+         "job_icon": 'GNB',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
