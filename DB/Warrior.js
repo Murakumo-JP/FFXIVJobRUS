@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 16/01/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Heavy Swing',
@@ -433,6 +433,48 @@
          "radius": '5y',
          "content": 'Прыжок к цели, наносящий критический (critical) и прямой (direct) урон по цели и по всем окружающим противникам с силой атаки 700 по первому и на 70% по всем оставшимся.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) и прямого (direct) урона.<br/>Данное умение не расходует заряды умения Inner Release.<br/>Возможно использовать только под действием эффекта Primal Rend Ready, наложенного Inner Release.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
+      // PVE Skill 31 NEW
+      "PVE Skill 31": {
+         "name": 'Damnation',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a4f5302a169e6ee5667e03976e7455aacc394604.png',
+         "job_icon": 'WAR',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '120 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 32 NEW
+      "PVE Skill 32": {
+         "name": 'Primal Wrath',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e9e68562064da9f0787632d983da080105fc2389.png',
+         "job_icon": 'WAR',
+         "level": '96',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 33 NEW
+      "PVE Skill 33": {
+         "name": 'Primal Ruination',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5eb4d961217f31467ecf479d45f89767f5f9c0d7.png',
+         "job_icon": 'WAR',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
       // Trait 01
       "Trait 01": {
          "name": 'Tank Mastery',
@@ -544,7 +586,7 @@
       // Trait 14
       "Trait 14": {
          "name": 'Melee Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'WAR',
          "level": '84',
          "content": `Увеличивает силу атаки Heavy Swing до 200, Maim до 150, Storm's Path до 160 и Storm's Eye до 160.`,
@@ -556,6 +598,38 @@
          "job_icon": 'WAR',
          "level": '88',
          "content": 'Добавляет третий заряд для умения Onslaught.',
+      },
+      // Trait 16 NEW
+      "Trait 16": {
+         "name": 'Vengeance Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/560fe59ae6180b6e09d564c3ed9b04247280a82f.png',
+         "job_icon": 'WAR',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 17 NEW
+      "Trait 17": {
+         "name": 'Melee Mastery II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png',
+         "job_icon": 'WAR',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 18 NEW
+      "Trait 18": {
+         "name": 'Enhanced Inner Release',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/58c4546dabdcda9d3e09834f0660b863d77842ec.png',
+         "job_icon": 'WAR',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 19 NEW
+      "Trait 19": {
+         "name": 'Enhanced Primal Rend',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f6f313152cbf847258f0d7a0a1a5d0d2d40914ca.png',
+         "job_icon": 'WAR',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
