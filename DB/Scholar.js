@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 16/01/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Ruin',
@@ -552,6 +552,81 @@
          "radius": '30y',
          "content": 'Накладывает Expedience и Desperate Measures на всех ближайших сопартийцев.<br/>Эффект Expedience: увеличивает скорость передвижения<br/>Продолжительность: 10 сек.<br/>Эффект Desperate Measures: снижает получаемый урон на 10%<br/>Продолжительность: 20 сек.',
       },
+      // PVE Skill 37 NEW
+      "PVE Skill 37": {
+         "name": 'Baneful Impaction',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/16ca1e2b66efb797ca63394b5f856ab89a709acf.png',
+         "job_icon": 'SCH',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 38 NEW
+      "PVE Skill 38": {
+         "name": 'Concitation',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f124b01882a45f5befe10fa82964fc7fb7895e8c.png',
+         "job_icon": 'SCH',
+         "level": '96',
+         "classification": 'Spell',
+         "cast": '2 сек.',
+         "recast": '2.5 сек.',
+         "cost": '1000 MP',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": '',
+      },
+      // PVE Skill 39 NEW
+      "PVE Skill 39": {
+         "name": 'Seraphism',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3660e0317ed2aba78b7cfdc526dd174efa94d88d.png',
+         "job_icon": 'SCH',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '180 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 40 NEW
+      "PVE Skill 40": {
+         "name": 'Manifestation',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7244131eba68b8042f1461bf4100deaebe2a7c0d.png',
+         "job_icon": 'SCH',
+         "level": '100',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '1000 MP',
+         "range": '30y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 41 NEW
+      "PVE Skill 41": {
+         "name": 'Accession',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c859b1042c024b57c646316f1e0e93ff5e5f90fb.png',
+         "job_icon": 'SCH',
+         "level": '100',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '1000 MP',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": '',
+      },
       // Pet Actions 01
       "Pet Actions 01": {
          "name": 'Embrace',
@@ -781,6 +856,38 @@
          "job_icon": 'SCH',
          "level": '88',
          "content": 'Уменьшает время восстановления умения Deployment Tactics до 90 сек.',
+      },
+      // Trait 13 NEW
+      "Trait 13": {
+         "name": 'Enhanced Chain Stratagem',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d7db48ae39f61343dfe40dca1213dfc7cafc7cac.png',
+         "job_icon": 'SCH',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 14 NEW
+      "Trait 14": {
+         "name": "Tactician's Mastery",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
+         "job_icon": 'SCH',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 15 NEW
+      "Trait 15": {
+         "name": 'Succor Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4da1e7f4705cf4f9818dfa7d28dc35814f7b6291.png',
+         "job_icon": 'SCH',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 16 NEW
+      "Trait 16": {
+         "name": 'Enhanced Recitation',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3dab3b88f599e0456c01548bf94c8bd9895ee004.png',
+         "job_icon": 'SCH',
+         "level": '98',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
