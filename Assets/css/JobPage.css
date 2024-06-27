@@ -328,3 +328,10 @@ img {
 	opacity: 1;
 	display: block;
 }
+/* Update and New */
+tr.pve_new {
+	background-color: #f0dddd;
+}
+tr.pve_update {
+	background-color: #f0e4c5;
+}

@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 19/03/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Fast Blade',
@@ -15,7 +15,7 @@
          "range": "3y",
          "radius_img": 'R1',
          "radius": "0y", 
-         "content": 'Удар, наносящий урон с силой атаки 200.',
+         "content": 'Удар, наносящий урон с силой атаки 220.',
       },
       // PVE Skill 02
       "PVE Skill 02": {
@@ -272,7 +272,7 @@
          "level": '54',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '60 сек.',
+         "recast": '2.5 сек.',
          "cost": '-',
          "range": "3y",
          "radius_img": 'R1',
@@ -433,8 +433,38 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 400.<br>Дополнительный эффект: восстанавливает MP<br>Умение может быть использовано только под действием эффекта Sword Oath.',
       },
-      // PVE Skill 29
+      // PVE Skill 29 NEW
       "PVE Skill 29": {
+         "name": 'Supplication',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a13b67a351de7eaf60e51a8662e722785ec3826f.png',
+         "job_icon": 'PLD',
+         "level": '76',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 30 NEW
+      "PVE Skill 30": {
+         "name": 'Sepulchre',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/445847900654988d4b1a2950d57f69793a425d00.png',
+         "job_icon": 'PLD',
+         "level": '76',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 31
+      "PVE Skill 31": {
          "name": 'Confiteor',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/362579dcb6dc2b7c9ea6eac6917c7b9c61f7ce1b.png',
          "job_icon": 'PLD',
@@ -448,8 +478,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 420 для первого и на 50% меньше для всех остальных.<br>Сила атаки Requiescat: 920<br>Дополнительный эффект: восстанавливает HP<br>Сила лечения: 400<br>Может быть использовано только под действием эффекта Confiteor Ready. Эффект спадет после использования.',
       },
-      // PVE Skill 30
-      "PVE Skill 30": {
+      // PVE Skill 32
+      "PVE Skill 32": {
          "name": 'Holy Sheltron',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c856abb6dac68e4bfd6cbb98b309360cb6162ced.png',
          "job_icon": 'PLD',
@@ -463,8 +493,8 @@
          "radius": '0y',
          "content": `Снижает получаемый урон на 15%.<br>Продолжительность: 8 сек.<br>Дополнительный эффект: накладывает эффект Knight's Resolve<br>Эффект Knight's Resolve: уменьшает получаемый урон на 15%<br>Продолжительность: 4 сек.<br>Дополнительный эффект: накладывает эффект Knight's Benediction<br>Эффект Knight's Benediction: постепенное восстанавливает HP<br>Сила лечения: 250<br>Продолжительность: 12 сек.<br>Стоимость: 50 Oath Gauge`,
       },
-      // PVE Skill 31
-      "PVE Skill 31": {
+      // PVE Skill 33
+      "PVE Skill 33": {
          "name": 'Expiacion',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5e4beef5d32f45954a62524cdebb8d535de32921.png',
          "job_icon": 'PLD',
@@ -478,8 +508,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 450 для первого и на 60% меньше для всех остальных.<br>Дополнительный эффект: восстанавливает MP',
       },
-      // PVE Skill 32
-      "PVE Skill 32": {
+      // PVE Skill 34
+      "PVE Skill 34": {
          "name": 'Blade of Faith',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/004ab8b8fc5c3fe5b362bf7f0e35f9ab9a91918a.png',
          "job_icon": 'PLD',
@@ -493,8 +523,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 220 для первого и на 50% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 720<br>Комбо умение: Confiteor<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br><br>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 33
-      "PVE Skill 33": {
+      // PVE Skill 35
+      "PVE Skill 35": {
          "name": 'Blade of Truth',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/31fd8e8a1827a2f830335a67cf52abb191d62485.png',
          "job_icon": 'PLD',
@@ -508,8 +538,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 320 для первого и на 50% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 820<br>Комбо умение: Blade of Faith<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br><br>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 34
-      "PVE Skill 34": {
+      // PVE Skill 36
+      "PVE Skill 36": {
          "name": 'Blade of Valor',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/289629a47afee95a9d05e38bcc68a2b7fdd1cacd.png',
          "job_icon": 'PLD',
@@ -522,6 +552,51 @@
          "radius_img": 'R2',
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 420 для первого и на 50% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 920<br>Комбо умение: Blade of Truth<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br><br>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVE Skill 37 NEW
+      "PVE Skill 37": {
+         "name": 'Guardian',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c5945e5decd30562898378c54cc3308aa210ff1.png',
+         "job_icon": 'PLD',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '120 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 38 NEW
+      "PVE Skill 38": {
+         "name": 'Imperator',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a888fa731d0d80fd277caa00abbca126be5b0b3c.png',
+         "job_icon": 'PLD',
+         "level": '96',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '60 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 39 NEW
+      "PVE Skill 39": {
+         "name": 'Blade of Honor',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/18481cd008426e41c0773107a91b20e2b9d59f7e.png',
+         "job_icon": 'PLD',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
       },
       // Trait 01
       "Trait 01": {
@@ -548,8 +623,17 @@
          "level": '58',
          "content": 'Восстанавливает MP при использовании умения Riot Blade или Spirits Within.',
       },
-      // Trait 04
+      // Trait 04 NEW
       "Trait 04": {
+         "name": 'Enhanced Fight or Flight',
+         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/afaf0c9a7c5/',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bd891a4170937927986328cf502585a6a20d3f65.png',
+         "job_icon": 'PLD',
+         "level": '54',
+         "content": '',
+      },
+      // Trait 05
+      "Trait 05": {
          "name": 'Rage of Halone Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d29b8150228/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f37467dd4cd7e208aa4d5d2dba1481e5b330438.png',
@@ -557,93 +641,141 @@
          "level": '60',
          "content": 'Улучшает умение Rage of Halone до Royal Authority.',
       },
-      // Trait 05
-      "Trait 05": {
+      // Trait 06
+      "Trait 06": {
          "name": 'Divine Magic Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/12b652e6942ca7d5fcf19e7b2473c1ce8654b0d9.png',
          "job_icon": 'PLD',
          "level": '64',
          "content": 'Сокращает затраты MP для всех заклинаний, а также предотвращает прерывание чтения заклинания после получения урона. Накладывает следующие эффекты после успешного завершения комбо с Royal Authority:<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет мгновенно применить умение Holy Spirit or Holy Circle с повышенной силой атаки<br>Продолжительность: 30 сек.',
       },
-      // Trait 06
-      "Trait 06": {
+      // Trait 07
+      "Trait 07": {
          "name": 'Enhanced Prominence',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/413518284f7ac59252bf26c3da7493fcae6c5b35.png',
          "job_icon": 'PLD',
          "level": '72',
          "content": 'Накладывает следующие эффекты после успешного завершения комбо с Prominence:<br>Комбо бонус: восстанавливает MP<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет мгновенно применить умение Holy Spirit or Holy Circle с повышенной силой атаки<br>Продолжительность: 30 сек.',
       },
-      // Trait 07
-      "Trait 07": {
+      // Trait 08
+      "Trait 08": {
          "name": 'Enhanced Sheltron',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cb7b214f5d3a50a251bd2fc4d154e26470d7d574.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3d00586a157017225c57713dde5d1d17f8745086.png',
          "job_icon": 'PLD',
          "level": '74',
          "content": 'Увеличивает продолжительность умения Sheltron до 6 сек.',
       },
-      // Trait 08
-      "Trait 08": {
+      // Trait 09
+      "Trait 09": {
          "name": 'Sword Oath',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7abcc7ab50300a442c5f0aa68261b9730a2070c0.png',
          "job_icon": 'PLD',
          "level": '76',
          "content": 'Накладывает три стака эффекта Sword Oath после успешного завершения комбо с Royal Authority.<br>Продолжительность: 30 сек.',
       },
-      // Trait 09
-      "Trait 09": {
+      // Trait 10
+      "Trait 10": {
          "name": 'Enhanced Requiescat',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/124b4606e99d8cd89a1a52099ea8b8d69d3dabe6.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/894b41ba20cd94ed36fd681d9729d21ba7e22052.png',
          "job_icon": 'PLD',
          "level": '80',
          "content": 'Накладывает эффект Confiteor Ready после использования Requiescat.<br>Продолжительность: 30 сек.',
       },
-      // Trait 10
-      "Trait 10": {
+      // Trait 11
+      "Trait 11": {
          "name": 'Sheltron Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5727377cab202a9ba787318ec8694067e837a8a2.png',
          "job_icon": 'PLD',
          "level": '82',
          "content": 'Улучшает умение Sheltron до Holy Sheltron.',
       },
-      // Trait 11
-      "Trait 11": {
+      // Trait 12
+      "Trait 12": {
          "name": 'Enhanced Intervention',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7d8cd4ab4588bc9d68b8436b378563d590dae1e8.png',
          "job_icon": 'PLD',
          "level": '82',
          "content": `Увеличивает продолжительность умения Intervention до 8 секунд.<br>Накладывает эффект Knight's Resolve на выбранного сопартийца, снижая получаемый урон на 10%<br>Продолжительность: 4 сек.<br>Накладывает эффект Knight's Benediction на выбранного сопартийца, постепенно восстанавливающий HP<br>Сила лечения: 250<br>Продолжительность: 12 сек.`,
       },
-      // Trait 12
-      "Trait 12": {
+      // Trait 13
+      "Trait 13": {
          "name": 'Divine Magic Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3d7131e2d50c6b43898deadb212e3c58fedc2a87.png',
          "job_icon": 'PLD',
          "level": '84',
          "content": 'Добавляет исцеляющий эффект умениям Holy Spirit, Holy Circle и Confiteor.<br>Сила лечения: 400',
       },
-      // Trait 13
-      "Trait 13": {
+      // Trait 14
+      "Trait 14": {
          "name": 'Melee Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'PLD',
          "level": '84',
          "content": 'Увеличивает силу атаки умениям Fast Blade до 200, Riot Blade до 140, Royal Authority до 140, Holy Spirit до 350 и Atonement до 400.',
       },
-      // Trait 14
-      "Trait 14": {
+      // Trait 15
+      "Trait 15": {
          "name": 'Spirits Within Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f8d91cf706370a9295a3a9495713a18e9a84e37.png',
          "job_icon": 'PLD',
          "level": '86',
          "content": 'Улучшает умение Spirits Within до Expiacion.',
       },
-      // Trait 15
-      "Trait 15": {
+      // Trait 16
+      "Trait 16": {
          "name": 'Enhanced Divine Veil',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7cdd930171cd46b5dae53f059704d0db413a7e82.png',
          "job_icon": 'PLD',
          "level": '88',
          "content": 'Добавляет исцеляющий эффект для умения Divine Veil.<br>Сила лечения: 400',
+      },
+      // Trait 17 NEW
+      "Trait 17": {
+         "name": 'Sentinel Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b04967e1f3a9990b5c01ac4b3bb950cbc1bd0392.png',
+         "job_icon": 'PLD',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 18 NEW
+      "Trait 18": {
+         "name": 'Melee Mastery II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png',
+         "job_icon": 'PLD',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 19 NEW
+      "Trait 19": {
+         "name": 'Requiescat Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/416e440b4f9346f24141890f736f6f2838363de4.png',
+         "job_icon": 'PLD',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 20 NEW
+      "Trait 20": {
+         "name": 'Enhanced Blade of Valor',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/92d476e84bdd9b49ab34c50058430c0dd4c25930.png',
+         "job_icon": 'PLD',
+         "level": '100',
+         "content": '',
+      },
+      // Role Trait 01
+      "Role Trait 01": {
+         "name": 'Enhanced Rampart',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ad8de6373f0bc939fd654a579d6d06ad123c958b.png',
+         "job_icon": 'PLD',
+         "level": '94',
+         "content": '',
+      },
+      // Role Trait 02
+      "Role Trait 02": {
+         "name": 'Enhanced Reprisal',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1a390002a4eabb796458e1a93716060e1ec4d185.png',
+         "job_icon": 'PLD',
+         "level": '98',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
