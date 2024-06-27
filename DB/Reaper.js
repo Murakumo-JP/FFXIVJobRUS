@@ -304,7 +304,7 @@
          "level": '74',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '10 сек.',
+         "recast": '1 сек.',
          "range": '30y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -465,6 +465,76 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 1,100 для первого противника и на 60% меньше для всех остальных.<br/>Эффект Enshrouded завершается после использования.<br/>Для использования требуется как минимум один стак Lemure Shroud.',
       },
+      // PVE Skill 34 NEW
+      "PVE Skill 34": {
+         "name": 'Sacrificium',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c30eb0a31733645a16fe4afedf837597addded77.png',
+         "job_icon": 'RPR',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 35 NEW
+      "PVE Skill 35": {
+         "name": "Executioner's Gibbet",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7df5921d09e8a524ef8b7c187a9f0cb1ee181aff.png',
+         "job_icon": 'RPR',
+         "level": '96',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 36 NEW
+      "PVE Skill 36": {
+         "name": "Executioner's Gallows",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0dfc7d7951330304c328135c306fa3d54b1a9cdc.png',
+         "job_icon": 'RPR',
+         "level": '96',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 37 NEW
+      "PVE Skill 37": {
+         "name": "Executioner's Guillotine",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d732a04e72dd2c5e3c0702749e6310329b611ca8.png',
+         "job_icon": 'RPR',
+         "level": '96',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '8y',
+         "radius_img": 'R4',
+         "radius": '8y',
+         "content": '',
+      },
+      // PVE Skill 38 NEW
+      "PVE Skill 38": {
+         "name": 'Perfectio',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ab9537a1e24665b2b794656e28f58981b95b3c52.png',
+         "job_icon": 'RPR',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
       // Trait 01
       "Trait 01": {
          "name": 'Soul Gauge',
@@ -473,13 +543,13 @@
          "level": '50',
          "content": "Позволяет восполнять шкалу Soul Gauge при использовании определенных умений или при победе над врагами, находящимися под действием эффекта Death's Design.",
       },
-      // Trait 02
+      // Trait 02 NEW
       "Trait 02": {
-         "name": 'Death Scythe Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/868f687700f2e429581e3415762630deeaf18d30.png',
+         "name": 'Melee Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'RPR',
          "level": '60',
-         "content": 'Увеличивает силу атаки Slice до 300, Waxing Slice до 140, Shadow of Death до 300, Harpe до 300, Spinning Scythe до 140, Infernal Slice до 140, Whorl of Death до 100 и Nightmare Scythe до 120.',
+         "content": ' ',
       },
       // Trait 03
       "Trait 03": {
@@ -522,13 +592,13 @@
          "level": '84',
          "content": 'Накладывает эффект Crest of Time Returned на персонажа и ближайших сопартийцев, постепенно восстанавливая HP. Этот эффект появляется только тогда, когда барьер Crest of Time Borrowed полностью поглощен.<br/>Сила лечения: 50<br/>Продолжительность: 15 сек.',
       },
-      // Trait 08
+      // Trait 08 NEW
       "Trait 08": {
-         "name": 'Death Scythe Mastery II',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d8ed394455fccbea2e0bddd53ff6bd3058ce263.png',
+         "name": 'Melee Mastery II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png',
          "job_icon": 'RPR',
          "level": '84',
-         "content": 'Увеличивает силу атаки Slice до 320, Waxing Slice до 160 и Infernal Slice до 180.',
+         "content": ' ',
       },
       // Trait 09
       "Trait 09": {
@@ -545,6 +615,38 @@
          "job_icon": 'RPR',
          "level": '88',
          "content": 'Накладывает эффект Circle of Sacrifice на персонажа и ближайших сопартийцев при использовании умения Arcane Circle.<br/>Продолжительность: 5 сек.<br/>Когда персонаж или сопартийцы под этим эффектом успешно используют боевые навыки или произносят заклинание, персонаж получает стак Immortal Sacrifice, вплоть до 8.<br/>Продолжительность: 30 сек.<br/>Накладывает на персонажа Bloodsown Circle, позволяя получать стаки Immortal Sacrifice от сопартийцев, находящихся под действием эффекта Circle of Sacrifice.<br/>Продолжительность: 6 сек.',
+      },
+      // Trait 11 NEW
+      "Trait 11": {
+         "name": 'Enhanced Enshroud',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5091bfb444d4a9ee64f5b364fc58f0c5fb5b0b38.png',
+         "job_icon": 'RPR',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 12 NEW
+      "Trait 12": {
+         "name": 'Melee Mastery III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/76ee293b5a8fae7dd16716bc05d79216ef2689a9.png',
+         "job_icon": 'RPR',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 13 NEW
+      "Trait 13": {
+         "name": 'Enhanced Gluttony',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a31d9112196a1558d38290cc5502d584ce5f05f0.png',
+         "job_icon": 'RPR',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 14 NEW
+      "Trait 14": {
+         "name": 'Enhanced Plentiful Harvest',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/71ef6d72decb0ba869aa07010008e538299ba064.png',
+         "job_icon": 'RPR',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
