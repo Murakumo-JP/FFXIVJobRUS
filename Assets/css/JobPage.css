@@ -335,3 +335,8 @@ tr.skill_new {
 tr.skill_update {
 	background-color: #f0e4c5;
 }
+/*FIX COMBO*/
+.job_combo_dancer_02_percent .job_combo_root_skill {
+	bottom: 40px;
+	position: relative;
+}
