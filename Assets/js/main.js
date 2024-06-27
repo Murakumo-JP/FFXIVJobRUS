@@ -5,6 +5,7 @@ $(document).ready(function () {
 	$('#jq_healer').load('RoleActions/Healer.html');
 	$('#jq_healer_traits').load('RoleActions/HealerRoleTraits.html');
 	$('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
+	$('#jq_melee_traits').load('RoleActions/MeleeRoleTraits.html');
 	$('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
 	$('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
 	$('#jq_menu').load('Other/MenuJob.html');

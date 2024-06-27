@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 10/02/2023`,
-      "PVP Update": `Последнее обновление: 01/16/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Bootshine',
@@ -46,9 +46,8 @@
       },
       // PVE Skill 04
       "PVE Skill 04": {
-         "name": 'Meditation',
-         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/86b9816c4f8/',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9043d24d8c1d97eb7858c7d6bac820e1a3b5999.png',
+         "name": 'Steeled Meditation',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3f5525f96d26fa3bb52df3cd390fbabd126be062.png',
          "job_icon": 'PGL',
          "level": '15',
          "classification": 'Способность',
@@ -57,7 +56,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Открывает чакру на шкале Chakra Gauge. Одновременно может быть открыто до пяти чакр.<br/>Открывает все пять чакр при использовании вне боя.<br/>Это умение имеет общее время восстановления с другими боевыми навыками.<br/>И наоборот, использование боевого навыка имеет общее время восстановления с этим умением.<br/><br/>※Умение меняется на The Forbidden Chakra, когда открыты все пять чакр.',
+         "content": ' ',
       },
       // PVE Skill 05
       "PVE Skill 05": {
@@ -146,8 +145,22 @@
          "radius": '0y',
          "content": 'Рывок к выбранному противнику или сопартийцу.<br/>Максимум стаков: 3<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
-      // PVE Skill 11
+      // PVE Skill 11 NEW
       "PVE Skill 11": {
+         "name": 'Inspirited Meditation',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e496f61cb81a7d95c751a64c3c416faa851216f0.png',
+         "job_icon": 'MNK',
+         "level": '40',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 12
+      "PVE Skill 12": {
          "name": 'Howling Fist',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2c6c07794c6/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b5e5c9978cca1e84dd3dfd44bf37acb9aa875c13.png',
@@ -161,8 +174,8 @@
          "radius": '10y',
          "content": 'Удар, наносящий урон с силой атаки 100 по всем противникам по прямой линии перед персонажем.<br/>Может быть использовано только в бою и под эффектом Fifth Chakra. Все пять чакр закрываются при использовании.<br/>Имеет общее время восстановления с умением The Forbidden Chakra.',
       },
-      // PVE Skill 12
-      "PVE Skill 12": {
+      // PVE Skill 13
+      "PVE Skill 13": {
          "name": 'Mantra',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/87f8bb6f1bcc8aa169c04e15c7d526d9d6e3dc55.png',
          "job_icon": 'PGL',
@@ -175,8 +188,8 @@
          "radius": '30y',
          "content": 'Увеличивает количество HP, восстанавливаемое исцеляющими умениями на 10% для персонажа и ближайших сопартийцев.<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 13
-      "PVE Skill 13": {
+      // PVE Skill 14
+      "PVE Skill 14": {
          "name": 'Four-point Fury',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/ef40194d56f/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2e982c5bcdf7073f54f478d072d76eb8fc7ebd73.png',
@@ -190,8 +203,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 120 по всем окружающим противникам.<br/>Может быть использовано только в форме raptor.<br/>Дополнительный эффект: накладывает эффект Disciplined Fist<br/>Эффект Disciplined Fist: увеличивает наносимый урон на 15%<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: изменяет форму на coeurl<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 14
-      "PVE Skill 14": {
+      // PVE Skill 15
+      "PVE Skill 15": {
          "name": 'Dragon Kick',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b28fd0b73c9131439b9d376ea443532892876681.png',
          "job_icon": 'PGL',
@@ -204,8 +217,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 320.<br/>Бонус Opo-opo Form: накладывает Leaden Fist<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: изменяет форму на raptor<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 15
-      "PVE Skill 15": {
+      // PVE Skill 16
+      "PVE Skill 16": {
          "name": 'Perfect Balance',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c297c0c3578/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/08bf418da9242f2ad395422bd474f9f4b8819b29.png',
@@ -219,8 +232,8 @@
          "radius": '0y',
          "content": 'Накладывает 3 стака Perfect Balance, каждый из которых позволяет использовать боевой навык, требующий определенной формы, не находясь в этой форме.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: дает Opo-opo Chakra, Coeurl Chakra или Raptor Chakra в зависимости от формы, требуемой для использования умения<br/>Максимум зарядов: 2<br/>Может быть использован только в бою, когда на персонажа не наложен эффект Beast Chakra.',
       },
-      // PVE Skill 16
-      "PVE Skill 16": {
+      // PVE Skill 17
+      "PVE Skill 17": {
          "name": 'Form Shift',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c3856b6bc3/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f48ad79820696829faea1b43c94a9e70a1b84ce9.png',
@@ -234,8 +247,22 @@
          "radius": '0y',
          "content": 'Накладывает на персонажа эффект Formless Fist, позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме.<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.',
       },
-      // PVE Skill 17
-      "PVE Skill 17": {
+      // PVE Skill 18 NEW
+      "PVE Skill 18": {
+         "name": 'Forbidden Meditation',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3f5525f96d26fa3bb52df3cd390fbabd126be062.png',
+         "job_icon": 'MNK',
+         "level": '54',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 19
+      "PVE Skill 19": {
          "name": 'The Forbidden Chakra',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/401f59c6a53/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cbe79f033c767f053b625ec72de22bee654722b8.png',
@@ -249,8 +276,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 340.<br/>Может быть использован только в бою и под эффектом Fifth Chakra. Все пять чакр закрываются при использовании.<br/>Имеет общее время восстановления с умением Enlightenment.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 18
-      "PVE Skill 18": {
+      // PVE Skill 20
+      "PVE Skill 20": {
          "name": 'Masterful Blitz',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/718bc0561cb/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/00cd52fc4dd2849210bea04ee05cd62a921f1cfb.png',
@@ -264,50 +291,8 @@
          "radius": '0y',
          "content": 'Поражает противника техникой, заряженной силой Beast Chakra.<br/>Используемая техника зависит от количества открытых типов Beast Chakra.<br/>Один тип Beast Chakra: Elixir Field<br/>Два типа Beast Chakra: Celestial Revolution<br/>Три типа Beast Chakra: Rising Phoenix<br/>Три Beast Chakra и обе Nadi: Phantom Rush',
       },
-      // PVE Skill 19
-      "PVE Skill 19": {
-         "name": 'Elixir Field',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c3b8c8cd51562f2117d6ee72ee44c6cb7a9ed497.png',
-         "job_icon": 'MNK',
-         "level": '60',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '0y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий урон по всем окружающим противникам с силой атаки 600 для первого и на 70% меньше для остальных.<br/>Дополнительный эффект: открывает Lunar Nadi<br/>Дополнительный эффект: накладывает Formless Fist, позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под действием трех одинаковых Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVE Skill 20
-      "PVE Skill 20": {
-         "name": 'Flint Strike',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a4c381e589645018bad71d48508a65e340035ca.png',
-         "job_icon": 'MNK',
-         "level": '60',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '0y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий урон по всем окружающим противникам с силой атаки 600 для первого и на 70% меньше для остальных. <br/>Дополнительный эффект: открывает Solar Nadi<br/>Дополнительный эффект: накладывает Formless Fist, позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под действием трех разных Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
       // PVE Skill 21
       "PVE Skill 21": {
-         "name": 'Celestial Revolution',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9d2b58e28943b3309db19b112d998246d1b79b2.png',
-         "job_icon": 'MNK',
-         "level": '60',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '3y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 450.<br/>Дополнительный эффект: открывает Lunar Nadi<br/>Если Lunar Nadi уже открыта, вместо нее открывается Solar Nadi<br/>Дополнительный эффект: накладывает Formless Fist, позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под действием трех Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVE Skill 22
-      "PVE Skill 22": {
          "name": 'Tornado Kick',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e5c7d0867c9b53f33bd8b319379946e7b9c27ba1.png',
          "job_icon": 'MNK',
@@ -320,8 +305,50 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон по цели и всем окружающим противникам с силой атаки 850 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает Formless Fist, позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под действием эффекта Lunar Nadi и Solar Nadi, а также трех Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
+      // PVE Skill 22
+      "PVE Skill 22": {
+         "name": 'Elixir Field',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c3b8c8cd51562f2117d6ee72ee44c6cb7a9ed497.png',
+         "job_icon": 'MNK',
+         "level": '60',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон по всем окружающим противникам с силой атаки 600 для первого и на 70% меньше для остальных.<br/>Дополнительный эффект: открывает Lunar Nadi<br/>Дополнительный эффект: накладывает Formless Fist, позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под действием трех одинаковых Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
       // PVE Skill 23
       "PVE Skill 23": {
+         "name": 'Celestial Revolution',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9d2b58e28943b3309db19b112d998246d1b79b2.png',
+         "job_icon": 'MNK',
+         "level": '60',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий урон с силой атаки 450.<br/>Дополнительный эффект: открывает Lunar Nadi<br/>Если Lunar Nadi уже открыта, вместо нее открывается Solar Nadi<br/>Дополнительный эффект: накладывает Formless Fist, позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под действием трех Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVE Skill 24
+      "PVE Skill 24": {
+         "name": 'Flint Strike',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a4c381e589645018bad71d48508a65e340035ca.png',
+         "job_icon": 'MNK',
+         "level": '60',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон по всем окружающим противникам с силой атаки 600 для первого и на 70% меньше для остальных. <br/>Дополнительный эффект: открывает Solar Nadi<br/>Дополнительный эффект: накладывает Formless Fist, позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под действием трех разных Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVE Skill 25
+      "PVE Skill 25": {
          "name": 'Riddle of Earth',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/84e3e679f5393f9a83e3b8204aad5192ecc483d1.png',
          "job_icon": 'MNK',
@@ -334,8 +361,22 @@
          "radius": '0y',
          "content": "Снижает получаемый урон на 20%.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает Earth's Reply при получении урона<br/>Эффект Earth's Reply: постепенно восстанавливает HP<br/>Сила лечения: 100<br/>Продолжительность: 10 сек.",
       },
-      // PVE Skill 24
-      "PVE Skill 24": {
+      // PVE Skill 26 NEW
+      "PVE Skill 26": {
+         "name": "Earth's Reply",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f43b6c836fff7fa639c967aac3d6ef768fc1d16c.png',
+         "job_icon": 'MNK',
+         "level": '64',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 27
+      "PVE Skill 27": {
          "name": 'Riddle of Fire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1bc71b7e13b0634a6242026cd6ae29e018add98a.png',
          "job_icon": 'MNK',
@@ -348,8 +389,8 @@
          "radius": '0y',
          "content": 'Увеличивает наносимый урон на 15%.<br/>Продолжительность: 20 сек.',
       },
-      // PVE Skill 25
-      "PVE Skill 25": {
+      // PVE Skill 28
+      "PVE Skill 28": {
          "name": 'Brotherhood',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c85116d60e5/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a744e79fae56358a44e1d1f253a8be12d0ebaf8f.png',
@@ -363,8 +404,8 @@
          "radius": '30y',
          "content": 'Накладывает эффект Brotherhood и Meditative Brotherhood на персонажа и всех окружающих сопартийцев.<br/>Эффект Brotherhood: увеличивает наносимый урон на 5%<br/>Эффект Meditative Brotherhood: с вероятностью 20% открывается чакру, когда сопартийцы под этим эффектом успешно проводят боевой навык или произносят заклинание<br/>С вероятностью 100% окрывает чакру, если персонаж успешно проводит боевой навык или произносит заклинание, находясь под эффектом Meditative Brotherhood.<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 26
-      "PVE Skill 26": {
+      // PVE Skill 29
+      "PVE Skill 29": {
          "name": 'Riddle of Wind',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/793d43f2460d5b36044a6926484d73bf8670190f.png',
          "job_icon": 'MNK',
@@ -377,8 +418,22 @@
          "radius": '0y',
          "content": 'Снижает задержку между авто атаками на 50%.<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 27
-      "PVE Skill 27": {
+      // PVE Skill 30 NEW
+      "PVE Skill 30": {
+         "name": 'Enlightened Meditation',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e496f61cb81a7d95c751a64c3c416faa851216f0.png',
+         "job_icon": 'MNK',
+         "level": '74',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 31
+      "PVE Skill 31": {
          "name": 'Enlightenment',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f258ec9d84566ca80f061e58a8ba3993a7b735a3.png',
          "job_icon": 'MNK',
@@ -391,22 +446,8 @@
          "radius": '10y',
          "content": 'Удар, наносящий урон с силой атаки 170 по всем противникам по прямой линии перед персонажем.<br/>Может быть использован только в бою и под эффектом Fifth Chakra. Все пять чакр закрываются при использовании.<br/>Имеет общее время восстановления с умением The Forbidden Chakra.',
       },
-      // PVE Skill 28
-      "PVE Skill 28": {
-         "name": 'Anatman',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eecc1b38ea1de839b3b275cd6d9cd10cdc8dab13.png',
-         "job_icon": 'MNK',
-         "level": '78',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '60 сек.',
-         "range": '0y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Увеличивает время эффекта Disciplined Fist и активной формы персонажа до максимума и останавливает их истечение.<br/>Продолжительность: 30 сек.<br/>Прерывает авто атаки при использовании умения. Эффект спадет при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br/>При использовании срабатывает восстановление боевых умений. Не может быть использовано во время восстановления боевых навыков.',
-      },
-      // PVE Skill 29
-      "PVE Skill 29": {
+      // PVE Skill 32
+      "PVE Skill 32": {
          "name": 'Six-sided Star',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eaa1b242a96d4dd9511d690e7d7aa1e1ea985e5a.png',
          "job_icon": 'MNK',
@@ -419,8 +460,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 550.<br/>Дополнительный эффект: увеличивает скорость передвижения<br/>Продолжительность: 5 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования время повторного применения этого умения будет применено ко всем боевым навыкам и магическим умениям.',
       },
-      // PVE Skill 30
-      "PVE Skill 30": {
+      // PVE Skill 33
+      "PVE Skill 33": {
          "name": 'Shadow of the Destroyer',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5166f89f6382d21ffd65cb45b3537c507f7d55de.png',
          "job_icon": 'MNK',
@@ -433,8 +474,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 110 по всем окружающим противникам.<br/>Бонус формы Opo-opo: гарантирует критическое попадание<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Дополнительный эффект: меняет форму на raptor<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 31
-      "PVE Skill 31": {
+      // PVE Skill 34
+      "PVE Skill 34": {
          "name": 'Rising Phoenix',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2ab98b9212f6d5a8d56cf74d904b3f15eda79d52.png',
          "job_icon": 'MNK',
@@ -447,8 +488,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий физический урон огнем по всем окружающим противникам с силой атаки 700 для первого и на 70% меньше для остальных.<br/>Дополнительный эффект: открывает Solar Nadi<br/>Дополнительный эффект: накладывает Formless Fist позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под эффектом трех разных Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 32
-      "PVE Skill 32": {
+      // PVE Skill 35
+      "PVE Skill 35": {
          "name": 'Phantom Rush',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/47555f213252da857e3c68acb669cdb7f2c3d78d.png',
          "job_icon": 'MNK',
@@ -460,6 +501,90 @@
          "radius_img": 'R2',
          "radius": '5y',
          "content": 'Удар, наносящий урон по цели и всем окружающим противникам с силой атаки 1,150 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает Formless Fist позволяя использовать боевой навык, требующий определенной формы, не находясь в этой форме<br/>Продолжительность: 30 сек.<br/>Любые дополнительные эффекты, связанные с использованным умением, также будут применены.<br/>Может быть использовано только под действим эффектов Lunar Nadi и Solar Nadi, а также трех Beast Chakra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVE Skill 36 NEW
+      "PVE Skill 36": {
+         "name": 'Leaping Opo',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/000c5561b5d49694d019252cf5bbd8db16d948aa.png',
+         "job_icon": 'MNK',
+         "level": '92',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 37 NEW
+      "PVE Skill 37": {
+         "name": 'Rising Raptor',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8b71871e5f6a0c0fbdefea14931fc459e6f6ca58.png',
+         "job_icon": 'MNK',
+         "level": '92',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 38 NEW
+      "PVE Skill 38": {
+         "name": 'Pouncing Coeurl',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9314f58e4df7e3392781a926bbd0480d3a9b5c71.png',
+         "job_icon": 'MNK',
+         "level": '92',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 39 NEW
+      "PVE Skill 39": {
+         "name": 'Elixir Burst',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/334dae96eb1b67c861a22e07a9c0f3c918130f5f.png',
+         "job_icon": 'MNK',
+         "level": '92',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 40 NEW
+      "PVE Skill 40": {
+         "name": "Wind's Reply",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d57a98ac83fa1f066de448639688b34ba4342a98.png',
+         "job_icon": 'MNK',
+         "level": '96',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2 сек.',
+         "range": '10y',
+         "radius_img": 'R6',
+         "radius": '10y',
+         "content": '',
+      },
+      // PVE Skill 41 NEW
+      "PVE Skill 41": {
+         "name": "Fire's Reply",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6de38cd8ff4cddd607b2bb2afde0dd8a22774489.png',
+         "job_icon": 'MNK',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2 сек.',
+         "range": '20y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
       },
       // Trait 01
       "Trait 01": {
@@ -554,7 +679,7 @@
       // Trait 12
       "Trait 12": {
          "name": 'Melee Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'MNK',
          "level": '84',
          "content": 'Увеличивает силу атаки умений Bootshine до 210, True Strike до 300, Snap Punch до 250, Twin Snakes до 280, Demolish до 70, Dragon Kick до 320, The Forbidden Chakra до 340 и Six-sided Star до 550.',
@@ -582,6 +707,38 @@
          "job_icon": 'MNK',
          "level": '90',
          "content": 'Улучшает умение Tornado Kick до Phantom Rush.',
+      },
+      // Trait 16 NEW
+      "Trait 16": {
+         "name": 'Beast Chakra Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3385580f3c7997901e536e937ec95ebac2108e38.png',
+         "job_icon": 'MNK',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 17 NEW
+      "Trait 17": {
+         "name": 'Melee Mastery II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png',
+         "job_icon": 'MNK',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 18 NEW
+      "Trait 18": {
+         "name": 'Enhanced Riddle of Wind',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b4bb68b7f3879342409b0b2fe05802ee090f6284.png',
+         "job_icon": 'MNK',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 19 NEW
+      "Trait 19": {
+         "name": 'Enhanced Riddle of Fire',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/86250eda8f18aa1992fb138ecbcbdbb29d3329ea.png',
+         "job_icon": 'MNK',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
