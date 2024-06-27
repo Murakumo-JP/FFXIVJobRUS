@@ -761,22 +761,6 @@
          "level": '100',
          "content": 'Накладывает эффект Blade of Honor Ready при использовании Blade of Valor.<br>Продолжительность: 30 сек.<br>Imperator меняется на Blade of Honor, пока находится под действием эффекта Blade of Honor Ready.',
       },
-      // Role Trait 01
-      "Role Trait 01": {
-         "name": 'Enhanced Rampart',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ad8de6373f0bc939fd654a579d6d06ad123c958b.png',
-         "job_icon": 'PLD',
-         "level": '94',
-         "content": 'Добавляет дополнительный эффект к Rampart, увеличивает восстановление HP исцеляющими умениями, действующих на себя на 15%.',
-      },
-      // Role Trait 02
-      "Role Trait 02": {
-         "name": 'Enhanced Reprisal',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1a390002a4eabb796458e1a93716060e1ec4d185.png',
-         "job_icon": 'PLD',
-         "level": '98',
-         "content": 'Увеличивает продолжительность Reprisal до 15 секунд.',
-      },
       // PVP Skill 01
       "PVP Skill 01": {
          "name": 'Fast Blade',

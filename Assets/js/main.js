@@ -1,7 +1,9 @@
 // Doom Load
 $(document).ready(function () {
 	$('#jq_tank').load('RoleActions/Tank.html');
+	$('#jq_tank_traits').load('RoleActions/TankRoleTraits.html');
 	$('#jq_healer').load('RoleActions/Healer.html');
+	$('#jq_healer_traits').load('RoleActions/HealerRoleTraits.html');
 	$('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
 	$('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
 	$('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
