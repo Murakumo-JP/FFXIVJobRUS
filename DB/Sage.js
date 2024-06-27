@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 16/01/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Dosis',
@@ -498,8 +498,23 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 170 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170',
       },
-      // PVE Skill 34
+      // PVE Skill 34 NEW
       "PVE Skill 34": {
+         "name": 'Eukrasian Dyskrasia',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c8c74517022e0d8f5fd8f379225a64f12eff5e0a.png',
+         "job_icon": 'SGE',
+         "level": '82',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '1.5 сек.',
+         "cost": '400 MP',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 35
+      "PVE Skill 35": {
          "name": 'Toxikon II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a5a4b7ed8fbb4d9ac9fbf32fde1784f37367645a.png',
          "job_icon": 'SGE',
@@ -513,8 +528,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 330 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/>Стоимость: 1 Addersting',
       },
-      // PVE Skill 35
-      "PVE Skill 35": {
+      // PVE Skill 36
+      "PVE Skill 36": {
          "name": 'Krasis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2ef8237422768324b57e9d244731351fb0eca548.png',
          "job_icon": 'SGE',
@@ -528,8 +543,8 @@
          "radius": '0y',
          "content": 'Увеличивает восстановление HP при помощи исцеляющих умений для персонажа или сопартийца на 20%.<br/>Продолжительность: 10 сек.',
       },
-      // PVE Skill 36
-      "PVE Skill 36": {
+      // PVE Skill 37
+      "PVE Skill 37": {
          "name": 'Pneuma',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5ec3407305900508ed6eaea6dba984851b883fe3.png',
          "job_icon": 'SGE',
@@ -542,6 +557,51 @@
          "radius_img": 'R6',
          "radius": '25y',
          "content": 'Удар, наносящий нестихийный урон по всем противникам по прямой линии с силой атаки 330 для первого и на 40% меньше для остальных.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех сопартийцев в радиусе 20 ялмов<br/>Сила лечения: 600<br/>Дополнительный эффект: восстанавливает HP цели, находящейся под эффектом Kardion, наложенным персонажем<br/>Сила лечения: 170<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
+      },
+      // PVE Skill 38 NEW
+      "PVE Skill 38": {
+         "name": 'Psyche',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9d4fec42b917590f53bfa7ccc1691c083afd7a3c.png',
+         "job_icon": 'SGE',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '60 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 39 NEW
+      "PVE Skill 39": {
+         "name": 'Eukrasian Prognosis II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dc49cdcdfa8ec3a8d32f6e8b405ddda6971e23f0.png',
+         "job_icon": 'SGE',
+         "level": '96',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '1.5 сек.',
+         "cost": '900 MP',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": '',
+      },
+      // PVE Skill 40 NEW
+      "PVE Skill 40": {
+         "name": 'Philosophia',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a3dd5ff88eb7a7cce95536d48fe81665e3feb3ca.png',
+         "job_icon": 'SGE',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '180 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '20y',
+         "content": '',
       },
       // Trait 01
       "Trait 01": {
@@ -638,6 +698,38 @@
          "job_icon": 'SGE',
          "level": '88',
          "content": 'Уменьшает время восстановления умения Zoe до 90 сек.',
+      },
+      // Trait 13 NEW
+      "Trait 13": {
+         "name": 'Enhanced Soteria',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b675e0b4d7c78365b31a0743e6ec49caef50c5e1.png',
+         "job_icon": 'SGE',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 14 NEW
+      "Trait 14": {
+         "name": 'Magick Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
+         "job_icon": 'SGE',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 15 NEW
+      "Trait 15": {
+         "name": 'Eukrasian Prognosis Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d94311ab094fe93f3afe0bacc9aca872e10b9bee.png',
+         "job_icon": 'SGE',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 16 NEW
+      "Trait 16": {
+         "name": 'Enhanced Physis II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c339975b009ee133dd2c288662a6306145a24201.png',
+         "job_icon": 'SGE',
+         "level": '98',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
