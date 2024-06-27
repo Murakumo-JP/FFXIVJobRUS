@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 16/01/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Hard Slash',
@@ -232,21 +232,21 @@
          "radius": '5y',
          "content": 'Создает у ног персонажа область, наносящую нестихийный урон с силой атаки 50 по всем противникам, которые оказываются в её пределах.<br/>Продолжительность: 15 сек.<br/><br/>※Умение меняется на Salt and Darkness после использования.',
       },
-      // PVE Skill 16
+      // PVE Skill 16 NEW
       "PVE Skill 16": {
-         "name": 'Plunge',
+         "name": 'Shadowstride',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/faf66e65690/',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d95cc50b9a8950878a034c0d6f58c8bd8c58929d.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/52870f24b14efd37172003e974b8c45ca3d38010.png',
          "job_icon": 'DRK',
          "level": '54',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
+         "classification": 'Ability',
+         "cast": 'Instant',
          "recast": '30 сек.',
          "cost": '-',
          "range": '20y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Прыжок, наносящий урон с силой атаки 150.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
+         "content": '',
       },
       // PVE Skill 17
       "PVE Skill 17": {
@@ -419,6 +419,7 @@
       // PVE Skill 28
       "PVE Skill 28": {
          "name": 'Salt and Darkness',
+         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fe102830cbc/"',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb0216fb548f749ceb5bf25f071af462129be59b.png',
          "job_icon": 'DRK',
          "level": '86',
@@ -446,6 +447,96 @@
          "radius": '10y',
          "content": 'Удар, наносящий нестихийный урон по прямой линиии по всем противникам перед персонажем с силой атаки 600 для первого и на 50% меньше для остальных.<br/>Максимум зарядов: 2<br/>Можно использовать только под эффектом Darkside.',
       },
+      // PVE Skill 30 NEW
+      "PVE Skill 30": {
+         "name": 'Shadowed Vigil',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/093f2ddb0a06f04a76fe41fd5c31f7fceb46d2ea.png',
+         "job_icon": 'DRK',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '120 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 31 NEW
+      "PVE Skill 31": {
+         "name": 'Scarlet Delirium',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/457d3fa4f25afb9c4494105c0afc15644bbaad7a.png',
+         "job_icon": 'DRK',
+         "level": '96',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 32 NEW
+      "PVE Skill 32": {
+         "name": 'Comeuppance',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cc157e7338d9b4c32f880aed1838519933bc6797.png',
+         "job_icon": 'DRK',
+         "level": '96',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 33 NEW
+      "PVE Skill 33": {
+         "name": 'Torcleaver',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2510476b643976c09c1b42f6eb9f011b7de6902c.png',
+         "job_icon": 'DRK',
+         "level": '96',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 34 NEW
+      "PVE Skill 34": {
+         "name": 'Impalement',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/77ef69ee0efdb439996373d7e47f2744a7604b10.png',
+         "job_icon": 'DRK',
+         "level": 'DRK',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 35 NEW
+      "PVE Skill 35": {
+         "name": 'Disesteem',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/acf9474555312bfc65c8d4e8e93cf368f819f503.png',
+         "job_icon": 'DRK',
+         "level": '100',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '10y',
+         "radius_img": 'R6',
+         "radius": '10y',
+         "content": '',
+      },
       // Trait 01
       "Trait 01": {
          "name": 'Tank Mastery',
@@ -470,21 +561,21 @@
          "level": '66',
          "content": 'Позволяет восполнять Blood Gauge после атак с использованием оружия или заклинания, находясь под эффектом Blood Weapon.',
       },
-      // Trait 04
+      // Trait 04 NEW
       "Trait 04": {
+         "name": 'Blood Weapon Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2b189239725408e4ee7807ec361db47974443936.png',
+         "job_icon": 'DRK',
+         "level": '68',
+         "content": '',
+      },
+      // Trait 05
+      "Trait 05": {
          "name": 'Darkside Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/68800dbdca2c85218b44e9add376f59aa5d41559.png',
          "job_icon": 'DRK',
          "level": '74',
          "content": 'Улучшает умение Flood of Darkness и Edge of Darkness до Flood of Shadow и Edge of Shadow.',
-      },
-      // Trait 05
-      "Trait 05": {
-         "name": 'Enhanced Plunge',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b7963886295db47cd07244b399c4dd8c83dc937.png',
-         "job_icon": 'DRK',
-         "level": '78',
-         "content": 'Позволяет накапливать заряды для последовательного использования Plunge.<br/>Максимум зарядов: 2',
       },
       // Trait 06
       "Trait 06": {
@@ -497,7 +588,7 @@
       // Trait 07
       "Trait 07": {
          "name": 'Melee Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'DRK',
          "level": '84',
          "content": 'Увеличивает силу атаки умений Hard Slash до 170, Syphon Strike до 120 и Souleater до 120.',
@@ -517,6 +608,38 @@
          "job_icon": 'DRK',
          "level": '90',
          "content": 'Улучшает умение Flood of Shadow, использующееся тенью, до Shadowbringer, наносящего урон по всем противникам по прямой линии перед тенью с силой атаки 500 для первого и на 25% меньше для всех остальных.',
+      },
+      // Trait 10
+      "Trait 10": {
+         "name": 'Shadow Wall Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1fb4da21e08c5ee9a06dead1aa6954f0b6a82126.png',
+         "job_icon": 'DRK',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 11
+      "Trait 11": {
+         "name": 'Melee Mastery II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png',
+         "job_icon": 'DRK',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 12
+      "Trait 12": {
+         "name": 'Enhanced Delirium',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ebbf5df2554905cdaf3a26d5fe2f02b0ad53b6bb.png',
+         "job_icon": 'DRK',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 13
+      "Trait 13": {
+         "name": 'Enhanced Living Shadow III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1cff25d23e5fb4e97a96aee32c8b2e4082c2c516.png',
+         "job_icon": 'DRK',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
