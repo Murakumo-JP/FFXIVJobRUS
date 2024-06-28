@@ -13,6 +13,7 @@ $(document).ready(function () {
 	$('#jq_healer_traits').load('RoleActions/HealerRoleTraits.html');
 	$('#jq_melee_traits').load('RoleActions/MeleeRoleTraits.html');
 	$('#jq_physical_traits').load('RoleActions/PhysicalRoleTraits.html');
+	$('#jq_magical_traits').load('RoleActions/MagicalRoleTraits.html');
 	// Open JobMenu
 	$('.nav_floating_icon').click(() => {
 		$('.nav_floating_list').fadeToggle();
