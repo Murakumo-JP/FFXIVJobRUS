@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
    <head>
       <meta charset="UTF-8">
       <meta property="og:title" content="Job Guide: Dancer">
@@ -190,13 +189,13 @@
                         <!-- PVE Skill 01 -->
                         <tr id="pve_action_01" db-skill="PVE Skill 01"></tr>
                         <!-- PVE Skill 02 -->
-                        <tr id="pve_action_02" db-skill="PVE Skill 02"></tr>
+                        <tr id="pve_action_02" class="skill_update" db-skill="PVE Skill 02"></tr>
                         <!-- PVE Skill 03 -->
                         <tr id="pve_action_03" db-skill="PVE Skill 03"></tr>
                         <!-- PVE Skill 04 -->
                         <tr id="pve_action_04" db-skill="PVE Skill 04"></tr>
                         <!-- PVE Skill 05 -->
-                        <tr id="pve_action_05" db-skill="PVE Skill 05"></tr>
+                        <tr id="pve_action_05" class="skill_update" db-skill="PVE Skill 05"></tr>
                         <!-- PVE Skill 06 -->
                         <tr id="pve_action_06" db-skill="PVE Skill 06"></tr>
                         <!-- PVE Skill 07 -->
@@ -216,7 +215,7 @@
                         <!-- PVE Skill 14 -->
                         <tr id="pve_action_14" db-skill="PVE Skill 14"></tr>
                         <!-- PVE Skill 15 -->
-                        <tr id="pve_action_15" db-skill="PVE Skill 15"></tr>
+                        <tr id="pve_action_15" class="skill_update" db-skill="PVE Skill 15"></tr>
                         <!-- PVE Skill 16 -->
                         <tr id="pve_action_16" db-skill="PVE Skill 16"></tr>
                         <!-- PVE Skill 17 -->
@@ -228,21 +227,24 @@
                         <!-- PVE Skill 20 -->
                         <tr id="pve_action_20" db-skill="PVE Skill 20"></tr>
                         <!-- PVE Skill 21 -->
-                        <tr id="pve_action_21" db-skill="PVE Skill 21"></tr>
+                        <tr id="pve_action_21" class="skill_update" db-skill="PVE Skill 21"></tr>
                         <!-- PVE Skill 22 -->
-                        <tr id="pve_action_22" db-skill="PVE Skill 22"></tr>
+                        <tr id="pve_action_22" class="skill_update" db-skill="PVE Skill 22"></tr>
                         <!-- PVE Skill 23 -->
-                        <tr id="pve_action_23" db-skill="PVE Skill 23"></tr>
+                        <tr id="pve_action_23" class="skill_update" db-skill="PVE Skill 23"></tr>
                         <!-- PVE Skill 24 -->
                         <tr id="pve_action_24" db-skill="PVE Skill 24"></tr>
                         <!-- PVE Skill 25 -->
                         <tr id="pve_action_25" db-skill="PVE Skill 25"></tr>
                         <!-- PVE Skill 26 -->
-                        <tr id="pve_action_26" db-skill="PVE Skill 26"></tr>
+                        <tr id="pve_action_26" class="skill_update" db-skill="PVE Skill 26"></tr>
                         <!-- PVE Skill 27 -->
                         <tr id="pve_action_27" db-skill="PVE Skill 27"></tr>
                         <!-- PVE Skill 28 -->
                         <tr id="pve_action_28" db-skill="PVE Skill 28"></tr>
+                        <tr id="pve_action_29" class="skill_new" db-skill="PVE Skill 29"></tr>
+                        <tr id="pve_action_30" class="skill_new" db-skill="PVE Skill 30"></tr>
+                        <tr id="pve_action_31" class="skill_new" db-skill="PVE Skill 31"></tr>
                      </tbody>
                   </table>
                </div>
@@ -294,7 +296,7 @@
                   <table class="job_table">
                      <colgroup>
                         <col width="191" />
-                        <col width="84" />
+                        <col width="90" />
                         <col width="645" />
                      </colgroup>
                      <thead>
@@ -327,9 +329,16 @@
                         <tr id="trait_action_10" db-skill-passive="Trait 10"></tr>
                         <!-- Trait 11 -->
                         <tr id="trait_action_11" db-skill-passive="Trait 11"></tr>
+                        <tr id="trait_action_12" class="skill_new" db-skill-passive="Trait 12"></tr>
+                        <tr id="trait_action_13" class="skill_new" db-skill-passive="Trait 13"></tr>
+                        <tr id="trait_action_14" class="skill_new" db-skill-passive="Trait 14"></tr>
+                        <tr id="trait_action_15" class="skill_new" db-skill-passive="Trait 15"></tr>
+                        <tr id="trait_action_16" class="skill_new" db-skill-passive="Trait 16"></tr>
                      </tbody>
                   </table>
-               </div>               
+               </div>
+               <!-- Content Wrapper -->
+               <div class="job_content_wrapper" id="jq_physical_traits"></div> 
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">
                   <h2 class="job_title" id="anchor_pve_combo">Комбо</h2>
@@ -386,7 +395,8 @@
                                  </div>
                               </div>
                               <div class="job_combo_root_effect">
-                                 <p>С вероятность 50% накладывает Flourishing Symmetry после использования Cascade или Windmill. С вероятностью 50% накладывает Flourishing Flow после использования Fountain или Bladeshower.</p>
+                                 <p>С вероятность 50% накладывает Flourishing Symmetry после использования Cascade или Windmill. Flourishing Symmetry позволяет использовать Reverse Cascade и Rising Windmill. С вероятность 50% накладывает Fourfold Feather после использования Reverse Cascade или Rising Windmill.</p>
+                                 <p>С вероятностью 50% накладывает Flourishing Flow после использования Fountain или Bladeshower. Flourishing Flow позволяет выполнить Fountainfall и Bloodshower. С вероятность 50% накладывает Fourfold Feather после использования Fountainfall или Bloodshower. </p>
                               </div>
                            </div>
                            <div class="job_combo_root job_combo_dancer_01">
