@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 19/03/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Ruin',
@@ -780,36 +780,6 @@
       },
       // PVE Skill 52
       "PVE Skill 52": {
-         "name": 'Fountain of Fire',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1b50beab981774f701d16ac61674bfc01747f38b.png',
-         "job_icon": 'SMN',
-         "level": '80',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
-         "cost": '300 MP',
-         "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон огнем с силой атаки 540.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVE Skill 53
-      "PVE Skill 53": {
-         "name": 'Brand of Purgatory',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/daebb0133d31dbdcc989ecf9fd04ef3acf040cba.png',
-         "job_icon": 'SMN',
-         "level": '80',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
-         "cost": '300 MP',
-         "range": '25y',
-         "radius_img": 'R2',
-         "radius": '8y',
-         "content": 'Удар, наносящий урон огнем с силой атаки 240 по цели и всем ближайшим противникам.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVE Skill 54
-      "PVE Skill 54": {
          "name": 'Summon Phoenix',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e38e769e9f268f4dcc345b25d310cd53d10d4795.png',
          "job_icon": 'SMN',
@@ -823,23 +793,38 @@
          "radius": '0y',
          "content": 'Персонаж входит в Firebird Trance и вызывает Demi-Phoenix, который в момент своего появления использует Everlasting Flight.<br/>После вызова Demi-Phoenix автоматически использует Scarlet Flame к целям, которые атакует персонаж.<br/>Увеличивает уровень угрозы персонажа при вызове Demi-Phoenix.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: изменяет Ruin III на Fountain of Fire и Tri-disaster на Brand of Purgatory<br/>Дополнительный эффект: дает Ruby Arcanum, Topaz Arcanum и Emerald Arcanum<br/>Можно использовать только в бою и когда Carbuncle призван.<br/>Это умение не имеет общего времени восстановления с другими умениями. ',
       },
-      // PVE Skill 55
-      "PVE Skill 55": {
-         "name": 'Everlasting Flight',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/47555a1b908cba86b377560667afa40e8471b69a.png',
+      // PVE Skill 53
+      "PVE Skill 53": {
+         "name": 'Fountain of Fire',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1b50beab981774f701d16ac61674bfc01747f38b.png',
          "job_icon": 'SMN',
          "level": '80',
-         "classification": 'Способность',
+         "classification": 'Заклинание',
          "cast": 'Мгновенная',
-         "recast": '-',
-         "cost": '-',
-         "range": '0y',
-         "radius_img": 'R2',
-         "radius": '15y',
-         "content": 'Постепенно восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 100<br/>Продолжительность: 21 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "recast": '2.5 сек.',
+         "cost": '300 MP',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий урон огнем с силой атаки 540.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 56
-      "PVE Skill 56": {
+      // PVE Skill 54
+      "PVE Skill 54": {
+         "name": 'Brand of Purgatory',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/daebb0133d31dbdcc989ecf9fd04ef3acf040cba.png',
+         "job_icon": 'SMN',
+         "level": '80',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '300 MP',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '8y',
+         "content": 'Удар, наносящий урон огнем с силой атаки 240 по цели и всем ближайшим противникам.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVE Skill 55
+      "PVE Skill 55": {
          "name": 'Rekindle',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6b2befa4d39ad77fa8992d934bd796e836eed13f.png',
          "job_icon": 'SMN',
@@ -853,23 +838,8 @@
          "radius": '0y',
          "content": 'Восстанавливает HP персонажа или выбранному сопартийцу.<br/>Сила лечения: 400<br/>Дополнительный эффект: накладывает на цель Rekindle<br/>Продолжительность: 30 сек.<br/>Эффект Rekindle: периодическое лечение, когда HP падает ниже 75% или по истечении срока действия эффекта<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 57
-      "PVE Skill 57": {
-         "name": 'Scarlet Flame',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/865ff61841e27dc0ede5742b0109c45b672c2ef2.png',
-         "job_icon": 'SMN',
-         "level": '80',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '1.5 сек.',
-         "cost": '-',
-         "range": '50y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон огнем с силой атаки 150.<br/>Можно использовать только во время призыва Demi-Phoenix.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVE Skill 58
-      "PVE Skill 58": {
+      // PVE Skill 56
+      "PVE Skill 56": {
          "name": 'Enkindle Phoenix',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/596917791c140eef84754e4488df04bfb7aabf87.png',
          "job_icon": 'SMN',
@@ -882,6 +852,36 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Приказывает Demi-Phoenix использовать Revelation.<br/>Эффект Revelation: удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 1,300 для первого и на 60% меньше для всех остальных<br/>Умение заменяет Enkindle Bahamut, пока призван Demi-Phoenix.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVE Skill 57
+      "PVE Skill 57": {
+         "name": 'Everlasting Flight',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/47555a1b908cba86b377560667afa40e8471b69a.png',
+         "job_icon": 'SMN',
+         "level": '80',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '-',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": 'Постепенно восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 100<br/>Продолжительность: 21 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVE Skill 58
+      "PVE Skill 58": {
+         "name": 'Scarlet Flame',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/865ff61841e27dc0ede5742b0109c45b672c2ef2.png',
+         "job_icon": 'SMN',
+         "level": '80',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '1.5 сек.',
+         "cost": '-',
+         "range": '50y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий урон огнем с силой атаки 150.<br/>Можно использовать только во время призыва Demi-Phoenix.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVE Skill 59
       "PVE Skill 59": {
@@ -1047,6 +1047,156 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": "Призывает Emerald Garuda и приказывает ему использовать умение Aerial Blast.<br/>Эффект Aerial Blast: наносит урон ветром по цели и всем противникам в радиусе 5 ялмов с силой атаки 750 для первого и на 60% меньше для всех остальных<br/>Дополнительный эффект: накладывает 4 стака Wind Attunement<br/>Продолжительность: 30 сек.<br/>Эффект Wind Attunement: Gemshine и Precious Brilliance получают свойства стихии ветра<br/>Дополнительный эффект: накладывает эффект Garuda's Favor<br/>Эффект Garuda's Favor заканчивается при использовании определенных умений призывателя.<br/>Может быть использовано только под действием эффекта Emerald Arcanum и когда Carbuncle призван.<br/>Текущий питомец покинет поле боя, пока призван Emerald Garuda, и вернется, как только закончится призыв.",
+      },
+      // PVE Skill 70 NEW
+      "PVE Skill 70": {
+         "name": 'Necrotize',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f224b169e6f0f4b35b361e5c6666293e09a1f0ac.png',
+         "job_icon": 'SMN',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 71 NEW
+      "PVE Skill 71": {
+         "name": 'Searing Flash',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b1edfc3a4d1b47e1df840e26e0969529070fed58.png',
+         "job_icon": 'SMN',
+         "level": '96',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 72 NEW
+      "PVE Skill 72": {
+         "name": 'Lux Solaris',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/38e51b1e903bd0b7bc685ec95c2ac105779bbc8c.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '60 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": '',
+      },
+      // PVE Skill 73 NEW
+      "PVE Skill 73": {
+         "name": 'Summon Solar Bahamut',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8b65e3df95387470664286d1e2a0f71dd29b8f77.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '60 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 74 NEW
+      "PVE Skill 74": {
+         "name": 'Umbral Impulse',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/097755a6dc321ca146451fbb0e5c42dca4d9dd02.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '300 MP',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 75 NEW
+      "PVE Skill 75": {
+         "name": 'Umbral Flare',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e20b0b341a670598c6af9548925d4da35c2e4365.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '300 MP',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '8y',
+         "content": '',
+      },
+      // PVE Skill 76 NEW
+      "PVE Skill 76": {
+         "name": 'Sunflare',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ea98821592c274277d2472f4eb33e014c66a751f.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 77 NEW
+      "PVE Skill 77": {
+         "name": 'Enkindle Solar Bahamut',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4deaaa9815c4b1bd5fc52e76019d9192342568b9.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 78 NEW
+      "PVE Skill 78": {
+         "name": 'Luxwave',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7ea77f0af91e55be0b619e4dc72e20c5ba56f516.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '1.5 сек.',
+         "cost": '-',
+         "range": '50y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 79 NEW
+      "PVE Skill 79": {
+         "name": 'Exodus',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/97f91c1009d19698ee6e2e3272b974a4c0dd62ff.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '-',
+         "cost": '-',
+         "range": '50y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
       },
       // Pet Action
       "Pet Action": {
@@ -1245,6 +1395,38 @@
          "job_icon": 'SMN',
          "level": '90',
          "content": 'Улучшает Summon Ifrit до Summon Ifrit II, Summon Titan до Summon Titan II и Summon Garuda до Summon Garuda II.',
+      },
+      // Trait 22 NEW
+      "Trait 22": {
+         "name": 'Enhanced Fester',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/53facd8b25710db47632a36af5234c873d2e0fb9.png',
+         "job_icon": 'SMN',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 23 NEW
+      "Trait 23": {
+         "name": 'Arcane Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
+         "job_icon": 'SMN',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 24 NEW
+      "Trait 24": {
+         "name": 'Enhanced Searing Light',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/449b3c71c516f6bef021c30b88e2fa442cfb8b6b.png',
+         "job_icon": 'SMN',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 25 NEW
+      "Trait 25": {
+         "name": 'Enhanced Summon Bahamut II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6a8260bfa47331ec8f85dd4a445b793acdcbc468.png',
+         "job_icon": 'SMN',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {

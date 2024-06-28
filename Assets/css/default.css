@@ -2168,3 +2168,10 @@
 	height: 100%;
 	background: url(https://lds-img.finalfantasyxiv.com/promo/h/L/sJyips9fze37klbPBnrs2I6Z9I.png) no-repeat 0 0;
 }
+.job_hud_layout--border {
+	height: 1px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	padding-bottom: 0;
+	border-top: 1px solid #999999;
+}
