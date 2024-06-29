@@ -98,7 +98,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 180, при выполнении удара в спину цели 230.<br/>Комбо умение: Jinpu<br/>Сила в комбо: 390<br/>Сила в комбо в спину цели: 440<br/>Комбо бонус: восполняет Kenki Gauge на 20<br/>Комбо бонус: активирует Getsu',
+         "content": 'Удар, наносящий урон с силой атаки 180, при выполнении удара в спину цели 230.<br/>Комбо умение: Jinpu<br/>Сила в комбо: 390<br/>Сила в комбо в спину цели: 440<br/>Комбо бонус: восполняет Kenki Gauge на 10<br/>Комбо бонус: активирует Getsu',
       },
       // PVE Skill 08
       "PVE Skill 08": {
@@ -320,7 +320,7 @@
          "level": '76',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '60 сек.',
+         "recast": '2.5 сек.',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -335,9 +335,9 @@
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
-         "range": '3y',
-         "radius_img": 'R1',
-         "radius": '0y',
+         "range": '10y',
+         "radius_img": 'R6',
+         "radius": '10y',
          "content": 'Удар, наносящий нестихийный урон по прямой линии по всем противникам перед персонажем с силой атаки 640 для первого и на 65% меньше для остальных.<br/>Может использоваться после накопления трех стаков Meditation после использования Iaijutsu, Meditate или Ogi Namikiri во время боя.<br/>Эффект Meditation пропадает после использования.',
       },
       // PVE Skill 25 NEW
@@ -390,7 +390,7 @@
          "level": '90',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '1 сек.',
+         "recast": '2.5 сек.',
          "range": '8y',
          "radius_img": 'R4',
          "radius": '8y',
@@ -474,7 +474,7 @@
          "level": '76',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '60 сек.',
+         "recast": '2.5 сек.',
          "range": '0y',
          "radius_img": 'R2',
          "radius": '8y',
@@ -488,7 +488,7 @@
          "level": '76',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '60 сек.',
+         "recast": '2.5 сек.',
          "range": '6y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -588,7 +588,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1651419c5c39dd98ff974b56f6b0a9942a13b473.png',
          "job_icon": 'SAM',
          "level": '76',
-         "content": 'Позволяет накапливать заряды для последовательного использования Tsubame-gaeshi.<br/>Максимум зарядов: 2<br/>Также накладывает эффект Tsubame-gaeshi Ready после использования Meiyo Shisui<br/>Продолжительность: 30 сек.',
+         "content": 'Позволяет накапливать заряды для последовательного использования Meikyo Shisui.<br/>Максимум зарядов: 2<br/>Также накладывает эффект Tsubame-gaeshi Ready после использования Meiyo Shisui<br/>Продолжительность: 30 сек.',
       },
       // Trait 06
       "Trait 06": {
@@ -652,7 +652,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/76ee293b5a8fae7dd16716bc05d79216ef2689a9.png',
          "job_icon": 'SAM',
          "level": '94',
-         "content": 'Увеличивает силу атаки Jinpu до 160, Shifu до 160, Gekko до 180, Higanbana урон с течением времени до 50, Kasha до 180, Yukikaze до 180, Midare Setsugekka до 700, Kaeshi-Setsugekka до 700, Shoha до 640, Ogi Namikiri до 900 и Kaeshi: Namikiri до 900.',
+         "content": 'Увеличивает силу атаки Jinpu до 160, Shifu до 160, Enhanced Enpi до 270, Gekko до 180, Higanbana урон с течением времени до 50, Kasha до 180, Yukikaze до 180, Midare Setsugekka до 700, Kaeshi-Setsugekka до 700, Shoha до 640, Ogi Namikiri до 900 и Kaeshi: Namikiri до 900.',
       },
       // Trait 14 NEW
       "Trait 14": {
