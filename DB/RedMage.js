@@ -454,8 +454,23 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон ветром с силой атаки 380.<br/>Дополнительный эффект: восполняет запас White Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 31
+      // PVE Skill 31 NEW
       "PVE Skill 31": {
+         "name": 'Jolt III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f3be0e80366bd72a864a87e41eadd964f07a5f57.png',
+         "job_icon": 'RDM',
+         "level": '84',
+         "classification": 'Spell',
+         "cast": '2 сек.',
+         "recast": '2.5 сек.',
+         "cost": '200 MP',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVE Skill 32
+      "PVE Skill 32": {
          "name": 'Magick Barrier',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/76814235b2963003889ec3f3fc8c4857d82d3177.png',
          "job_icon": 'RDM',
@@ -469,8 +484,8 @@
          "radius": '30y',
          "content": 'Снижает магический урон, наносимый персонажу и ближайшим сопартийцам на 10%, а также увеличивает количество HP, восстанавливаемое  исцеляющими умениями на 5%.<br/>Продолжительность: 10 сек.',
       },
-      // PVE Skill 32
-      "PVE Skill 32": {
+      // PVE Skill 33
+      "PVE Skill 33": {
          "name": 'Resolution',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3683481bcc4bf11a5c0d8d2b979d3109eb2664f7.png',
          "job_icon": 'RDM',
@@ -484,8 +499,53 @@
          "radius": '25y',
          "content": 'Удар, наносящий нестихийный урон по всем ближайшим противникам по прямой линии перед персонажем с силой атаки 750 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Scorch<br/>Дополнительный эффект: восполняет запас Black Mana и White Mana на 4<br/>Scorch изменяется на Resolution, после использования Scorch в комбо.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 33
-      "PVE Skill 33": {
+      // PVE Skill 34 NEW
+      "PVE Skill 34": {
+         "name": 'Vice of Thorns',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/23de2734d998406aa25f526147ebbea7f1012d67.png',
+         "job_icon": 'RDM',
+         "level": '92',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 35 NEW
+      "PVE Skill 35": {
+         "name": 'Grand Impact',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5be2009c3bc4bd918ee899e0c6edc953571e93a3.png',
+         "job_icon": 'RDM',
+         "level": '96',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "cost": '400 MP',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 36 NEW
+      "PVE Skill 36": {
+         "name": 'Prefulgence',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f3988ae5cc17fcf0b655c5820f0c25ef2ac72b43.png',
+         "job_icon": 'RDM',
+         "level": '100',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVE Skill 37
+      "PVE Skill 37": {
          "name": 'Enchanted Riposte',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f3b5d72daa982d01b469e4d45a73b184b7056154.png',
          "job_icon": 'RDM',
@@ -499,8 +559,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 280.<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 20 Black Mana шкалы Balance Gauge<br/>Стоимость: 20 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 34
-      "PVE Skill 34": {
+      // PVE Skill 38
+      "PVE Skill 38": {
          "name": 'Enchanted Zwerchhau',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4740dd6eac66424c4d1b236f9002b979f7f993e7.png',
          "job_icon": 'RDM',
@@ -514,8 +574,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 150.<br/>Комбо умение: Riposte или Enchanted Riposte<br/>Сила в комбо: 340<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 35
-      "PVE Skill 35": {
+      // PVE Skill 39
+      "PVE Skill 39": {
          "name": 'Enchanted Redoublement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/12329935fdf53d176f290194929c91b4f96c5212.png',
          "job_icon": 'RDM',
@@ -529,8 +589,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 130.<br/>Комбо умение: Enchanted Zwerchhau<br/>Сила в комбо: 500<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 36
-      "PVE Skill 36": {
+      // PVE Skill 40
+      "PVE Skill 40": {
          "name": 'Enchanted Moulinet',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/078ff2ecf682fbabebea07caf8631619a223a774.png',
          "job_icon": 'RDM',
@@ -544,8 +604,38 @@
          "radius": '8y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 130 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 20 Black Mana шкалы Balance Gauge<br/>Стоимость: 20 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVE Skill 37
-      "PVE Skill 37": {
+      // PVE Skill 41 NEW
+      "PVE Skill 41": {
+         "name": 'Enchanted Moulinet Deux',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e5dfc01b5048f6bef58d504d6e6f633004ad8fc7.png',
+         "job_icon": 'RDM',
+         "level": '52',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '1.5 сек.',
+         "cost": '-',
+         "range": '8y',
+         "radius_img": 'R4',
+         "radius": '8y',
+         "content": '',
+      },
+      // PVE Skill 42 NEW
+      "PVE Skill 42": {
+         "name": 'Enchanted Moulinet Trois',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0f1ad21893a66c8f4b9253821fee9044ba1b4464.png',
+         "job_icon": 'RDM',
+         "level": '52',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '1.5 сек.',
+         "cost": '-',
+         "range": '8y',
+         "radius_img": 'R4',
+         "radius": '8y',
+         "content": '',
+      },
+      // PVE Skill 43
+      "PVE Skill 43": {
          "name": 'Enchanted Reprise',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a6e98885e3a5709ef22ba5ea9ad2991f3015752e.png',
          "job_icon": 'RDM',
@@ -662,6 +752,38 @@
          "job_icon": 'RDM',
          "level": '90',
          "content": 'Увеличивает максимальное количество стаков Manafication до 6.',
+      },
+      // Trait 14 NEW
+      "Trait 14": {
+         "name": 'Enhanced Embolden',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9fc6fde931036592d442e3d56e3c0d033f463e11.png',
+         "job_icon": 'RDM',
+         "level": '92',
+         "content": '',
+      },
+      // Trait 15 NEW
+      "Trait 15": {
+         "name": 'Enchanted Blade Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
+         "job_icon": 'RDM',
+         "level": '94',
+         "content": '',
+      },
+      // Trait 16 NEW
+      "Trait 16": {
+         "name": 'Enhanced Acceleration II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f88ff137a14d846648c1a350b6927826b0e0c316.png',
+         "job_icon": 'RDM',
+         "level": '96',
+         "content": '',
+      },
+      // Trait 17 NEW
+      "Trait 17": {
+         "name": 'Enhanced Manafication III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/562ae4c055cc5991095f721e986f8ae703ac75f9.png',
+         "job_icon": 'RDM',
+         "level": '100',
+         "content": '',
       },
       // PVP Skill 01
       "PVP Skill 01": {
