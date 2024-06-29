@@ -135,7 +135,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон огнем с силой атаки 340.<br/>Дополнительный эффект: восполняет запас Black Mana на 5<br/>Может использоваться только когда эффект Verfire Ready активен.',
+         "content": 'Удар, наносящий урон огнем с силой атаки 380.<br/>Дополнительный эффект: восполняет запас Black Mana на 5<br/>Может использоваться только когда эффект Verfire Ready активен.',
       },
       // PVE Skill 10
       "PVE Skill 10": {
@@ -150,7 +150,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон землей с силой атаки 340.<br/>Дополнительный эффект: восполняет запас White Mana на 5<br/>Может использоваться только когда эффект Verfire Ready активен.',
+         "content": 'Удар, наносящий урон землей с силой атаки 380.<br/>Дополнительный эффект: восполняет запас White Mana на 5<br/>Может использоваться только когда эффект Verfire Ready активен.',
       },
       // PVE Skill 11
       "PVE Skill 11": {
@@ -210,7 +210,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 460.',
+         "content": 'Удар, наносящий урон с силой атаки 480.',
       },
       // PVE Skill 15
       "PVE Skill 15": {
@@ -240,7 +240,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Гарантирует, что следующее применение умения Verthunder III, Veraero III или Impact будет мгновенным.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: увеличивает силу атаки Impact на 50<br/>Дополнительный эффект: гарантирует, что умения Verthunder III и Veraero III активируют эффект Verfire Ready или Verstone Ready<br/>Максимум зарядов: 2',
+         "content": 'Гарантирует, что следующее применение умения Verthunder III, Veraero III или Impact будет мгновенным.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: увеличивает силу атаки Impact на 50<br/>Дополнительный эффект: гарантирует, что умения Verthunder III и Veraero III активируют эффект Verfire Ready или Verstone Ready<br/>Дополнительный эффект: накладывает эффект Grand Impact Ready<br/>Продолжительность: 30 сек.<br/>Максимум зарядов: 2',
       },
       // PVE Skill 17
       "PVE Skill 17": {
@@ -285,7 +285,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '6y',
-         "content": 'Удар, наносящий урон с силой атаки 380 по цели и всем ближайшим противникам.',
+         "content": 'Удар, наносящий урон с силой атаки 400 по цели и всем ближайшим противникам.',
       },
       // PVE Skill 20
       "PVE Skill 20": {
@@ -300,7 +300,7 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '30y',
-         "content": 'Увеличивает магический урон на 5% и весь наносимый урон ближайшими сопартийцами на 5%.<br/>Продолжительность: 20 сек.',
+         "content": 'Увеличивает магический урон на 5% и весь наносимый урон ближайшими сопартийцами на 5%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Thorned Flourish<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 21
       "PVE Skill 21": {
@@ -316,7 +316,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Восполняет текущий запас Black Mana and White Mana на 50.<br/>Дополнительный эффект: накладывает 6 стаков эффекта Manafication<br/>Эффект Manafication: увеличивает магический урон на 5%<br/>Продолжительность: 15 сек.<br/>Все комбо будут сброшены после использования Manafication.<br/>Возможно использовать только в бою.',
+         "content": 'Дает 3 стака Magicked Swordplay, каждый стак позволяет использовать Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement, Enchanted Moulinet, Enchanted Moulinet Deux или Enchanted Moulinet Trois без затрат.<br/>Дополнительный эффект: накладывает 6 стаков эффекта Manafication<br/>Эффект Manafication: увеличивает наносимый магический урон на 5%<br/>Продолжительность: 15 сек.<br/>Накладывает эффект Cineration Ready при использовании 6 стаков Manafication.<br/>Продолжительность: 30 сек.<br/>Все комбо будут сброшены после использования Manafication.<br/>Возможно использовать только в бою.',
       },
       // PVE Skill 22
       "PVE Skill 22": {
@@ -331,7 +331,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 320.<br/>Дополнительный эффект: восполняет текущий запас Black Mana and White Mana на 2',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 280.<br/>Дополнительный эффект: восполняет текущий запас Black Mana and White Mana на 2',
       },
       // PVE Skill 23
       "PVE Skill 23": {
@@ -376,7 +376,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 600 для первого и на 60% меньше для всех остальных.<br/>Дополнительный эффект: восполняет Black Mana на 11<br/>Дополнительный эффект: 20% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.<br/>Шанс получить эффект Verfire Ready повышается до 100%, если White Mana больше чем Black Mana во время использования умения.<br/>Стоимость: 3 Mana Stack<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 620 для первого и на 60% меньше для всех остальных.<br/>Дополнительный эффект: восполняет Black Mana на 11<br/>Дополнительный эффект: 20% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.<br/>Шанс получить эффект Verfire Ready повышается до 100%, если White Mana больше чем Black Mana во время использования умения.<br/>Стоимость: 3 Mana Stack<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Verthunder III и Verthunder II меняется на Verflare при соблюдении требований к выполнению.',
       },
       // PVE Skill 26
       "PVE Skill 26": {
@@ -392,7 +392,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 600 для первого и на 60% меньше для всех остальных.<br/>Дополнительный эффект: восполняет White Mana на 11<br/>Дополнительный эффект: 20% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.<br/>Шанс получить эффект Verfire Ready повышается до 100%, если Black Mana больше, чем White Mana во время использования умения.<br/>Стоимость: 3 Mana Stack<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 620 для первого и на 60% меньше для всех остальных.<br/>Дополнительный эффект: восполняет White Mana на 11<br/>Дополнительный эффект: 20% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.<br/>Шанс получить эффект Verfire Ready повышается до 100%, если Black Mana больше чем White Mana во время использования умения.<br/>Стоимость: 3 Mana Stack<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Veraero III и Veraero II меняется на Verholy при соблюдении требований к выполнению.',
       },
       // PVE Skill 27
       "PVE Skill 27": {
@@ -422,7 +422,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 680 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Verflare или Verholy<br/>Дополнительный эффект: восполняет запас Black Mana и White Mana на 4<br/>Jolt II и Impact сменяется на Scorch после использования Verflare или Verholy в комбо.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 700 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Verflare или Verholy<br/>Дополнительный эффект: восполняет запас Black Mana и White Mana на 4<br/>Может быть использовано только после успешного приминения Verflare или Verholy в качестве комбо умения.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Jolt III и Impact меняется на Scorch при соблюдении требований к выполнению.',
       },
       // PVE Skill 29
       "PVE Skill 29": {
@@ -437,7 +437,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон молнией с силой атаки 380.<br/>Дополнительный эффект: восполняет запас Black Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.',
+         "content": 'Удар, наносящий урон молнией с силой атаки 420.<br/>Дополнительный эффект: восполняет запас Black Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 30
       "PVE Skill 30": {
@@ -452,7 +452,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон ветром с силой атаки 380.<br/>Дополнительный эффект: восполняет запас White Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.',
+         "content": 'Удар, наносящий урон ветром с силой атаки 420.<br/>Дополнительный эффект: восполняет запас White Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 31 NEW
       "PVE Skill 31": {
@@ -467,7 +467,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": '',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 360.<br/>Дополнительный эффект: восполняет текущий запас Black Mana и White Mana на 2',
       },
       // PVE Skill 32
       "PVE Skill 32": {
@@ -497,7 +497,7 @@
          "range": '25y',
          "radius_img": 'R6',
          "radius": '25y',
-         "content": 'Удар, наносящий нестихийный урон по всем ближайшим противникам по прямой линии перед персонажем с силой атаки 750 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Scorch<br/>Дополнительный эффект: восполняет запас Black Mana и White Mana на 4<br/>Scorch изменяется на Resolution, после использования Scorch в комбо.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий нестихийный урон по всем ближайшим противникам по прямой линии перед персонажем с силой атаки 800 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Scorch<br/>Дополнительный эффект: восполняет запас Black Mana и White Mana на 4<br/>Может быть использовано только после успешного приминения Scorch в качестве комбо умения.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Scorch меняется на Resolution при соблюдении требований к выполнению.',
       },
       // PVE Skill 34 NEW
       "PVE Skill 34": {
@@ -512,7 +512,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": '',
+         "content": 'Удар, наносящий нестихийный урон по всем ближайшим противникам с силой атаки 700 для первого и на 60% меньше для всех остальных.<br/>Может быть использовано только под действием эффекта Thorned Flourish.',
       },
       // PVE Skill 35 NEW
       "PVE Skill 35": {
@@ -527,7 +527,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": '',
+         "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 600 и на 60% меньше для всех остальных.<br/>Дополнительный эффект: восполняет запас Black Mana и White Mana на 3<br/>Может быть использовано только под действием эффекта Grand Impact Ready.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Jolt III и Impact меняется на Grand Impact при соблюдении требований к выполнению.',
       },
       // PVE Skill 36 NEW
       "PVE Skill 36": {
@@ -542,7 +542,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": '',
+         "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 900 для первого и на 60% меньше для всех остальных.<br/>Может быть использовано только под действием эффекта Prefulgence Ready.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Manafication меняется на Prefulgence при соблюдении требований к выполнению.',
       },
       // PVE Skill 37
       "PVE Skill 37": {
@@ -557,7 +557,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 280.<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 20 Black Mana шкалы Balance Gauge<br/>Стоимость: 20 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 300.<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 20 Black Mana шкалы Balance Gauge<br/>Стоимость: 20 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Riposte меняется на Enchanted Riposte при соблюдении требований к выполнению.',
       },
       // PVE Skill 38
       "PVE Skill 38": {
@@ -572,7 +572,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 150.<br/>Комбо умение: Riposte или Enchanted Riposte<br/>Сила в комбо: 340<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 170.<br/>Комбо умение: Riposte or Enchanted Riposte<br/>Сила в комбо: 360<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Zwerchhau меняется на Enchanted Zwerchhau при соблюдении требований к выполнению.',
       },
       // PVE Skill 39
       "PVE Skill 39": {
@@ -587,7 +587,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 130.<br/>Комбо умение: Enchanted Zwerchhau<br/>Сила в комбо: 500<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 170.<br/>Комбо умение: Enchanted Zwerchhau<br/>Сила в комбо: 540<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Enchanted Zwerchhau меняется на Enchanted Redoublement при соблюдении требований к выполнению.',
       },
       // PVE Skill 40
       "PVE Skill 40": {
@@ -602,7 +602,7 @@
          "range": '8y',
          "radius_img": 'R4',
          "radius": '8y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 130 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 20 Black Mana шкалы Balance Gauge<br/>Стоимость: 20 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 130 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 20 Black Mana шкалы Balance Gauge<br/>Стоимость: 20 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Moulinet меняется на Enchanted Moulinet при соблюдении требований к выполнению.',
       },
       // PVE Skill 41 NEW
       "PVE Skill 41": {
@@ -617,7 +617,7 @@
          "range": '8y',
          "radius_img": 'R4',
          "radius": '8y',
-         "content": '',
+         "content": 'Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 140.<br/>Комбо умение: Enchanted Moulinet<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Enchanted Moulinet меняется на Enchanted Moulinet Deux при соблюдении требований к выполнению.',
       },
       // PVE Skill 42 NEW
       "PVE Skill 42": {
@@ -632,7 +632,7 @@
          "range": '8y',
          "radius_img": 'R4',
          "radius": '8y',
-         "content": '',
+         "content": 'Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 150.<br/>Комбо умение: Enchanted Moulinet Deux<br/>Дополнительный эффект: накладывает эффект Mana Stack<br/>Стоимость: 15 Black Mana шкалы Balance Gauge<br/>Стоимость: 15 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Enchanted Moulinet Deux меняется на Enchanted Moulinet Trois при соблюдении требований к выполнению.',
       },
       // PVE Skill 43
       "PVE Skill 43": {
@@ -695,7 +695,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5d6d2042423f8017649fa46279afe981ad911ba7.png',
          "job_icon": 'RDM',
          "level": '68',
-         "content": 'Добавляет Mana Stack к шкале Balance Gauge при использования Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement или Enchanted Moulinet, максимум 3.<br/>После получения 3 Mana Stacks Verthunder и Verthunder II улучшаются до Verflare.<br/>После изучения Verholy получение 3 Mana Stacks также улучшает Veraero и Veraero II до Verholy.',
+         "content": 'Добавляет Mana Stack к шкале Balance Gauge при использования  Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement, Enchanted Moulinet, Enchanted Moulinet Deux или Enchanted Moulinet Trois, вплоть до максимума 3.<br/>После получения 3 Mana Stacks Verthunder и Verthunder II улучшаются до Verflare.<br/>После изучения Verholy получение 3 Mana Stacks также улучшает Veraero и Veraero II до Verholy.',
       },
       // Trait 07
       "Trait 07": {
@@ -735,7 +735,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ad98a9599086d8643f4d5808e2cabbc50cad1e44.png',
          "job_icon": 'RDM',
          "level": '84',
-         "content": 'Увеличивает силу атаки Enchanted Riposte до 280, Verthunder II до 140, Veraero II до 140, Verfire до 340, Verstone до 340, Enchanted Zwerchhau до 150, Enchanted Redoublement до 130, Jolt II до 320, Impact до 210 и Enchanted Reprise до 340.',
+         "content": 'Улучшает умение Jolt II до Jolt III. Увеличивает силу атаки Enchanted Riposte до 280, Verthunder II до 140, Veraero II до 140, Verfire до 340, Verstone до 340, Enchanted Zwerchhau до 150, Enchanted Redoublement до 130, Impact до 210 и Enchanted Reprise до 340.',
       },
       // Trait 12
       "Trait 12": {
@@ -759,7 +759,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9fc6fde931036592d442e3d56e3c0d033f463e11.png',
          "job_icon": 'RDM',
          "level": '92',
-         "content": '',
+         "content": 'Накладывает эффект Thorned Flourish при использовании Embolden.<br/>Продолжительность: 30 сек.',
       },
       // Trait 15 NEW
       "Trait 15": {
@@ -767,7 +767,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
          "job_icon": 'RDM',
          "level": '94',
-         "content": '',
+         "content": 'Увеличивает силу атаки Enchanted Riposte до 300, Verfire до 380, Verstone до 380, Enchanted Zwerchhau до 170, Fleche до 480, Enchanted Redoublement до 170, Contre Sixte до 400, Verflare до 620, Verholy до 620, Enchanted Reprise до 380, Scorch до 700, Veraero III до 420, Verthunder III до 420 и Resolution до 800.',
       },
       // Trait 16 NEW
       "Trait 16": {
@@ -775,7 +775,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f88ff137a14d846648c1a350b6927826b0e0c316.png',
          "job_icon": 'RDM',
          "level": '96',
-         "content": '',
+         "content": 'Накладывает эффект Grand Impact Ready при использовании Acceleration.<br/>Продолжительность: 30 сек.<br/>Jolt III и Impact меняются на Grand Impact под действием эффекта Grand Impact Ready.',
       },
       // Trait 17 NEW
       "Trait 17": {
@@ -783,7 +783,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/562ae4c055cc5991095f721e986f8ae703ac75f9.png',
          "job_icon": 'RDM',
          "level": '100',
-         "content": '',
+         "content": 'Накладывает эффект Prefulgence Ready при использовании всех стаков Manafication.<br/>Продолжительность: 30 сек.<br/>Manafication меняется на Prefulgence под действием эффекта Prefulgence Ready.',
       },
       // PVP Skill 01
       "PVP Skill 01": {
