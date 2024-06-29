@@ -343,7 +343,7 @@
       // PVE Skill 25 NEW
       "PVE Skill 25": {
          "name": 'Tengetsu',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4285d69fdc2206304ddc8c21087b0a136bffded9.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e19cabdcde1b0f098413243188fac82350642f89.png',
          "job_icon": 'SAM',
          "level": '82',
          "classification": 'Ability',
