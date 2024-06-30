@@ -245,7 +245,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 520.<br/>Стоимость: 50 Beast Gauge<br/><br/>※Умение меняется на Inner Chaos под действием эффекта Nascent Chaos.',
+         "content": 'Удар, наносящий урон с силой атаки 580.<br/>Стоимость: 50 Beast Gauge<br/><br/>※Умение меняется на Inner Chaos под действием эффекта Nascent Chaos.',
       },
       // PVE Skill 18
       "PVE Skill 18": {
@@ -290,7 +290,7 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон с силой атаки 200 по всем окружающим противникам.<br/>Стоимость: 50 Beast Gauge<br/><br/>※Умение меняется на Chaotic Cyclone под действием эффекта Nascent Chaos.',
+         "content": 'Удар, наносящий урон с силой атаки 180 по всем окружающим противникам.<br/>Стоимость: 50 Beast Gauge<br/><br/>※Умение меняется на Chaotic Cyclone под действием эффекта Nascent Chaos.',
       },
       // PVE Skill 21
       "PVE Skill 21": {
