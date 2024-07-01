@@ -23,6 +23,11 @@ $(document).ready(function () {
 	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br />Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/c807875c5f8f7529887c86d2955f709eae0231ef/">патч ноутам</a>.');
 	//$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновлены все старые классы кроме двух новых.</p></div>');
 	$('.SE').append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>')
+	// Skill Update and New
+	$('.skill_update').before('<tr class="jq_skill_update"></tr>');
+	$('.jq_skill_update').append('<td colspan="9"><p>Обновлён</p></td>');
+	$('.skill_new').before('<tr class="jq_skill_new"></tr>');
+	$('.jq_skill_new').append('<td colspan="9"><p>Новый</p></td>');
 });
 // Preloader
 document.body.onload = function () {
