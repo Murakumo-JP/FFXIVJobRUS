@@ -24,6 +24,10 @@ function FILL_DB_SKILLS(DB){
 	$('*[db-skill]').each(function () {
 		let key = this.getAttribute('db-skill');
 		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
 		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Задание на получение</a>' : '';
 		let cost = skill['cost'] ? '<td class="cost">'+skill['cost']+'</td>' : '';
 		this.innerHTML = `
@@ -168,5 +172,80 @@ function FILL_DB_SKILLS_MENU(DB){
 		let key = this.getAttribute('db-skill-menu');
 		let skill = DB[key];
 		this.innerHTML = `<p title="`+ skill['name'] +`"></p><img src="`+skill['skill_icon']+`">`
+	});
+}
+
+function FILL_DB_SKILLS_CRAFT(DB){
+	const job_name = document.querySelector('body').getAttribute('job-name');
+	$('*[db-skill-craft]').each(function () {
+		let key = this.getAttribute('db-skill-craft');
+		let skill = DB[key];
+		let skill_icon = skill['skill_icon'];
+		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Классовое задание</a>' : '';
+		if(typeof skill_icon !== 'string'){
+			skill_icon = skill_icon[job_name];
+		}
+		this.innerHTML = `
+		<td class="skill">
+			<div class="skill_wrapper">
+				<div class="skill_wrapper_icon">
+					<div class="guide-skill_icon">
+						<img src="`+skill_icon+`"/>
+					</div>
+				</div>
+				<p>
+					<strong>`+skill['name']+`</strong>
+					`+eorzeadb+`
+				</p>
+			</div>
+		</td>
+		<td class="jobclass">
+			<div class="jobclass_wrapper">
+				<div class="jobclass_wrapper_icon">
+					<img src="../Assets/img/DoWDoM/Job/`+job_name+`.png"/>
+				</div>
+				<p>Ур. `+skill['level']+`</p>
+			</div>
+		</td>
+		<td class="cost">`+skill['cost']+` CP</td>
+		<td class="content">`+skill['content']+`</td>`
+	});
+}
+
+function FILL_DB_CRAFT_PASSIVE(DB){
+	const job_name = document.querySelector('body').getAttribute('job-name');
+	$('*[db-craft-passive]').each(function () {
+		let key = this.getAttribute('db-craft-passive');
+		let skill = DB[key];
+		let skill_icon = skill['skill_icon'];
+		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Классовое задание</a>' : '';
+		let cost = skill['cost'] ? '<td class="cost">'+skill['cost']+' CP</td>' : '';
+		if(typeof skill_icon !== 'string'){
+			skill_icon = skill_icon[job_name];
+		}
+		this.innerHTML = `
+		<td class="skill">
+			<div class="skill_wrapper">
+				<div class="skill_wrapper_icon">
+					<div class="guide-skill_icon">
+						<img src="`+skill_icon+`"/>
+					</div>
+				</div>
+				<p>
+					<strong>`+skill['name']+`</strong>
+					`+eorzeadb+`
+				</p>
+			</div>
+		</td>
+		<td class="jobclass">
+			<div class="jobclass_wrapper">
+				<div class="jobclass_wrapper_icon">
+					<img src="../Assets/img/DoWDoM/Job/`+job_name+`.png"/>
+				</div>
+				<p>Ур. `+skill['level']+`</p>
+			</div>
+		</td>
+		`+cost+`
+		<td class="content">`+skill['content']+`</td>`
 	});
 }
