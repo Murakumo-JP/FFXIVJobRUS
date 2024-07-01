@@ -134,6 +134,39 @@ function FILL_DB_SKILLS_PVP(DB){
 	});
 }
 
+function FILL_DB_PVP_ACTIONS(DB){
+	$('*[db-pvp-actions]').each(function () {
+		let key = this.getAttribute('db-pvp-actions');
+		let skill = DB[key];
+		this.innerHTML = `
+		<td class="skill">
+			<div class="skill_wrapper">
+				<div class="skill_wrapper_icon">
+					<div class="job_skill_icon">
+						<img src="`+skill['skill_icon']+`"/>
+					</div>
+				</div>
+				<p><strong>`+skill['name']+`</strong></p>
+			</div>
+		</td>
+		<td class="classification">`+skill['classification']+`</td>
+		<td class="cast">`+skill['cast']+`</td>
+		<td class="recast">`+skill['recast']+`</td>
+		<td class="cost">`+skill['cost']+`</td>
+		<td class="distant_range">
+			<div class="range">
+				<img src="../Assets/img/main/Range.png">
+				<p>`+skill['range']+`</p>
+			</div>
+			<div class="radius">
+				<img src="../Assets/img/DoWDoM/Radius/`+skill['radius_img']+`.png">
+				<p>`+skill['radius']+`</p>
+			</div>
+		</td>
+		<td class="content">`+skill['content']+`</td>`
+	});
+}
+
 function FILL_DB_SKILLS_LIMITED(DB){
 	$('*[db-skill-limited]').each(function () {
 		let key = this.getAttribute('db-skill-limited');
@@ -246,6 +279,84 @@ function FILL_DB_CRAFT_PASSIVE(DB){
 			</div>
 		</td>
 		`+cost+`
+		<td class="content">`+skill['content']+`</td>`
+	});
+}
+
+function FILL_DB_ROLE_ACTIONS(DB){
+	$('*[db-role-action]').each(function () {
+		let key = this.getAttribute('db-role-action');
+		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
+		let jobclass_01 = skill['job_class_01'] ? '<img src="../Assets/img/main/'+skill['job_class_01']+'.png">' : '';
+		let jobclass_02 = skill['job_class_02'] ? '<img src="../Assets/img/main/'+skill['job_class_02']+'.png">' : '';
+		let jobclass_03 = skill['job_class_03'] ? '<img src="../Assets/img/main/'+skill['job_class_03']+'.png">' : '';
+		this.innerHTML = `
+		<td class="skill">
+            <div class="skill_wrapper">
+               <div class="skill_wrapper_icon">
+                  <div class="job_skill_icon">
+                     <img src="`+skill['skill_icon']+`">
+                  </div>
+               </div>
+               <p><strong>`+ skill['name'] +`</strong></p>
+            </div>
+         </td>
+         <td class="jobclass">
+            <div class="jobclass_wrapper">
+               <div class="jobclass_wrapper_icon">
+						`+jobclass_01+`
+						`+jobclass_02+`
+						`+jobclass_03+`
+               </div>
+               <p>Ур. `+skill['level']+`</p>
+            </div>
+         </td>
+         <td class="classification">`+skill['classification']+`</td>
+         <td class="cast">`+skill['cast']+`</td>
+         <td class="recast">`+skill['recast']+`</td>
+         <td class="distant_range">
+				<div class="range">
+					<img src="../Assets/img/main/Range.png">
+					<p>`+skill['range']+`</p>
+				</div>
+				<div class="radius">
+					<img src="../Assets/img/DoWDoM/Radius/`+skill['radius_img']+`.png">
+					<p>`+skill['radius']+`</p>
+				</div>
+			</td>
+         <td class="content">`+skill['content']+`</td>`
+	});
+}
+
+function FILL_DB_ROLE_TRAITS(DB){
+	$('*[db-role-traits]').each(function () {
+		let key = this.getAttribute('db-role-traits');
+		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
+		this.innerHTML = `
+		<td class="skill">
+			<div class="skill_wrapper">
+				<div class="skill_wrapper_icon">
+					<div class="job_skill_icon"><img src="`+skill['skill_icon']+`"></div>
+				</div>
+				<p><strong>`+ skill['name'] +`</strong></p>
+			</div>
+		</td>
+		<td class="jobclass">
+			<div class="jobclass_wrapper">
+				<div class="jobclass_wrapper_icon">
+					<img src="../Assets/img/main/`+skill['job_icon']+`.png">
+				</div>
+				<p>Ур. `+skill['level']+`</p>
+			</div>
+		</td>
 		<td class="content">`+skill['content']+`</td>`
 	});
 }
