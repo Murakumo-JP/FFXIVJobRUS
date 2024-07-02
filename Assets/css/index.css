@@ -418,6 +418,7 @@ footer {
 .app_page {
 	display: flex;
 	justify-content: center;
+	margin-top: 16px;
 }
 .app_page a {
 	padding: 10px;
